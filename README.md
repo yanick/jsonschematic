@@ -1,15 +1,14 @@
-# Dev notes
+# jsonschematic
 
-## Getting started
+jsonschematic is a [json schema][] in the same vein as 
+[docson][].
 
-    $ git clone git@github.com:yanick/jsonschematic.git
-    $ cd jsonschematic
-    $ npm install
+## Authors
 
-### Run the app in dev mode
+jsonschematic is developed under the auspice of 
+[Infinity Interactive](https://www.iinteractive.com/).
 
-    $ npm run dev
+© 2020 Infinity Interactive
 
-### Run the storybook
-
-    $ npm run storybook
+[json schema]: https://json-schema.org
+[docson]: https://github.com/lbovet/docson
