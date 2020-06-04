@@ -1,7 +1,7 @@
 {
-  "name": "TODO",
-  "description": "TODO",
-  "version": "0.0.1",
+  "name": "jsonschematic",
+  "description": "json schema viewer",
+  "version": "0.0.0",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
@@ -10,7 +10,8 @@
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "release": "standard-version"
   },
   "dependencies": {
     "compression": "^1.7.1",
@@ -38,7 +39,9 @@
     "rollup-plugin-svelte": "^5.0.1",
     "rollup-plugin-terser": "^5.3.0",
     "sapper": "^0.27.0",
+    "standard-version": "^8.0.0",
     "svelte": "^3.0.0",
     "svelte-loader": "^2.13.6"
-  }
+  },
+  "standard-version": {}
 }
