@@ -14,3 +14,9 @@
 
     $ npm run storybook
 
+## Changelog and versioniong
+
+The versioning of `jsonschematic` is taken care
+of by `standard-version`. Commits are
+encouraged to follow the patterns defined in
+https://www.conventionalcommits.org/en/v1.0.0/
