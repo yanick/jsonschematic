@@ -2,7 +2,7 @@
   export let types = [];
   export let definition = {};
 
-  import Array from './Array';
+  import Array from './Array/index.svelte';
 
   const type_components = {
     array: Array,

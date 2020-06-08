@@ -1,15 +1,19 @@
 <script>
   export let definition = {};
+  export let description;
+  export let title;
 
-  import Types from "./Types";
-  import Items from "./Items";
+  export let id;
 
-  let title, description, schema, types, items, ref;
+  import Types from "./Types/index.svelte";
+  import Items from "./Items/index.svelte";
+
+  let schema, types, items, ref;
   let expanded_ref = {};
   let is_expanded_ref = false;
 
   $: {
-    ({ title, description, $schema: schema, type: types, items, $ref: ref } = {
+    ({ $schema: schema, type: types, items, $ref: ref } = {
       ...expanded_ref,
       ...definition
     });
@@ -39,6 +43,8 @@
 </style>
 
 <div class="instance">
+  {#if id} <div>id: {id}</div> {/if}
+
   {#if schema}
     <div class="schema">
       schema:
@@ -46,15 +52,11 @@
     </div>
   {/if}
 
-  {#if title}
-    <div class="title">{title}</div>
-  {/if}
+  <div class="title">{title}</div>
 
   <Types {types} {definition} />
 
-  {#if description}
-    <div class="description">{description}</div>
-  {/if}
+  <div class="description">{description}</div>
 
   {#if items}
     <Items {items} />

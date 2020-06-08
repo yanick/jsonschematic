@@ -1,21 +1,15 @@
-{JSON.stringify($selected_instance)}
-
-{#await schema_list}
-  loading...
-{:then list}
-
-  <ul>
-    {#each list as schema (schema)}
-      <li>{schema}</li>
-    {/each}
-  </ul>
-
-{/await}
+{#if $selected_instance }
+  <Instance {...$selected_instance} />
+  {:else}
+    <div>no schema selected</div>
+{/if}
 
 <script>
   import {onMount} from 'svelte';
 
   import {schemas, add_schema, selected_instance} from './_schemas';
+
+  import Instance from '../components/Instance/index.svelte';
 
   let schema_list = new Promise(() => {});
 

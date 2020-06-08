@@ -8,7 +8,7 @@
 <script>
   export let items = {};
 
-  import Instance from '../';
+  import Instance from '../index.svelte';
 
 </script>
 
