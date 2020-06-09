@@ -7,7 +7,13 @@ _merge:
 name: jsonschematic
 description: json schema viewer
 
-eslintConfig: {}
+eslintConfig:
+    extends: [ prettier ]
+    ecmaVersion: 6
+    parserOptions:
+        sourceType: module
+        ecmaFeatures:
+            modules: true
 
 jest:
   moduleFileExtensions:
@@ -21,7 +27,7 @@ jest:
 
 prettier:
   svelteSortOrder: markup-scripts-styles
-  svelteStrictMode: !!perl/scalar:JSON::PP::Boolean 1
+  svelteStrictMode: true
 
 scripts:
   build: sapper build --legacy

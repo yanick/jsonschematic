@@ -27,6 +27,9 @@
       "babel-jest" : "^26.0.1",
       "babel-loader" : "^8.1.0",
       "jest" : "^26.0.1",
+      "eslint" : "^7.2.0",
+      "eslint-config-prettier" : "^6.11.0",
+      "eslint-plugin-babel" : "^5.3.0",
       "npm-run-all" : "^4.1.5",
       "rollup" : "^2.3.4",
       "rollup-plugin-svelte" : "^5.0.1",
@@ -37,7 +40,18 @@
       "svelte-jester" : "^1.0.6",
       "svelte-loader" : "^2.13.6"
    },
-   "eslintConfig" : {},
+   "eslintConfig" : {
+      "ecmaVersion" : "6",
+      "extends" : [
+         "prettier"
+      ],
+      "parserOptions" : {
+         "ecmaFeatures" : {
+            "modules" : true
+         },
+         "sourceType" : "module"
+      }
+   },
    "jest" : {
       "moduleFileExtensions" : [
          "js",
@@ -54,7 +68,7 @@
    "name" : "jsonschematic",
    "prettier" : {
       "svelteSortOrder" : "markup-scripts-styles",
-      "svelteStrictMode" : true
+      "svelteStrictMode" : "1"
    },
    "scripts" : {
       "build" : "sapper build --legacy",
