@@ -1,48 +1,46 @@
 <script>
 
-    console.log($$props);
   export let definition = {};
   let minLength, maxLength, pattern;
 
   ({ minLength, maxLength, pattern } = {...definition });
 
-  function validNumber(n) { 
+  const invalidNumber = n => { 
     if (isNaN(n) || n < 0 ) {
-        return "invalid";
+        return true;
     } 
-    return "valid";
+    return false;
   };
 
 </script>
 
 <style>
-  .invalid {
-    background-color: pink;
-  }
-  .valid {
-    background-color: white;
-  }
-  .default {
-    background-color: grey;
-  }
+
+  div { background-color: lightblue;}
+  div.invalid {
+     background-color: pink;
+   }
+   div.default {
+     background-color: grey;
+   }
 </style>
 
 <div>
 
-  {#if minLength}
-    <div class="{validNumber(minLength)}" >minLength {minLength}</div>
+  {#if minLength != undefined}
+    <div class:invalid = {invalidNumber(minLength)} >minLength {minLength}</div>
   {:else }
     <div class="default" >minLength 0</div>
   {/if}
 
-  {#if definition.maxLength}
-    <div class="{validNumber(maxLength)}" > maxLength {definition.maxLength}</div>
+  {#if maxLength != undefined}
+    <div class:invalid = {invalidNumber(maxLength)} >maxLength {maxLength}</div>
   {:else }
     <div class="default" >maxLength &infin</div>
   {/if}
 
-  {#if definition.pattern} 
-    <div class="valid" >pattern {definition.pattern}</div>
+  {#if pattern} 
+    <div >pattern {pattern}</div>
   {/if}
 
 </div>

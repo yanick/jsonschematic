@@ -21,6 +21,25 @@ export const invalid = () => ({
       definition: object('definition', {
         minLength: -1,
         maxLength: -1,
+        pattern: 'foo.*bar'
       })
   },
 });
+
+export const defaults = () => ({
+  Component: String,
+  props: {
+  },
+});
+
+export const zeros = () => ({
+  Component: String,
+  props: {
+      definition: object('definition', {
+        minLength: 0,
+        maxLength: 0,
+        pattern: 'foo.*bar'
+      })
+  },
+});
+
