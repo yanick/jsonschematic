@@ -5,6 +5,7 @@
 
   $: ({ minLength, maxLength, pattern } = {...definition });
 
+
   const invalidNumber = n => { 
     if (isNaN(n) || n < 0 ) {
         return true;
@@ -26,21 +27,22 @@
 </style>
 
 <div>
+   <div name="elementType">string</div>
 
   {#if minLength != undefined}
-    <div class:invalid = {invalidNumber(minLength)} >minLength {minLength}</div>
+    <div class:invalid = {invalidNumber(minLength)} >minLength &ge; {minLength}</div>
   {:else }
-    <div class="default" >minLength 0</div>
+    <div class="default" >minLength &ge; 0</div>
   {/if}
 
   {#if maxLength != undefined}
-    <div class:invalid = {invalidNumber(maxLength)} >maxLength {maxLength}</div>
+    <div class:invalid = {invalidNumber(maxLength)} >maxLength &le; {maxLength}</div>
   {:else }
-    <div class="default" >maxLength &infin</div>
+    <div class="default" >maxLength &le; &infin; </div>
   {/if}
 
   {#if pattern} 
-    <div >pattern {pattern}</div>
+    <div >value matches pattern {pattern}</div>
   {/if}
 
 </div>
