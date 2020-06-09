@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+const Promake = require('promake');
+
+const { exec, cli, task, rule } = new Promake();
+
+const package = rule( 'package.json', 'package.yaml', async () => {
+    await exec('./scripts/merge_package.pl');
+});
+
+task( 'package', package ).description("update package.json");
+
+cli();

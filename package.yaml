@@ -49,6 +49,6 @@ scripts:
   start: node __sapper__/build
   storybook: start-storybook
   test: jest src
-  package: ./scripts/merge_package.pl
+  package: ./Promake package
 
 standard-version: {}
