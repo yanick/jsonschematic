@@ -28,7 +28,8 @@
 
 <style>
   .title {
-    color: blue;
+    color: var(--color-blue);
+    font-size: var(--font-scale-14);
   }
   .type {
     color: darkgreen;
@@ -40,10 +41,14 @@
     text-size: smaller;
     color: green;
   }
+
+  instance_id {
+    font-style: italic;
+  }
 </style>
 
 <div class="instance">
-  {#if id} <div>id: {id}</div> {/if}
+  <div class="instance_id">{id}</div>
 
   {#if schema}
     <div class="schema">
@@ -52,7 +57,7 @@
     </div>
   {/if}
 
-  <div class="title">{title}</div>
+  <h1 class="title">{title}</h1>
 
   <Types {types} {definition} />
 

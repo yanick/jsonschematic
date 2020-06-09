@@ -25,6 +25,10 @@ const selected_instance = derived(
 const add_schema = (schema, url) => {
   const id = schema.id || "file:///" + url;
 
+  if(!schema.id) {
+      schema = { ...schema, id };
+  }
+
   schemas.update(($s) => ({ ...$s, [id]: schema }));
 
   selected_instance_url.update( $url => $url || id );

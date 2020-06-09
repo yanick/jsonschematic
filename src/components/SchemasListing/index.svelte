@@ -1,13 +1,17 @@
+  <div class="schemas_listing">
+    <h2>schemas</h2>
 <dl>
 {#each schema_ids as schema (schema)}
   <dt>
-    <a on:click|preventDefault={select_instance(schema)} href="#">
+    <a on:click|preventDefault={select_instance(schema)} href="#"
+      title={schema}>
       {schema}</a>
   </dt>
   <dd>
   </dd>
 {/each}
 </dl>
+  </div>
 
 <script>
     export let schemas = {};
@@ -34,7 +38,20 @@
 </script>
 
 <style>
-div {
-  background-color: red;
-}
+  h2 {
+    font-size: var(--font-scale-13);
+    color: var(--color-base02);
+  }
+  dt {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: rtl;
+    text-align: left;
+  }
+
+  dd {
+    margin-bottom: 1em;
+  }
 </style>
