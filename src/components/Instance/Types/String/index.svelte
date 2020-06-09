@@ -3,7 +3,7 @@
   export let definition = {};
   let minLength, maxLength, pattern;
 
-  ({ minLength, maxLength, pattern } = {...definition });
+  $: ({ minLength, maxLength, pattern } = {...definition });
 
   const invalidNumber = n => { 
     if (isNaN(n) || n < 0 ) {
