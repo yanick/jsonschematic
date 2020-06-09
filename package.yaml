@@ -9,11 +9,21 @@ description: json schema viewer
 
 eslintConfig:
     extends: [ prettier ]
-    ecmaVersion: 6
+    ignorePatterns:
+        - "src/node_modules"
     parserOptions:
+        ecmaVersion: 2020
         sourceType: module
         ecmaFeatures:
             modules: true
+    plugins:
+        - svelte3
+        - prettier
+    rules:
+        "prettier/prettier": warn
+    overrides:
+        - files: ['*.svelte']
+          processor: 'svelte3/svelte3'
 
 jest:
   moduleFileExtensions:

@@ -39,7 +39,7 @@ my $mergers = delete $yaml->{_merge};
 
 my $result = merge( { $json->%{@$mergers} }, $yaml );
 
-use DDP; p $yaml;
+#use DDP; p $yaml;
 if( grep { $_ eq '-n' } @ARGV ) {
     print to_json $result, {
         pretty => 1,
