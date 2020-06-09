@@ -8,7 +8,7 @@
 
 ### Run the app in dev mode
 
-    $ npm run dev
+    $ JSONSCHEMATIC_DIR=examples npm run dev
 
 ### Run the storybook
 
