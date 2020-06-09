@@ -1,0 +1,57 @@
+  <div class="schemas_listing">
+    <h2>schemas</h2>
+<dl>
+{#each schema_ids as schema (schema)}
+  <dt>
+    <a on:click|preventDefault={select_instance(schema)} href="#"
+      title={schema}>
+      {schema}</a>
+  </dt>
+  <dd>
+  </dd>
+{/each}
+</dl>
+  </div>
+
+<script>
+    export let schemas = {};
+  export let selected_instance_url;
+
+  import {
+    createEventDispatcher
+  } from 'svelte';
+
+  let selected_id, selected_segment;
+  $: ([selected_id,selected_segment] = selected_instance_url ?
+  selected_instance_url.split('#') : []);
+
+  let schema_ids = [];
+  $: schema_ids = Object.keys(schemas);
+  $: schema_ids.sort();
+
+  const dispatch = createEventDispatcher();
+
+  const select_instance = schema => () => {
+    dispatch('select_instance',schema);
+  }
+
+</script>
+
+<style>
+  h2 {
+    font-size: var(--font-scale-13);
+    color: var(--color-base02);
+  }
+  dt {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: rtl;
+    text-align: left;
+  }
+
+  dd {
+    margin-bottom: 1em;
+  }
+</style>
