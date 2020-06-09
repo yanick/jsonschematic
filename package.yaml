@@ -1,0 +1,38 @@
+---
+_merge:
+    - version
+    - dependencies
+    - devDependencies
+
+name: jsonschematic
+description: json schema viewer
+
+eslintConfig: {}
+
+jest:
+  moduleFileExtensions:
+  - js
+  - svelte
+  setupFilesAfterEnv:
+  - '@testing-library/jest-dom/extend-expect'
+  transform:
+    ^.+\.js$: babel-jest
+    ^.+\.svelte$: svelte-jester
+
+prettier:
+  svelteSortOrder: markup-scripts-styles
+  svelteStrictMode: !!perl/scalar:JSON::PP::Boolean 1
+
+scripts:
+  build: sapper build --legacy
+  cy:open: cypress open
+  cy:run: cypress run
+  dev: sapper dev
+  export: sapper export --legacy
+  release: standard-version
+  start: node __sapper__/build
+  storybook: start-storybook
+  test: jest src
+  package: ./scripts/merge_package.pl
+
+standard-version: {}
