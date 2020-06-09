@@ -14,3 +14,13 @@ export const basic = () => ({
       })
   },
 });
+
+export const invalid = () => ({
+  Component: String,
+  props: {
+      definition: object('definition', {
+        minLength: -1,
+        maxLength: -1,
+      })
+  },
+});
