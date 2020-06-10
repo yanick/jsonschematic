@@ -46,7 +46,36 @@
       "svelte-jester" : "1.0.6",
       "svelte-loader" : "2.13.6"
    },
-   "eslintConfig" : {},
+   "eslintConfig" : {
+      "extends" : [
+         "prettier"
+      ],
+      "ignorePatterns" : [
+         "src/node_modules"
+      ],
+      "overrides" : [
+         {
+            "files" : [
+               "*.svelte"
+            ],
+            "processor" : "svelte3/svelte3"
+         }
+      ],
+      "parserOptions" : {
+         "ecmaFeatures" : {
+            "modules" : true
+         },
+         "ecmaVersion" : "2020",
+         "sourceType" : "module"
+      },
+      "plugins" : [
+         "svelte3",
+         "prettier"
+      ],
+      "rules" : {
+         "prettier/prettier" : "warn"
+      }
+   },
    "jest" : {
       "moduleFileExtensions" : [
          "js",
