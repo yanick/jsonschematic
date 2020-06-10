@@ -10,7 +10,7 @@ const schemas = sirv(process.env.JSONSCHEMATIC_DIR, { dev });
 
 polka() // You can also use Express
   .use(
-    compression({ threshold: 0 }),
+        compression({ threshold: 0 }),
     sirv("static", { dev }),
     (req, res, next) => {
       if (!req.path.startsWith("/schemas/")) return next();
