@@ -21,5 +21,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    - name: lint all that changed
-      run: npm run lint:diff
+    - uses: tinovyatkin/action-eslint@v1
+      with:
+        repo-token: ${{secrets.GITHUB_TOKEN}}
+        check-name: lint
