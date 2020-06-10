@@ -11,7 +11,8 @@ const schemas = sirv(process.env.JSONSCHEMATIC_DIR, { dev });
 polka() // You can also use Express
   .use(
         compression({ threshold: 0 }),
-    sirv("static", { dev }),
+    sirv("static", {
+        dev }),
     (req, res, next) => {
       if (!req.path.startsWith("/schemas/")) return next();
       req.path = req.path.substring(8); // remove "/assets" prefix
