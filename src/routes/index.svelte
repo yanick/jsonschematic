@@ -1,6 +1,7 @@
 <div class="top_viewer">
   <div class="schemas_column">
-    <SchemasListing on:select_instance="{updateInstance}"
+    <SchemasListing
+      on:select_instance="{updateInstance}"
       schemas="{$schemas}"
       selected_instance_url="{$selected_instance_url}" />
   </div>
@@ -31,22 +32,22 @@
   let schema_list = new Promise(() => {});
 
   function updateInstance(event) {
-    const schema = event.detail; 
+    const schema = event.detail;
     set_selected_instance_url(schema);
   }
 
-  const load_schema = schema => {
+  const load_schema = (schema) => {
     const url = "/schemas/" + schema;
 
     fetch(url)
-      .then(res => res.json())
-      .then(schema => add_schema(schema, url));
+      .then((res) => res.json())
+      .then((schema) => add_schema(schema, url));
   };
 
   onMount(() => {
     fetch("/schemas.json")
-      .then(res => res.json())
-      .then(schemas => schemas.map(load_schema));
+      .then((res) => res.json())
+      .then((schemas) => schemas.map(load_schema));
   });
 </script>
 
