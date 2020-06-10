@@ -24,9 +24,13 @@ use 5.30.0;
 
 use File::Serialize;
 use Hash::Merge qw/ merge /;
-use JSON qw/ to_json /;
 
 use feature qw/ postderef /;
+use YAML::XS;
+use JSON::PP qw//;
+use JSON qw/ to_json /;
+
+$YAML::XS::Boolean = 'JSON::PP';
 
 my $yaml = deserialize_file 'package.yaml';
 my $json = deserialize_file 'package.json';

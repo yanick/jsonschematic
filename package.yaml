@@ -7,7 +7,23 @@ _merge:
 name: jsonschematic
 description: json schema viewer
 
-eslintConfig: {}
+eslintConfig:
+    extends: [ prettier ]
+    ignorePatterns:
+        - "src/node_modules"
+    parserOptions:
+        ecmaVersion: 2020
+        sourceType: module
+        ecmaFeatures:
+            modules: true
+    plugins:
+        - svelte3
+        - prettier
+    rules:
+        "prettier/prettier": warn
+    overrides:
+        - files: ['*.svelte']
+          processor: 'svelte3/svelte3'
 
 jest:
   moduleFileExtensions:
@@ -21,7 +37,7 @@ jest:
 
 prettier:
   svelteSortOrder: markup-scripts-styles
-  svelteStrictMode: !!perl/scalar:JSON::PP::Boolean 1
+  svelteStrictMode: true
 
 scripts:
   build: sapper build --legacy
@@ -34,5 +50,6 @@ scripts:
   storybook: start-storybook
   test: jest src
   package: ./scripts/merge_package.pl
+  lint: eslint src
 
 standard-version: {}
