@@ -50,6 +50,6 @@ scripts:
   storybook: start-storybook
   test: jest src
   package: ./Promake package
-  "lint:diff": lint-diff main^..
+  "lint:diff": lint-diff origin/main^..
 
 standard-version: {}

@@ -100,7 +100,7 @@
       "cy:run" : "cypress run",
       "dev" : "sapper dev",
       "export" : "sapper export --legacy",
-      "lint:diff" : "lint-diff main^..",
+      "lint:diff" : "lint-diff origin/main^..",
       "package" : "./Promake package",
       "release" : "standard-version",
       "start" : "node __sapper__/build",
