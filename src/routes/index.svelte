@@ -1,6 +1,6 @@
 <div class="top_viewer">
   <div class="schemas_column">
-    <SchemasListing
+    <SchemasListing on:select_instance="{updateInstance}"
       schemas="{$schemas}"
       selected_instance_url="{$selected_instance_url}" />
   </div>
@@ -21,13 +21,19 @@
     schemas,
     add_schema,
     selected_instance,
-    selected_instance_url
+    selected_instance_url,
+    set_selected_instance_url,
   } from "./_schemas";
 
   import Instance from "../components/Instance/index.svelte";
   import SchemasListing from "../components/SchemasListing/index.svelte";
 
   let schema_list = new Promise(() => {});
+
+  function updateInstance(event) {
+    const schema = event.detail; 
+    set_selected_instance_url(schema);
+  }
 
   const load_schema = schema => {
     const url = "/schemas/" + schema;
