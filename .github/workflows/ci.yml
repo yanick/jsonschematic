@@ -24,5 +24,27 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: npm test
+
+    - name: install deps
+      run: npm install
+
+    - id: file_changes
+      uses: trilom/file-changes-action@v1.2.3
+      with:
+          output: ' '
+
+    - name: debug
+      run: |
+          echo '${{ steps.file_changes.outputs.files_modified}}' '${{ steps.file_changes.outputs.files_added}}'
+
+    - name: eslint
+      run: |
+          npm run promake -- eslint '${{ steps.file_changes.outputs.files_modified}}' '${{ steps.file_changes.outputs.files_added}}'
+
+    - name: prettier
+      run: |
+          npm run promake -- prettier '${{ steps.file_changes.outputs.files_modified}}' '${{ steps.file_changes.outputs.files_added}}'
+
+    - name: tests
+      run: |
+          npm run promake -- tests

@@ -69,12 +69,9 @@
          "sourceType" : "module"
       },
       "plugins" : [
-         "svelte3",
-         "prettier"
+         "svelte3"
       ],
-      "rules" : {
-         "prettier/prettier" : "warn"
-      }
+      "rules" : {}
    },
    "jest" : {
       "moduleFileExtensions" : [
@@ -102,6 +99,7 @@
       "export" : "sapper export --legacy",
       "lint" : "eslint src",
       "package" : "./scripts/merge_package.pl",
+      "promake" : "./Promake",
       "release" : "standard-version",
       "start" : "node __sapper__/build",
       "storybook" : "start-storybook",

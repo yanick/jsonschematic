@@ -18,9 +18,7 @@ eslintConfig:
             modules: true
     plugins:
         - svelte3
-        - prettier
-    rules:
-        "prettier/prettier": warn
+    rules: {}
     overrides:
         - files: ['*.svelte']
           processor: 'svelte3/svelte3'
@@ -40,6 +38,7 @@ prettier:
   svelteStrictMode: true
 
 scripts:
+  promake: ./Promake
   build: sapper build --legacy
   cy:open: cypress open
   cy:run: cypress run
