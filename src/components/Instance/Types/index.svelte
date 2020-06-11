@@ -3,10 +3,12 @@
   export let definition = {};
 
   import Array from './Array/index.svelte';
+  import Number from './Number/index.svelte';
   import Boolean from './Boolean/index.svelte';
 
   const type_components = {
     array: Array,
+    number: Number,
     boolean: Boolean
   };
 

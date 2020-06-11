@@ -1,6 +1,6 @@
 <script>
   export let multipleOf;
-  export let mininum;
+  export let minimum;
   export let maximum;
   export let exclusiveMaximum;
   export let exclusiveMinimum;
@@ -30,20 +30,10 @@
   <span>number</span>
 
   <ul>
-    <li>
-      {#if multipleOf}&times;{multipleOf}{/if}
-    </li>
-    <li>
-      {#if mininum}&gt;{mininum}{/if}
-    </li>
-    <li>
-      {#if exclusiveMinimum}&ge;{exclusiveMinimum}{/if}
-    </li>
-    <li>
-      {#if maximum}&lt;{maximum}{/if}
-    </li>
-    <li>
-      {#if exclusiveMaximum}&le;{exclusiveMaximum}{/if}
-    </li>
+      {#if multipleOf !== undefined }<li>&times;{multipleOf}</li>{/if}
+      {#if minimum !== undefined }<li>&gt;{minimum}</li>{/if}
+      {#if exclusiveMinimum !== undefined }<li>&ge;{exclusiveMinimum}</li>{/if}
+      {#if maximum !== undefined }<li>&lt;{maximum}</li>{/if}
+      {#if exclusiveMaximum !== undefined }<li>&le;{exclusiveMaximum}</li>{/if}
   </ul>
 </div>

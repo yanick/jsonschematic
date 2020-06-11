@@ -2,6 +2,7 @@
    "dependencies" : {
       "compression" : "1.7.4",
       "globby" : "11.0.1",
+      "jsonpointer": "^4.0.1",
       "lodash" : "4.17.15",
       "polka" : "next",
       "sirv" : "1.0.0"
