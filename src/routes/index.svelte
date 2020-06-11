@@ -8,7 +8,7 @@
 
   <div class="instance_viewer">
     {#if $selected_instance}
-      <Instance {...$selected_instance} />
+      <Instance definition={$selected_instance} />
     {:else}
       <div>no schema selected</div>
     {/if}
