@@ -1,5 +1,6 @@
 <script>
   export let definition = {};
+  export let href;
 
   import Types from "./Types/index.svelte";
   import Items from "./Items/index.svelte";
@@ -36,13 +37,15 @@
     font-size: var(--font-scale-14);
   }
 
-  .instance_id {
+  .instance_href {
     font-style: italic;
   }
 </style>
 
 <div class="instance">
-  <div class="instance_id">{id}</div>
+  {#if top_level && href}
+    <div class="instance_href">{href}</div>
+  {/if}
 
   {#if schema}
     <div class="schema">
@@ -60,7 +63,7 @@
   {/if}
 
   {#if items}
-    <Items {items} />
+    <Items {items} {href} />
   {/if}
 
 </div>
