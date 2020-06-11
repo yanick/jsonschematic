@@ -1,24 +1,28 @@
 <script>
   export let definition = {};
-  export let description;
-  export let title;
-
-  export let id;
 
   import Types from "./Types/index.svelte";
   import Items from "./Items/index.svelte";
 
-  let schema, types, items, ref;
+  let schema, types, items, ref, title, id, description;
   let expanded_ref = {};
   let is_expanded_ref = false;
 
   $: {
-    ({ $schema: schema, type: types, items, $ref: ref } = {
+    ({
+    id,
+    description,
+    title,
+    $schema: schema,
+    type: types,
+    items,
+    $ref: ref,
+  } = {
       ...expanded_ref,
-      ...definition
+    ...definition,
     });
 
-    //
+    // always pass an array, to make it easier
     if (!Array.isArray(types)) {
       types = [types];
     }
@@ -31,18 +35,8 @@
     color: var(--color-blue);
     font-size: var(--font-scale-14);
   }
-  .type {
-    color: darkgreen;
-  }
-  .type {
-    text-align: left;
-  }
-  .type-details {
-    text-size: smaller;
-    color: green;
-  }
 
-  instance_id {
+  .instance_id {
     font-style: italic;
   }
 </style>
@@ -61,7 +55,9 @@
 
   <Types {types} {definition} />
 
+  {#if description}
   <div class="description">{description}</div>
+  {/if}
 
   {#if items}
     <Items {items} />

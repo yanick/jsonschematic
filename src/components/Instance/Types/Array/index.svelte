@@ -1,7 +1,57 @@
-<div>array</div>
+<div class="type_block">
+  <div class="type">array</div>
+  <ul class="type_restrictions">
+
+    {#if maxItems || minItems}
+      <li class="nbr_items">{minItems || ''}...{maxItems || ''}</li>
+    {/if}
+
+    {#if maxContains || minContains}
+      <li class="nbr_contains">{minContains || ''}...{maxContains || ''}</li>
+    {/if}
+
+    {#if uniqueItems}
+      <li>unique</li>
+    {/if}
+
+  </ul>
+</div>
 
 <script>
+  export let maxItems;
+  export let minItems;
+  export let uniqueItems = false;
+  export let maxContains;
+  export let minContains;
 </script>
 
 <style>
+  .type_block {
+    display: flex;
+  }
+  .type {
+    display: inline-block;
+    margin-right: 2em;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+  }
+  li {
+    margin-right: 0.25em;
+  }
+  li:after {
+    content: ", ";
+  }
+  li:last-child:after {
+    content: "";
+  }
+  .nbr_items:before {
+    content: "items: ";
+  }
+  .nbr_contains:before {
+    content: "contains: ";
+  }
 </style>
