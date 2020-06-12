@@ -1,4 +1,5 @@
-<div class="instance">
+<div class="instance" class:top_level={top_level}>
+  <div class="top_section">
   {#if top_level && href}
     <div class="instance_href">{href}</div>
   {/if}
@@ -8,6 +9,7 @@
       <a href="{schema}">{schema_name(schema)}</a>
     </div>
   {/if}
+</div>
 
   {#if title}
     <h1 class="title">{title}</h1>
@@ -52,7 +54,8 @@
   export let definition = {};
   export let href;
   export let fetch_segment = store.fetch_segment;
-  export let top_level;
+  export let top_level = false;
+
 
   import Types from "./Types/index.svelte";
   import Items from "./Items/index.svelte";
@@ -115,12 +118,22 @@
 <style>
   .title {
     color: var(--color-blue);
+    font-size: var(--font-scale-10);
+  }
+
+  .top_level > .title {
     font-size: var(--font-scale-14);
   }
 
   .instance_href {
     font-style: italic;
   }
+
+  .top_section {
+    display: flex;
+  }
+
+  .top_section div { flex: 1; }
 
   .schema {
     text-align: right;

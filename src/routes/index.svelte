@@ -8,7 +8,7 @@
 
   <div class="instance_viewer">
     {#if $selected_instance}
-      <Instance definition={$selected_instance} href={$selected_instance_url +
+      <Instance top_level definition={$selected_instance} href={$selected_instance_url +
         '#' } />
     {:else}
       <div>no schema selected</div>
