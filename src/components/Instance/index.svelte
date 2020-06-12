@@ -72,7 +72,7 @@
 
   $: {
     ({
-      id,
+      $id: id,
       description,
       title,
       $schema: schema,
@@ -138,4 +138,5 @@
   .schema {
     text-align: right;
   }
+
 </style>
