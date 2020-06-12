@@ -15,7 +15,7 @@
 </Type>
 
 <script>
-  import Type from "../Type";
+  import Type from "../Type.svelte";
 
   export let definition = {};
   let minLength, maxLength, pattern;
