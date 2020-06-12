@@ -37,11 +37,11 @@
   {/if}
 
   {#if items}
-    <Items {items} {href} />
+    <Items {items} href="{`${href}/items`}" />
   {/if}
 
   {#if properties}
-    <Properties {properties} {href} />
+    <Properties {properties} href="{`${href}/properties`}" />
   {/if}
 
 </div>

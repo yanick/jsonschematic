@@ -5,20 +5,20 @@
     </tr>
   </thead>
   <tbody>
-  {#each entries as [name,definition] (name)}
-    <Property {name}>
-      <Instance href="" {definition} />
-    </Property>
-  {/each}
-</tbody>
+    {#each entries as [name, definition] (name)}
+      <Property {name}>
+        <Instance href="{href + '/' + name}" {definition} />
+      </Property>
+    {/each}
+  </tbody>
 </table>
 
 <script>
   export let properties = {};
   export let href;
-  export let title = 'properties';
+  export let title = "properties";
 
-  import Property from './Property.svelte';
+  import Property from "./Property.svelte";
 
   let entries = [];
 
@@ -26,10 +26,9 @@
   $: entries.sort();
 
   let items_href;
-  $: items_href = [href,'items'].join('/');
+  $: items_href = [href, "items"].join("/");
 
-  import Instance from '../index.svelte';
-
+  import Instance from "../index.svelte";
 </script>
 
 <style>

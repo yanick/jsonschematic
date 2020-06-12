@@ -1,7 +1,7 @@
 <table>
   <tbody>
     <Property name="items">
-      <Instance href="" definition="{items}" />
+      <Instance {href} definition="{items}" />
     </Property>
   </tbody>
 </table>
