@@ -47,8 +47,17 @@ scripts:
   release: standard-version
   start: node __sapper__/build
   storybook: start-storybook
-  test: jest src
+
   package: ./scripts/merge_package.pl
-  lint: eslint src
+
+  test: jest src
+
+  "check:prettier": ./scripts/prettier
+  "check:eslint": ./scripts/eslint
+  check: npm-run-all --parallel "check:* -- {@}" test --
+
+  "fix:prettier": npm run check:prettier -- --fix
+  "fix:eslint": npm run check:eslint -- --fix
+  "fix": npm-run-all fix:*
 
 standard-version: {}

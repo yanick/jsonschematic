@@ -1,0 +1,14 @@
+#!/usr/bin/env perl
+
+use strict;
+
+# check by default
+my $mode = '-c';
+
+my @files = grep {
+    $_ ne '--fix'or not ($mode = '--write');
+} @ARGV;
+
+@files = qw/ src / unless @files;
+
+exec 'prettier', '--plugin-search-dir=.', $mode, @files;
