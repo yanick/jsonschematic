@@ -25,11 +25,13 @@ const selected_instance = derived(
 
 const add_schema = (schema, url) => {
   // $id for >v4, id before
-  const id = schema["$id"] || schema.id || "file:///" + url;
+  let id = schema["$id"] || schema.id || "file:///" + url;
 
   if (!schema['$id']) {
     schema = { ...schema, '$id': id };
   }
+
+  id = id.replace( /#.*/, '' );
 
   schemas.update(($s) => ({ ...$s, [id]: schema }));
 
