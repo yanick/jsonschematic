@@ -8,26 +8,41 @@
       {schema}</a>
   </dt>
   <dd>
+   <Definitions select_instance={select_instance} definitions="{schema_definitions[schema]}" base_url="{schema}"> </Definitions>
   </dd>
 {/each}
 </dl>
   </div>
 
 <script>
-    export let schemas = {};
+  export let schemas = {};
   export let selected_instance_url;
 
   import {
     createEventDispatcher
   } from 'svelte';
 
+  import Definitions from "./Definitions/index.svelte"
+
   let selected_id, selected_segment;
   $: ([selected_id,selected_segment] = selected_instance_url ?
   selected_instance_url.split('#') : []);
 
   let schema_ids = [];
-  $: schema_ids = Object.keys(schemas);
-  $: schema_ids.sort();
+
+  let schema_definitions = [];
+
+  $: {
+    schema_ids = Object.keys(schemas);
+    Object.keys(schemas).map( (id) => {
+      if ( schemas[id].definitions &&
+        Object.keys(schemas[id].definitions).length ) {
+        schema_definitions[id] = schemas[id].definitions;
+      }
+    })
+   schema_ids.sort();
+  };
+
 
   const dispatch = createEventDispatcher();
 

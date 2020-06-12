@@ -15,3 +15,22 @@ export const basic = () => ({
     },
   }
 });
+
+export const withDefinitions = () => ({
+  Component: SchemasListing,
+  props: {
+    schemas: {
+      foo: {
+        id: 'foo'
+      },
+      bar: {
+        id: 'bar',
+        definitions: {
+          Beyond: {id: 'Beyond'},
+          All: {id: 'All'},
+          Recognition: {id: 'Recognition'}
+        }
+      }
+    },
+  }
+});
