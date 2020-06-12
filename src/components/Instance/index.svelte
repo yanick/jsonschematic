@@ -15,6 +15,10 @@
     <h1 class="title">{title}</h1>
   {/if}
 
+  {#if description}
+    <div class="description">{description}</div>
+  {/if}
+
   <Types {types} definition="{expanded_def}" />
 
   {#if ref}
@@ -34,9 +38,6 @@
     </div>
   {/if}
 
-  {#if description}
-    <div class="description">{description}</div>
-  {/if}
 
   {#if items}
     <Items {items} href="{`${href}/items`}" />
@@ -104,8 +105,6 @@
     expanded_ref = {};
     is_expanded_ref = false;
   };
-
-  $: console.log(expanded_ref);
 
   function schema_name(url) {
     const draft = url.match(/draft-(\d\d)/);
