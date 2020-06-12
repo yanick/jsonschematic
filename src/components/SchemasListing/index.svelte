@@ -44,11 +44,6 @@
   }
   dt {
     display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    direction: rtl;
-    text-align: left;
   }
 
   dd {
