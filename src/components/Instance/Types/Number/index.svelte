@@ -1,9 +1,24 @@
+<Type name="number">
+  {#if multipleOf !== undefined}
+    <li>&times;{multipleOf}</li>
+  {/if}
+
+  {#if minimum !== undefined || maximum !== undefined}
+    <li>
+      {exclusiveMinimum ? ']' : ''} {minimum !== undefined ? minimum : ''} ... {maximum !== undefined ? maximum : ''}
+      {exclusiveMaximum ? '[' : ''}
+    </li>
+  {/if}
+</Type>
+
 <script>
   export let multipleOf;
   export let minimum;
   export let maximum;
   export let exclusiveMaximum;
   export let exclusiveMinimum;
+
+  import Type from "../Type.svelte";
 </script>
 
 <style>
@@ -25,15 +40,3 @@
     content: "";
   }
 </style>
-
-<div>
-  <span>number</span>
-
-  <ul>
-      {#if multipleOf !== undefined }<li>&times;{multipleOf}</li>{/if}
-      {#if minimum !== undefined }<li>&gt;{minimum}</li>{/if}
-      {#if exclusiveMinimum !== undefined }<li>&ge;{exclusiveMinimum}</li>{/if}
-      {#if maximum !== undefined }<li>&lt;{maximum}</li>{/if}
-      {#if exclusiveMaximum !== undefined }<li>&le;{exclusiveMaximum}</li>{/if}
-  </ul>
-</div>

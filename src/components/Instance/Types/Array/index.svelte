@@ -1,21 +1,16 @@
-<div class="type_block">
-  <div class="type">array</div>
-  <ul class="type_restrictions">
+<Type name="array">
+  {#if maxItems || minItems}
+    <li>items: {minItems || ''}...{maxItems || ''}</li>
+  {/if}
 
-    {#if maxItems || minItems}
-      <li class="nbr_items">{minItems || ''}...{maxItems || ''}</li>
-    {/if}
+  {#if maxContains || minContains}
+    <li>contains: {minContains || ''}...{maxContains || ''}</li>
+  {/if}
 
-    {#if maxContains || minContains}
-      <li class="nbr_contains">{minContains || ''}...{maxContains || ''}</li>
-    {/if}
-
-    {#if uniqueItems}
-      <li>unique</li>
-    {/if}
-
-  </ul>
-</div>
+  {#if uniqueItems}
+    <li>unique</li>
+  {/if}
+</Type>
 
 <script>
   export let maxItems;
@@ -23,6 +18,8 @@
   export let uniqueItems = false;
   export let maxContains;
   export let minContains;
+
+  import Type from "../Type.svelte";
 </script>
 
 <style>
