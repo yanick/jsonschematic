@@ -27,6 +27,7 @@ use Hash::Merge qw/ merge /;
 
 use feature qw/ postderef /;
 use YAML::XS;
+use Path::Tiny;
 use JSON::PP qw//;
 use JSON qw/ to_json /;
 
@@ -39,15 +40,17 @@ my $mergers = delete $yaml->{_merge};
 
 my $result = merge( { $json->%{@$mergers} }, $yaml );
 
-if( grep { $_ eq '-n' } @ARGV ) {
-    print to_json $result, {
+my $json = to_json $result, {
         pretty => 1,
         canonical => 1,
-    }
-}
-else {
-    serialize_file 'package.json' => $result, {
-        space_before => 0
+        space_before => 0,
     };
+
+$json =~ s/(^|\G)   /  /g;
+
+if( grep { $_ eq '-n' } @ARGV ) {
+    print $json;
+} else {
+    path('package.json')->spew($json);
     say "regenerated package.json"
 }

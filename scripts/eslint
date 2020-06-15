@@ -11,4 +11,22 @@ my @files = grep {
 
 @files = qw/ src / unless @files;
 
-exec 'eslint', @mode, @files;
+my @ignore = (
+    qr/package\.(json|yaml)/,
+    qr#^scripts/#,
+    qr#.prettierignore#,
+);
+
+sub ignored {
+    my $file = shift;
+
+    for my $pattern ( @ignore ) {
+        return 1 if $file =~ $pattern;
+    }
+
+    return 0;
+}
+
+exec 'eslint', @mode, grep {
+    not ignored($_)
+} @files;
