@@ -1,7 +1,7 @@
 <div>
 
   {#each types as type (type)}
-    <svelte:component this="{comp_for(type)}" {...definition} />
+    <svelte:component this="{comp_for(type)}" {definition} />
   {/each}
 
 </div>

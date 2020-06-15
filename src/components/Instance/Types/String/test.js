@@ -29,3 +29,13 @@ test("minLength prop", () => {
   expect(getByText("≤ 100")).toBeInTheDocument();
   expect(getByText("value matches pattern *")).toBeInTheDocument();
 });
+
+test("format", async () => {
+  const { getByText } = render(String, {
+    props: {
+      definition: { format: "date-time" },
+    },
+  });
+
+  expect(getByText("date-time")).toBeInTheDocument();
+});

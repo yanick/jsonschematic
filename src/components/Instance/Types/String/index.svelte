@@ -1,31 +1,49 @@
 <Type name="string">
 
   {#if minLength != undefined}
-    <li class:invalid="{invalidNumber(minLength)}">&ge; {minLength}</li>
+    <li>&ge; {minLength}</li>
   {/if}
 
   {#if maxLength != undefined}
-    <li class:invalid="{invalidNumber(maxLength)}">&le; {maxLength}</li>
+    <li>&le; {maxLength}</li>
   {/if}
 
   {#if pattern}
     <li>value matches pattern {pattern}</li>
   {/if}
 
+  {#if format}
+    <li
+      class="format"
+      use:tippy="{{ placement: 'right', content: format_tip, allowHTML: true, interactive: true }}">
+      {format}
+    </li>
+  {/if}
+
 </Type>
 
 <script>
+  import tippy_orig from "sveltejs-tippy";
+  const tippy = tippy_orig || (() => {});
+
   import Type from "../Type.svelte";
 
+  import formats from "./formats";
+
   export let definition = {};
-  let minLength, maxLength, pattern;
 
-  $: ({ minLength, maxLength, pattern } = { ...definition });
+  let minLength, maxLength, pattern, format, format_tip;
 
-  const invalidNumber = (n) => {
-    if (isNaN(n) || n < 0) {
-      return true;
-    }
-    return false;
-  };
+  $: ({ minLength, maxLength, pattern, format } = definition);
+
+  $: format_tip = formats[format] || "no tip";
 </script>
+
+<style>
+  .format {
+    cursor: help;
+  }
+  :global(.tooltip) {
+    color: var(--color-base2) !important;
+  }
+</style>
