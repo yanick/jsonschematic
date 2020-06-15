@@ -46,6 +46,8 @@ if( grep { $_ eq '-n' } @ARGV ) {
     }
 }
 else {
-    serialize_file 'package.json' => $result;
+    serialize_file 'package.json' => $result, {
+        space_before => 0
+    };
     say "regenerated package.json"
 }
