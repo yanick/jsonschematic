@@ -1,15 +1,15 @@
-<div class="instance" class:top_level={top_level}>
+<div class="instance" class:top_level>
   <div class="top_section">
-  {#if top_level && href}
-    <div class="instance_href">{href}</div>
-  {/if}
+    {#if top_level && href}
+      <div class="instance_href">{href}</div>
+    {/if}
 
-  {#if schema}
-    <div class="schema">
-      <a href="{schema}">{schema_name(schema)}</a>
-    </div>
-  {/if}
-</div>
+    {#if schema}
+      <div class="schema">
+        <a href="{schema}">{schema_name(schema)}</a>
+      </div>
+    {/if}
+  </div>
 
   {#if title}
     <h1 class="title">{title}</h1>
@@ -17,6 +17,15 @@
 
   {#if description}
     <div class="description">{description}</div>
+  {/if}
+
+  {#if default_value}
+    <div>
+      default:
+      <pre>
+        <code>{JSON.stringify(default_value, null, 2)}</code>
+      </pre>
+    </div>
   {/if}
 
   <Types {types} definition="{expanded_def}" />
@@ -38,7 +47,6 @@
     </div>
   {/if}
 
-
   {#if items}
     <Items {items} href="{`${href}/items`}" />
   {/if}
@@ -57,12 +65,19 @@
   export let fetch_segment = store.fetch_segment;
   export let top_level = false;
 
-
   import Types from "./Types/index.svelte";
   import Items from "./Items/index.svelte";
   import Properties from "./Properties/index.svelte";
 
-  let schema, types, items, ref, title, id, description, properties;
+  let schema,
+    types,
+    items,
+    ref,
+    title,
+    id,
+    description,
+    properties,
+    default_value;
   let expanded_ref = {};
   let loading_ref = false;
   let is_expanded_ref = false;
@@ -73,6 +88,7 @@
 
   $: {
     ({
+      default: default_value,
       $id: id,
       description,
       title,
@@ -132,10 +148,14 @@
     display: flex;
   }
 
-  .top_section div { flex: 1; }
+  .top_section div {
+    flex: 1;
+  }
 
   .schema {
     text-align: right;
   }
-
+  pre {
+    background-color: #f0f0f0;
+  }
 </style>
