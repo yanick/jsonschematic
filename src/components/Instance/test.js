@@ -2,10 +2,16 @@ import "@testing-library/jest-dom/extend-expect";
 
 import { render } from "@testing-library/svelte";
 
-import Instance from '.';
+import Instance from ".";
 
 test("we grok boolean type", () => {
-  const { getByText } = render(Instance, { definition: { type: 'boolean' } });
+  const { getByText } = render(Instance, { definition: { type: "boolean" } });
 
   expect(getByText("boolean")).toBeInTheDocument();
+});
+
+test("default", () => {
+  const { getByText } = render(Instance, { definition: { default: "potato" } });
+
+  expect(getByText('"potato"')).toBeInTheDocument();
 });
