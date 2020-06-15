@@ -6,7 +6,7 @@
       "lodash": "4.17.15",
       "polka": "next",
       "sirv": "1.0.0",
-      "sveltejs-tippy": "^3.0.0"
+      "sveltejs-tippy": "3.0.0"
    },
    "description": "json schema viewer",
    "devDependencies": {
