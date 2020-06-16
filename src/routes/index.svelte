@@ -16,8 +16,15 @@
   </div>
 </div>
 
+<svelte:window on:hashchange={hash_change} />
+
 <script>
   import { onMount } from "svelte";
+
+  function hash_change(event) {
+    console.log(document.location.hash.slice(1));
+
+  }
 
   import {
     schemas,
