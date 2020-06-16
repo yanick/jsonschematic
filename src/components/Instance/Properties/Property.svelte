@@ -1,17 +1,15 @@
-<tr>
-  <th>{name}</th>
-  <td class="property_def"><slot /></td>
-</tr>
+<div>{name}</div>
+<div class="property_def">
+  <slot />
+</div>
 
 <script>
   export let name;
 </script>
 
 <style>
-  .property_def {
-    margin-left: 2em;
-  }
-  th,td {
+  th,
+  td {
     vertical-align: top;
   }
   td {

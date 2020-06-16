@@ -1,17 +1,10 @@
-<table>
-  <thead>
-    <tr>
-      <th colspan="2">{title}</th>
-    </tr>
-  </thead>
-  <tbody>
-    {#each entries as [name, definition] (name)}
-      <Property {name}>
-        <Instance href="{href + '/' + name}" {definition} />
-      </Property>
-    {/each}
-  </tbody>
-</table>
+<div>{title}</div>
+
+{#each entries as [name, definition] (name)}
+  <Property {name}>
+    <Instance href="{href + '/' + name}" {definition} />
+  </Property>
+{/each}
 
 <script>
   export let properties = {};
@@ -32,6 +25,11 @@
 </script>
 
 <style>
+  div {
+    grid-column: span 2;
+    font-weight: bold;
+  }
+
   thead th {
     text-align: left;
   }
