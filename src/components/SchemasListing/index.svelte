@@ -34,13 +34,12 @@
 
   $: {
     schema_ids = Object.keys(schemas);
-    Object.keys(schemas).map( (id) => {
-      if ( schemas[id].definitions &&
-        Object.keys(schemas[id].definitions).length ) {
+    schema_ids.sort();
+    schema_ids.forEach( (id) => {
+      if ( schemas[id].definitions) { 
         schema_definitions[id] = schemas[id].definitions;
       }
     })
-   schema_ids.sort();
   };
 
 
