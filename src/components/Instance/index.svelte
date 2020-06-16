@@ -1,6 +1,6 @@
 <div class="instance" class:top_level>
   <div class="top_section">
-    {#if top_level && id}
+    {#if id}
       <div class="instance_href">{id}</div>
     {/if}
 
@@ -43,7 +43,7 @@
     </div>
   {/if}
 
-  <Types {types} definition="{expanded_def}" />
+  <Types href={id} {types} definition="{expanded_def}" />
 
 </div>
 
@@ -138,7 +138,12 @@
     grid-column: 2;
   }
 
+  .top_level > .top_section {
+    display: flex;
+  }
+
   .top_section {
+    display: none;
     grid-column: span 2;
   }
 
@@ -158,10 +163,6 @@
 
   .instance_href {
     font-style: italic;
-  }
-
-  .top_section {
-    display: flex;
   }
 
   .top_section div {

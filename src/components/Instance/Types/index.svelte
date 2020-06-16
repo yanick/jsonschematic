@@ -1,10 +1,11 @@
 {#each types as type (type)}
-  <svelte:component this="{comp_for(type)}" {definition} />
+  <svelte:component this="{comp_for(type)}" {definition} {href} />
 {/each}
 
 <script>
   export let types = [];
   export let definition = {};
+  export let href;
 
   import ArrayType from "./Array/index.svelte";
   import NumberType from "./Number/index.svelte";

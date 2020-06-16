@@ -1,6 +1,6 @@
 <Type name="object">
   {#if properties}
-    <Properties {properties} href="{`${id}/properties`}" />
+    <Properties {properties} href="{`${href}/properties`}" />
   {/if}
 </Type>
 
@@ -9,7 +9,7 @@
   import Properties from "../../Properties/index.svelte";
 
   export let definition;
-  export let id = "";
+  export let href;
 
   let properties;
   $: ({ properties } = definition);

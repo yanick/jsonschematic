@@ -8,9 +8,6 @@
 </script>
 
 <style>
-  .property_def {
-    margin-left: 2em;
-  }
   th,
   td {
     vertical-align: top;

@@ -58,6 +58,9 @@ const fetch_segment = (target, origin) => {
 
   if (!path) return schema;
 
+    console.log({schema,path});
+
+
   return ptr.get(schema, path);
 };
 

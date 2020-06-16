@@ -54,6 +54,7 @@
             "required": ["id", "name", "price"]
         },
         "Prop": {
+            "type": "object",
             "properties": {
                 "name": {
                    "type": "string"
