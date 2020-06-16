@@ -1,4 +1,4 @@
-import SchemasListing  from '.';
+import SchemasListing from ".";
 
 export default { title: "SchemasListing" };
 
@@ -7,13 +7,13 @@ export const basic = () => ({
   props: {
     schemas: {
       foo: {
-        id: 'foo'
+        id: "foo",
       },
       bar: {
-        id: 'bar'
-      }
+        id: "bar",
+      },
     },
-  }
+  },
 });
 
 export const withDefinitions = () => ({
@@ -21,16 +21,16 @@ export const withDefinitions = () => ({
   props: {
     schemas: {
       foo: {
-        id: 'foo'
+        id: "foo",
       },
       bar: {
-        id: 'bar',
+        id: "bar",
         definitions: {
-          Beyond: {id: 'Beyond'},
-          All: {id: 'All'},
-          Recognition: {id: 'Recognition'}
-        }
-      }
+          Beyond: { id: "Beyond" },
+          All: { id: "All" },
+          Recognition: { id: "Recognition" },
+        },
+      },
     },
-  }
+  },
 });
