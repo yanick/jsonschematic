@@ -1,24 +1,26 @@
 <Type name="string">
 
-  {#if minLength != undefined}
-    <li>&ge; {minLength}</li>
-  {/if}
+  <ul>
+    {#if minLength != undefined}
+      <li>&ge; {minLength}</li>
+    {/if}
 
-  {#if maxLength != undefined}
-    <li>&le; {maxLength}</li>
-  {/if}
+    {#if maxLength != undefined}
+      <li>&le; {maxLength}</li>
+    {/if}
 
-  {#if pattern}
-    <li>value matches pattern {pattern}</li>
-  {/if}
+    {#if pattern}
+      <li>value matches pattern {pattern}</li>
+    {/if}
 
-  {#if format}
-    <li
-      class="format"
-      use:tippy="{{ placement: 'right', content: format_tip, allowHTML: true, interactive: true }}">
-      {format}
-    </li>
-  {/if}
+    {#if format}
+      <li
+        class="format"
+        use:tippy="{{ placement: 'right', content: format_tip, allowHTML: true, interactive: true }}">
+        {format}
+      </li>
+    {/if}
+  </ul>
 
 </Type>
 

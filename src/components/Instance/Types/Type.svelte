@@ -1,37 +1,45 @@
-<div class="type_block">
-  <div>{name}</div>
-  <ul>
-    <slot />
-  </ul>
+<div class="type">{name}</div>
+<div class="type_restraints">
+  <slot />
 </div>
 
 <script>
   export let name;
+  let hasDetails;
 </script>
 
 <style>
-  .type_block {
+  .type {
     color: var(--color-cyan);
+  }
+
+  .type_restraints {
+    display: grid;
+    grid-template-columns: 1fr 100fr;
+    grid-column-gap: 1em;
   }
 
   div {
     display: flex;
   }
-  ul {
+  .type_restraints > :global(ul) {
+    grid-column: span 2;
     display: flex;
     list-style: none;
     margin: 0px;
     margin-left: 0.5em;
     padding: 0px;
   }
-  ul :global(li) {
+
+  .type_restraints > :global(ul) > :global(li) {
     margin-right: 0.5em;
     font-style: italic;
   }
-  ul li:after {
+  .type_restraints > :global(ul) > :global(li:after) {
     content: ",";
   }
-  ul li:last-child:after {
+
+  .type_restraints > :global(ul) > :global(li:last-child:after) {
     content: "";
   }
 </style>

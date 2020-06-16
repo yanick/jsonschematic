@@ -1,7 +1,7 @@
 <div class="instance" class:top_level>
   <div class="top_section">
-    {#if top_level && href}
-      <div class="instance_href">{href}</div>
+    {#if top_level && id}
+      <div class="instance_href">{id}</div>
     {/if}
 
     {#if schema}
@@ -20,19 +20,15 @@
   {/if}
 
   {#if default_value}
-    <div>
-      default:
-      <pre>
-        <code>{JSON.stringify(default_value, null, 2)}</code>
-      </pre>
-    </div>
+    <div class="label">default</div>
+    <pre>
+      <code>{JSON.stringify(default_value, null, 2)}</code>
+    </pre>
   {/if}
 
-  <Types {types} definition="{expanded_def}" />
-
   {#if ref}
+    <div>extends</div>
     <div>
-      extends
       <a href="#dummy">{ref}</a>
 
       {#if is_expanded_ref}
@@ -47,13 +43,7 @@
     </div>
   {/if}
 
-  {#if items}
-    <Items {items} href="{`${href}/items`}" />
-  {/if}
-
-  {#if properties}
-    <Properties {properties} href="{`${href}/properties`}" />
-  {/if}
+  <Types {types} definition="{expanded_def}" />
 
 </div>
 
@@ -105,10 +95,11 @@
     }
   }
 
+  $: if (!id) id = href;
+  $: if (id && -1 === id.indexOf("#")) id = id + "#";
+
   const fetch_ref = async () => {
     loading_ref = true;
-
-    console.log({ href });
 
     const def = await fetch_segment(ref, href);
 
@@ -131,7 +122,32 @@
 </script>
 
 <style>
+  .instance {
+    display: grid;
+    grid-template-columns: 1fr 100fr;
+    align-items: first baseline;
+    grid-column-gap: 1em;
+    margin-bottom: 1em;
+  }
+
+  .instance > :global(.type) {
+    grid-column: 1;
+  }
+
+  .instance > :global(.type_restraints) {
+    grid-column: 2;
+  }
+
+  .top_section {
+    grid-column: span 2;
+  }
+
+  .description {
+    grid-column: span 2;
+  }
+
   .title {
+    grid-column: span 2;
     color: var(--color-blue);
     font-size: var(--font-scale-10);
   }

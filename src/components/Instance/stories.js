@@ -31,3 +31,30 @@ export const default_ = () => ({
     },
   },
 });
+
+export const all_the_things = () => ({
+  Component: Instance,
+  props: {
+    top_level: true,
+    definition: {
+      $id: "https://foo.com",
+      $schema: "v4",
+      title: "The title",
+      description: "The description",
+      type: "object",
+      $ref: "#/definitions/something",
+      default: {
+        foo: 1,
+        bar: 2,
+      },
+      properties: {
+        foo: {
+          type: "number",
+        },
+        bar: {
+          type: "string",
+        },
+      },
+    },
+  },
+});
