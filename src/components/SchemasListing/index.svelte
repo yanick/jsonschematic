@@ -1,40 +1,57 @@
-  <div class="schemas_listing">
-    <h2>schemas</h2>
-<dl>
-{#each schema_ids as schema (schema)}
-  <dt>
-    <a on:click|preventDefault={select_instance(schema)} href="#"
-      title={schema}>
-      {schema}</a>
-  </dt>
-  <dd>
-  </dd>
-{/each}
-</dl>
-  </div>
+<div class="schemas_listing">
+  <h2>schemas</h2>
+  <dl>
+    {#each schema_ids as schema (schema)}
+      <dt>
+        <a
+          on:click|preventDefault="{select_instance(schema)}"
+          href="#"
+          title="{schema}">
+          {schema}
+        </a>
+      </dt>
+      <dd>
+        <Definitions
+          {select_instance}
+          definitions="{schema_definitions[schema]}"
+          base_url="{schema}" />
+      </dd>
+    {/each}
+  </dl>
+</div>
 
 <script>
-    export let schemas = {};
+  export let schemas = {};
   export let selected_instance_url;
 
-  import {
-    createEventDispatcher
-  } from 'svelte';
+  import { createEventDispatcher } from "svelte";
+
+  import Definitions from "./Definitions/index.svelte";
 
   let selected_id, selected_segment;
-  $: ([selected_id,selected_segment] = selected_instance_url ?
-  selected_instance_url.split('#') : []);
+  $: [selected_id, selected_segment] = selected_instance_url
+    ? selected_instance_url.split("#")
+    : [];
 
   let schema_ids = [];
-  $: schema_ids = Object.keys(schemas);
-  $: schema_ids.sort();
+
+  let schema_definitions = [];
+
+  $: {
+    schema_ids = Object.keys(schemas);
+    schema_ids.sort();
+    schema_ids.forEach((id) => {
+      if (schemas[id].definitions) {
+        schema_definitions[id] = schemas[id].definitions;
+      }
+    });
+  }
 
   const dispatch = createEventDispatcher();
 
-  const select_instance = schema => () => {
-    dispatch('select_instance',schema);
-  }
-
+  const select_instance = (schema) => () => {
+    dispatch("select_instance", schema);
+  };
 </script>
 
 <style>

@@ -19,6 +19,10 @@ const selected_instance = derived(
 
     const [url, segment] = $selected_instance_url.split("#");
 
+    if (segment) {
+      return fetch_segment("#" + segment, $selected_instance_url);
+    }
+
     return $schemas[url];
   }
 );
@@ -27,18 +31,18 @@ const add_schema = (schema, url) => {
   // $id for >v4, id before
   let id = schema["$id"] || schema.id || "file:///" + url;
 
-  if (!schema['$id']) {
-    schema = { ...schema, '$id': id };
+  if (!schema["$id"]) {
+    schema = { ...schema, $id: id };
   }
 
-  id = id.replace( /#.*/, '' );
+  id = id.replace(/#.*/, "");
 
   schemas.update(($s) => ({ ...$s, [id]: schema }));
 
   selected_instance_url.update(($url) => $url || id);
 };
 
-const fetch_segment = async (target, origin) => {
+const fetch_segment = (target, origin) => {
   let schema_id, path;
 
   if (target.indexOf("#") === 0) {
