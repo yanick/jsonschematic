@@ -15,6 +15,7 @@ my @ignore = (
     qr/package\.(json|yaml)/,
     qr#^scripts/#,
     qr#^\.#,
+    qr#\.json$#
 );
 
 sub ignored {
