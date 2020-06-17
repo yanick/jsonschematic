@@ -29,7 +29,7 @@ const selected_instance = derived(
 
 const add_schema = (schema, url) => {
   // $id for >v4, id before
-  let id = schema["$id"] || schema.id || "file:///" + url;
+  let id = schema["$id"] || schema.id || "file://" + url;
 
   if (!schema["$id"]) {
     schema = { ...schema, $id: id };
@@ -39,7 +39,7 @@ const add_schema = (schema, url) => {
 
   schemas.update(($s) => ({ ...$s, [id]: schema }));
 
-  selected_instance_url.update(($url) => $url || id);
+  if (!document.location.hash) document.location.hash = id;
 };
 
 const fetch_segment = (target, origin) => {
@@ -48,7 +48,7 @@ const fetch_segment = (target, origin) => {
   if (target.indexOf("#") === 0) {
     [schema_id] = origin.split("#");
     path = target.substr(1);
-  } else if (target.indexOf("#") === undefined) {
+  } else if (target.indexOf("#") === -1) {
     schema_id = target;
   } else {
     [schema_uri, path] = target.split("#");
@@ -57,6 +57,8 @@ const fetch_segment = (target, origin) => {
   const schema = get(schemas)[schema_id];
 
   if (!path) return schema;
+
+  if (!schema) return {};
 
   return ptr.get(schema, path);
 };

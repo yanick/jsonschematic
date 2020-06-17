@@ -29,7 +29,7 @@
   {#if ref}
     <div>extends</div>
     <div>
-      <a href="#dummy">{ref}</a>
+      <a href="{'#' + relative_ref(ref)}">{ref}</a>
 
       {#if is_expanded_ref}
         <input on:click="{remove_ref}" type="button" value="unexpand" />
@@ -118,6 +118,14 @@
     if (!draft) return url;
 
     return `v${draft[1]}`;
+  }
+
+  function relative_ref(ref) {
+    if (ref.indexOf("#") === 0) {
+      return id.replace(/#.*/, "") + ref;
+    }
+
+    return ref;
   }
 </script>
 

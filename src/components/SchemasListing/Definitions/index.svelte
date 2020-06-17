@@ -1,11 +1,6 @@
 {#each definition_names as definition}
   <dt>
-    <a
-      on:click|preventDefault="{select_instance(ref(definition))}"
-      href="#"
-      title="{definition}">
-      {definition}
-    </a>
+    <a href="{'#' + ref(definition)}" title="{definition}">{definition}</a>
   </dt>
 {/each}
 

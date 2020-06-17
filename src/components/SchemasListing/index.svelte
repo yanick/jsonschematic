@@ -3,12 +3,7 @@
   <dl>
     {#each schema_ids as schema (schema)}
       <dt>
-        <a
-          on:click|preventDefault="{select_instance(schema)}"
-          href="#"
-          title="{schema}">
-          {schema}
-        </a>
+        <a href="{'#' + encodeURI(schema)}" title="{schema}">{schema}</a>
       </dt>
       <dd>
         <Definitions

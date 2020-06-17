@@ -8,16 +8,24 @@
 
   <div class="instance_viewer">
     {#if $selected_instance}
-      <Instance top_level definition={$selected_instance} href={$selected_instance_url +
-        '#' } />
+      <Instance
+        top_level
+        definition="{$selected_instance}"
+        href="{$selected_instance_url}" />
     {:else}
       <div>no schema selected</div>
     {/if}
   </div>
 </div>
 
+<svelte:window on:hashchange="{hash_change}" />
+
 <script>
   import { onMount } from "svelte";
+
+  function hash_change(event) {
+    set_selected_instance_url(decodeURI(document.location.hash.slice(1)));
+  }
 
   import {
     schemas,
@@ -46,6 +54,7 @@
   };
 
   onMount(() => {
+    set_selected_instance_url(decodeURI(document.location.hash.slice(1)));
     fetch("/schemas.json")
       .then((res) => res.json())
       .then((schemas) => schemas.map(load_schema));
