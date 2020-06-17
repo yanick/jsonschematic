@@ -43,7 +43,15 @@
     </div>
   {/if}
 
+  {#if enumeration}
+    <Enum {enumeration} href="{href}" />
+  {/if}
+
   <Types href="{id}" {types} definition="{expanded_def}" />
+
+  {#if examples}
+    <Examples {examples} href="{href}" />
+  {/if}
 
 </div>
 
@@ -57,6 +65,8 @@
 
   import Types from "./Types/index.svelte";
   import Items from "./Items/index.svelte";
+  import Examples from "./Examples/index.svelte";
+  import Enum from "./Enum/index.svelte";
   import Properties from "./Properties/index.svelte";
 
   let schema,
@@ -67,6 +77,8 @@
     id,
     description,
     properties,
+    examples,
+    enumeration,
     default_value;
   let expanded_ref = {};
   let loading_ref = false;
@@ -74,9 +86,9 @@
 
   let expanded_def = definition;
 
-  $: expanded_def = { ...expanded_ref, ...definition };
-
   $: {
+    expanded_def = { ...expanded_ref, ...definition };
+
     ({
       default: default_value,
       $id: id,
@@ -85,7 +97,9 @@
       $schema: schema,
       type: types,
       items,
+      examples,
       $ref: ref,
+      enum: enumeration,
       properties,
     } = expanded_def);
 

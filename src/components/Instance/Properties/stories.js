@@ -9,6 +9,6 @@ export default { title: "Properties", decorators: [withKnobs]};
 export const ref = () => ({
   Component: Properties,
   props: {
-      properties: example.definitions.Product.properties
+      properties: object('properties', example.definitions.Product.properties)
   },
 });
