@@ -5,37 +5,39 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [ 14.x]
+        node-version: [14.x]
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
 
-    - name: install deps
-      run: npm install
+      - name: install deps
+        run: npm install
 
-    - id: file_changes
-      uses: trilom/file-changes-action@v1.2.3
-      with:
-          output: ' '
+      - id: file_changes
+        uses: trilom/file-changes-action@v1.2.3
+        with:
+          output: " "
 
-    - name: debug
-      run: |
+      - name: debug
+        run: |
           echo '${{ steps.file_changes.outputs.files_modified}}' '${{ steps.file_changes.outputs.files_added}}'
 
-    - name: checks
-      run: npm run check -- ${{ steps.file_changes.outputs.files_modified}} ${{ steps.file_changes.outputs.files_added}}
+      - name: lint
+        run: npm run lint -- ${{ steps.file_changes.outputs.files_modified}} ${{ steps.file_changes.outputs.files_added}}
+
+      - name: test
+        run: npm run test

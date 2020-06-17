@@ -14,7 +14,7 @@ my @files = grep {
 my @ignore = (
     qr/package\.(json|yaml)/,
     qr#^scripts/#,
-    qr#.prettierignore#,
+    qr#^\.#,
 );
 
 sub ignored {

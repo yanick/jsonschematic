@@ -1,116 +1,116 @@
 {
-   "dependencies": {
-      "compression": "1.7.4",
-      "globby": "11.0.1",
-      "jsonpointer": "4.0.1",
-      "lodash": "4.17.15",
-      "polka": "next",
-      "sirv": "1.0.0",
-      "sveltejs-tippy": "3.0.0"
+   "dependencies" : {
+      "compression" : "1.7.4",
+      "globby" : "11.0.1",
+      "jsonpointer" : "4.0.1",
+      "lodash" : "4.17.15",
+      "polka" : "next",
+      "sirv" : "1.0.0",
+      "sveltejs-tippy" : "3.0.0"
    },
-   "description": "json schema viewer",
-   "devDependencies": {
-      "@apidevtools/json-schema-ref-parser": "9.0.1",
-      "@babel/core": "7.10.2",
-      "@babel/plugin-syntax-dynamic-import": "7.8.3",
-      "@babel/plugin-transform-runtime": "7.10.1",
-      "@babel/preset-env": "7.10.2",
-      "@babel/runtime": "7.10.2",
-      "@rollup/plugin-babel": "5.0.3",
-      "@rollup/plugin-commonjs": "13.0.0",
-      "@rollup/plugin-node-resolve": "8.0.1",
-      "@rollup/plugin-replace": "2.3.3",
-      "@storybook/addon-actions": "5.3.19",
-      "@storybook/addon-knobs": "5.3.19",
-      "@storybook/addon-notes": "5.3.19",
-      "@storybook/svelte": "5.3.19",
-      "@testing-library/jest-dom": "5.10.1",
-      "@testing-library/svelte": "3.0.0",
-      "babel-jest": "26.0.1",
-      "babel-loader": "8.1.0",
-      "eslint": "7.2.0",
-      "eslint-config-prettier": "6.11.0",
-      "eslint-plugin-babel": "5.3.0",
-      "eslint-plugin-prettier": "3.1.4",
-      "eslint-plugin-svelte3": "2.7.3",
-      "jest": "26.0.1",
-      "lint-diff": "1.2.1",
-      "npm-run-all": "4.1.5",
-      "prettier": "2.0.5",
-      "prettier-plugin-svelte": "1.1.0",
-      "rollup": "2.16.1",
-      "rollup-plugin-svelte": "5.2.2",
-      "rollup-plugin-terser": "6.1.0",
-      "sapper": "0.27.16",
-      "standard-version": "8.0.0",
-      "svelte": "3.23.2",
-      "svelte-jester": "1.0.6",
-      "svelte-loader": "2.13.6"
+   "description" : "json schema viewer",
+   "devDependencies" : {
+      "@apidevtools/json-schema-ref-parser" : "9.0.1",
+      "@babel/core" : "7.10.2",
+      "@babel/plugin-syntax-dynamic-import" : "7.8.3",
+      "@babel/plugin-transform-runtime" : "7.10.1",
+      "@babel/preset-env" : "7.10.2",
+      "@babel/runtime" : "7.10.2",
+      "@rollup/plugin-babel" : "5.0.3",
+      "@rollup/plugin-commonjs" : "13.0.0",
+      "@rollup/plugin-node-resolve" : "8.0.1",
+      "@rollup/plugin-replace" : "2.3.3",
+      "@storybook/addon-actions" : "5.3.19",
+      "@storybook/addon-knobs" : "5.3.19",
+      "@storybook/addon-notes" : "5.3.19",
+      "@storybook/svelte" : "5.3.19",
+      "@testing-library/jest-dom" : "5.10.1",
+      "@testing-library/svelte" : "3.0.0",
+      "babel-jest" : "26.0.1",
+      "babel-loader" : "8.1.0",
+      "eslint" : "7.2.0",
+      "eslint-config-prettier" : "6.11.0",
+      "eslint-plugin-babel" : "5.3.0",
+      "eslint-plugin-prettier" : "3.1.4",
+      "eslint-plugin-svelte3" : "2.7.3",
+      "jest" : "26.0.1",
+      "lint-diff" : "1.2.1",
+      "npm-run-all" : "4.1.5",
+      "prettier" : "2.0.5",
+      "prettier-plugin-svelte" : "1.1.0",
+      "rollup" : "2.16.1",
+      "rollup-plugin-svelte" : "5.2.2",
+      "rollup-plugin-terser" : "6.1.0",
+      "sapper" : "0.27.16",
+      "standard-version" : "8.0.0",
+      "svelte" : "3.23.2",
+      "svelte-jester" : "1.0.6",
+      "svelte-loader" : "2.13.6"
    },
-   "eslintConfig": {
-      "extends": [
+   "eslintConfig" : {
+      "extends" : [
          "prettier"
       ],
-      "ignorePatterns": [
+      "ignorePatterns" : [
          "src/node_modules"
       ],
-      "overrides": [
+      "overrides" : [
          {
-            "files": [
+            "files" : [
                "*.svelte"
             ],
-            "processor": "svelte3/svelte3"
+            "processor" : "svelte3/svelte3"
          }
       ],
-      "parserOptions": {
-         "ecmaFeatures": {
-            "modules": true
+      "parserOptions" : {
+         "ecmaFeatures" : {
+            "modules" : true
          },
-         "ecmaVersion": "2020",
-         "sourceType": "module"
+         "ecmaVersion" : "2020",
+         "sourceType" : "module"
       },
-      "plugins": [
+      "plugins" : [
          "svelte3"
       ],
-      "rules": {}
+      "rules" : {}
    },
-   "jest": {
-      "moduleFileExtensions": [
+   "jest" : {
+      "moduleFileExtensions" : [
          "js",
          "svelte"
       ],
-      "setupFilesAfterEnv": [
+      "setupFilesAfterEnv" : [
          "@testing-library/jest-dom/extend-expect"
       ],
-      "transform": {
-         "^.+\\.js$": "babel-jest",
-         "^.+\\.svelte$": "svelte-jester"
+      "transform" : {
+         "^.+\\.js$" : "babel-jest",
+         "^.+\\.svelte$" : "svelte-jester"
       }
    },
-   "name": "jsonschematic",
-   "prettier": {
-      "svelteSortOrder": "markup-scripts-styles",
-      "svelteStrictMode": true
+   "name" : "jsonschematic",
+   "prettier" : {
+      "svelteSortOrder" : "markup-scripts-styles",
+      "svelteStrictMode" : true
    },
-   "scripts": {
-      "build": "sapper build --legacy",
-      "check": "npm-run-all --parallel \"check:* -- {@}\" test --",
-      "check:eslint": "./scripts/eslint",
-      "check:prettier": "./scripts/prettier",
-      "cy:open": "cypress open",
-      "cy:run": "cypress run",
-      "dev": "sapper dev",
-      "export": "sapper export --legacy",
-      "fix": "npm-run-all fix:*",
-      "fix:eslint": "npm run check:eslint -- --fix",
-      "fix:prettier": "npm run check:prettier -- --fix",
-      "package": "./scripts/merge_package.pl",
-      "promake": "./Promake",
-      "release": "standard-version",
-      "start": "node __sapper__/build",
-      "storybook": "start-storybook",
-      "test": "jest src"
+   "scripts" : {
+      "build" : "sapper build --legacy",
+      "cy:open" : "cypress open",
+      "cy:run" : "cypress run",
+      "dev" : "sapper dev",
+      "export" : "sapper export --legacy",
+      "lint" : "npm-run-all --parallel \"lint:prettier -- {@}\" \"lint:eslint -- {@}\" --",
+      "lint:eslint" : "./scripts/eslint",
+      "lint:eslint:fix" : "npm run lint:eslint -- --fix",
+      "lint:fix" : "npm-run-all lint:eslint:fix lint:prettier:fix --",
+      "lint:prettier" : "./scripts/prettier",
+      "lint:prettier:fix" : "npm run lint:prettier -- --fix",
+      "package" : "./scripts/merge_package.pl",
+      "promake" : "./Promake",
+      "release" : "standard-version",
+      "start" : "node __sapper__/build",
+      "storybook" : "start-storybook",
+      "test" : "jest src"
    },
-   "standard-version": {},
-   "version": "0.0.0"
+   "standard-version" : {},
+   "version" : "0.0.0"
 }

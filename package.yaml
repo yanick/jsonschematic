@@ -1,34 +1,34 @@
 ---
 _merge:
-    - version
-    - dependencies
-    - devDependencies
+  - version
+  - dependencies
+  - devDependencies
 
 name: jsonschematic
 description: json schema viewer
 
 eslintConfig:
-    extends: [ prettier ]
-    ignorePatterns:
-        - "src/node_modules"
-    parserOptions:
-        ecmaVersion: 2020
-        sourceType: module
-        ecmaFeatures:
-            modules: true
-    plugins:
-        - svelte3
-    rules: {}
-    overrides:
-        - files: ['*.svelte']
-          processor: 'svelte3/svelte3'
+  extends: [prettier]
+  ignorePatterns:
+    - "src/node_modules"
+  parserOptions:
+    ecmaVersion: 2020
+    sourceType: module
+    ecmaFeatures:
+      modules: true
+  plugins:
+    - svelte3
+  rules: {}
+  overrides:
+    - files: ["*.svelte"]
+      processor: "svelte3/svelte3"
 
 jest:
   moduleFileExtensions:
-  - js
-  - svelte
+    - js
+    - svelte
   setupFilesAfterEnv:
-  - '@testing-library/jest-dom/extend-expect'
+    - "@testing-library/jest-dom/extend-expect"
   transform:
     ^.+\.js$: babel-jest
     ^.+\.svelte$: svelte-jester
@@ -52,12 +52,12 @@ scripts:
 
   test: jest src
 
-  "check:prettier": ./scripts/prettier
-  "check:eslint": ./scripts/eslint
-  check: npm-run-all --parallel "check:* -- {@}" test --
+  "lint:prettier": ./scripts/prettier
+  "lint:eslint": ./scripts/eslint
+  lint: npm-run-all --parallel "lint:prettier -- {@}" "lint:eslint -- {@}" --
 
-  "fix:prettier": npm run check:prettier -- --fix
-  "fix:eslint": npm run check:eslint -- --fix
-  "fix": npm-run-all fix:*
+  "lint:prettier:fix": npm run lint:prettier -- --fix
+  "lint:eslint:fix": npm run lint:eslint -- --fix
+  "lint:fix": npm-run-all lint:eslint:fix lint:prettier:fix --
 
 standard-version: {}
