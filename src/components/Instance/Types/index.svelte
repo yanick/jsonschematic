@@ -1,14 +1,11 @@
-<div>
-
-  {#each types as type (type)}
-    <svelte:component this="{comp_for(type)}" {definition} />
-  {/each}
-
-</div>
+{#each types as type (type)}
+  <svelte:component this="{comp_for(type)}" {definition} {href} />
+{/each}
 
 <script>
   export let types = [];
   export let definition = {};
+  export let href;
 
   import ArrayType from "./Array/index.svelte";
   import NumberType from "./Number/index.svelte";
@@ -28,18 +25,3 @@
 
   const comp_for = (type) => type_components[type];
 </script>
-
-<style>
-  div {
-    display: flex;
-  }
-  div > :global(div:after) {
-    content: "|";
-    margin-right: 0.5em;
-  }
-  div > :global(div:last-child:after) {
-    content: "";
-    margin-right: 0em;
-    color: var(--color-base01);
-  }
-</style>

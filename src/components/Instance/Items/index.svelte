@@ -1,10 +1,6 @@
-<table>
-  <tbody>
-    <Property name="items">
-      <Instance {href} definition="{items}" />
-    </Property>
-  </tbody>
-</table>
+<div>items</div>
+
+<Instance {href} definition="{items}" />
 
 <script>
   export let items = {};
@@ -18,7 +14,7 @@
 </script>
 
 <style>
-  div div {
-    margin-left: 1em;
+  div {
+    font-weight: bold;
   }
 </style>

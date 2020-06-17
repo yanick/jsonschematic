@@ -58,6 +58,6 @@ scripts:
 
   "lint:prettier:fix": npm run lint:prettier -- --fix
   "lint:eslint:fix": npm run lint:eslint -- --fix
-  "lint:fix": npm-run-all lint:eslint:fix lint:prettier:fix --
+  "lint:fix": npm-run-all "lint:eslint:fix -- {@}" "lint:prettier:fix -- {@}" --
 
 standard-version: {}
