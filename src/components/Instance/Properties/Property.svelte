@@ -1,13 +1,19 @@
-<div>{name}</div>
+<div class:required>{name}</div>
 <div class="property_def">
   <slot />
 </div>
 
 <script>
   export let name;
+  export let required = false;
 </script>
 
 <style>
+  .required:before {
+    content: "!";
+    font-weight: bold;
+    color: var(--color-red);
+  }
   th,
   td {
     vertical-align: top;

@@ -1,22 +1,28 @@
 <div>{title}</div>
 
 {#each entries as [name, definition] (name)}
-  <Property {name}>
+  <Property {name} required="{required.includes(name)}">
     <Instance href="{href + '/' + name}" {definition} />
   </Property>
 {/each}
 
 <script>
   export let properties = {};
+  export let required = [];
   export let href;
   export let title = "properties";
 
   import Property from "./Property.svelte";
+  const fp = require("lodash/fp");
 
   let entries = [];
 
-  $: entries = Object.entries(properties);
-  $: entries.sort();
+  const sort_by_required = fp.sortBy((e) => !required.includes(e[0]));
+  const sort_by_name = fp.sortBy((e) => e[0]);
+
+  $: {
+    entries = sort_by_required(sort_by_name(Object.entries(properties)));
+  }
 
   let items_href;
   $: items_href = [href, "items"].join("/");
