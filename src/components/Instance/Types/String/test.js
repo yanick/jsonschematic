@@ -1,41 +1,41 @@
-import "@testing-library/jest-dom/extend-expect";
+require("../../../../tests/svelte_loader");
 
+import tap from "tap";
 import { render } from "@testing-library/svelte";
 
-import String from ".";
+const String = require("./index.svelte");
 
-test("the String component says 'string'", () => {
+tap.test("the String component says 'string'", async (t) => {
   const { getByText } = render(String, {});
 
-  expect(getByText("string")).toBeInTheDocument();
+  t.ok(getByText("string"));
 });
 
-test("default M-lengths", () => {
+tap.test("default M-lengths", async (t) => {
   const { queryByText } = render(String, {});
 
-  expect(queryByText("≥ 0")).toBeNull();
-  expect(queryByText("MaxLength", { exact: false })).toBeNull();
+  t.ok(!queryByText("≥ 0"));
+  t.ok(!queryByText("MaxLength", { exact: false }));
 });
 
-test("minLength prop", () => {
+tap.test("minLength prop", async (t) => {
   const { getByText } = render(String, {
     props: { definition: { minLength: 3, maxLength: 100, pattern: "*" } },
   });
 
-  expect(getByText("≥ 3")).toBeInTheDocument();
+  t.ok(getByText("≥ 3"));
 
   //renders &lt; and &gt; but not &infin; (it presents nothing in the infin case so
   //not the default
-  expect(getByText("≤ 100")).toBeInTheDocument();
-  expect(getByText("value matches pattern *")).toBeInTheDocument();
+  ["≤ 100", "value matches pattern *"].forEach((text) => t.ok(getByText(text)));
 });
 
-test("format", async () => {
+tap.test("format", async (t) => {
   const { getByText } = render(String, {
     props: {
       definition: { format: "date-time" },
     },
   });
 
-  expect(getByText("date-time")).toBeInTheDocument();
+  t.ok(getByText("date-time"));
 });

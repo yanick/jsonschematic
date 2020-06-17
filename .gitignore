@@ -6,3 +6,5 @@ yarn-error.log
 /__sapper__/
 pnpm-lock.yaml
 GPUCache/
+.nyc_output
+pnpm-debug.log
