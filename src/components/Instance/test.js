@@ -1,17 +1,19 @@
-import "@testing-library/jest-dom/extend-expect";
+import tap from "tap";
+
+require("../../tests/svelte_loader");
 
 import { render } from "@testing-library/svelte";
 
-import Instance from ".";
+const Instance = require("./index.svelte");
 
-test("we grok boolean type", () => {
+tap.test("we grok boolean type", async (t) => {
   const { getByText } = render(Instance, { definition: { type: "boolean" } });
 
-  expect(getByText("boolean")).toBeInTheDocument();
+  t.ok(getByText("boolean"));
 });
 
-test("default", () => {
+tap.test("default", async (t) => {
   const { getByText } = render(Instance, { definition: { default: "potato" } });
 
-  expect(getByText('"potato"')).toBeInTheDocument();
+  t.ok(getByText('"potato"'));
 });

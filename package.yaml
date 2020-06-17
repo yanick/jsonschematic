@@ -23,16 +23,6 @@ eslintConfig:
     - files: ["*.svelte"]
       processor: "svelte3/svelte3"
 
-jest:
-  moduleFileExtensions:
-    - js
-    - svelte
-  setupFilesAfterEnv:
-    - "@testing-library/jest-dom/extend-expect"
-  transform:
-    ^.+\.js$: babel-jest
-    ^.+\.svelte$: svelte-jester
-
 prettier:
   svelteSortOrder: markup-scripts-styles
   svelteStrictMode: true
@@ -50,7 +40,7 @@ scripts:
 
   package: ./scripts/merge_package.pl
 
-  test: jest src
+  test: tap 'src/**/test.js' --no-coverage
 
   "lint:prettier": ./scripts/prettier
   "lint:eslint": ./scripts/eslint

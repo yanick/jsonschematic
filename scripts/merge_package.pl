@@ -40,11 +40,9 @@ my $mergers = delete $yaml->{_merge};
 
 my $result = merge( { $json->%{@$mergers} }, $yaml );
 
-my $json = to_json $result, {
-        pretty => 1,
-        canonical => 1,
-        space_before => 0,
-    };
+my $encoder = JSON->new->pretty->canonical->space_before(0);
+
+my $json = $encoder->encode($result);
 
 $json =~ s/(^|\G)   /  /g;
 
