@@ -13,7 +13,7 @@
   export let title = "properties";
 
   import Property from "./Property.svelte";
-  const fp = require("lodash/fp");
+  import fp from "lodash/fp";
 
   let entries = [];
 
