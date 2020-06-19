@@ -1,7 +1,11 @@
 <Property name="examples" href="{href}/examples">
-  <pre>
-    <code>[{examples}]</code>
-  </pre>
+
+  {#each examples as example (example)}
+    <pre>
+      <code>{example}</code>
+    </pre>
+  {/each}
+
 </Property>
 
 <script>
@@ -11,5 +15,8 @@
 </script>
 
 <style>
-
+  pre {
+    margin-top: 0px;
+    margin-bottom: 0.5em;
+  }
 </style>
