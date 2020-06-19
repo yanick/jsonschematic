@@ -1,0 +1,21 @@
+name: Check for updates
+
+on:
+  schedule:
+    - cron: '3 3 * * 1' # every monday AM 3:03
+
+jobs:
+  npm:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: npm install
+    - uses: MeilCli/npm-update-check-action@v3
+      id: outdated
+    - uses: JasonEtco/create-an-issue@v2
+      if: steps.outdated.outputs.has_npm_update != 'false'
+      with:
+        filename: .github/updates.md
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        OUTDATED: ${{ steps.outdated.outputs.npm_update_text }}
