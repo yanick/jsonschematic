@@ -58,3 +58,14 @@ export const all_the_things = () => ({
     },
   },
 });
+
+export const enumerations = () => ({
+  Component: Instance,
+  props: {
+    definition: object("definition", {
+      title: "Things",
+      type: "string",
+      enum: ["a", "b"],
+    }),
+  },
+});
