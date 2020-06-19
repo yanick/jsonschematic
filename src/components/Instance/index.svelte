@@ -44,13 +44,13 @@
   {/if}
 
   {#if enumeration}
-    <Enum {enumeration} href="{href}" />
+    <Enum {enumeration} {href} />
   {/if}
 
   <Types href="{id}" {types} definition="{expanded_def}" />
 
   {#if examples}
-    <Examples {examples} href="{href}" />
+    <Examples {examples} {href} />
   {/if}
 
 </div>

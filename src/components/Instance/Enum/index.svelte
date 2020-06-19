@@ -1,4 +1,8 @@
-<Property name = "enum" href="{href}/enum"> <pre><code>[{enumeration}]</code></pre> </Property>
+<Property name="enum" href="{href}/enum">
+  <pre>
+    <code>[{enumeration}]</code>
+  </pre>
+</Property>
 
 <script>
   export let enumeration = [];
@@ -8,4 +12,5 @@
 </script>
 
 <style>
+
 </style>
