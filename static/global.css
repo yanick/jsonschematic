@@ -1,69 +1,77 @@
 :root {
-    /* scale: 1.125 /*
+  --font-scale-8: 0.7901rem;
+  --font-scale-9: 0.8889rem;
+  /* scale: 1.125 /*
     --font-scale-10: 1rem;
     --font-scale-11: 1.125rem;
     --font-scale-12: 1.2656rem;
 /* 22.78 */
-    --font-scale-13: 1.4238rem;
-/* 25.62px*/
-    --font-scale-14: 1.6018rem;
-/* 29px */
-    --font-scale-15: 1.8020rem;
+  --font-scale-13: 1.4238rem;
+  /* 25.62px*/
+  --font-scale-14: 1.6018rem;
+  /* 29px */
+  --font-scale-15: 1.802rem;
 
-    --color-base03:    #002b36;
-    --color-base02:    #073642;
-    --color-base01:    #586e75;
-    --color-base00:    #657b83;
-    --color-base0:     #839496;
-    --color-base1:     #93a1a1;
-    --color-base2:     #eee8d5;
-    --color-base3:     #fdf6e3;
-    --color-yellow:    #b58900;
-    --color-orange:    #cb4b16;
-    --color-red:       #dc322f;
-    --color-magenta:   #d33682;
-    --color-violet:    #6c71c4;
-    --color-blue:      #268bd2;
-    --color-cyan:      #2aa198;
-    --color-green:     #859900;
+  --color-base03: #002b36;
+  --color-base02: #073642;
+  --color-base01: #586e75;
+  --color-base00: #657b83;
+  --color-base0: #839496;
+  --color-base1: #93a1a1;
+  --color-base2: #eee8d5;
+  --color-base3: #fdf6e3;
+  --color-yellow: #b58900;
+  --color-orange: #cb4b16;
+  --color-red: #dc322f;
+  --color-magenta: #d33682;
+  --color-violet: #6c71c4;
+  --color-blue: #268bd2;
+  --color-cyan: #2aa198;
+  --color-green: #859900;
 }
 body {
-    background-color: var(--color-base3);
+  background-color: var(--color-base3);
 
-	margin: 0;
-	font-family: 'PT Sans', Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
-	color: var(--color-base01);
+  margin: 0;
+  font-family: "PT Sans", Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-base01);
 
-    padding-right: 1em;
+  padding-right: 1em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0 0 0.5em 0;
-	font-weight: 400;
-	line-height: 1.2;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.5em 0;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 h1 {
-	font-size: 2em;
+  font-size: 2em;
 }
 
 a {
-	color: inherit;
+  color: inherit;
 }
 
 code {
-	font-family: menlo, inconsolata, monospace;
-	font-size: calc(1em - 2px);
-	color: #555;
-	background-color: #f0f0f0;
-	padding: 0.2em 0.4em;
-	border-radius: 2px;
+  font-family: menlo, inconsolata, monospace;
+  font-size: calc(1em - 2px);
+  color: #555;
+  background-color: #f0f0f0;
+  padding: 0.2em 0.4em;
+  border-radius: 2px;
 }
 
 @media (min-width: 400px) {
-	body {
-		font-size: 16px;
-	}
+  body {
+    font-size: 16px;
+  }
 }

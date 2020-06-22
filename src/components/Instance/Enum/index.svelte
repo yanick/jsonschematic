@@ -1,14 +1,48 @@
 <Property name="enum" href="{href}/enum">
   <ul>
-    {#each enumeration as e (e)}
+    {#each display as e (e)}
       <li>{e}</li>
     {/each}
   </ul>
+
+  {#if enumeration.length > 1}
+    <div class="filter">
+      <input
+        class="label"
+        type="button"
+        value="filter..."
+        on:click="{toggle_filter}" />
+
+      {#if show_filter}
+        <input
+          class="filter_box"
+          bind:value="{filter}"
+          placeholder="filtering regex" />
+      {/if}
+    </div>
+  {/if}
 </Property>
 
 <script>
   export let enumeration = [];
   export let href = "";
+
+  let filter = "";
+  let display = [];
+  let show_filter = false;
+
+  function toggle_filter() {
+    show_filter = !show_filter;
+  }
+
+  $: {
+    if (!show_filter) {
+      display = enumeration;
+    } else {
+      let re = new RegExp(filter, "i");
+      display = enumeration.filter((e) => e !== null && e.match(re));
+    }
+  }
 
   import Property from "../Properties/Property.svelte";
 </script>
@@ -28,5 +62,12 @@
   }
   li {
     margin-right: 0.5em;
+  }
+  .filter input {
+    font-size: var(--font-scale-8);
+  }
+  .filter .filter_box {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 </style>

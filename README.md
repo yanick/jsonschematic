@@ -1,6 +1,6 @@
 # jsonschematic
 
-jsonschematic is a [json schema][] in the same vein as 
+jsonschematic is a [json schema][] in the same vein as
 [docson][].
 
 ## How to run
@@ -69,7 +69,7 @@ version of the sapper app running, do:
 
 ## Authors
 
-jsonschematic is developed under the auspice of 
+jsonschematic is developed under the auspice of
 [Infinity Interactive](https://www.iinteractive.com/).
 
 © 2020 Infinity Interactive
