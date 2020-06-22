@@ -1,32 +1,50 @@
-<input class="filter" bind:value={filter} placeholder="enum filtering regex"  on:focus={clearBox} on:input={filterEnum}/>
-<Property name="enum" href="{href}/enum" >
+<Property name="enum" href="{href}/enum">
   <ul>
     {#each display as e (e)}
       <li>{e}</li>
     {/each}
   </ul>
+
+  {#if enumeration.length > 1}
+    <div class="filter">
+      <input
+        class="label"
+        type="button"
+        value="filter..."
+        on:click="{toggle_filter}" />
+
+      {#if show_filter}
+        <input
+          class="filter_box"
+          bind:value="{filter}"
+          placeholder="filtering regex" />
+      {/if}
+    </div>
+  {/if}
 </Property>
 
 <script>
   export let enumeration = [];
   export let href = "";
 
-  let filter="";
+  let filter = "";
   let display = [];
+  let show_filter = false;
 
-  $: display=enumeration;
-
-  const clearBox = (event) => {
-    filter = "";
+  function toggle_filter() {
+    show_filter = !show_filter;
   }
 
-  const filterEnum = (event) => {
-    let re = new RegExp(filter,'i');
-    display = enumeration.filter( (e) => e !== null && e.match(re) );
+  $: {
+    if (!show_filter) {
+      display = enumeration;
+    } else {
+      let re = new RegExp(filter, "i");
+      display = enumeration.filter((e) => e !== null && e.match(re));
+    }
   }
 
   import Property from "../Properties/Property.svelte";
-
 </script>
 
 <style>
@@ -45,8 +63,11 @@
   li {
     margin-right: 0.5em;
   }
-  input.filter {
-    grid-column: span 2; 
-    width: min-content;
+  .filter input {
+    font-size: var(--font-scale-8);
+  }
+  .filter .filter_box {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 </style>
