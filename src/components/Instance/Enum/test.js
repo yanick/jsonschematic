@@ -1,7 +1,6 @@
 import tap from "tap"; require("../../../tests/svelte_loader");
 
-import { tick } from 'svelte';
-import { render, fireEvent } from '@testing-library/svelte';
+import { cleanup, render, fireEvent } from '@testing-library/svelte';
 
 const Enum = require("./index.svelte");
 
@@ -11,11 +10,11 @@ tap.test("we get our list ", async (t) => {
   t.ok(getByText("enum")); 
   t.ok(getByText("hoist"));
   t.ok(getByText("roger"));
+  cleanup();
 
 });
 
 
-/*
 tap.test('filters', async (t) => {
 
   const { queryByText, getByText, getByPlaceholderText, queryByPlaceholderText } = render(Enum, { enumeration: ["hoist","the","jolly","roger"] });
@@ -44,8 +43,8 @@ tap.test('filters', async (t) => {
   // hoist is still there, the is gone
   t.ok(getByText("hoist"));
   t.notOk(queryByText("the")); 
+  cleanup();
 
 })
-*/
 
 
