@@ -12,6 +12,8 @@ my @files = grep {
 @files = qw/ src / unless @files;
 
 my @ignore = (
+    qr/\.md$/,
+    qr/\.css$/,
     qr/package\.(json|yaml)/,
     qr#^scripts/#,
     qr#^\.#,
