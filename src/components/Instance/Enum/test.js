@@ -1,6 +1,6 @@
-import tap from "tap"; require("../../../tests/svelte_loader");
+const tap = require("../../../tests/svelte_loader");
 
-import { cleanup, render, fireEvent } from '@testing-library/svelte';
+import { render, fireEvent } from '@testing-library/svelte';
 
 const Enum = require("./index.svelte");
 
@@ -10,7 +10,6 @@ tap.test("we get our list ", async (t) => {
   t.ok(getByText("enum")); 
   t.ok(getByText("hoist"));
   t.ok(getByText("roger"));
-  cleanup();
 
 });
 
@@ -22,17 +21,17 @@ tap.test('filters', async (t) => {
   t.ok(getByText("enum")); 
   t.ok(getByText("the"));
 
-  const button = getByText("filter...");  
-  // the filter text box hasn't been drawn
-  t.notOk( queryByPlaceholderText("filtering regex")); 
-  
-  // click the filter button 
-  await fireEvent.click(button);                
+  const button = getByText("filter...");
+
+  t.notOk( queryByPlaceholderText("filtering regex"),"the filter text box hasn't been drawn");
+
+  // click the filter button
+  await fireEvent.click(button);
 
   // find the filter text box
-  const filterBox = getByPlaceholderText("filtering regex"); 
-  // it has no value yet
-  t.equal(filterBox.value, '');                              
+  const filterBox = getByPlaceholderText("filtering regex");
+
+  t.equal(filterBox.value, '', 'it has no value yet');
 
   // change doesn't cause the bind variables to change use input
   await fireEvent.input( filterBox, { target: { value: "hoist" }}); 
@@ -42,8 +41,7 @@ tap.test('filters', async (t) => {
   // now let's check that ouput has been filtered
   // hoist is still there, the is gone
   t.ok(getByText("hoist"));
-  t.notOk(queryByText("the")); 
-  cleanup();
+  t.notOk(queryByText("the"));
 
 })
 
