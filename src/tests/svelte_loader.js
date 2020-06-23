@@ -8,3 +8,11 @@ const extensionHook = svelte(undefined, compilerOptions);
 hooks(".svelte").push(extensionHook);
 
 require("jsdom-global")();
+
+import tap from "tap";
+
+import { cleanup } from "@testing-library/svelte";
+
+tap.afterEach(async () => cleanup());
+
+module.exports = tap;
