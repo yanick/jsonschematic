@@ -14,7 +14,7 @@
 
   import Property from "./Property.svelte";
   //import fp from "lodash/fp";
-  const fp =  require("lodash/fp");
+  const fp = require("lodash/fp");
 
   let entries = [];
 
