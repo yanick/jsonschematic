@@ -4,7 +4,8 @@
       <li>&times;{multipleOf}</li>
     {/if}
 
-    <Range min="{minimum}" max="{maximum}" />
+    <Range min="{minimum}" exclusive="{exclusiveMinimum}" />
+    <Range max="{maximum}" exclusive="{exclusiveMaximum}" />
     <Range min="{exclusiveMinimum}" max="{exclusiveMaximum}" exclusive="true" />
 
   </ul>
