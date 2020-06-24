@@ -1,13 +1,8 @@
 <Type name="string">
 
   <ul>
-    {#if minLength != undefined}
-      <li>&ge; {minLength}</li>
-    {/if}
 
-    {#if maxLength != undefined}
-      <li>&le; {maxLength}</li>
-    {/if}
+    <Range min={minLength} max={maxLength}/>
 
     {#if pattern}
       <li>value matches pattern {pattern}</li>
@@ -38,6 +33,7 @@
   const tippy = tippy_orig || (() => {});
 
   import Type from "../Type.svelte";
+  import Range from "../Range.svelte";
 
   import formats from "./formats";
 
