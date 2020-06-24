@@ -17,12 +17,14 @@
   export let max;
   export let exclusive = false;
 
-  function isNumber(n){ return (+n === n) };
+  function isNumber(n) {
+    return +n === n;
+  }
 
   min = isNumber(min) ? min : undefined;
   max = isNumber(max) ? max : undefined;
 
-  if ( exclusive !== undefined && isNumber(exclusive) ) {
+  if (exclusive !== undefined && isNumber(exclusive)) {
     exclusive = false;
   }
 
