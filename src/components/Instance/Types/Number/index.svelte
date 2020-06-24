@@ -4,8 +4,8 @@
       <li>&times;{multipleOf}</li>
     {/if}
 
-    <Range min={minimum} max={maximum}/>
-    <Range min={exclusiveMinimum} max={exclusiveMaximum} exclusive=true/>
+    <Range min="{minimum}" max="{maximum}" />
+    <Range min="{exclusiveMinimum}" max="{exclusiveMaximum}" exclusive="true" />
   </ul>
 </Type>
 
@@ -18,7 +18,13 @@
 
   export let definition = {};
 
-  $: ({multipleOf, minimum, maximum, exclusiveMaximum, exclusiveMinimum} = definition); 
+  $: ({
+    multipleOf,
+    minimum,
+    maximum,
+    exclusiveMaximum,
+    exclusiveMinimum,
+  } = definition);
   import Type from "../Type.svelte";
   import Range from "../Range.svelte";
 </script>
