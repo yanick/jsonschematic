@@ -2,7 +2,7 @@
 
   <ul>
 
-    <Range min={minLength} max={maxLength}/>
+    <Range min="{minLength}" max="{maxLength}" />
 
     {#if pattern}
       <li>value matches pattern {pattern}</li>
