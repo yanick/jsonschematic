@@ -6,7 +6,6 @@
 
 <script>
   export let definitions = {}; //definitions section of the schema
-  export let select_instance; //handler function
   export let base_url = ""; //main schema url
 
   let definition_names = [];
