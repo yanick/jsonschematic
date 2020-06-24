@@ -7,7 +7,6 @@
       </dt>
       <dd>
         <Definitions
-          {select_instance}
           definitions="{schema_definitions[schema]}"
           base_url="{schema}" />
       </dd>
