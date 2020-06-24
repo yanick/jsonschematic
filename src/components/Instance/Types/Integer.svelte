@@ -1,14 +1,14 @@
 <Type name="integer">
-  {#if multipleOf !== undefined}
-    <li>&times;{multipleOf}</li>
-  {/if}
+  <ul>
+    {#if multipleOf !== undefined}
+      <li>&times;{multipleOf}</li>
+    {/if}
 
-  {#if minimum !== undefined || maximum !== undefined}
-    <li>
-      {exclusiveMinimum ? ']' : ''} {minimum !== undefined ? minimum : ''} ... {maximum !== undefined ? maximum : ''}
-      {exclusiveMaximum ? '[' : ''}
-    </li>
-  {/if}
+    <Range min={minimum} max={maximum}/>
+    <Range min={exclusiveMinimum} max={exclusiveMaximum} exclusive=true/>
+
+  </ul>
+
 </Type>
 
 <script>
@@ -17,8 +17,14 @@
   export let maximum;
   export let exclusiveMaximum;
   export let exclusiveMinimum;
+  export let definition = {};
 
   import Type from "./Type.svelte";
+  import Range from "./Range.svelte";
+
+   $: ({ multipleOf, minimum, maximum, exclusiveMaximum, exclusiveMinimum} = definition);
+
+
 </script>
 
 <style>
