@@ -1,4 +1,4 @@
-<Type name="number">
+<Type {name}>
   <ul>
     {#if multipleOf !== undefined}
       <li>&times;{multipleOf}</li>
@@ -16,6 +16,7 @@
   export let maximum;
   export let exclusiveMinimum;
   export let exclusiveMaximum;
+  export let name = "number";
 
   export let definition = {};
 

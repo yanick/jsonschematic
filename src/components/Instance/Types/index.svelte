@@ -9,7 +9,7 @@
 
   import ArrayType from "./Array/index.svelte";
   import NumberType from "./Number/index.svelte";
-  import IntegerType from "./Integer.svelte";
+  import IntegerType from "./Integer/index.svelte";
   import StringType from "./String/index.svelte";
   import BooleanType from "./Boolean/index.svelte";
   import ObjectType from "./ObjectType/index.svelte";
