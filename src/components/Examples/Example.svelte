@@ -1,20 +1,17 @@
 <div>
-  <pre><code>{ JSON.stringify(definition,null,2) }</code></pre>
+  <pre><code>{ JSON.stringify(clean_def,null,2) }</code></pre>
   <div>
   <Instance {definition} />
 </div>
 </div>
 
 <script>
-   export let title;
-   export let def;
-
+  export let definition = {};
   import Instance from '../Instance/index.svelte';
+  import fp from 'lodash/fp';
 
-  let definition = {};
-
-  $: definition = { ...def, title };
-
+  let clean_def = definition;
+  $: clean_def = fp.omit('keywords',definition);
 </script>
 
 <style>

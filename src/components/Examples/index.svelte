@@ -4,8 +4,8 @@
   {/if}
 </h1>
 
-{#each filtered_examples as example (example.title)}
-  <Example  {...example} />
+{#each filtered_examples as definition (definition.title)}
+  <Example {definition} />
 {/each}
 
 <svelte:window on:hashChange={hash_change} />
@@ -29,8 +29,6 @@
 
   $: filtered_examples = selected_keywords ?examples.filter(
     ({keywords}) => {
-      console.log({keywords,selected_keywords});
-
       return keywords.some( k => selected_keywords.includes(k) )
     }
 
