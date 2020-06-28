@@ -109,7 +109,7 @@
     }
   }
 
-  $: if (!id) id = href;
+  $: if (!id) id = href || '';
   $: if (id && -1 === id.indexOf("#")) id = id + "#";
 
   const fetch_ref = async () => {
