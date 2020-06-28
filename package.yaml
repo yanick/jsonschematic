@@ -30,6 +30,7 @@ prettier:
 scripts:
   promake: ./Promake
   build: sapper build --legacy
+  "build:docs": webpack
   cy:open: cypress open
   cy:run: cypress run
   dev: sapper dev
