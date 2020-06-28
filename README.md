@@ -18,7 +18,7 @@ version of the sapper app running, do:
 - [ ] [$ref](https://yanick.github.io/jsonschematic/#$ref)
 - [ ] [$schema](https://yanick.github.io/jsonschematic/#$schema)
 
-- [x] [title](https://yanick.github.io/jsonschematic/#title)
+- :tada: [title](https://yanick.github.io/jsonschematic/#title)
 
 - [ ] [type](https://yanick.github.io/jsonschematic/#type)
     - [x] [number](https://yanick.github.io/jsonschematic/#number) 
