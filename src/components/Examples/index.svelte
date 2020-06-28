@@ -82,6 +82,6 @@
     }
 
     .body > div {
-        flex: 10%;
+        width: 10%;
     }
 </style>
