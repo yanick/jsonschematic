@@ -39,11 +39,22 @@
 
   export let definition = {};
 
-  let minLength, maxLength, pattern, format, format_tip,
-    contentEncoding, contentMediaType;
+  let minLength,
+    maxLength,
+    pattern,
+    format,
+    format_tip,
+    contentEncoding,
+    contentMediaType;
 
-  $: ({ minLength, maxLength, pattern, format, contentEncoding,
-    contentMediaType } = definition);
+  $: ({
+    minLength,
+    maxLength,
+    pattern,
+    format,
+    contentEncoding,
+    contentMediaType,
+  } = definition);
 
   $: format_tip = formats[format] || "no tip";
 </script>
