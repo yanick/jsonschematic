@@ -1,4 +1,9 @@
 export default [
+    { title: "string w/ content type and encoding",
+        type: "string",
+        contentEncoding: "base64",
+        contentMediaType: "image/png",
+    },
     { title: "object with properties", type: "object", properties: {
         foo: { type: "string" },
         bar: { type: "number" },
@@ -6,7 +11,7 @@ export default [
     { title: "string with a date-time format", type: "string", format: "date-time", description: "the format comes with a tooltip too! Hover over the format to see it." },
     { title: "examples", type: "number", examples: [ 1, 2, 3 ] },
     { title: "object examples", type: "object", examples: [ { level: 3 } ] },
-    { 
+    {
         title: "array type",
         type: "array",
         maxItems: 10,

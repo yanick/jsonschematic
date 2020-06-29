@@ -20,6 +20,15 @@
         {format}
       </li>
     {/if}
+
+    {#if contentEncoding}
+      <li>encoding: {contentEncoding}</li>
+    {/if}
+
+    {#if contentMediaType}
+      <li>media type: {contentMediaType}</li>
+    {/if}
+
   </ul>
 
 </Type>
@@ -34,9 +43,11 @@
 
   export let definition = {};
 
-  let minLength, maxLength, pattern, format, format_tip;
+  let minLength, maxLength, pattern, format, format_tip,
+    contentEncoding, contentMediaType;
 
-  $: ({ minLength, maxLength, pattern, format } = definition);
+  $: ({ minLength, maxLength, pattern, format, contentEncoding,
+    contentMediaType } = definition);
 
   $: format_tip = formats[format] || "no tip";
 </script>
