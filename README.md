@@ -48,6 +48,8 @@ version of the sapper app running, do:
   - [x] [object](https://yanick.github.io/jsonschematic/#object)
     - [x] [properties](https://yanick.github.io/jsonschematic/#properties)
     - [x] [required](https://yanick.github.io/jsonschematic/#required)
+    - [x] [maxProperties](https://yanick.github.io/jsonschematic/#maxProperties)
+    - [x] [minProperties](https://yanick.github.io/jsonschematic/#minProperties)
   - [ ] type as an array of types
 
 - [ ] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
@@ -61,8 +63,6 @@ version of the sapper app running, do:
   - [x] scalar values
   - [ ] data structures [issue #66](https://github.com/yanick/jsonschematic/issues/66)
 - [ ] [dependencies](https://yanick.github.io/jsonschematic/#dependencies)
-- [ ] [maxProperties](https://yanick.github.io/jsonschematic/#maxProperties)
-- [ ] [minProperties](https://yanick.github.io/jsonschematic/#minProperties)
 - [ ] [not](https://yanick.github.io/jsonschematic/#not)
 - [ ] [null](https://yanick.github.io/jsonschematic/#null)
 - [ ] [oneOf](https://yanick.github.io/jsonschematic/#oneOf)

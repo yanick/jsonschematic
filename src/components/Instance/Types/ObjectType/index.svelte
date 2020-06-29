@@ -1,4 +1,10 @@
 <Type name="object">
+  <ul>
+    {#if minProperties || maxProperties}
+      <li>nbr properties: {minProperties || ''}...{maxProperties || ''}</li>
+    {/if}
+  </ul>
+
   {#if required.length}
     <div class="label">required</div>
     <div>
@@ -17,13 +23,14 @@
 <script>
   import Type from "../Type.svelte";
   import Properties from "../../Properties/index.svelte";
+  import Restraints from "../Restraints.svelte";
 
   export let definition;
   export let href;
 
-  let properties;
+  let properties, minProperties, maxProperties;
   let required = [];
-  $: ({ properties, required = [] } = definition);
+  $: ({ properties, required = [], minProperties, maxProperties } = definition);
 </script>
 
 <style>
