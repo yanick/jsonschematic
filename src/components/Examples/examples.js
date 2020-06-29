@@ -16,12 +16,13 @@ export default [
     contentMediaType: "image/png",
   },
   {
-    title: "object with properties",
+    title: "object with properties, and required",
     type: "object",
     properties: {
       foo: { type: "string" },
       bar: { type: "number" },
     },
+    required: ["foo"],
   },
   {
     title: "string with a date-time format",

@@ -47,6 +47,7 @@ version of the sapper app running, do:
   - [x] [const](https://yanick.github.io/jsonschematic/#const)
   - [x] [object](https://yanick.github.io/jsonschematic/#object)
     - [x] [properties](https://yanick.github.io/jsonschematic/#properties)
+    - [x] [required](https://yanick.github.io/jsonschematic/#required)
   - [ ] type as an array of types
 
 - [ ] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
@@ -68,7 +69,6 @@ version of the sapper app running, do:
 - [ ] [pattern](https://yanick.github.io/jsonschematic/#pattern)
 - [ ] [patternProperties](https://yanick.github.io/jsonschematic/#patternProperties)
 - [ ] [propertyNames](https://yanick.github.io/jsonschematic/#propertyNames)
-- [ ] [required](https://yanick.github.io/jsonschematic/#required)
 - [ ] [readOnly](https://yanick.github.io/jsonschematic/#readOnly)
 - [ ] [writeOnly](https://yanick.github.io/jsonschematic/#writeOnly)
 - [ ] [if](https://yanick.github.io/jsonschematic/#if)
