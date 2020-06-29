@@ -1,3 +1,4 @@
 scripts/*
 .prettierignore
 package.json
+docs/*

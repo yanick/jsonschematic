@@ -47,6 +47,10 @@
     <Enum {enumeration} {href} />
   {/if}
 
+  {#if constant}
+    <Enum enumeration="{[constant]}" constant {href} />
+  {/if}
+
   <Types href="{id}" {types} definition="{expanded_def}" />
 
   {#if examples}
@@ -79,6 +83,7 @@
     properties,
     examples,
     enumeration,
+    constant,
     default_value;
   let expanded_ref = {};
   let loading_ref = false;
@@ -100,6 +105,7 @@
       examples,
       $ref: ref,
       enum: enumeration,
+      const: constant,
       properties,
     } = expanded_def);
 
@@ -109,7 +115,7 @@
     }
   }
 
-  $: if (!id) id = href || '';
+  $: if (!id) id = href || "";
   $: if (id && -1 === id.indexOf("#")) id = id + "#";
 
   const fetch_ref = async () => {

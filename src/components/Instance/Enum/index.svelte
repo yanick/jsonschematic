@@ -1,4 +1,4 @@
-<Property name="enum" href="{href}/enum">
+<Property {name} href="{href}/{name}">
   <ul>
     {#each display as e (e)}
       <li>{e}</li>
@@ -26,6 +26,9 @@
 <script>
   export let enumeration = [];
   export let href = "";
+  export let constant = false;
+
+  let name = constant ? "const" : "enum";
 
   let filter = "";
   let display = [];
