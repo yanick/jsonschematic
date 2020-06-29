@@ -13,6 +13,7 @@
   import StringType from "./String/index.svelte";
   import BooleanType from "./Boolean/index.svelte";
   import ObjectType from "./ObjectType/index.svelte";
+  import Null from "./Null/index.svelte";
 
   const type_components = {
     object: ObjectType,
@@ -21,6 +22,7 @@
     string: StringType,
     boolean: BooleanType,
     integer: IntegerType,
+    null: Null,
   };
 
   const comp_for = (type) => type_components[type];

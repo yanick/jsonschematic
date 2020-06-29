@@ -1,5 +1,9 @@
 export default [
   {
+    title: "null type",
+    type: "null",
+  },
+  {
     title: "string w/ enum",
     type: "string",
     enum: ["potato", "cauliflower", "beet"],
