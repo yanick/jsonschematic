@@ -17,17 +17,20 @@
   export let max;
   export let exclusive = false;
 
-  function isNumber(n) {
-    return +n === n;
+  let greater = "";
+  let less = "";
+
+  //coerce the variable to numeric and see if it's still strictly equal to itself
+  const isNumber = (n) => +n === n;
+
+  $: {
+    min = isNumber(min) ? min : undefined;
+    max = isNumber(max) ? max : undefined;
+    if (isNumber(exclusive)) {
+      exclusive = false;
+    }
+
+    greater = exclusive ? ">" : "&ge;";
+    less = exclusive ? "<" : "&le;";
   }
-
-  min = isNumber(min) ? min : undefined;
-  max = isNumber(max) ? max : undefined;
-
-  if (exclusive !== undefined && isNumber(exclusive)) {
-    exclusive = false;
-  }
-
-  const greater = exclusive ? ">" : "&ge;";
-  const less = exclusive ? "<" : "&le;";
 </script>
