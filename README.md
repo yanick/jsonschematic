@@ -14,7 +14,7 @@ version of the sapper app running, do:
 ## Supported JSON Schema keywords
 
 - [ ] [\$comment](https://yanick.github.io/jsonschematic/#$comment)
-- [ ] [\$id](https://yanick.github.io/jsonschematic/#$id)
+- [x] [\$id](https://yanick.github.io/jsonschematic/#$id)
 - [x] [\$ref](https://yanick.github.io/jsonschematic/#$ref)
 - [x] [\$schema](https://yanick.github.io/jsonschematic/#$schema)
 
@@ -24,11 +24,11 @@ version of the sapper app running, do:
 
   - [x] [integer](https://yanick.github.io/jsonschematic/#integer)
   - [x] [number](https://yanick.github.io/jsonschematic/#number)
-    - [ ] [minimum](https://yanick.github.io/jsonschematic/#minimum)
-    - [ ] [maximum](https://yanick.github.io/jsonschematic/#maximum)
-    - [ ] [exclusiveMaximum](https://yanick.github.io/jsonschematic/#exclusiveMaximum)
-    - [ ] [exclusiveMinimum](https://yanick.github.io/jsonschematic/#exclusiveMinimum)
-    - [ ] [multipleOf](https://yanick.github.io/jsonschematic/#multipleOf)
+    - [x] [minimum](https://yanick.github.io/jsonschematic/#minimum)
+    - [x] [maximum](https://yanick.github.io/jsonschematic/#maximum)
+    - [x] [exclusiveMaximum](https://yanick.github.io/jsonschematic/#exclusiveMaximum)
+    - [x] [exclusiveMinimum](https://yanick.github.io/jsonschematic/#exclusiveMinimum)
+    - [x] [multipleOf](https://yanick.github.io/jsonschematic/#multipleOf)
   - [x] [string](https://yanick.github.io/jsonschematic/#string)
     - [x] [minLength](https://yanick.github.io/jsonschematic/#minLength)
     - [x] [maxLength](https://yanick.github.io/jsonschematic/#maxLength)
