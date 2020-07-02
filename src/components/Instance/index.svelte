@@ -19,7 +19,7 @@
     <div class="description">{description}</div>
   {/if}
 
-  {#if default_value}
+  {#if default_value !== undefined}
     <div class="label">default</div>
     <pre>
       <code>{JSON.stringify(default_value, null, 2)}</code>

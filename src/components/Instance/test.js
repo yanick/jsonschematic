@@ -7,9 +7,9 @@ import { render } from "@testing-library/svelte";
 const Instance = require("./index.svelte");
 
 tap.test("we grok boolean type", async (t) => {
-  const { getByText } = render(Instance, { definition: { type: "boolean" } });
-
+  const { getByText } = render(Instance, { definition: { type: "boolean", default: false } });
   t.ok(getByText("boolean"));
+  t.ok(getByText("default"));
 });
 
 tap.test("default", async (t) => {
