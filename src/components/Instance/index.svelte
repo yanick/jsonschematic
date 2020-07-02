@@ -19,6 +19,8 @@
     <div class="description">{description}</div>
   {/if}
 
+  <Dependencies {dependencies} />
+
   {#if default_value !== undefined}
     <div class="label">default</div>
     <pre>
@@ -66,12 +68,14 @@
   export let href;
   export let fetch_segment = store.fetch_segment;
   export let top_level = false;
+  export let dependencies = false;
 
   import Types from "./Types/index.svelte";
   import Items from "./Items/index.svelte";
   import Examples from "./Examples/index.svelte";
   import Enum from "./Enum/index.svelte";
   import Properties from "./Properties/index.svelte";
+  import Dependencies from './Dependencies.svelte';
 
   let schema,
     types,

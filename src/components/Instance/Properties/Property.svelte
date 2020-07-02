@@ -6,6 +6,8 @@
 <script>
   export let name;
   export let required = false;
+  console.log({required});
+
 </script>
 
 <style>

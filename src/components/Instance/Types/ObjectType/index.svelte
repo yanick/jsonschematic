@@ -16,7 +16,9 @@
     </div>
   {/if}
   {#if properties}
-    <Properties {properties} {required} href="{`${href}/properties`}" />
+    <Properties {properties}
+      {dependencies}
+      {required} href="{`${href}/properties`}" />
   {/if}
 </Type>
 
@@ -28,9 +30,10 @@
   export let definition;
   export let href;
 
-  let properties, minProperties, maxProperties;
+  let properties, minProperties, maxProperties, dependencies;
   let required = [];
-  $: ({ properties, required = [], minProperties, maxProperties } = definition);
+  $: ({ properties, required = [], minProperties, maxProperties, dependencies
+  = {} } = definition);
 </script>
 
 <style>
