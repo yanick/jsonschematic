@@ -17,8 +17,10 @@
 
   import Property from "./Property.svelte";
   import { sortBy, flow, toPairs } from 'lodash/fp';
-  /* import Instance from "../index.svelte"; */
-  const Instance = require('Instance');
+  const Instance = require('../index.svelte').default;
+
+  console.log({Instance});
+
 
   let entries = [];
 
@@ -27,12 +29,11 @@
 
   $: console.log({properties});
   $: {
-    entries = toPairs(properties);
-    /* entries = flow([ */
-    /*   //Object.entries, */
-    /*   //   sort_by_name, */
-    /*   //  sort_by_required */
-    /* ])(properties); */
+    entries = flow([
+      Object.entries,
+         sort_by_name,
+        sort_by_required
+    ])(properties);
   }
 
   $: console.log({Instance});

@@ -36,6 +36,7 @@
       "prettier": "2.0.5",
       "prettier-plugin-svelte": "1.1.0",
       "require-extension-hooks": "^0.3.3",
+      "require-extension-hooks-module": "^0.1.4",
       "sapper": "0.27.16",
       "standard-version": "8.0.0",
       "svelte": "3.23.2",
