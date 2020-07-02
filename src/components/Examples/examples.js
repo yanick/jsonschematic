@@ -1,5 +1,21 @@
 export default [
   {
+    title: "property dependencies",
+    type: "object",
+
+    properties: {
+      name: { type: "string" },
+      credit_card: { type: "number" },
+      billing_address: { type: "string" },
+    },
+
+    required: ["name"],
+
+    dependencies: {
+      credit_card: ["billing_address"],
+    },
+  },
+  {
     title: "null type",
     type: "null",
   },
