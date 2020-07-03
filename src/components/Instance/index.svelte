@@ -53,7 +53,16 @@
     <Enum enumeration="{[constant]}" constant {href} />
   {/if}
 
-  <Types href="{id}" {types} definition="{expanded_def}" />
+  <ul class="types">
+  {#each types as type (type)}
+    <li>{type}</li>
+  {/each}
+  </ul>
+
+  <ArrayRestraints {...expanded_def} {href} />
+  <StringRestraints {...expanded_def} {href} />
+  <NumberRestraints {...expanded_def} {href} />
+  <ObjectRestraints {...expanded_def} {href} />
 
   {#if examples}
     <Examples {examples} {href} />
@@ -70,12 +79,15 @@
   export let top_level = false;
   export let dependencies = false;
 
-  import Types from "./Types/index.svelte";
   import Items from "./Items/index.svelte";
   import Examples from "./Examples/index.svelte";
   import Enum from "./Enum/index.svelte";
   import Properties from "./Properties/index.svelte";
   import Dependencies from './Dependencies.svelte';
+  import ArrayRestraints from './ArrayRestraints/index.svelte';
+  import StringRestraints from './StringRestraints/index.svelte';
+  import NumberRestraints from './NumberRestraints/index.svelte';
+  import ObjectRestraints from './ObjectRestraints/index.svelte';
 
   let schema,
     types,
@@ -187,6 +199,14 @@
     grid-column: span 2;
     color: var(--color-blue);
     font-size: var(--font-scale-10);
+  }
+
+  .types {
+    grid-column: span 2;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: var(--color-cyan);
   }
 
   .top_level > .title {

@@ -1,4 +1,3 @@
-<Type name="array">
   <ul>
     {#if maxItems || minItems}
       <li>items: {minItems || ''}...{maxItems || ''}</li>
@@ -17,30 +16,18 @@
     <Items {items} href="{`${href}/items`}" />
   {/if}
 
-</Type>
-
 <script>
   export let definition = {};
   export let href = "";
 
-  let maxItems;
-  let minItems;
-  let uniqueItems = false;
-  let maxContains;
-  let minContains;
-  let items;
+  export let maxItems;
+  export let minItems;
+  export let uniqueItems = false;
+  export let maxContains;
+  export let minContains;
+  export let items;
 
-  $: ({
-    maxItems,
-    minItems,
-    uniqueItems,
-    maxContains,
-    minContains,
-    items,
-  } = definition);
-
-  import Type from "../Type.svelte";
-  import Items from "../../Items/index.svelte";
+  import Items from "../Items/index.svelte";
 </script>
 
 <style>
@@ -56,6 +43,7 @@
     display: flex;
     padding: 0px;
     margin: 0px;
+    grid-column: span 2;
   }
   li {
     margin-right: 0.25em;

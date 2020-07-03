@@ -1,4 +1,4 @@
-<div>{title}</div>
+<div class="title">{title}</div>
 
 {#each entries as [name, definition] (name)}
   <Property {name} required={required.includes(name)}>
@@ -46,18 +46,8 @@
 </script>
 
 <style>
-  div {
+  div.title {
     grid-column: span 2;
     font-weight: bold;
-  }
-
-  thead th {
-    text-align: left;
-  }
-  div div {
-    margin-left: 1em;
-  }
-  table {
-    margin-bottom: 1em;
   }
 </style>
