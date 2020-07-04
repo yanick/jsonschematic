@@ -1,26 +1,18 @@
-require("../../../../tests/svelte_loader");
-
-import tap from "tap";
+const tap = require("../../tests/svelte_loader");
 import { render } from "@testing-library/svelte";
 
-const String = require("./index.svelte");
-
-tap.test("the String component says 'string'", async (t) => {
-  const { getByText } = render(String, {});
-
-  t.ok(getByText("string"));
-});
+const Instance = require("./index.svelte");
 
 tap.test("default M-lengths", async (t) => {
-  const { queryByText } = render(String, {});
+  const { queryByText } = render(Instance, {definition: {type: 'string'}});
 
   t.ok(!queryByText("≥ 0"));
   t.ok(!queryByText("MaxLength", { exact: false }));
 });
 
 tap.test("minLength prop", async (t) => {
-  const { getByText } = render(String, {
-    props: { definition: { minLength: 3, maxLength: 100, pattern: "*" } },
+  const { getByText } = render(Instance, {
+      props: { definition: { minLength: 3, maxLength: 100, pattern: "*", type: 'string' } },
   });
 
   t.ok(getByText("≥ 3"));
@@ -31,9 +23,9 @@ tap.test("minLength prop", async (t) => {
 });
 
 tap.test("format", async (t) => {
-  const { getByText } = render(String, {
+  const { getByText } = render(Instance, {
     props: {
-      definition: { format: "date-time" },
+        definition: { type: 'string', format: "date-time" },
     },
   });
 
