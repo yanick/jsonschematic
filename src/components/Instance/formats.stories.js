@@ -1,15 +1,15 @@
 import { storiesOf } from "@storybook/svelte";
 
-import String from ".";
+import Instance from ".";
 
 const stories = storiesOf("Types/String/Format", module);
 
-import formats from "./formats";
+import formats from "./Types/String/formats";
 
 const fstory = (format) => () => ({
-  Component: String,
+  Component: Instance,
   props: {
-    definition: { format },
+      definition: { type: "string", format },
   },
 });
 

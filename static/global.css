@@ -39,7 +39,7 @@ body {
   line-height: 1.5;
   color: var(--color-base01);
 
-  padding-right: 1em;
+  padding: 1em;
 }
 
 h1,
@@ -80,5 +80,21 @@ ul.restraint-list {
     list-style: none;
     padding: 0px;
     margin: 0px;
+    margin-left: 0.5em;
+    grid-column: span 2;
+    display: flex;
 } 
 
+
+ul.restraint-list > li {
+    margin-right: 0.5em;
+    font-style: italic;
+}
+
+ul.restraint-list > li:after {
+    content: ",";
+}
+
+ul.restraint-list > li:last-child:after {
+    content: "";
+}
