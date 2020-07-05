@@ -76,7 +76,7 @@
    "name": "jsonschematic",
    "prettier": {
       "svelteSortOrder": "markup-scripts-styles",
-      "svelteStrictMode": true
+      "svelteStrictMode": false
    },
    "scripts": {
       "build": "sapper build --legacy",
@@ -96,7 +96,7 @@
       "release": "standard-version",
       "start": "node __sapper__/build",
       "storybook": "start-storybook",
-      "test": "tap 'src/**/test.js' --no-coverage"
+      "test": "tap 'src/**/*test.js' --no-coverage"
    },
    "standard-version": {},
    "version": "0.0.0"

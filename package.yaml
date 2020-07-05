@@ -25,7 +25,7 @@ eslintConfig:
 
 prettier:
   svelteSortOrder: markup-scripts-styles
-  svelteStrictMode: true
+  svelteStrictMode: false
 
 scripts:
   promake: ./Promake
@@ -41,7 +41,7 @@ scripts:
 
   package: ./scripts/merge_package.pl
 
-  test: tap 'src/**/test.js' --no-coverage
+  test: tap 'src/**/*test.js' --no-coverage
 
   "lint:prettier": ./scripts/prettier
   "lint:eslint": ./scripts/eslint
