@@ -127,7 +127,7 @@
 
     // always pass an array, to make it easier
     if (!Array.isArray(types)) {
-      types = [types];
+      types = types ? [types] : [];
     }
   }
 
