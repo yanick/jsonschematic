@@ -82,6 +82,7 @@ From the repo:
 - [x] [allOf](https://yanick.github.io/jsonschematic/#allOf)
 - [x] [anyOf](https://yanick.github.io/jsonschematic/#anyOf)
 - [x] [oneOf](https://yanick.github.io/jsonschematic/#oneOf)
+- [x] [not](https://yanick.github.io/jsonschematic/#not)
 
 - [ ] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
 - [ ] [additionalProperties](https://yanick.github.io/jsonschematic/#additionalProperties)
@@ -91,7 +92,6 @@ From the repo:
 - [ ] [examples](https://yanick.github.io/jsonschematic/#examples)
   - [x] scalar values
   - [ ] data structures [issue #66](https://github.com/yanick/jsonschematic/issues/66)
-- [ ] [not](https://yanick.github.io/jsonschematic/#not)
 - [ ] [pattern](https://yanick.github.io/jsonschematic/#pattern)
 - [ ] [patternProperties](https://yanick.github.io/jsonschematic/#patternProperties)
 - [ ] [propertyNames](https://yanick.github.io/jsonschematic/#propertyNames)

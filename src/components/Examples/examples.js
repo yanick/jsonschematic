@@ -1,5 +1,10 @@
 export default [
   {
+    title: "not",
+    type: "string",
+    not: { maxLength: 5 },
+  },
+  {
     title: "anyOf",
     anyOf: [
       { type: "string", maxLength: 5 },
