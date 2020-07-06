@@ -1,24 +1,24 @@
 <div class="top_viewer">
   <div class="schemas_column">
     <SchemasListing
-      on:select_instance="{updateInstance}"
-      schemas="{$schemas}"
-      selected_instance_url="{$selected_instance_url}" />
+      on:select_instance={updateInstance}
+      schemas={$schemas}
+      selected_instance_url={$selected_instance_url} />
   </div>
 
   <div class="instance_viewer">
     {#if $selected_instance}
       <Instance
         top_level
-        definition="{$selected_instance}"
-        href="{$selected_instance_url}" />
+        definition={$selected_instance}
+        href={$selected_instance_url} />
     {:else}
       <div>no schema selected</div>
     {/if}
   </div>
 </div>
 
-<svelte:window on:hashchange="{hash_change}" />
+<svelte:window on:hashchange={hash_change} />
 
 <script>
   import { onMount } from "svelte";

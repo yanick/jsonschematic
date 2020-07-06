@@ -16,9 +16,11 @@
     </div>
   {/if}
   {#if properties}
-    <Properties {properties}
+    <Properties
+      {properties}
       {dependencies}
-      {required} href="{`${href}/properties`}" />
+      {required}
+      href={`${href}/properties`} />
   {/if}
 </Type>
 
@@ -32,8 +34,13 @@
 
   let properties, minProperties, maxProperties, dependencies;
   let required = [];
-  $: ({ properties, required = [], minProperties, maxProperties, dependencies
-  = {} } = definition);
+  $: ({
+    properties,
+    required = [],
+    minProperties,
+    maxProperties,
+    dependencies = {},
+  } = definition);
 </script>
 
 <style>

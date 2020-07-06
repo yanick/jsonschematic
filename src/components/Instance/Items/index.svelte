@@ -1,6 +1,6 @@
 <div>items</div>
 
-<Instance {href} definition="{items}" />
+<Instance {href} definition={items} />
 
 <script>
   export let items = {};

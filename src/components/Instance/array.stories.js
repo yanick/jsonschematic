@@ -13,7 +13,7 @@ export const basic = () => ({
       minItems: number("minItems", 3),
       uniqueItems: boolean("uniqueItems", true),
       maxContains: number("maxContains", 7),
-      minContains: number("minContains", 2)
-    }
-  }
+      minContains: number("minContains", 2),
+    },
+  },
 });

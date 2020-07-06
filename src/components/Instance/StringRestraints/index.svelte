@@ -1,28 +1,28 @@
-  <ul class="restraint-list">
+<ul class="restraint-list">
 
-    <Range min="{minLength}" max="{maxLength}" />
+  <Range min={minLength} max={maxLength} />
 
-    {#if pattern}
-      <li>value matches pattern {pattern}</li>
-    {/if}
+  {#if pattern}
+    <li>value matches pattern {pattern}</li>
+  {/if}
 
-    {#if format}
-      <li
-        class="format"
-        use:tippy="{{ placement: 'right', content: format_tip, allowHTML: true, interactive: true }}">
-        {format}
-      </li>
-    {/if}
+  {#if format}
+    <li
+      class="format"
+      use:tippy={{ placement: 'right', content: format_tip, allowHTML: true, interactive: true }}>
+      {format}
+    </li>
+  {/if}
 
-    {#if contentEncoding}
-      <li>encoding: {contentEncoding}</li>
-    {/if}
+  {#if contentEncoding}
+    <li>encoding: {contentEncoding}</li>
+  {/if}
 
-    {#if contentMediaType}
-      <li>media type: {contentMediaType}</li>
-    {/if}
+  {#if contentMediaType}
+    <li>media type: {contentMediaType}</li>
+  {/if}
 
-  </ul>
+</ul>
 
 <script>
   import tippy_orig from "sveltejs-tippy";
@@ -37,8 +37,8 @@
   export let maxLength;
   export let pattern;
   export let format;
-  export let  contentEncoding;
-  export let  contentMediaType;
+  export let contentEncoding;
+  export let contentMediaType;
 
   let format_tip;
   $: format_tip = formats[format] || "no tip";

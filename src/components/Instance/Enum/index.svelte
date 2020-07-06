@@ -11,12 +11,12 @@
         class="label"
         type="button"
         value="filter..."
-        on:click="{toggle_filter}" />
+        on:click={toggle_filter} />
 
       {#if show_filter}
         <input
           class="filter_box"
-          bind:value="{filter}"
+          bind:value={filter}
           placeholder="filtering regex" />
       {/if}
     </div>

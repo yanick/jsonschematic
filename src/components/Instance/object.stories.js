@@ -1,7 +1,7 @@
 import Component from "./index.svelte";
 
 export default {
-  title: "Types/Object"
+  title: "Types/Object",
 };
 
 export const required = () => ({
@@ -11,9 +11,9 @@ export const required = () => ({
       type: "object",
       properties: {
         bar: { type: "number" },
-        foo: { type: "number" }
+        foo: { type: "number" },
       },
-      required: ["foo"]
-    }
-  }
+      required: ["foo"],
+    },
+  },
 });

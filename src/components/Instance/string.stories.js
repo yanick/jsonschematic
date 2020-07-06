@@ -11,9 +11,9 @@ export const basic = () => ({
       type: "string",
       minLength: 2,
       maxLength: 10,
-      pattern: "foo.*bar"
-    })
-  }
+      pattern: "foo.*bar",
+    }),
+  },
 });
 
 export const invalid = () => ({
@@ -23,9 +23,9 @@ export const invalid = () => ({
       type: "string",
       minLength: -1,
       maxLength: -1,
-      pattern: "foo.*bar"
-    })
-  }
+      pattern: "foo.*bar",
+    }),
+  },
 });
 
 export const zeros = () => ({
@@ -35,7 +35,7 @@ export const zeros = () => ({
       type: "string",
       minLength: 0,
       maxLength: 0,
-      pattern: "foo.*bar"
-    })
-  }
+      pattern: "foo.*bar",
+    }),
+  },
 });

@@ -14,8 +14,7 @@ my @files = grep {
 my @ignore = (
     qr/\.map$/,
     qr!^docs/!,
-    qr/\.md$/,
-    qr/\.css$/,
+    qr/\.(css|html|md)$/,
     qr/package\.(json|yaml)/,
     qr#^scripts/#,
     qr#^\.#,

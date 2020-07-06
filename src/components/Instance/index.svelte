@@ -74,7 +74,7 @@
 
 <script>
   import * as store from "../../routes/_schemas";
-  const fp = require('lodash/fp');
+  const fp = require("lodash/fp");
 
   export let definition = {};
   export let href;

@@ -1,20 +1,20 @@
-  <ul>
-    {#if maxItems || minItems}
-      <li>items: {minItems || ''}...{maxItems || ''}</li>
-    {/if}
-
-    {#if maxContains || minContains}
-      <li>contains: {minContains || ''}...{maxContains || ''}</li>
-    {/if}
-
-    {#if uniqueItems}
-      <li>unique</li>
-    {/if}
-  </ul>
-
-  {#if items}
-    <Items {items} href="{`${href}/items`}" />
+<ul>
+  {#if maxItems || minItems}
+    <li>items: {minItems || ''}...{maxItems || ''}</li>
   {/if}
+
+  {#if maxContains || minContains}
+    <li>contains: {minContains || ''}...{maxContains || ''}</li>
+  {/if}
+
+  {#if uniqueItems}
+    <li>unique</li>
+  {/if}
+</ul>
+
+{#if items}
+  <Items {items} href={`${href}/items`} />
+{/if}
 
 <script>
   export let definition = {};

@@ -11,9 +11,9 @@ export const limit = () => ({
       type: "number",
       multipleOf: 3,
       minimum: 1,
-      maximum: 19
-    })
-  }
+      maximum: 19,
+    }),
+  },
 });
 
 export const excl = () => ({
@@ -23,9 +23,9 @@ export const excl = () => ({
       type: "number",
       multipleOf: 3,
       exclusiveMinimum: 1,
-      exclusiveMaximum: 19
-    })
-  }
+      exclusiveMaximum: 19,
+    }),
+  },
 });
 
 export const mixed = () => ({
@@ -35,9 +35,9 @@ export const mixed = () => ({
       type: "number",
       multipleOf: 3,
       minimum: 1,
-      exclusiveMaximum: 19
-    })
-  }
+      exclusiveMaximum: 19,
+    }),
+  },
 });
 
 export const v4 = () => ({
@@ -47,7 +47,7 @@ export const v4 = () => ({
       type: "number",
       minimum: 3,
       exclusiveMinimum: true,
-      maximum: 19
-    })
-  }
+      maximum: 19,
+    }),
+  },
 });

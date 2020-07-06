@@ -1,12 +1,12 @@
-  <ul class="restraint-list">
-    {#if multipleOf !== undefined}
-      <li>&times;{multipleOf}</li>
-    {/if}
+<ul class="restraint-list">
+  {#if multipleOf !== undefined}
+    <li>&times;{multipleOf}</li>
+  {/if}
 
-    <Range min="{minimum}" exclusive="{exclusiveMinimum}" />
-    <Range max="{maximum}" exclusive="{exclusiveMaximum}" />
-    <Range min="{exclusiveMinimum}" max="{exclusiveMaximum}" exclusive="true" />
-  </ul>
+  <Range min={minimum} exclusive={exclusiveMinimum} />
+  <Range max={maximum} exclusive={exclusiveMaximum} />
+  <Range min={exclusiveMinimum} max={exclusiveMaximum} exclusive="true" />
+</ul>
 
 <script>
   export let multipleOf;

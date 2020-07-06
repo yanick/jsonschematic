@@ -7,12 +7,12 @@
 <script>
   export let name;
   export let required = false;
-  console.log({required});
-
 </script>
 
 <style>
-    .property-name { margin-left: 1em; }
+  .property-name {
+    margin-left: 1em;
+  }
   .required:before {
     content: "!";
     font-weight: bold;

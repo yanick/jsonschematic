@@ -1,36 +1,33 @@
 {#if dependencies}
-
-
   {#if Array.isArray(dependencies)}
-  <ul class="dependencies">
-    {#each dependencies as dependency (dependency)}
-      <li>{dependency}</li>
-    {/each}
-  </ul>
+    <ul class="dependencies">
+      {#each dependencies as dependency (dependency)}
+        <li>{dependency}</li>
+      {/each}
+    </ul>
   {:else}
     <BoxSegment legend="dependencies">
-    <Instance definition={dependencies} />
-  </BoxSegment>
+      <Instance definition={dependencies} />
+    </BoxSegment>
   {/if}
-
 
 {/if}
 
 <script>
   export let dependencies = false;
 
-  import Instance from './index.svelte';
-  import BoxSegment from './BoxSegment.svelte';
+  import Instance from "./index.svelte";
+  import BoxSegment from "./BoxSegment.svelte";
 </script>
 
 <style>
   ul:before {
-    content: 'dependencies';
+    content: "dependencies";
     margin-right: 0.5em;
   }
   ul {
     list-style: none;
-    padding:  0px;
+    padding: 0px;
     margin: 0px;
     display: flex;
   }
