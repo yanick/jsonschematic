@@ -8,8 +8,9 @@
     {/each}
   </ul>
   {:else}
-    <div class="title">dependencies</div>
+    <BoxSegment legend="dependencies">
     <Instance definition={dependencies} />
+  </BoxSegment>
   {/if}
 
 
@@ -19,6 +20,7 @@
   export let dependencies = false;
 
   import Instance from './index.svelte';
+  import BoxSegment from './BoxSegment.svelte';
 </script>
 
 <style>
@@ -31,9 +33,5 @@
     padding:  0px;
     margin: 0px;
     display: flex;
-  }
-  div.title {
-    grid-column: span 2;
-    font-weight: bold;
   }
 </style>
