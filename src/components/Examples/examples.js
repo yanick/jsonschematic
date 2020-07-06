@@ -1,5 +1,26 @@
 export default [
   {
+    title: "anyOf",
+    anyOf: [
+      { type: "string", maxLength: 5 },
+      { type: "number", minimum: 0 },
+    ],
+  },
+  {
+    title: "oneOf",
+    oneOf: [
+      { type: "string", maxLength: 5 },
+      { type: "number", minimum: 0 },
+    ],
+  },
+  {
+    title: "allOf",
+    allOf: [
+      { type: "string", maxLength: 5 },
+      { type: "number", minimum: 0 },
+    ],
+  },
+  {
     title: "if-then-else",
     type: "object",
     properties: {

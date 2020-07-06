@@ -64,6 +64,10 @@
   <NumberRestraints {...expanded_def} {href} />
   <ObjectRestraints {...expanded_def} {href} />
 
+  {#each ['allOf', 'anyOf', 'oneOf'] as type (type)}
+    <SomeOf {type} alternatives={expanded_def[type]} />
+  {/each}
+
   <IfThenElse {...if_then_else} {href} />
 
   {#if examples}
@@ -92,6 +96,7 @@
   import NumberRestraints from "./NumberRestraints/index.svelte";
   import ObjectRestraints from "./ObjectRestraints/index.svelte";
   import IfThenElse from "./IfThenElse/index.svelte";
+  import SomeOf from "./SomeOf.svelte";
 
   let schema,
     types,

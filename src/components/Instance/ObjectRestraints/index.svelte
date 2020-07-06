@@ -4,7 +4,7 @@
   {/if}
 </ul>
 
-{#if required.length}
+{#if required && required.length}
   <div class="label">required</div>
   <div>
     <ul>

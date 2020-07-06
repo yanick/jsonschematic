@@ -1,5 +1,7 @@
 <fieldset>
-  <legend>{legend}</legend>
+  {#if legend}
+    <legend>{legend}</legend>
+  {/if}
   <slot />
 </fieldset>
 

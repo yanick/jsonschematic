@@ -79,10 +79,12 @@ From the repo:
   - [x] [then](https://yanick.github.io/jsonschematic/#then)
   - [x] [else](https://yanick.github.io/jsonschematic/#else)
 
+- [x] [allOf](https://yanick.github.io/jsonschematic/#allOf)
+- [x] [anyOf](https://yanick.github.io/jsonschematic/#anyOf)
+- [x] [oneOf](https://yanick.github.io/jsonschematic/#oneOf)
+
 - [ ] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
 - [ ] [additionalProperties](https://yanick.github.io/jsonschematic/#additionalProperties)
-- [ ] [allOf](https://yanick.github.io/jsonschematic/#allOf)
-- [ ] [anyOf](https://yanick.github.io/jsonschematic/#anyOf)
 - [ ] [contains](https://yanick.github.io/jsonschematic/#contains)
 - [x] [definitions](https://yanick.github.io/jsonschematic/#definitions)
 - [x] [default](https://yanick.github.io/jsonschematic/#default)
@@ -90,7 +92,6 @@ From the repo:
   - [x] scalar values
   - [ ] data structures [issue #66](https://github.com/yanick/jsonschematic/issues/66)
 - [ ] [not](https://yanick.github.io/jsonschematic/#not)
-- [ ] [oneOf](https://yanick.github.io/jsonschematic/#oneOf)
 - [ ] [pattern](https://yanick.github.io/jsonschematic/#pattern)
 - [ ] [patternProperties](https://yanick.github.io/jsonschematic/#patternProperties)
 - [ ] [propertyNames](https://yanick.github.io/jsonschematic/#propertyNames)
