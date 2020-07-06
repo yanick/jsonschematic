@@ -1,20 +1,25 @@
-<div>items</div>
-
-<Instance {href} definition={items} />
+{#if items && Array.isArray(items)}
+  <BoxSegment legend="items">
+    <ol>
+      {#each items as item (item)}
+        <li>
+          <Instance {href} definition={item} />
+        </li>
+      {/each}
+    </ol>
+  </BoxSegment>
+{:else}
+  {#if items}
+    <BoxSegment legend="items">
+      <Instance {href} definition={items} />
+    </BoxSegment>
+  {/if}
+{/if}
 
 <script>
-  export let items = {};
+  export let items;
   export let href;
 
-  let items_href;
-  $: items_href = [href, "items"].join("/");
-
   import Instance from "../index.svelte";
-  import Property from "../Properties/Property.svelte";
+  import BoxSegment from "../BoxSegment.svelte";
 </script>
-
-<style>
-  div {
-    font-weight: bold;
-  }
-</style>

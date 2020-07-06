@@ -31,8 +31,8 @@
 
 <script>
   import Properties from "../Properties/index.svelte";
-  import BoxSegment from '../BoxSegment.svelte';
-  import Instance from '../index.svelte';
+  import BoxSegment from "../BoxSegment.svelte";
+  import Instance from "../index.svelte";
 
   export let href;
   export let properties;

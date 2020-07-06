@@ -1,11 +1,23 @@
-export default [{
-  "type": "object",
-  "propertyNames": {
-    "pattern": "^[A-Za-z_][A-Za-z0-9_]*$"
+export default [
+  {
+    type: "array",
+    items: {
+      type: "number",
+    },
+    title: "items as a schema",
   },
-    title: "propertyNames"
-
-},
+  {
+    type: "array",
+    items: [{ type: "number" }, { type: "string" }],
+    title: "items as a tuple",
+  },
+  {
+    type: "object",
+    propertyNames: {
+      pattern: "^[A-Za-z_][A-Za-z0-9_]*$",
+    },
+    title: "propertyNames",
+  },
   {
     title: "additionalProperties as `false`",
     type: "object",

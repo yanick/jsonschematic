@@ -53,7 +53,10 @@ From the repo:
     - [x] [minContains](https://yanick.github.io/jsonschematic/#minContains)
     - [x] [maxContains](https://yanick.github.io/jsonschematic/#maxContains)
     - [x] [uniqueItems](https://yanick.github.io/jsonschematic/#uniqueItems)
-    - [ ] [items](https://yanick.github.io/jsonschematic/#items)
+    - [x] [items](https://yanick.github.io/jsonschematic/#items)
+        - [x] as a schema
+        - [x] as a tuple
+    - [ ] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
 
   - [x] [boolean](https://yanick.github.io/jsonschematic/#boolean)
 
@@ -92,7 +95,6 @@ From the repo:
 - [x] [readOnly](https://yanick.github.io/jsonschematic/#readOnly)
 - [x] [writeOnly](https://yanick.github.io/jsonschematic/#writeOnly)
 
-- [ ] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
 - [ ] [contains](https://yanick.github.io/jsonschematic/#contains)
 - [x] [definitions](https://yanick.github.io/jsonschematic/#definitions)
 - [x] [default](https://yanick.github.io/jsonschematic/#default)
