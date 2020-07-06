@@ -4,7 +4,7 @@ _merge:
   - dependencies
   - devDependencies
 
-name: jsonschematic
+name: "@infinity-interactive/jsonschematic"
 description: json schema viewer
 
 main: __sapper__/build/index.js

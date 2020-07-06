@@ -79,7 +79,7 @@
       "rules": {}
    },
    "main": "__sapper__/build/index.js",
-   "name": "jsonschematic",
+   "name": "@infinity-interactive/jsonschematic",
    "prettier": {
       "svelteSortOrder": "markup-scripts-styles",
       "svelteStrictMode": false
@@ -105,5 +105,5 @@
       "test": "tap 'src/**/*test.js' --no-coverage"
    },
    "standard-version": {},
-   "version": "0.0.0"
+   "version": "0.0.1"
 }
