@@ -1,12 +1,11 @@
 {#each definition_names as definition}
   <dt>
-    <a href="{'#' + ref(definition)}" title="{definition}">{definition}</a>
+    <a href={'#' + ref(definition)} title={definition}>{definition}</a>
   </dt>
 {/each}
 
 <script>
   export let definitions = {}; //definitions section of the schema
-  export let select_instance; //handler function
   export let base_url = ""; //main schema url
 
   let definition_names = [];

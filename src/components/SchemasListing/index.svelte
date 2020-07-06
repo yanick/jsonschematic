@@ -3,13 +3,12 @@
   <dl>
     {#each schema_ids as schema (schema)}
       <dt>
-        <a href="{'#' + encodeURI(schema)}" title="{schema}">{schema}</a>
+        <a href={'#' + encodeURI(schema)} title={schema}>{schema}</a>
       </dt>
       <dd>
         <Definitions
-          {select_instance}
-          definitions="{schema_definitions[schema]}"
-          base_url="{schema}" />
+          definitions={schema_definitions[schema]}
+          base_url={schema} />
       </dd>
     {/each}
   </dl>
