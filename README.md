@@ -74,6 +74,8 @@ From the repo:
     - [ ] [additionalProperties](https://yanick.github.io/jsonschematic/#additionalProperties)
         - [ ] as boolean
         - [ ] as object
+    - [x] [patternProperties](https://yanick.github.io/jsonschematic/#patternProperties)
+
 
   - [ ] type as an array of types
 
@@ -102,7 +104,6 @@ From the repo:
   - [x] scalar values
   - [ ] data structures [issue #66](https://github.com/yanick/jsonschematic/issues/66)
 - [x] [pattern](https://yanick.github.io/jsonschematic/#pattern)
-- [ ] [patternProperties](https://yanick.github.io/jsonschematic/#patternProperties)
 
 ## Authors
 

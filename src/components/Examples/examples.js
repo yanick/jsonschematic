@@ -1,5 +1,17 @@
 export default [
   {
+    type: "object",
+    properties: {
+      builtin: { type: "number" },
+    },
+    patternProperties: {
+      "^S_": { type: "string" },
+      "^I_": { type: "integer" },
+    },
+    additionalProperties: { type: "string" },
+    title: "patternProperties",
+  },
+  {
     type: "array",
     items: {
       type: "number",

@@ -1,13 +1,13 @@
-<div class="title">{title}</div>
-
-{#each entries as [name, definition] (name)}
-  <Property {name} required={required.includes(name)}>
-    <Instance
-      href={href + '/' + name}
-      {definition}
-      dependencies={dependencies[name]} />
-  </Property>
-{/each}
+<div>
+  {#each entries as [name, definition] (name)}
+    <Property {name} required={required.includes(name)}>
+      <Instance
+        href={href + '/' + name}
+        {definition}
+        dependencies={dependencies[name]} />
+    </Property>
+  {/each}
+</div>
 
 <script>
   export let properties = {};
@@ -39,5 +39,13 @@
   div.title {
     grid-column: span 2;
     font-weight: bold;
+  }
+
+  div {
+    display: grid;
+    grid-template-columns: 1fr 100fr;
+    align-items: first baseline;
+    grid-column-gap: 1em;
+    margin-bottom: 1em;
   }
 </style>

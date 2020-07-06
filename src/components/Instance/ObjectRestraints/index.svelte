@@ -16,16 +16,26 @@
 {/if}
 
 {#if properties}
-  <Properties
-    {properties}
-    {dependencies}
-    {required}
-    href={`${href}/properties`} />
+  <BoxSegment legend="properties">
+    <Properties
+      {properties}
+      {dependencies}
+      {required}
+      href={`${href}/properties`} />
+  </BoxSegment>
 {/if}
 
 {#if propertyNames}
   <BoxSegment legend="property names">
     <Instance definition={propertyNames} />
+  </BoxSegment>
+{/if}
+
+{#if patternProperties}
+  <BoxSegment legend="pattern properties">
+    <Properties
+      properties={patternProperties}
+      href={`${href}/patternProperties`} />
   </BoxSegment>
 {/if}
 
@@ -41,6 +51,7 @@
   export let dependencies;
   export let required = [];
   export let propertyNames;
+  export let patternProperties;
 </script>
 
 <style>
