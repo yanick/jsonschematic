@@ -1,6 +1,6 @@
 {#each definition_names as definition}
   <dt>
-    <a href="{'#' + ref(definition)}" title="{definition}">{definition}</a>
+    <a href={'#' + ref(definition)} title={definition}>{definition}</a>
   </dt>
 {/each}
 
