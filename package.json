@@ -1,4 +1,7 @@
 {
+   "bin": {
+      "jsonschematic": "bin/jsonschematic.js"
+   },
    "dependencies": {
       "compression": "1.7.4",
       "css-loader": "^3.6.0",
@@ -7,7 +10,8 @@
       "lodash": "4.17.15",
       "polka": "next",
       "sirv": "1.0.1",
-      "style-loader": "^1.2.1"
+      "style-loader": "^1.2.1",
+      "yargs": "^15.3.1"
    },
    "description": "json schema viewer",
    "devDependencies": {
@@ -74,13 +78,14 @@
       ],
       "rules": {}
    },
+   "main": "__sapper__/build/index.js",
    "name": "jsonschematic",
    "prettier": {
       "svelteSortOrder": "markup-scripts-styles",
       "svelteStrictMode": false
    },
    "scripts": {
-      "build": "sapper build --legacy",
+      "build": "sapper build",
       "build:docs": "webpack -c ./webpack.docs.config.js",
       "cy:open": "cypress open",
       "cy:run": "cypress run",

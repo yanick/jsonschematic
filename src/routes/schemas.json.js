@@ -1,10 +1,11 @@
 import glob from "globby";
 
-const schemas = glob(process.env.JSONSCHEMATIC_DIR + "/**/*.json")
-    .then( s => s.map( schema =>
-        schema.substring(process.env.JSONSCHEMATIC_DIR.length+1)
-        ) );
-
 export async function get(req, res, next) {
-  res.end(JSON.stringify(await schemas));
+  const SCHEMA_DIR = process.env.JSONSCHEMATIC_DIR;
+
+  let schemas = await glob(SCHEMA_DIR + "/**/*.json");
+
+  schemas = schemas.map((schema) => schema.substring(SCHEMA_DIR.length + 1));
+
+  res.end(JSON.stringify(schemas));
 }

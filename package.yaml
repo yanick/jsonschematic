@@ -7,6 +7,11 @@ _merge:
 name: jsonschematic
 description: json schema viewer
 
+main: __sapper__/build/index.js
+
+bin:
+  jsonschematic: bin/jsonschematic.js
+
 eslintConfig:
   extends: [prettier]
   ignorePatterns:
@@ -29,7 +34,7 @@ prettier:
 
 scripts:
   promake: ./Promake
-  build: sapper build --legacy
+  build: sapper build
   "build:docs": webpack -c ./webpack.docs.config.js
   cy:open: cypress open
   cy:run: cypress run

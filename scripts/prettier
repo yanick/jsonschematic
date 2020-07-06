@@ -11,4 +11,6 @@ my @files = grep {
 
 @files = qw/ src / unless @files;
 
+@files = grep { !/\.gitignore/ } @files;
+
 exec 'prettier', '--plugin-search-dir=.', $mode, @files;

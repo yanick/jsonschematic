@@ -5,9 +5,15 @@ jsonschematic is a [json schema][] in the same vein as
 
 ## How to run
 
-The project is still in early development, but to get a 'dev'
-version of the sapper app running, do:
+From a global install:
 
+    $ npm install -g jsonschematic
+    $ jsonschematic --schema_dir path/to/schemas
+
+From the repo:
+
+    $ git clone https://github.com/yanick/jsonschematic.git
+    $ cd jsonschematic
     $ npm install
     $ JSONSCHEMATIC_DIR=examples npm run dev
 
