@@ -1,4 +1,22 @@
 export default [
+  {
+    title: "additionalProperties as `false`",
+    type: "object",
+    properties: {
+      foo: { type: "string" },
+    },
+    additionalProperties: false,
+  },
+  {
+    title: "additionalProperties as object",
+    type: "object",
+    properties: {
+      foo: { type: "string" },
+    },
+    additionalProperties: {
+      type: "string",
+    },
+  },
   { title: "writeOnly", writeOnly: true, type: "string" },
   { title: "readOnly", readOnly: true, type: "string" },
   {
