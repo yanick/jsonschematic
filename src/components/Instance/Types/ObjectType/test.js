@@ -1,20 +1,21 @@
-require("../../../../tests/svelte_loader");
+const tap = require("../../../../tests/svelte_loader");
 
 const ObjectType = require("./index.svelte");
 
 import { render } from "@testing-library/svelte";
-import tap from "tap";
 
-tap.test("required", async (t) => {
+tap.test("required", async t => {
   const { debug, container } = render(ObjectType, {
     definition: {
       properties: {
         foo: {},
-        bar: {},
+        bar: {}
       },
-      required: ["foo"],
-    },
+      required: ["foo"]
+    }
   });
+
+  console.log(debug());
 
   t.is(
     container.querySelector(".required").textContent,

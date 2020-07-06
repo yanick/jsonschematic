@@ -1,5 +1,4 @@
-<Type name="object">
-  <ul>
+  <ul class="restraint-list">
     {#if minProperties || maxProperties}
       <li>nbr properties: {minProperties || ''}...{maxProperties || ''}</li>
     {/if}
@@ -15,25 +14,22 @@
       </ul>
     </div>
   {/if}
+
   {#if properties}
     <Properties {properties}
       {dependencies}
       {required} href="{`${href}/properties`}" />
   {/if}
-</Type>
 
 <script>
-  import Type from "../Type.svelte";
-  import Properties from "../../Properties/index.svelte";
-  import Restraints from "../Restraints.svelte";
+  import Properties from "../Properties/index.svelte";
 
-  export let definition;
   export let href;
-
-  let properties, minProperties, maxProperties, dependencies;
-  let required = [];
-  $: ({ properties, required = [], minProperties, maxProperties, dependencies
-  = {} } = definition);
+  export let properties;
+  export let minProperties;
+  export let maxProperties;
+  export let dependencies;
+  export let required=[];
 </script>
 
 <style>

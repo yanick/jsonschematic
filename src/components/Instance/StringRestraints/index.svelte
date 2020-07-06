@@ -1,6 +1,4 @@
-<Type name="string">
-
-  <ul>
+  <ul class="restraint-list">
 
     <Range min="{minLength}" max="{maxLength}" />
 
@@ -26,36 +24,23 @@
 
   </ul>
 
-</Type>
-
 <script>
   import tippy_orig from "sveltejs-tippy";
   const tippy = tippy_orig || (() => {});
 
-  import Type from "../Type.svelte";
-  import Range from "../Range.svelte";
+  import Type from "../Types/Type.svelte";
+  import Range from "../Types/Range.svelte";
 
-  import formats from "./formats";
+  import formats from "../Types/String/formats";
 
-  export let definition = {};
+  export let minLength;
+  export let maxLength;
+  export let pattern;
+  export let format;
+  export let  contentEncoding;
+  export let  contentMediaType;
 
-  let minLength,
-    maxLength,
-    pattern,
-    format,
-    format_tip,
-    contentEncoding,
-    contentMediaType;
-
-  $: ({
-    minLength,
-    maxLength,
-    pattern,
-    format,
-    contentEncoding,
-    contentMediaType,
-  } = definition);
-
+  let format_tip;
   $: format_tip = formats[format] || "no tip";
 </script>
 

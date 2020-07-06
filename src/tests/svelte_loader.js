@@ -9,9 +9,9 @@ hooks(".svelte").push(extensionHook);
 
 require("jsdom-global")();
 
-import tap from "tap";
+const tap = require("tap").default;
 
-import { cleanup } from "@testing-library/svelte";
+const { cleanup } = require("@testing-library/svelte");
 
 tap.afterEach(async () => cleanup());
 
