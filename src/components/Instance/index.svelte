@@ -6,7 +6,7 @@
 
     {#if schema}
       <div class="schema">
-        <a href="{schema}">{schema_name(schema)}</a>
+        <a href={schema}>{schema_name(schema)}</a>
       </div>
     {/if}
   </div>
@@ -20,9 +20,9 @@
   {/if}
 
   <ul class="types">
-  {#each types as type (type)}
-    <li>{type}</li>
-  {/each}
+    {#each types as type (type)}
+      <li>{type}</li>
+    {/each}
   </ul>
 
   <Dependencies {dependencies} />
@@ -37,16 +37,16 @@
   {#if ref}
     <div>extends</div>
     <div>
-      <a href="{'#' + relative_ref(ref)}">{ref}</a>
+      <a href={'#' + relative_ref(ref)}>{ref}</a>
 
       {#if is_expanded_ref}
-        <input on:click="{remove_ref}" type="button" value="unexpand" />
+        <input on:click={remove_ref} type="button" value="unexpand" />
       {:else}
         <input
-          on:click="{fetch_ref}"
-          disabled="{loading_ref}"
+          on:click={fetch_ref}
+          disabled={loading_ref}
           type="button"
-          value="{loading_ref ? 'fetching...' : 'expand'}" />
+          value={loading_ref ? 'fetching...' : 'expand'} />
       {/if}
     </div>
   {/if}
@@ -56,14 +56,15 @@
   {/if}
 
   {#if constant}
-    <Enum enumeration="{[constant]}" constant {href} />
+    <Enum enumeration={[constant]} constant {href} />
   {/if}
-
 
   <ArrayRestraints {...expanded_def} {href} />
   <StringRestraints {...expanded_def} {href} />
   <NumberRestraints {...expanded_def} {href} />
   <ObjectRestraints {...expanded_def} {href} />
+
+  <IfThenElse {...if_then_else} {href} />
 
   {#if examples}
     <Examples {examples} {href} />
@@ -73,6 +74,7 @@
 
 <script>
   import * as store from "../../routes/_schemas";
+  const fp = require('lodash/fp');
 
   export let definition = {};
   export let href;
@@ -84,11 +86,12 @@
   import Examples from "./Examples/index.svelte";
   import Enum from "./Enum/index.svelte";
   import Properties from "./Properties/index.svelte";
-  import Dependencies from './Dependencies.svelte';
-  import ArrayRestraints from './ArrayRestraints/index.svelte';
-  import StringRestraints from './StringRestraints/index.svelte';
-  import NumberRestraints from './NumberRestraints/index.svelte';
-  import ObjectRestraints from './ObjectRestraints/index.svelte';
+  import Dependencies from "./Dependencies.svelte";
+  import ArrayRestraints from "./ArrayRestraints/index.svelte";
+  import StringRestraints from "./StringRestraints/index.svelte";
+  import NumberRestraints from "./NumberRestraints/index.svelte";
+  import ObjectRestraints from "./ObjectRestraints/index.svelte";
+  import IfThenElse from "./IfThenElse/index.svelte";
 
   let schema,
     types,
@@ -131,6 +134,12 @@
       types = types ? [types] : [];
     }
   }
+
+  let if_then_else = {};
+  $: if_then_else = fp.mapKeys(
+    (key) => key + "_cond",
+    fp.pick(["if", "then", "else"], expanded_def)
+  );
 
   $: if (!id) id = href || "";
   $: if (id && -1 === id.indexOf("#")) id = id + "#";

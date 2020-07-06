@@ -64,8 +64,14 @@ version of the sapper app running, do:
   - [ ] type as an array of types
 
 - [x] [dependencies](https://yanick.github.io/jsonschematic/#dependencies)
+
   - [x] property dependencies
   - [x] schema dependencies
+
+- [x] [if](https://yanick.github.io/jsonschematic/#if)
+
+  - [x] [then](https://yanick.github.io/jsonschematic/#then)
+  - [x] [else](https://yanick.github.io/jsonschematic/#else)
 
 - [ ] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
 - [ ] [additionalProperties](https://yanick.github.io/jsonschematic/#additionalProperties)
@@ -84,9 +90,6 @@ version of the sapper app running, do:
 - [ ] [propertyNames](https://yanick.github.io/jsonschematic/#propertyNames)
 - [ ] [readOnly](https://yanick.github.io/jsonschematic/#readOnly)
 - [ ] [writeOnly](https://yanick.github.io/jsonschematic/#writeOnly)
-- [ ] [if](https://yanick.github.io/jsonschematic/#if)
-- [ ] [then](https://yanick.github.io/jsonschematic/#then)
-- [ ] [else](https://yanick.github.io/jsonschematic/#else)
 
 ## Authors
 
