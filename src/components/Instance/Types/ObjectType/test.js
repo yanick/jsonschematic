@@ -4,15 +4,15 @@ const ObjectType = require("./index.svelte");
 
 import { render } from "@testing-library/svelte";
 
-tap.test("required", async (t) => {
+tap.test("required", async t => {
   const { debug, container } = render(ObjectType, {
     definition: {
       properties: {
         foo: {},
-        bar: {},
+        bar: {}
       },
-      required: ["foo"],
-    },
+      required: ["foo"]
+    }
   });
 
   console.log(debug());

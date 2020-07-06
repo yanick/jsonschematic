@@ -9,7 +9,7 @@ hooks(".svelte").push(extensionHook);
 
 require("jsdom-global")();
 
-const tap = require('tap').default;
+const tap = require("tap").default;
 
 const { cleanup } = require("@testing-library/svelte");
 

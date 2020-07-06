@@ -8,12 +8,12 @@ export const basic = () => ({
   Component: Array,
   props: {
     definition: {
-    type: 'array',
+      type: "array",
       maxItems: number("maxItems", 10),
       minItems: number("minItems", 3),
       uniqueItems: boolean("uniqueItems", true),
       maxContains: number("maxContains", 7),
-      minContains: number("minContains", 2),
-    },
-  },
+      minContains: number("minContains", 2)
+    }
+  }
 });

@@ -6,14 +6,14 @@ const stories = storiesOf("Types/String/Format", module);
 
 import formats from "./Types/String/formats";
 
-const fstory = (format) => () => ({
+const fstory = format => () => ({
   Component: Instance,
   props: {
-      definition: { type: "string", format },
-  },
+    definition: { type: "string", format }
+  }
 });
 
-Object.keys(formats).forEach((format) => {
+Object.keys(formats).forEach(format => {
   stories.add(format, fstory(format));
 });
 

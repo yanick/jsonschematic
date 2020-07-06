@@ -25,6 +25,7 @@ version of the sapper app running, do:
   - [x] [integer](https://yanick.github.io/jsonschematic/#integer)
 
   - [x] [number](https://yanick.github.io/jsonschematic/#number)
+
     - [x] [minimum](https://yanick.github.io/jsonschematic/#minimum)
     - [x] [maximum](https://yanick.github.io/jsonschematic/#maximum)
     - [x] [exclusiveMaximum](https://yanick.github.io/jsonschematic/#exclusiveMaximum)
@@ -32,6 +33,7 @@ version of the sapper app running, do:
     - [x] [multipleOf](https://yanick.github.io/jsonschematic/#multipleOf)
 
   - [x] [string](https://yanick.github.io/jsonschematic/#string)
+
     - [x] [minLength](https://yanick.github.io/jsonschematic/#minLength)
     - [x] [maxLength](https://yanick.github.io/jsonschematic/#maxLength)
     - [x] [format](https://yanick.github.io/jsonschematic/#format)
@@ -39,6 +41,7 @@ version of the sapper app running, do:
     - [x] [contentMediaType](https://yanick.github.io/jsonschematic/#contentMediaType)
 
   - [x] [array](https://yanick.github.io/jsonschematic/#array)
+
     - [x] [minItems](https://yanick.github.io/jsonschematic/#minItems)
     - [x] [maxItems](https://yanick.github.io/jsonschematic/#maxItems)
     - [x] [minContains](https://yanick.github.io/jsonschematic/#minContains)
@@ -61,8 +64,9 @@ version of the sapper app running, do:
   - [ ] type as an array of types
 
 - [ ] [dependencies](https://yanick.github.io/jsonschematic/#dependencies)
-    - [ ] property dependencies
-    - [ ] schema dependencies
+
+  - [ ] property dependencies
+  - [ ] schema dependencies
 
 - [ ] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
 - [ ] [additionalProperties](https://yanick.github.io/jsonschematic/#additionalProperties)

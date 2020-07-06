@@ -77,24 +77,23 @@ code {
 }
 
 ul.restraint-list {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    margin-left: 0.5em;
-    grid-column: span 2;
-    display: flex;
-} 
-
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 0.5em;
+  grid-column: span 2;
+  display: flex;
+}
 
 ul.restraint-list > li {
-    margin-right: 0.5em;
-    font-style: italic;
+  margin-right: 0.5em;
+  font-style: italic;
 }
 
 ul.restraint-list > li:after {
-    content: ",";
+  content: ",";
 }
 
 ul.restraint-list > li:last-child:after {
-    content: "";
+  content: "";
 }
