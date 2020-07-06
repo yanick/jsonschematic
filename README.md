@@ -63,10 +63,9 @@ version of the sapper app running, do:
     - [x] [minProperties](https://yanick.github.io/jsonschematic/#minProperties)
   - [ ] type as an array of types
 
-- [ ] [dependencies](https://yanick.github.io/jsonschematic/#dependencies)
-
-  - [ ] property dependencies
-  - [ ] schema dependencies
+- [x] [dependencies](https://yanick.github.io/jsonschematic/#dependencies)
+  - [x] property dependencies
+  - [x] schema dependencies
 
 - [ ] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
 - [ ] [additionalProperties](https://yanick.github.io/jsonschematic/#additionalProperties)
