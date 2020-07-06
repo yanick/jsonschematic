@@ -23,8 +23,16 @@
     href={`${href}/properties`} />
 {/if}
 
+{#if propertyNames}
+  <BoxSegment legend="property names">
+    <Instance definition={propertyNames} />
+  </BoxSegment>
+{/if}
+
 <script>
   import Properties from "../Properties/index.svelte";
+  import BoxSegment from '../BoxSegment.svelte';
+  import Instance from '../index.svelte';
 
   export let href;
   export let properties;
@@ -32,6 +40,7 @@
   export let maxProperties;
   export let dependencies;
   export let required = [];
+  export let propertyNames;
 </script>
 
 <style>

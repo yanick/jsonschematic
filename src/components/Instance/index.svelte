@@ -98,7 +98,6 @@
   import Items from "./Items/index.svelte";
   import Examples from "./Examples/index.svelte";
   import Enum from "./Enum/index.svelte";
-  import Properties from "./Properties/index.svelte";
   import Dependencies from "./Dependencies.svelte";
   import ArrayRestraints from "./ArrayRestraints/index.svelte";
   import StringRestraints from "./StringRestraints/index.svelte";

@@ -1,4 +1,11 @@
-export default [
+export default [{
+  "type": "object",
+  "propertyNames": {
+    "pattern": "^[A-Za-z_][A-Za-z0-9_]*$"
+  },
+    title: "propertyNames"
+
+},
   {
     title: "additionalProperties as `false`",
     type: "object",

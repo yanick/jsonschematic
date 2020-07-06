@@ -67,6 +67,7 @@ From the repo:
     - [x] [required](https://yanick.github.io/jsonschematic/#required)
     - [x] [maxProperties](https://yanick.github.io/jsonschematic/#maxProperties)
     - [x] [minProperties](https://yanick.github.io/jsonschematic/#minProperties)
+    - [x] [propertyNames](https://yanick.github.io/jsonschematic/#propertyNames)
     - [ ] [additionalProperties](https://yanick.github.io/jsonschematic/#additionalProperties)
         - [ ] as boolean
         - [ ] as object
@@ -98,9 +99,8 @@ From the repo:
 - [ ] [examples](https://yanick.github.io/jsonschematic/#examples)
   - [x] scalar values
   - [ ] data structures [issue #66](https://github.com/yanick/jsonschematic/issues/66)
-- [ ] [pattern](https://yanick.github.io/jsonschematic/#pattern)
+- [x] [pattern](https://yanick.github.io/jsonschematic/#pattern)
 - [ ] [patternProperties](https://yanick.github.io/jsonschematic/#patternProperties)
-- [ ] [propertyNames](https://yanick.github.io/jsonschematic/#propertyNames)
 
 ## Authors
 
