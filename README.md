@@ -84,6 +84,9 @@ From the repo:
 - [x] [oneOf](https://yanick.github.io/jsonschematic/#oneOf)
 - [x] [not](https://yanick.github.io/jsonschematic/#not)
 
+- [x] [readOnly](https://yanick.github.io/jsonschematic/#readOnly)
+- [x] [writeOnly](https://yanick.github.io/jsonschematic/#writeOnly)
+
 - [ ] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
 - [ ] [additionalProperties](https://yanick.github.io/jsonschematic/#additionalProperties)
 - [ ] [contains](https://yanick.github.io/jsonschematic/#contains)
@@ -95,8 +98,6 @@ From the repo:
 - [ ] [pattern](https://yanick.github.io/jsonschematic/#pattern)
 - [ ] [patternProperties](https://yanick.github.io/jsonschematic/#patternProperties)
 - [ ] [propertyNames](https://yanick.github.io/jsonschematic/#propertyNames)
-- [ ] [readOnly](https://yanick.github.io/jsonschematic/#readOnly)
-- [ ] [writeOnly](https://yanick.github.io/jsonschematic/#writeOnly)
 
 ## Authors
 

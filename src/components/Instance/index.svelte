@@ -19,6 +19,13 @@
     <div class="description">{description}</div>
   {/if}
 
+  {#if expanded_def.writeOnly}
+    <div class="writeOnly">write-only</div>
+  {/if}
+  {#if expanded_def.readOnly}
+    <div class="writeOnly">read-only</div>
+  {/if}
+
   <ul class="types">
     {#each types as type (type)}
       <li>{type}</li>
@@ -244,5 +251,10 @@
   }
   pre {
     background-color: #f0f0f0;
+  }
+
+  .writeOnly {
+    grid-column: span 2;
+    font-variant: small-caps;
   }
 </style>
