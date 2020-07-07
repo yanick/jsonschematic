@@ -78,6 +78,9 @@
       ],
       "rules": {}
    },
+   "keywords": [
+      "json schema"
+   ],
    "main": "__sapper__/build/index.js",
    "name": "@infinity-interactive/jsonschematic",
    "prettier": {

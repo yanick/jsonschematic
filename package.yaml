@@ -6,6 +6,8 @@ _merge:
 
 name: "@infinity-interactive/jsonschematic"
 description: json schema viewer
+keywords:
+    - "json schema"
 
 main: __sapper__/build/index.js
 
