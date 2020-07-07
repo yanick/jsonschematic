@@ -2,6 +2,17 @@
    "bin": {
       "jsonschematic": "bin/jsonschematic.js"
    },
+   "bugs": "https://github.com/yanick/jsonschematic/issues",
+   "contributors": [
+      {
+         "email": "yanick.champoux@iinteractive.com",
+         "name": "Yanick Champoux"
+      },
+      {
+         "email": "trey.bianchini@iinteractive.com",
+         "name": "Trey Bianchini"
+      }
+   ],
    "dependencies": {
       "compression": "1.7.4",
       "css-loader": "^3.6.0",
@@ -78,15 +89,18 @@
       ],
       "rules": {}
    },
+   "homepage": "https://yanick.github.io/jsonschematic/",
    "keywords": [
       "json schema"
    ],
+   "license": "MIT",
    "main": "__sapper__/build/index.js",
    "name": "@infinity-interactive/jsonschematic",
    "prettier": {
       "svelteSortOrder": "markup-scripts-styles",
       "svelteStrictMode": false
    },
+   "repository": "github:yanick/jsonschematic",
    "scripts": {
       "build": "sapper build",
       "build:docs": "webpack -c ./webpack.docs.config.js",
