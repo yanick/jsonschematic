@@ -81,6 +81,6 @@
   }
 
   .body > div {
-    width: 10%;
+    width: 20em;
   }
 </style>
