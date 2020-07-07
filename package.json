@@ -89,6 +89,7 @@
       ],
       "rules": {}
    },
+   "homepage": "https://yanick.github.io/jsonschematic/",
    "keywords": [
       "json schema"
    ],
