@@ -26,6 +26,7 @@
   const sort_by_name = sortBy((e) => e[0]);
 
   $: {
+    required = required || [];  //ensure that we don't have an undefined value
     entries = flow([Object.entries, sort_by_name, sort_by_required])(
       properties
     );
