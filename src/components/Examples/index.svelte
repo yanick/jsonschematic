@@ -1,5 +1,7 @@
 <svelte:window on:hashchange={hash_change} />
 
+<GithubCorner />
+
 <h1>
   jsonchematic demos
   {#if selected_keywords}for {selected_keywords.join(', ')}{/if}
@@ -36,6 +38,8 @@
 <script>
   import examples from "./examples";
   import Example from "./Example.svelte";
+  import GithubCorner from "./GithubCorner.svelte";
+
   import fp from "lodash/fp";
 
   let selected_keywords;
