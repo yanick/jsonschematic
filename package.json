@@ -5,12 +5,12 @@
    "bugs": "https://github.com/yanick/jsonschematic/issues",
    "contributors": [
       {
-         "name": "Yanick Champaux",
-         "email": "yanick.champoux@iinteractive.com"
+         "email": "yanick.champoux@iinteractive.com",
+         "name": "Yanick Champoux"
       },
       {
-         "name": "Trey Bianchini",
-         "email": "trey.bianchini@iinteractive.com"
+         "email": "trey.bianchini@iinteractive.com",
+         "name": "Trey Bianchini"
       }
    ],
    "dependencies": {

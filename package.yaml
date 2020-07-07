@@ -7,7 +7,18 @@ _merge:
 name: "@infinity-interactive/jsonschematic"
 description: json schema viewer
 keywords:
-    - "json schema"
+  - "json schema"
+
+bugs: https://github.com/yanick/jsonschematic/issues
+homepage: https://yanick.github.io/jsonschematic/
+repository: github:yanick/jsonschematic
+license: MIT
+
+contributors:
+  - name: Yanick Champoux
+    email: yanick.champoux@iinteractive.com
+  - name: Trey Bianchini
+    email: trey.bianchini@iinteractive.com
 
 main: __sapper__/build/index.js
 
