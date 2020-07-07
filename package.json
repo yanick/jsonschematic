@@ -121,6 +121,5 @@
       "storybook": "start-storybook",
       "test": "tap 'src/**/*test.js' --no-coverage"
    },
-   "standard-version": {},
    "version": "0.0.1"
 }
