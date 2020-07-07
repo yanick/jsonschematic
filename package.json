@@ -93,6 +93,7 @@
    "keywords": [
       "json schema"
    ],
+   "license": "MIT",
    "main": "__sapper__/build/index.js",
    "name": "@infinity-interactive/jsonschematic",
    "prettier": {
