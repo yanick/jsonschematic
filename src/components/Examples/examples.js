@@ -1,3 +1,7 @@
+// TODO maybe use json-schema-shorthand?
+
+// TODO (GH#3) maybe use json-schema-shorthand
+
 export default [
   {
     type: "object",
