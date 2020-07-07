@@ -3,6 +3,16 @@
       "jsonschematic": "bin/jsonschematic.js"
    },
    "bugs": "https://github.com/yanick/jsonschematic/issues",
+   "contributors": [
+      {
+         "name": "Yanick Champaux",
+         "email": "yanick.champoux@iinteractive.com"
+      },
+      {
+         "name": "Trey Bianchini",
+         "email": "trey.bianchini@iinteractive.com"
+      }
+   ],
    "dependencies": {
       "compression": "1.7.4",
       "css-loader": "^3.6.0",
