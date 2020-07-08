@@ -103,7 +103,7 @@
    "repository": "github:yanick/jsonschematic",
    "scripts": {
       "build": "sapper build",
-      "build:docs": "webpack -c ./webpack.docs.config.js",
+      "build:docs": "webpack --config ./webpack.docs.config.js",
       "cy:open": "cypress open",
       "cy:run": "cypress run",
       "dev": "sapper dev",
