@@ -1,7 +1,7 @@
 <!-- taken from http://tholman.com/github-corners/ -->
 
 <a
-  href="https://github.com/yanick/jsonchematic"
+  href="https://github.com/yanick/jsonschematic"
   class="github-corner"
   aria-label="View source on GitHub">
   <svg
