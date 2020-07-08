@@ -7,14 +7,28 @@
   </div>
 
   <div class="instance_viewer">
-    {#if $selected_instance}
-      <Instance
-        top_level
-        definition={$selected_instance}
-        href={$selected_instance_url} />
-    {:else}
-      <div>no schema selected</div>
-    {/if}
+    <div class="show-div">
+      <input
+        type="button"
+        on:click={() => (show_raw_schema = !show_raw_schema)}
+        value={`${show_raw_schema ? 'hide' : 'show'} raw schema`} />
+    </div>
+
+    <pre class:hidden={!show_raw_schema}>
+      <code>{JSON.stringify($selected_instance, null, 2)}</code>
+    </pre>
+
+    <div class:hidden={show_raw_schema}>
+      {#if $selected_instance}
+        <Instance
+          top_level
+          definition={$selected_instance}
+          href={$selected_instance_url} />
+      {:else}
+        <div>no schema selected</div>
+      {/if}
+    </div>
+
   </div>
 </div>
 
@@ -39,6 +53,7 @@
   import SchemasListing from "../components/SchemasListing/index.svelte";
 
   let schema_list = new Promise(() => {});
+  let show_raw_schema = false;
 
   function updateInstance(event) {
     const schema = event.detail;
@@ -78,5 +93,18 @@
   .instance_viewer {
     flex: 3;
     padding-left: 2.5%;
+  }
+  .instance_viewer input {
+    text-align: right;
+  }
+  pre {
+    background-color: #f0f0f0;
+  }
+  .show-div {
+    text-align: right;
+  }
+
+  .hidden {
+    display: none;
   }
 </style>
