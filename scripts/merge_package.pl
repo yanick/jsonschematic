@@ -20,7 +20,9 @@ For a dry run pass in a `-n` argument.
 
 =cut
 
-use 5.30.0;
+use 5.24.0;
+use strict;
+use warnings;
 
 use File::Serialize;
 use Hash::Merge qw/ merge /;
@@ -31,7 +33,10 @@ use Path::Tiny;
 use JSON::PP qw//;
 use JSON qw/ to_json /;
 
-$YAML::XS::Boolean = 'JSON::PP';
+{
+    no warnings; 
+    $YAML::XS::Boolean = 'JSON::PP';
+}
 
 my $yaml = deserialize_file 'package.yaml';
 my $json = deserialize_file 'package.json';
@@ -42,7 +47,7 @@ my $result = merge( { $json->%{@$mergers} }, $yaml );
 
 my $encoder = JSON->new->pretty->canonical->space_before(0);
 
-my $json = $encoder->encode($result);
+$json = $encoder->encode($result);
 
 $json =~ s/(^|\G)   /  /g;
 

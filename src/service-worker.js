@@ -1,4 +1,6 @@
-import { timestamp, files, shell, routes } from "@sapper/service-worker";
+/* eslint-env browser */
+
+import { timestamp, files, shell } from "@sapper/service-worker";
 
 const ASSETS = `cache${timestamp}`;
 

@@ -17,7 +17,6 @@
 {/if}
 
 <script>
-  export let definition = {};
   export let href = "";
 
   export let maxItems;
@@ -31,13 +30,6 @@
 </script>
 
 <style>
-  .type_block {
-    display: flex;
-  }
-  .type {
-    display: inline-block;
-    margin-right: 2em;
-  }
   ul {
     list-style: none;
     display: flex;
@@ -53,11 +45,5 @@
   }
   li:last-child:after {
     content: "";
-  }
-  .nbr_items:before {
-    content: "items: ";
-  }
-  .nbr_contains:before {
-    content: "contains: ";
   }
 </style>

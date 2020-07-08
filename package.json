@@ -41,8 +41,10 @@
       "eslint": "7.4.0",
       "eslint-config-prettier": "6.11.0",
       "eslint-plugin-babel": "5.3.1",
+      "eslint-plugin-lodash": "^7.1.0",
       "eslint-plugin-prettier": "3.1.4",
       "eslint-plugin-svelte3": "2.7.3",
+      "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0",
       "jsdom": "^16.2.2",
       "jsdom-global": "^3.0.2",
       "lint-diff": "1.2.1",
@@ -63,8 +65,17 @@
       "webpack-cli": "^3.3.12"
    },
    "eslintConfig": {
+      "env": {
+         "amd": true,
+         "browser": true,
+         "es6": true,
+         "node": true
+      },
       "extends": [
-         "prettier"
+         "prettier",
+         "eslint:recommended",
+         "plugin:you-dont-need-lodash-underscore/compatible",
+         "plugin:lodash/recommended"
       ],
       "ignorePatterns": [
          "src/node_modules"
@@ -87,7 +98,9 @@
       "plugins": [
          "svelte3"
       ],
-      "rules": {}
+      "rules": {
+         "lodash/prefer-lodash-method": "off"
+      }
    },
    "homepage": "https://yanick.github.io/jsonschematic/",
    "keywords": [

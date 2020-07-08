@@ -18,8 +18,6 @@
   export let schemas = {};
   export let selected_instance_url;
 
-  import { createEventDispatcher } from "svelte";
-
   import Definitions from "./Definitions/index.svelte";
 
   let selected_id, selected_segment;
@@ -40,12 +38,6 @@
       }
     });
   }
-
-  const dispatch = createEventDispatcher();
-
-  const select_instance = (schema) => () => {
-    dispatch("select_instance", schema);
-  };
 </script>
 
 <style>

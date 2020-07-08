@@ -184,7 +184,7 @@ export default [
     minContains: 1,
     uniqueItems: true,
   },
-  { type: "boolean type", type: "boolean" },
+  { title: "boolean type", type: "boolean" },
   {
     title: "number w/ minimum, maximum",
     keywords: ["number", "minimum", "maximum"],

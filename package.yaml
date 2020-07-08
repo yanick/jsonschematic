@@ -26,7 +26,16 @@ bin:
   jsonschematic: bin/jsonschematic.js
 
 eslintConfig:
-  extends: [prettier]
+  env:
+    amd: true
+    es6: true
+    node: true
+    browser: true
+  extends:
+    - prettier
+    - eslint:recommended
+    - plugin:you-dont-need-lodash-underscore/compatible
+    - plugin:lodash/recommended
   ignorePatterns:
     - "src/node_modules"
   parserOptions:
@@ -36,7 +45,8 @@ eslintConfig:
       modules: true
   plugins:
     - svelte3
-  rules: {}
+  rules: 
+    "lodash/prefer-lodash-method": off
   overrides:
     - files: ["*.svelte"]
       processor: "svelte3/svelte3"

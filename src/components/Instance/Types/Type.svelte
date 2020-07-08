@@ -5,7 +5,6 @@
 
 <script>
   export let name;
-  let hasDetails;
 
   import Restraints from "./Restraints.svelte";
 </script>

@@ -1,4 +1,4 @@
-import { withKnobs, object, number, boolean } from "@storybook/addon-knobs";
+import { withKnobs, number, boolean } from "@storybook/addon-knobs";
 
 import Array from ".";
 

@@ -1,6 +1,6 @@
 import glob from "globby";
 
-export async function get(req, res, next) {
+export async function get(req, res) {
   const SCHEMA_DIR = process.env.JSONSCHEMATIC_DIR;
 
   let schemas = await glob(SCHEMA_DIR + "/**/*.json");

@@ -1,11 +1,10 @@
 const tap = require("../../tests/svelte_loader.js");
 const { render } = require("@testing-library/svelte");
-const { screen } = require("@testing-library/dom");
 
 const Instance = require("./index.svelte").default;
 
 tap.test("property dependencies", async (t) => {
-  const { debug, container } = render(Instance, {
+  const { container } = render(Instance, {
     definition: {
       type: "object",
       properties: {

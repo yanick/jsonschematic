@@ -95,7 +95,6 @@
   export let top_level = false;
   export let dependencies = false;
 
-  import Items from "./Items/index.svelte";
   import Examples from "./Examples/index.svelte";
   import Enum from "./Enum/index.svelte";
   import Dependencies from "./Dependencies.svelte";
@@ -156,7 +155,7 @@
   );
 
   $: if (!id) id = href || "";
-  $: if (id && -1 === id.indexOf("#")) id = id + "#";
+  $: if (id && !id.includes("#")) id = id + "#";
 
   const fetch_ref = async () => {
     loading_ref = true;
@@ -181,7 +180,7 @@
   }
 
   function relative_ref(ref) {
-    if (ref.indexOf("#") === 0) {
+    if (ref.startsWith("#")) {
       return id.replace(/#.*/, "") + ref;
     }
 

@@ -1,4 +1,4 @@
-import { withKnobs, object, select } from "@storybook/addon-knobs";
+import { withKnobs, object } from "@storybook/addon-knobs";
 
 import Instance from ".";
 

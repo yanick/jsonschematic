@@ -35,9 +35,11 @@
 <svelte:window on:hashchange={hash_change} />
 
 <script>
+  /* eslint-env browser */
+
   import { onMount } from "svelte";
 
-  function hash_change(event) {
+  function hash_change() {
     set_selected_instance_url(decodeURI(document.location.hash.slice(1)));
   }
 
@@ -52,7 +54,6 @@
   import Instance from "../components/Instance/index.svelte";
   import SchemasListing from "../components/SchemasListing/index.svelte";
 
-  let schema_list = new Promise(() => {});
   let show_raw_schema = false;
 
   function updateInstance(event) {
