@@ -23,6 +23,15 @@ To run the tests:
 
     npm run test
 
+## Deploy demo site
+
+    $ git checkout master
+    $ git reset --hard main
+    $ npm run build:docs
+    $ git add docs
+    $ git commit -m "update docs"
+    $ git push -f
+
 ## Changelog and versioniong
 
 The versioning of `jsonschematic` is taken care
