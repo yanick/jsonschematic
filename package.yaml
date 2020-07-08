@@ -70,3 +70,6 @@ scripts:
   "lint:fix": npm-run-all "lint:eslint:fix -- {@}" "lint:prettier:fix -- {@}" --
 
 standard-version: {}
+
+tap:
+  coverage: false

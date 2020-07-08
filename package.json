@@ -122,5 +122,8 @@
       "test": "tap 'src/**/*test.js' --no-coverage"
    },
    "standard-version": {},
+   "tap": {
+      "coverage": false
+   },
    "version": "0.0.3"
 }
