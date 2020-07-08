@@ -2,7 +2,7 @@
 
   {#each examples as example (example)}
     <pre>
-      <code>{example}</code>
+      <code>{JSON.stringify(example, null, 2)}</code>
     </pre>
   {/each}
 
