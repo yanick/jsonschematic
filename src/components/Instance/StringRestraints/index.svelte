@@ -30,7 +30,6 @@
 
   const tippy = tippy_orig || noop;
 
-
   import Range from "../Types/Range.svelte";
 
   import formats from "../Types/String/formats";

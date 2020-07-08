@@ -44,7 +44,7 @@
   {#if ref}
     <div>extends</div>
     <div>
-      <a href={'#' + relative_ref(ref)}>{ref}</a>
+      <a href={relative_ref(ref)}>{ref}</a>
 
       {#if is_expanded_ref}
         <input on:click={remove_ref} type="button" value="unexpand" />
@@ -157,6 +157,9 @@
   $: if (!id) id = href || "";
   $: if (id && !id.includes("#")) id = id + "#";
 
+  $: if (href && !href.includes("#")) {
+    href = href + "#";
+  }
   const fetch_ref = async () => {
     loading_ref = true;
 
@@ -181,10 +184,11 @@
 
   function relative_ref(ref) {
     if (ref.startsWith("#")) {
-      return id.replace(/#.*/, "") + ref;
+      console.log({ ref, id });
+      return "#" + id.replace(/#.*/, "") + ref;
     }
 
-    return ref;
+    return "#" + ref;
   }
 </script>
 
