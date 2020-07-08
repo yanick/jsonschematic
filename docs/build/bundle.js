@@ -86,10 +86,10 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/contains.js":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/contains.js ***!
-  \*******************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/contains.js":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/contains.js ***!
+  \**************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -122,10 +122,10 @@ function contains(parent, child) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js":
-/*!********************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js ***!
-  \********************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js":
+/*!***************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js ***!
+  \***************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -148,27 +148,27 @@ function getBoundingClientRect(element) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js":
-/*!**************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js ***!
-  \**************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js ***!
+  \*********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getClippingRect; });
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
-/* harmony import */ var _getViewportRect_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getViewportRect.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js");
-/* harmony import */ var _getDocumentRect_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getDocumentRect.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js");
-/* harmony import */ var _listScrollParents_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./listScrollParents.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js");
-/* harmony import */ var _getOffsetParent_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./getOffsetParent.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js");
-/* harmony import */ var _getDocumentElement_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./getDocumentElement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
-/* harmony import */ var _getComputedStyle_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./getComputedStyle.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js");
-/* harmony import */ var _instanceOf_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./instanceOf.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
-/* harmony import */ var _getBoundingClientRect_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./getBoundingClientRect.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js");
-/* harmony import */ var _contains_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./contains.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/contains.js");
-/* harmony import */ var _utils_rectToClientRect_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../utils/rectToClientRect.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/rectToClientRect.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _getViewportRect_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getViewportRect.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js");
+/* harmony import */ var _getDocumentRect_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getDocumentRect.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js");
+/* harmony import */ var _listScrollParents_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./listScrollParents.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js");
+/* harmony import */ var _getOffsetParent_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./getOffsetParent.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js");
+/* harmony import */ var _getDocumentElement_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./getDocumentElement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
+/* harmony import */ var _getComputedStyle_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./getComputedStyle.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js");
+/* harmony import */ var _instanceOf_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./instanceOf.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
+/* harmony import */ var _getBoundingClientRect_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./getBoundingClientRect.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js");
+/* harmony import */ var _contains_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./contains.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/contains.js");
+/* harmony import */ var _utils_rectToClientRect_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../utils/rectToClientRect.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/rectToClientRect.js");
 
 
 
@@ -239,23 +239,23 @@ function getClippingRect(element, boundary, rootBoundary) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js":
-/*!***************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js ***!
-  \***************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js":
+/*!**********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js ***!
+  \**********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getCompositeRect; });
-/* harmony import */ var _getBoundingClientRect_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getBoundingClientRect.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js");
-/* harmony import */ var _getNodeScroll_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getNodeScroll.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js");
-/* harmony import */ var _getNodeName_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getNodeName.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
-/* harmony import */ var _instanceOf_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./instanceOf.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
-/* harmony import */ var _getWindowScrollBarX_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./getWindowScrollBarX.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js");
-/* harmony import */ var _getDocumentElement_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./getDocumentElement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
-/* harmony import */ var _isScrollParent_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./isScrollParent.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js");
+/* harmony import */ var _getBoundingClientRect_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getBoundingClientRect.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js");
+/* harmony import */ var _getNodeScroll_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getNodeScroll.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js");
+/* harmony import */ var _getNodeName_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getNodeName.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
+/* harmony import */ var _instanceOf_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./instanceOf.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
+/* harmony import */ var _getWindowScrollBarX_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./getWindowScrollBarX.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js");
+/* harmony import */ var _getDocumentElement_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./getDocumentElement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
+/* harmony import */ var _isScrollParent_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./isScrollParent.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js");
 
 
 
@@ -307,17 +307,17 @@ function getCompositeRect(elementOrVirtualElement, offsetParent, isFixed) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js":
-/*!***************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js ***!
-  \***************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js":
+/*!**********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js ***!
+  \**********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getComputedStyle; });
-/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
+/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
 
 function getComputedStyle(element) {
   return Object(_getWindow_js__WEBPACK_IMPORTED_MODULE_0__["default"])(element).getComputedStyle(element);
@@ -325,17 +325,17 @@ function getComputedStyle(element) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js":
-/*!*****************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js ***!
-  \*****************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js ***!
+  \************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getDocumentElement; });
-/* harmony import */ var _instanceOf_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./instanceOf.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
+/* harmony import */ var _instanceOf_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./instanceOf.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
 
 function getDocumentElement(element) {
   // $FlowFixMe: assume body is always available
@@ -344,20 +344,20 @@ function getDocumentElement(element) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js":
-/*!**************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js ***!
-  \**************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js ***!
+  \*********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getDocumentRect; });
-/* harmony import */ var _getDocumentElement_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getDocumentElement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
-/* harmony import */ var _getComputedStyle_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getComputedStyle.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js");
-/* harmony import */ var _getWindowScrollBarX_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getWindowScrollBarX.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js");
-/* harmony import */ var _getWindowScroll_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./getWindowScroll.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js");
+/* harmony import */ var _getDocumentElement_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getDocumentElement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
+/* harmony import */ var _getComputedStyle_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getComputedStyle.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js");
+/* harmony import */ var _getWindowScrollBarX_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getWindowScrollBarX.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js");
+/* harmony import */ var _getWindowScroll_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./getWindowScroll.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js");
 
 
 
@@ -387,10 +387,10 @@ function getDocumentRect(element) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js":
-/*!*******************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js ***!
-  \*******************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js":
+/*!**************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js ***!
+  \**************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -406,10 +406,10 @@ function getHTMLElementScroll(element) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js":
-/*!************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js ***!
-  \************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js ***!
+  \*******************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -429,10 +429,10 @@ function getLayoutRect(element) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js ***!
-  \**********************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js":
+/*!*****************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js ***!
+  \*****************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -445,20 +445,20 @@ function getNodeName(element) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js":
-/*!************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js ***!
-  \************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js ***!
+  \*******************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getNodeScroll; });
-/* harmony import */ var _getWindowScroll_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getWindowScroll.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js");
-/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
-/* harmony import */ var _instanceOf_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./instanceOf.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
-/* harmony import */ var _getHTMLElementScroll_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./getHTMLElementScroll.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js");
+/* harmony import */ var _getWindowScroll_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getWindowScroll.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js");
+/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
+/* harmony import */ var _instanceOf_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./instanceOf.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
+/* harmony import */ var _getHTMLElementScroll_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./getHTMLElementScroll.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js");
 
 
 
@@ -473,22 +473,22 @@ function getNodeScroll(node) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js":
-/*!**************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js ***!
-  \**************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js ***!
+  \*********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getOffsetParent; });
-/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
-/* harmony import */ var _getNodeName_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getNodeName.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
-/* harmony import */ var _getComputedStyle_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getComputedStyle.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js");
-/* harmony import */ var _instanceOf_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./instanceOf.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
-/* harmony import */ var _isTableElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./isTableElement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/isTableElement.js");
-/* harmony import */ var _getParentNode_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./getParentNode.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js");
+/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
+/* harmony import */ var _getNodeName_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getNodeName.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
+/* harmony import */ var _getComputedStyle_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getComputedStyle.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js");
+/* harmony import */ var _instanceOf_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./instanceOf.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
+/* harmony import */ var _isTableElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./isTableElement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/isTableElement.js");
+/* harmony import */ var _getParentNode_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./getParentNode.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js");
 
 
 
@@ -543,18 +543,18 @@ function getOffsetParent(element) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js":
-/*!************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js ***!
-  \************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js ***!
+  \*******************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getParentNode; });
-/* harmony import */ var _getNodeName_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getNodeName.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
-/* harmony import */ var _getDocumentElement_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getDocumentElement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
+/* harmony import */ var _getNodeName_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getNodeName.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
+/* harmony import */ var _getDocumentElement_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getDocumentElement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
 
 
 function getParentNode(element) {
@@ -575,20 +575,20 @@ function getParentNode(element) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js":
-/*!**************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js ***!
-  \**************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js ***!
+  \*********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getScrollParent; });
-/* harmony import */ var _getParentNode_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getParentNode.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js");
-/* harmony import */ var _isScrollParent_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isScrollParent.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js");
-/* harmony import */ var _getNodeName_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getNodeName.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
-/* harmony import */ var _instanceOf_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./instanceOf.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
+/* harmony import */ var _getParentNode_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getParentNode.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js");
+/* harmony import */ var _isScrollParent_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isScrollParent.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js");
+/* harmony import */ var _getNodeName_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getNodeName.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
+/* harmony import */ var _instanceOf_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./instanceOf.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
 
 
 
@@ -608,19 +608,19 @@ function getScrollParent(node) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js":
-/*!**************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js ***!
-  \**************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js ***!
+  \*********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getViewportRect; });
-/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
-/* harmony import */ var _getDocumentElement_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getDocumentElement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
-/* harmony import */ var _getWindowScrollBarX_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getWindowScrollBarX.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js");
+/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
+/* harmony import */ var _getDocumentElement_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getDocumentElement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
+/* harmony import */ var _getWindowScrollBarX_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getWindowScrollBarX.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js");
 
 
 
@@ -664,10 +664,10 @@ function getViewportRect(element) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js":
-/*!********************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js ***!
-  \********************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js ***!
+  \***************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -688,17 +688,17 @@ function getWindow(node) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js":
-/*!**************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js ***!
-  \**************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js ***!
+  \*********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getWindowScroll; });
-/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
+/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
 
 function getWindowScroll(node) {
   var win = Object(_getWindow_js__WEBPACK_IMPORTED_MODULE_0__["default"])(node);
@@ -712,19 +712,19 @@ function getWindowScroll(node) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js":
-/*!******************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js ***!
-  \******************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js":
+/*!*************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js ***!
+  \*************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getWindowScrollBarX; });
-/* harmony import */ var _getBoundingClientRect_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getBoundingClientRect.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js");
-/* harmony import */ var _getDocumentElement_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getDocumentElement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
-/* harmony import */ var _getWindowScroll_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getWindowScroll.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js");
+/* harmony import */ var _getBoundingClientRect_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getBoundingClientRect.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js");
+/* harmony import */ var _getDocumentElement_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getDocumentElement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
+/* harmony import */ var _getWindowScroll_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getWindowScroll.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js");
 
 
 
@@ -741,10 +741,10 @@ function getWindowScrollBarX(element) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js":
-/*!*********************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js ***!
-  \*********************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js":
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js ***!
+  \****************************************************************************************************************************/
 /*! exports provided: isElement, isHTMLElement */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -752,7 +752,7 @@ function getWindowScrollBarX(element) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isElement", function() { return isElement; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isHTMLElement", function() { return isHTMLElement; });
-/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
+/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
 
 /*:: declare function isElement(node: mixed): boolean %checks(node instanceof
   Element); */
@@ -774,17 +774,17 @@ function isHTMLElement(node) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js":
-/*!*************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js ***!
-  \*************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js ***!
+  \********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return isScrollParent; });
-/* harmony import */ var _getComputedStyle_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getComputedStyle.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js");
+/* harmony import */ var _getComputedStyle_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getComputedStyle.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js");
 
 function isScrollParent(element) {
   // Firefox wants us to check `-x` and `-y` variations as well
@@ -798,17 +798,17 @@ function isScrollParent(element) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/isTableElement.js":
-/*!*************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/isTableElement.js ***!
-  \*************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/isTableElement.js":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/isTableElement.js ***!
+  \********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return isTableElement; });
-/* harmony import */ var _getNodeName_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getNodeName.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
+/* harmony import */ var _getNodeName_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getNodeName.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
 
 function isTableElement(element) {
   return ['table', 'td', 'th'].indexOf(Object(_getNodeName_js__WEBPACK_IMPORTED_MODULE_0__["default"])(element)) >= 0;
@@ -816,21 +816,21 @@ function isTableElement(element) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js":
-/*!****************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js ***!
-  \****************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js ***!
+  \***********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return listScrollParents; });
-/* harmony import */ var _getScrollParent_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getScrollParent.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js");
-/* harmony import */ var _getParentNode_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getParentNode.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js");
-/* harmony import */ var _getNodeName_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getNodeName.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
-/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
-/* harmony import */ var _isScrollParent_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./isScrollParent.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js");
+/* harmony import */ var _getScrollParent_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getScrollParent.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js");
+/* harmony import */ var _getParentNode_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getParentNode.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js");
+/* harmony import */ var _getNodeName_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getNodeName.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
+/* harmony import */ var _getWindow_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./getWindow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
+/* harmony import */ var _isScrollParent_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./isScrollParent.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js");
 
 
 
@@ -859,10 +859,10 @@ function listScrollParents(element, list) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js ***!
-  \******************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: top, bottom, right, left, auto, basePlacements, start, end, clippingParents, viewport, popper, reference, variationPlacements, placements, beforeRead, read, afterRead, beforeMain, main, afterMain, beforeWrite, write, afterWrite, modifierPhases */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -926,10 +926,10 @@ var modifierPhases = [beforeRead, read, afterRead, beforeMain, main, afterMain, 
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/index.js":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/index.js ***!
-  \******************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/index.js":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/index.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: top, bottom, right, left, auto, basePlacements, start, end, clippingParents, viewport, popper, reference, variationPlacements, placements, beforeRead, read, afterRead, beforeMain, main, afterMain, beforeWrite, write, afterWrite, modifierPhases, popperGenerator, createPopper */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -937,19 +937,19 @@ var modifierPhases = [beforeRead, read, afterRead, beforeMain, main, afterMain, 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "popperGenerator", function() { return popperGenerator; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createPopper", function() { return createPopper; });
-/* harmony import */ var _dom_utils_getCompositeRect_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dom-utils/getCompositeRect.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js");
-/* harmony import */ var _dom_utils_getLayoutRect_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dom-utils/getLayoutRect.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js");
-/* harmony import */ var _dom_utils_listScrollParents_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./dom-utils/listScrollParents.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js");
-/* harmony import */ var _dom_utils_getOffsetParent_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./dom-utils/getOffsetParent.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js");
-/* harmony import */ var _dom_utils_getComputedStyle_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./dom-utils/getComputedStyle.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js");
-/* harmony import */ var _utils_orderModifiers_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils/orderModifiers.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/orderModifiers.js");
-/* harmony import */ var _utils_debounce_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./utils/debounce.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/debounce.js");
-/* harmony import */ var _utils_validateModifiers_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./utils/validateModifiers.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/validateModifiers.js");
-/* harmony import */ var _utils_uniqueBy_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./utils/uniqueBy.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/uniqueBy.js");
-/* harmony import */ var _utils_getBasePlacement_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./utils/getBasePlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
-/* harmony import */ var _utils_mergeByName_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./utils/mergeByName.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/mergeByName.js");
-/* harmony import */ var _dom_utils_instanceOf_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./dom-utils/instanceOf.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _dom_utils_getCompositeRect_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dom-utils/getCompositeRect.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js");
+/* harmony import */ var _dom_utils_getLayoutRect_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dom-utils/getLayoutRect.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js");
+/* harmony import */ var _dom_utils_listScrollParents_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./dom-utils/listScrollParents.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js");
+/* harmony import */ var _dom_utils_getOffsetParent_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./dom-utils/getOffsetParent.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js");
+/* harmony import */ var _dom_utils_getComputedStyle_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./dom-utils/getComputedStyle.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js");
+/* harmony import */ var _utils_orderModifiers_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils/orderModifiers.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/orderModifiers.js");
+/* harmony import */ var _utils_debounce_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./utils/debounce.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/debounce.js");
+/* harmony import */ var _utils_validateModifiers_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./utils/validateModifiers.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/validateModifiers.js");
+/* harmony import */ var _utils_uniqueBy_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./utils/uniqueBy.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/uniqueBy.js");
+/* harmony import */ var _utils_getBasePlacement_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./utils/getBasePlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
+/* harmony import */ var _utils_mergeByName_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./utils/mergeByName.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/mergeByName.js");
+/* harmony import */ var _dom_utils_instanceOf_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./dom-utils/instanceOf.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "top", function() { return _enums_js__WEBPACK_IMPORTED_MODULE_12__["top"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "bottom", function() { return _enums_js__WEBPACK_IMPORTED_MODULE_12__["bottom"]; });
@@ -1257,17 +1257,17 @@ var createPopper = /*#__PURE__*/popperGenerator();
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/applyStyles.js":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/applyStyles.js ***!
-  \**********************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/applyStyles.js":
+/*!*****************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/applyStyles.js ***!
+  \*****************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _dom_utils_getNodeName_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../dom-utils/getNodeName.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
-/* harmony import */ var _dom_utils_instanceOf_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../dom-utils/instanceOf.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
+/* harmony import */ var _dom_utils_getNodeName_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../dom-utils/getNodeName.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js");
+/* harmony import */ var _dom_utils_instanceOf_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../dom-utils/instanceOf.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
 
  // This modifier takes the styles prepared by the `computeStyles` modifier
 // and applies them to the HTMLElements such as popper and arrow
@@ -1357,25 +1357,25 @@ function effect(_ref2) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/arrow.js":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/arrow.js ***!
-  \****************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/arrow.js":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/arrow.js ***!
+  \***********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _utils_getBasePlacement_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/getBasePlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
-/* harmony import */ var _dom_utils_getLayoutRect_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../dom-utils/getLayoutRect.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js");
-/* harmony import */ var _dom_utils_contains_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../dom-utils/contains.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/contains.js");
-/* harmony import */ var _dom_utils_getOffsetParent_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../dom-utils/getOffsetParent.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js");
-/* harmony import */ var _utils_getMainAxisFromPlacement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/getMainAxisFromPlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js");
-/* harmony import */ var _utils_within_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/within.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/within.js");
-/* harmony import */ var _utils_mergePaddingObject_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/mergePaddingObject.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js");
-/* harmony import */ var _utils_expandToHashMap_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/expandToHashMap.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/expandToHashMap.js");
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
-/* harmony import */ var _dom_utils_instanceOf_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../dom-utils/instanceOf.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
+/* harmony import */ var _utils_getBasePlacement_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/getBasePlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
+/* harmony import */ var _dom_utils_getLayoutRect_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../dom-utils/getLayoutRect.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js");
+/* harmony import */ var _dom_utils_contains_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../dom-utils/contains.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/contains.js");
+/* harmony import */ var _dom_utils_getOffsetParent_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../dom-utils/getOffsetParent.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js");
+/* harmony import */ var _utils_getMainAxisFromPlacement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/getMainAxisFromPlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js");
+/* harmony import */ var _utils_within_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/within.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/within.js");
+/* harmony import */ var _utils_mergePaddingObject_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/mergePaddingObject.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js");
+/* harmony import */ var _utils_expandToHashMap_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/expandToHashMap.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/expandToHashMap.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _dom_utils_instanceOf_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../dom-utils/instanceOf.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
 
 
 
@@ -1478,22 +1478,22 @@ function effect(_ref2) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/computeStyles.js":
-/*!************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/computeStyles.js ***!
-  \************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/computeStyles.js":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/computeStyles.js ***!
+  \*******************************************************************************************************************************/
 /*! exports provided: mapToStyles, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapToStyles", function() { return mapToStyles; });
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
-/* harmony import */ var _dom_utils_getOffsetParent_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../dom-utils/getOffsetParent.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js");
-/* harmony import */ var _dom_utils_getWindow_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../dom-utils/getWindow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
-/* harmony import */ var _dom_utils_getDocumentElement_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../dom-utils/getDocumentElement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
-/* harmony import */ var _dom_utils_getComputedStyle_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../dom-utils/getComputedStyle.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js");
-/* harmony import */ var _utils_getBasePlacement_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/getBasePlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _dom_utils_getOffsetParent_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../dom-utils/getOffsetParent.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js");
+/* harmony import */ var _dom_utils_getWindow_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../dom-utils/getWindow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
+/* harmony import */ var _dom_utils_getDocumentElement_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../dom-utils/getDocumentElement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
+/* harmony import */ var _dom_utils_getComputedStyle_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../dom-utils/getComputedStyle.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js");
+/* harmony import */ var _utils_getBasePlacement_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/getBasePlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
 
 
 
@@ -1635,16 +1635,16 @@ function computeStyles(_ref3) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/eventListeners.js":
-/*!*************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/eventListeners.js ***!
-  \*************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/eventListeners.js":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/eventListeners.js ***!
+  \********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _dom_utils_getWindow_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../dom-utils/getWindow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
+/* harmony import */ var _dom_utils_getWindow_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../dom-utils/getWindow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getWindow.js");
  // eslint-disable-next-line import/no-unused-modules
 
 var passive = {
@@ -1697,22 +1697,22 @@ function effect(_ref) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/flip.js":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/flip.js ***!
-  \***************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/flip.js":
+/*!**********************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/flip.js ***!
+  \**********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _utils_getOppositePlacement_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/getOppositePlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getOppositePlacement.js");
-/* harmony import */ var _utils_getBasePlacement_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/getBasePlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
-/* harmony import */ var _utils_getOppositeVariationPlacement_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/getOppositeVariationPlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js");
-/* harmony import */ var _utils_detectOverflow_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/detectOverflow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js");
-/* harmony import */ var _utils_computeAutoPlacement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/computeAutoPlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js");
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
-/* harmony import */ var _utils_getVariation_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/getVariation.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getVariation.js");
+/* harmony import */ var _utils_getOppositePlacement_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/getOppositePlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getOppositePlacement.js");
+/* harmony import */ var _utils_getBasePlacement_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/getBasePlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
+/* harmony import */ var _utils_getOppositeVariationPlacement_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/getOppositeVariationPlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js");
+/* harmony import */ var _utils_detectOverflow_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/detectOverflow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js");
+/* harmony import */ var _utils_computeAutoPlacement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/computeAutoPlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _utils_getVariation_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/getVariation.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getVariation.js");
 
 
 
@@ -1863,17 +1863,17 @@ function flip(_ref) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/hide.js":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/hide.js ***!
-  \***************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/hide.js":
+/*!**********************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/hide.js ***!
+  \**********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
-/* harmony import */ var _utils_detectOverflow_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/detectOverflow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _utils_detectOverflow_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/detectOverflow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js");
 
 
 
@@ -1938,18 +1938,18 @@ function hide(_ref) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/offset.js":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/offset.js ***!
-  \*****************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/offset.js":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/offset.js ***!
+  \************************************************************************************************************************/
 /*! exports provided: distanceAndSkiddingToXY, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "distanceAndSkiddingToXY", function() { return distanceAndSkiddingToXY; });
-/* harmony import */ var _utils_getBasePlacement_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/getBasePlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _utils_getBasePlacement_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/getBasePlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
 
 
 function distanceAndSkiddingToXY(placement, rects, offset) {
@@ -2006,16 +2006,16 @@ function offset(_ref2) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/popperOffsets.js":
-/*!************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/popperOffsets.js ***!
-  \************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/popperOffsets.js":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/popperOffsets.js ***!
+  \*******************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _utils_computeOffsets_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/computeOffsets.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/computeOffsets.js");
+/* harmony import */ var _utils_computeOffsets_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/computeOffsets.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/computeOffsets.js");
 
 
 function popperOffsets(_ref) {
@@ -2044,25 +2044,25 @@ function popperOffsets(_ref) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/preventOverflow.js":
-/*!**************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/preventOverflow.js ***!
-  \**************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/preventOverflow.js":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/preventOverflow.js ***!
+  \*********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
-/* harmony import */ var _utils_getBasePlacement_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/getBasePlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
-/* harmony import */ var _utils_getMainAxisFromPlacement_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/getMainAxisFromPlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js");
-/* harmony import */ var _utils_getAltAxis_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/getAltAxis.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getAltAxis.js");
-/* harmony import */ var _utils_within_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/within.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/within.js");
-/* harmony import */ var _dom_utils_getLayoutRect_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../dom-utils/getLayoutRect.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js");
-/* harmony import */ var _dom_utils_getOffsetParent_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../dom-utils/getOffsetParent.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js");
-/* harmony import */ var _utils_detectOverflow_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/detectOverflow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js");
-/* harmony import */ var _utils_getVariation_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../utils/getVariation.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getVariation.js");
-/* harmony import */ var _utils_getFreshSideObject_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../utils/getFreshSideObject.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getFreshSideObject.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _utils_getBasePlacement_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/getBasePlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
+/* harmony import */ var _utils_getMainAxisFromPlacement_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/getMainAxisFromPlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js");
+/* harmony import */ var _utils_getAltAxis_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/getAltAxis.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getAltAxis.js");
+/* harmony import */ var _utils_within_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/within.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/within.js");
+/* harmony import */ var _dom_utils_getLayoutRect_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../dom-utils/getLayoutRect.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js");
+/* harmony import */ var _dom_utils_getOffsetParent_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../dom-utils/getOffsetParent.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js");
+/* harmony import */ var _utils_detectOverflow_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/detectOverflow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js");
+/* harmony import */ var _utils_getVariation_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../utils/getVariation.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getVariation.js");
+/* harmony import */ var _utils_getFreshSideObject_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../utils/getFreshSideObject.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getFreshSideObject.js");
 
 
 
@@ -2185,10 +2185,10 @@ function preventOverflow(_ref) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/popper.js":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/popper.js ***!
-  \*******************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/popper.js":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/popper.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: createPopper, popperGenerator, defaultModifiers, detectOverflow */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2196,19 +2196,19 @@ function preventOverflow(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createPopper", function() { return createPopper; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "defaultModifiers", function() { return defaultModifiers; });
-/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/index.js");
+/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/index.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "popperGenerator", function() { return _index_js__WEBPACK_IMPORTED_MODULE_0__["popperGenerator"]; });
 
-/* harmony import */ var _modifiers_eventListeners_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modifiers/eventListeners.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/eventListeners.js");
-/* harmony import */ var _modifiers_popperOffsets_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modifiers/popperOffsets.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/popperOffsets.js");
-/* harmony import */ var _modifiers_computeStyles_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modifiers/computeStyles.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/computeStyles.js");
-/* harmony import */ var _modifiers_applyStyles_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modifiers/applyStyles.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/applyStyles.js");
-/* harmony import */ var _modifiers_offset_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modifiers/offset.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/offset.js");
-/* harmony import */ var _modifiers_flip_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modifiers/flip.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/flip.js");
-/* harmony import */ var _modifiers_preventOverflow_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modifiers/preventOverflow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/preventOverflow.js");
-/* harmony import */ var _modifiers_arrow_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modifiers/arrow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/arrow.js");
-/* harmony import */ var _modifiers_hide_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modifiers/hide.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/modifiers/hide.js");
-/* harmony import */ var _utils_detectOverflow_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./utils/detectOverflow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js");
+/* harmony import */ var _modifiers_eventListeners_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modifiers/eventListeners.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/eventListeners.js");
+/* harmony import */ var _modifiers_popperOffsets_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modifiers/popperOffsets.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/popperOffsets.js");
+/* harmony import */ var _modifiers_computeStyles_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modifiers/computeStyles.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/computeStyles.js");
+/* harmony import */ var _modifiers_applyStyles_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modifiers/applyStyles.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/applyStyles.js");
+/* harmony import */ var _modifiers_offset_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modifiers/offset.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/offset.js");
+/* harmony import */ var _modifiers_flip_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modifiers/flip.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/flip.js");
+/* harmony import */ var _modifiers_preventOverflow_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modifiers/preventOverflow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/preventOverflow.js");
+/* harmony import */ var _modifiers_arrow_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modifiers/arrow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/arrow.js");
+/* harmony import */ var _modifiers_hide_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modifiers/hide.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/modifiers/hide.js");
+/* harmony import */ var _utils_detectOverflow_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./utils/detectOverflow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "detectOverflow", function() { return _utils_detectOverflow_js__WEBPACK_IMPORTED_MODULE_10__["default"]; });
 
 
@@ -2231,20 +2231,20 @@ var createPopper = /*#__PURE__*/Object(_index_js__WEBPACK_IMPORTED_MODULE_0__["p
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js":
-/*!***************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js ***!
-  \***************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js":
+/*!**********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js ***!
+  \**********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return computeAutoPlacement; });
-/* harmony import */ var _getVariation_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getVariation.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getVariation.js");
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
-/* harmony import */ var _detectOverflow_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./detectOverflow.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js");
-/* harmony import */ var _getBasePlacement_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./getBasePlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
+/* harmony import */ var _getVariation_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getVariation.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getVariation.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _detectOverflow_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./detectOverflow.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js");
+/* harmony import */ var _getBasePlacement_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./getBasePlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
 
 
 
@@ -2289,20 +2289,20 @@ function computeAutoPlacement(state, options) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/computeOffsets.js":
-/*!*********************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/computeOffsets.js ***!
-  \*********************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/computeOffsets.js":
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/computeOffsets.js ***!
+  \****************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return computeOffsets; });
-/* harmony import */ var _getBasePlacement_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getBasePlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
-/* harmony import */ var _getVariation_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getVariation.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getVariation.js");
-/* harmony import */ var _getMainAxisFromPlacement_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getMainAxisFromPlacement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js");
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _getBasePlacement_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getBasePlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js");
+/* harmony import */ var _getVariation_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getVariation.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getVariation.js");
+/* harmony import */ var _getMainAxisFromPlacement_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getMainAxisFromPlacement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
 
 
 
@@ -2376,10 +2376,10 @@ function computeOffsets(_ref) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/debounce.js":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/debounce.js ***!
-  \***************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/debounce.js":
+/*!**********************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/debounce.js ***!
+  \**********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2404,25 +2404,25 @@ function debounce(fn) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js":
-/*!*********************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js ***!
-  \*********************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js":
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/detectOverflow.js ***!
+  \****************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return detectOverflow; });
-/* harmony import */ var _dom_utils_getBoundingClientRect_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../dom-utils/getBoundingClientRect.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js");
-/* harmony import */ var _dom_utils_getClippingRect_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../dom-utils/getClippingRect.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js");
-/* harmony import */ var _dom_utils_getDocumentElement_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../dom-utils/getDocumentElement.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
-/* harmony import */ var _computeOffsets_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./computeOffsets.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/computeOffsets.js");
-/* harmony import */ var _rectToClientRect_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./rectToClientRect.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/rectToClientRect.js");
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
-/* harmony import */ var _dom_utils_instanceOf_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../dom-utils/instanceOf.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
-/* harmony import */ var _mergePaddingObject_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./mergePaddingObject.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js");
-/* harmony import */ var _expandToHashMap_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./expandToHashMap.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/expandToHashMap.js");
+/* harmony import */ var _dom_utils_getBoundingClientRect_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../dom-utils/getBoundingClientRect.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js");
+/* harmony import */ var _dom_utils_getClippingRect_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../dom-utils/getClippingRect.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js");
+/* harmony import */ var _dom_utils_getDocumentElement_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../dom-utils/getDocumentElement.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js");
+/* harmony import */ var _computeOffsets_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./computeOffsets.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/computeOffsets.js");
+/* harmony import */ var _rectToClientRect_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./rectToClientRect.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/rectToClientRect.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _dom_utils_instanceOf_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../dom-utils/instanceOf.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js");
+/* harmony import */ var _mergePaddingObject_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./mergePaddingObject.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js");
+/* harmony import */ var _expandToHashMap_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./expandToHashMap.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/expandToHashMap.js");
 
 
 
@@ -2490,10 +2490,10 @@ function detectOverflow(state, options) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/expandToHashMap.js":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/expandToHashMap.js ***!
-  \**********************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/expandToHashMap.js":
+/*!*****************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/expandToHashMap.js ***!
+  \*****************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2509,10 +2509,10 @@ function expandToHashMap(value, keys) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/format.js":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/format.js ***!
-  \*************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/format.js":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/format.js ***!
+  \********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2531,10 +2531,10 @@ function format(str) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getAltAxis.js":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getAltAxis.js ***!
-  \*****************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getAltAxis.js":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getAltAxis.js ***!
+  \************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2547,17 +2547,17 @@ function getAltAxis(axis) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js ***!
-  \***********************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getBasePlacement.js ***!
+  \******************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getBasePlacement; });
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
 
 function getBasePlacement(placement) {
   return placement.split('-')[0];
@@ -2565,10 +2565,10 @@ function getBasePlacement(placement) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getFreshSideObject.js":
-/*!*************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getFreshSideObject.js ***!
-  \*************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getFreshSideObject.js":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getFreshSideObject.js ***!
+  \********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2586,10 +2586,10 @@ function getFreshSideObject() {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js":
-/*!*******************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js ***!
-  \*******************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js":
+/*!**************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js ***!
+  \**************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2602,10 +2602,10 @@ function getMainAxisFromPlacement(placement) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getOppositePlacement.js":
-/*!***************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getOppositePlacement.js ***!
-  \***************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getOppositePlacement.js":
+/*!**********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getOppositePlacement.js ***!
+  \**********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2626,10 +2626,10 @@ function getOppositePlacement(placement) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js":
-/*!************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js ***!
-  \************************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js ***!
+  \*******************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2648,10 +2648,10 @@ function getOppositeVariationPlacement(placement) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getVariation.js":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getVariation.js ***!
-  \*******************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getVariation.js":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getVariation.js ***!
+  \**************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2664,10 +2664,10 @@ function getVariation(placement) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/mergeByName.js":
-/*!******************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/mergeByName.js ***!
-  \******************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/mergeByName.js":
+/*!*************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/mergeByName.js ***!
+  \*************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2691,17 +2691,17 @@ function mergeByName(modifiers) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js":
-/*!*************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js ***!
-  \*************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js ***!
+  \********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return mergePaddingObject; });
-/* harmony import */ var _getFreshSideObject_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getFreshSideObject.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/getFreshSideObject.js");
+/* harmony import */ var _getFreshSideObject_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getFreshSideObject.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/getFreshSideObject.js");
 
 function mergePaddingObject(paddingObject) {
   return Object.assign(Object.assign({}, Object(_getFreshSideObject_js__WEBPACK_IMPORTED_MODULE_0__["default"])()), paddingObject);
@@ -2709,17 +2709,17 @@ function mergePaddingObject(paddingObject) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/orderModifiers.js":
-/*!*********************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/orderModifiers.js ***!
-  \*********************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/orderModifiers.js":
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/orderModifiers.js ***!
+  \****************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return orderModifiers; });
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
  // source: https://stackoverflow.com/questions/49875255
 
 function order(modifiers) {
@@ -2767,10 +2767,10 @@ function orderModifiers(modifiers) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/rectToClientRect.js":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/rectToClientRect.js ***!
-  \***********************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/rectToClientRect.js":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/rectToClientRect.js ***!
+  \******************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2788,10 +2788,10 @@ function rectToClientRect(rect) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/uniqueBy.js":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/uniqueBy.js ***!
-  \***************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/uniqueBy.js":
+/*!**********************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/uniqueBy.js ***!
+  \**********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2812,18 +2812,18 @@ function uniqueBy(arr, fn) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/validateModifiers.js":
-/*!************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/validateModifiers.js ***!
-  \************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/validateModifiers.js":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/validateModifiers.js ***!
+  \*******************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return validateModifiers; });
-/* harmony import */ var _format_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./format.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/format.js");
-/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/enums.js");
+/* harmony import */ var _format_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./format.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/format.js");
+/* harmony import */ var _enums_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../enums.js */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/enums.js");
 
 
 var INVALID_MODIFIER_ERROR = 'Popper: modifier "%s" provided an invalid %s property, expected %s but got %s';
@@ -2903,10 +2903,10 @@ function validateModifiers(modifiers) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/within.js":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/utils/within.js ***!
-  \*************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/within.js":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/utils/within.js ***!
+  \********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2919,15 +2919,15 @@ function within(min, value, max) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/tippy.js@6.0.3/node_modules/tippy.js/dist/tippy.css":
-/*!*************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/tippy.js@6.0.3/node_modules/tippy.js/dist/tippy.css ***!
-  \*************************************************************************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/registry.npmjs.org/tippy.js/6.0.3/node_modules/tippy.js/dist/tippy.css":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/registry.npmjs.org/tippy.js/6.0.3/node_modules/tippy.js/dist/tippy.css ***!
+  \***************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 exports.push([module.i, ".tippy-box[data-animation=fade][data-state=hidden]{opacity:0}.tippy-iOS{cursor:pointer!important;-webkit-tap-highlight-color:transparent}[data-tippy-root]{max-width:calc(100vw - 10px)}.tippy-box{position:relative;background-color:#333;color:#fff;border-radius:4px;font-size:14px;line-height:1.4;outline:0;transition-property:transform,visibility,opacity}.tippy-box[data-placement^=top]>.tippy-arrow{bottom:0}.tippy-box[data-placement^=top]>.tippy-arrow:before{bottom:-7px;left:0;border-width:8px 8px 0;border-top-color:#333;transform-origin:center top}.tippy-box[data-placement^=bottom]>.tippy-arrow{top:0}.tippy-box[data-placement^=bottom]>.tippy-arrow:before{top:-7px;left:0;border-width:0 8px 8px;border-bottom-color:#333;transform-origin:center bottom}.tippy-box[data-placement^=left]>.tippy-arrow{right:0}.tippy-box[data-placement^=left]>.tippy-arrow:before{border-width:8px 0 8px 8px;border-left-color:#333;right:-7px;transform-origin:center left}.tippy-box[data-placement^=right]>.tippy-arrow{left:0}.tippy-box[data-placement^=right]>.tippy-arrow:before{left:-7px;border-width:8px 8px 8px 0;border-right-color:#333;transform-origin:center right}.tippy-box[data-inertia][data-state=visible]{transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)}.tippy-arrow{width:16px;height:16px}.tippy-arrow:before{content:\"\";position:absolute;border-color:transparent;border-style:solid}.tippy-content{position:relative;padding:5px 9px;z-index:1}", ""]);
@@ -2937,51 +2937,123 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/Example.svelte.css":
-/*!*********************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/Example.svelte.css ***!
-  \*********************************************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/Example.svelte.css":
+/*!****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/Example.svelte.css ***!
+  \****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".example.svelte-xqf2on.svelte-xqf2on{display:flex;width:90%;margin-left:5%;margin-right:5%}.example.svelte-xqf2on>.svelte-xqf2on{flex:1;height:min-content}pre.svelte-xqf2on.svelte-xqf2on{background-color:#f0f0f0}.edit_me.svelte-xqf2on.svelte-xqf2on{text-align:right}.instance.svelte-xqf2on.svelte-xqf2on{margin-left:1em}.error.svelte-xqf2on.svelte-xqf2on{border-color:red}div.error.svelte-xqf2on.svelte-xqf2on{text-color:red}", ""]);
+exports.push([module.i, ".example.svelte-fjh7gp.svelte-fjh7gp{display:flex;width:90%;margin-left:5%;margin-right:5%}.example.svelte-fjh7gp>.svelte-fjh7gp{flex:1;height:min-content}pre.svelte-fjh7gp.svelte-fjh7gp{background-color:#f0f0f0}.edit_me.svelte-fjh7gp.svelte-fjh7gp{text-align:right}.instance.svelte-fjh7gp.svelte-fjh7gp{margin-left:1em}.error.svelte-fjh7gp.svelte-fjh7gp{border-color:red}div.error.svelte-fjh7gp.svelte-fjh7gp{text-color:red}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/index.svelte.css":
-/*!*******************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/index.svelte.css ***!
-  \*******************************************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/GithubCorner.svelte.css":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/GithubCorner.svelte.css ***!
+  \*********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".top_level h1{font-size:var(--font-scale-10) !important}.body.svelte-q6c56d.svelte-q6c56d{display:flex}.body.svelte-q6c56d>div.svelte-q6c56d{width:10%}", ""]);
+exports.push([module.i, ".github-corner.svelte-1tfh411:hover .octo-arm.svelte-1tfh411{animation:svelte-1tfh411-octocat-wave 560ms ease-in-out}@keyframes svelte-1tfh411-octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media(max-width: 500px){.github-corner.svelte-1tfh411:hover .octo-arm.svelte-1tfh411{animation:none}.github-corner.svelte-1tfh411 .octo-arm.svelte-1tfh411{animation:svelte-1tfh411-octocat-wave 560ms ease-in-out}}svg.svelte-1tfh411.svelte-1tfh411{fill:var(--color-blue);color:var(--color-base3)}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Enum/index.svelte.css":
-/*!************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Enum/index.svelte.css ***!
-  \************************************************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/index.svelte.css":
+/*!**************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/index.svelte.css ***!
+  \**************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".top_level h1{font-size:var(--font-scale-10) !important}.body.svelte-r0qbz7.svelte-r0qbz7{display:flex}.body.svelte-r0qbz7>div.svelte-r0qbz7{width:20em}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/ArrayRestraints/index.svelte.css":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/ArrayRestraints/index.svelte.css ***!
+  \******************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "ul.svelte-1d1hqb9{list-style:none;display:flex;padding:0px;margin:0px;grid-column:span 2}li.svelte-1d1hqb9{margin-right:0.25em}li.svelte-1d1hqb9:after{content:\", \"}li.svelte-1d1hqb9:last-child:after{content:\"\"}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/BoxSegment.svelte.css":
+/*!*******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/BoxSegment.svelte.css ***!
+  \*******************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "fieldset.svelte-1myiyqa.svelte-1myiyqa{grid-column:span 2}fieldset.svelte-1myiyqa legend.svelte-1myiyqa{font-weight:bold}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Dependencies.svelte.css":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Dependencies.svelte.css ***!
+  \*********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "ul.svelte-1mezgji:before{content:\"dependencies\";margin-right:0.5em}ul.svelte-1mezgji{list-style:none;padding:0px;margin:0px;display:flex}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Enum/index.svelte.css":
+/*!*******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Enum/index.svelte.css ***!
+  \*******************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 exports.push([module.i, "ul.svelte-hrvhs8.svelte-hrvhs8{list-style:none;margin:0px;padding:0px;display:flex}li.svelte-hrvhs8.svelte-hrvhs8:after{content:\",\"}li.svelte-hrvhs8.svelte-hrvhs8:last-child:after{content:\"\"}li.svelte-hrvhs8.svelte-hrvhs8{margin-right:0.5em}.filter.svelte-hrvhs8 input.svelte-hrvhs8{font-size:var(--font-scale-8)}.filter.svelte-hrvhs8 .filter_box.svelte-hrvhs8{margin-top:0px;margin-bottom:0px}", ""]);
@@ -2991,15 +3063,15 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Examples/index.svelte.css":
-/*!****************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Examples/index.svelte.css ***!
-  \****************************************************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Examples/index.svelte.css":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Examples/index.svelte.css ***!
+  \***********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 exports.push([module.i, "pre.svelte-10fdmiz{margin-top:0px;margin-bottom:0.5em}", ""]);
@@ -3009,87 +3081,15 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Items/index.svelte.css":
-/*!*************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Items/index.svelte.css ***!
-  \*************************************************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/ObjectRestraints/index.svelte.css":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/ObjectRestraints/index.svelte.css ***!
+  \*******************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, "div.svelte-5w6ux0{font-weight:bold}", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Properties/Property.svelte.css":
-/*!*********************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Properties/Property.svelte.css ***!
-  \*********************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, ".required.svelte-6uz0tt:before{content:\"!\";font-weight:bold;color:var(--color-red)}", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Properties/index.svelte.css":
-/*!******************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Properties/index.svelte.css ***!
-  \******************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, "div.svelte-2cmx6b{grid-column:span 2;font-weight:bold}", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/Array/index.svelte.css":
-/*!*******************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/Array/index.svelte.css ***!
-  \*******************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, "ul.svelte-13ha4gv{list-style:none;display:flex;padding:0px;margin:0px}li.svelte-13ha4gv{margin-right:0.25em}li.svelte-13ha4gv:after{content:\", \"}li.svelte-13ha4gv:last-child:after{content:\"\"}", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/ObjectType/index.svelte.css":
-/*!************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/ObjectType/index.svelte.css ***!
-  \************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 exports.push([module.i, ".label.svelte-18d4qi0{font-weight:bold}ul.svelte-18d4qi0{list-style:none;padding:0px;margin:0px}", ""]);
@@ -3099,15 +3099,51 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/String/index.svelte.css":
-/*!********************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/String/index.svelte.css ***!
-  \********************************************************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Properties/Property.svelte.css":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Properties/Property.svelte.css ***!
+  \****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".property-name.svelte-16w2dtc{margin-left:1em}.required.svelte-16w2dtc:before{content:\"!\";font-weight:bold;color:var(--color-red)}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Properties/index.svelte.css":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Properties/index.svelte.css ***!
+  \*************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "div.svelte-jqilkm{display:grid;grid-template-columns:1fr 100fr;align-items:first baseline;grid-column-gap:1em;margin-bottom:1em}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/StringRestraints/index.svelte.css":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/StringRestraints/index.svelte.css ***!
+  \*******************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 exports.push([module.i, ".format.svelte-s7s18v{cursor:help}.tooltip{color:var(--color-base2) !important}", ""]);
@@ -3117,46 +3153,64 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/Type.svelte.css":
-/*!************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/Type.svelte.css ***!
-  \************************************************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/Restraints.svelte.css":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/Restraints.svelte.css ***!
+  \*************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".type.svelte-2x67ox{color:var(--color-cyan)}.type_restraints.svelte-2x67ox{display:grid;grid-template-columns:1fr 100fr;grid-column-gap:1em}div.svelte-2x67ox{display:flex}.type_restraints.svelte-2x67ox>ul{grid-column:span 2;display:flex;list-style:none;margin:0px;margin-left:0.5em;padding:0px}.type_restraints.svelte-2x67ox>ul>li{margin-right:0.5em;font-style:italic}.type_restraints.svelte-2x67ox>ul>li:after{content:\",\"}.type_restraints.svelte-2x67ox>ul>li:last-child:after{content:\"\"}", ""]);
+exports.push([module.i, ".type_restraints.svelte-1jf1ci0{display:grid;grid-template-columns:1fr 100fr;grid-column-gap:1em}div.svelte-1jf1ci0{display:flex}.type_restraints.svelte-1jf1ci0>ul{grid-column:span 2;display:flex;list-style:none;margin:0px;margin-left:0.5em;padding:0px}.type_restraints.svelte-1jf1ci0>ul>li{margin-right:0.5em;font-style:italic}.type_restraints.svelte-1jf1ci0>ul>li:after{content:\",\"}.type_restraints.svelte-1jf1ci0>ul>li:last-child:after{content:\"\"}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/index.svelte.css":
-/*!*******************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/index.svelte.css ***!
-  \*******************************************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/Type.svelte.css":
+/*!*******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/Type.svelte.css ***!
+  \*******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".instance.svelte-1k2vdn9.svelte-1k2vdn9{display:grid;grid-template-columns:1fr 100fr;align-items:first baseline;grid-column-gap:1em;margin-bottom:1em}.instance.svelte-1k2vdn9.svelte-1k2vdn9>.type{grid-column:1}.instance.svelte-1k2vdn9.svelte-1k2vdn9>.type_restraints{grid-column:2}.top_level.svelte-1k2vdn9>.top_section.svelte-1k2vdn9{display:flex}.top_section.svelte-1k2vdn9.svelte-1k2vdn9{display:none;grid-column:span 2}.description.svelte-1k2vdn9.svelte-1k2vdn9{grid-column:span 2}.title.svelte-1k2vdn9.svelte-1k2vdn9{grid-column:span 2;color:var(--color-blue);font-size:var(--font-scale-10)}.top_level.svelte-1k2vdn9>.title.svelte-1k2vdn9{font-size:var(--font-scale-14)}.instance_href.svelte-1k2vdn9.svelte-1k2vdn9{font-style:italic}.top_section.svelte-1k2vdn9 div.svelte-1k2vdn9{flex:1}.schema.svelte-1k2vdn9.svelte-1k2vdn9{text-align:right}pre.svelte-1k2vdn9.svelte-1k2vdn9{background-color:#f0f0f0}", ""]);
+exports.push([module.i, ".type.svelte-nv4ip7{color:var(--color-cyan)}div.svelte-nv4ip7{display:flex}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js":
-/*!********************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js ***!
-  \********************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/index.svelte.css":
+/*!**************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/index.svelte.css ***!
+  \**************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".instance.svelte-jmrp.svelte-jmrp{display:grid;grid-template-columns:1fr 100fr;align-items:first baseline;grid-column-gap:1em;margin-bottom:1em}.instance.svelte-jmrp.svelte-jmrp>.type{grid-column:1}.instance.svelte-jmrp.svelte-jmrp>.type_restraints{grid-column:2}.top_level.svelte-jmrp>.top_section.svelte-jmrp{display:flex}.top_section.svelte-jmrp.svelte-jmrp{display:none;grid-column:span 2}.description.svelte-jmrp.svelte-jmrp{grid-column:span 2}.title.svelte-jmrp.svelte-jmrp{grid-column:span 2;color:var(--color-blue);font-size:var(--font-scale-10)}.types.svelte-jmrp.svelte-jmrp{grid-column:span 2;list-style:none;padding:0px;margin:0px;color:var(--color-cyan)}.top_level.svelte-jmrp>.title.svelte-jmrp{font-size:var(--font-scale-14)}.instance_href.svelte-jmrp.svelte-jmrp{font-style:italic}.top_section.svelte-jmrp div.svelte-jmrp{flex:1}.schema.svelte-jmrp.svelte-jmrp{text-align:right}pre.svelte-jmrp.svelte-jmrp{background-color:#f0f0f0}.writeOnly.svelte-jmrp.svelte-jmrp{grid-column:span 2;font-variant:small-caps}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/runtime/api.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3258,10 +3312,10 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/jsonpointer@4.0.1/node_modules/jsonpointer/jsonpointer.js":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/.pnpm/jsonpointer@4.0.1/node_modules/jsonpointer/jsonpointer.js ***!
-  \**************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/jsonpointer/4.1.0/node_modules/jsonpointer/jsonpointer.js":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/jsonpointer/4.1.0/node_modules/jsonpointer/jsonpointer.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3283,6 +3337,9 @@ function untilde (str) {
 function setter (obj, pointer, value) {
   var part
   var hasNextPart
+
+  if (pointer[1] === 'constructor' && pointer[2] === 'prototype') return obj
+  if (pointer[1] === '__proto__') return obj
 
   for (var p = 1, len = pointer.length; p < len;) {
     part = untilde(pointer[p++])
@@ -3362,28 +3419,28 @@ exports.compile = compile
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp.js ***!
-  \*********************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _ = __webpack_require__(/*! ./lodash.min */ "./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/lodash.min.js").runInContext();
-module.exports = __webpack_require__(/*! ./fp/_baseConvert */ "./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp/_baseConvert.js")(_, _);
+var _ = __webpack_require__(/*! ./lodash.min */ "./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/lodash.min.js").runInContext();
+module.exports = __webpack_require__(/*! ./fp/_baseConvert */ "./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp/_baseConvert.js")(_, _);
 
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp/_baseConvert.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp/_baseConvert.js ***!
-  \**********************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp/_baseConvert.js":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp/_baseConvert.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var mapping = __webpack_require__(/*! ./_mapping */ "./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp/_mapping.js"),
-    fallbackHolder = __webpack_require__(/*! ./placeholder */ "./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp/placeholder.js");
+var mapping = __webpack_require__(/*! ./_mapping */ "./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp/_mapping.js"),
+    fallbackHolder = __webpack_require__(/*! ./placeholder */ "./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp/placeholder.js");
 
 /** Built-in value reference. */
 var push = Array.prototype.push;
@@ -3955,10 +4012,10 @@ module.exports = baseConvert;
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp/_mapping.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp/_mapping.js ***!
-  \******************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp/_mapping.js":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp/_mapping.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -4324,10 +4381,10 @@ exports.skipRearg = {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp/placeholder.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp/placeholder.js ***!
-  \*********************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp/placeholder.js":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp/placeholder.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -4341,10 +4398,10 @@ module.exports = {};
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/lodash.min.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/lodash.min.js ***!
-  \*****************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/lodash.min.js":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/lodash.min.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4486,14 +4543,14 @@ e=[];n:for(;n--&&a<l;){for(o+=r,u=-1,i=t[o];++u<c;){var h=f[u],s=h.type,h=(0,h.i
 for(var t,r=this;r instanceof En;){var e=Fe(r);e.__index__=0,e.__values__=T,t?u.__wrapped__=e:t=e;var u=e,r=r.__wrapped__}return u.__wrapped__=n,t},An.prototype.reverse=function(){var n=this.__wrapped__;return n instanceof Un?(this.__actions__.length&&(n=new Un(this)),n=n.reverse(),n.__actions__.push({func:Qe,args:[Ge],thisArg:T}),new On(n,this.__chain__)):this.thru(Ge)},An.prototype.toJSON=An.prototype.valueOf=An.prototype.value=function(){return wr(this.__wrapped__,this.__actions__)},An.prototype.first=An.prototype.head,
 wi&&(An.prototype[wi]=Xe),An}(); true?($n._=rt, !(__WEBPACK_AMD_DEFINE_RESULT__ = (function(){return rt}).call(exports, __webpack_require__, exports, module),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__))):undefined}).call(this);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack@4.43.0_webpack@4.43.0/node_modules/webpack/buildin/global.js */ "./node_modules/.pnpm/webpack@4.43.0_webpack@4.43.0/node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../../../webpack@4.43.0_webpack@4.43.0/node_modules/webpack/buildin/module.js */ "./node_modules/.pnpm/webpack@4.43.0_webpack@4.43.0/node_modules/webpack/buildin/module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../webpack/4.43.0_webpack@4.43.0/node_modules/webpack/buildin/global.js */ "./node_modules/.pnpm/registry.npmjs.org/webpack/4.43.0_webpack@4.43.0/node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../../../../webpack/4.43.0_webpack@4.43.0/node_modules/webpack/buildin/module.js */ "./node_modules/.pnpm/registry.npmjs.org/webpack/4.43.0_webpack@4.43.0/node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
-/*!*********************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \*********************************************************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4770,10 +4827,10 @@ module.exports = function (list, options) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs ***!
-  \*********************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs ***!
+  \****************************************************************************************************/
 /*! exports provided: HtmlTag, SvelteComponent, SvelteComponentDev, SvelteElement, action_destroyer, add_attribute, add_classes, add_flush_callback, add_location, add_render_callback, add_resize_listener, add_transform, afterUpdate, append, append_dev, assign, attr, attr_dev, beforeUpdate, bind, binding_callbacks, blank_object, bubble, check_outros, children, claim_component, claim_element, claim_space, claim_text, clear_loops, component_subscribe, compute_rest_props, createEventDispatcher, create_animation, create_bidirectional_transition, create_component, create_in_transition, create_out_transition, create_slot, create_ssr_component, current_component, custom_event, dataset_dev, debug, destroy_block, destroy_component, destroy_each, detach, detach_after_dev, detach_before_dev, detach_between_dev, detach_dev, dirty_components, dispatch_dev, each, element, element_is, empty, escape, escaped, exclude_internal_props, fix_and_destroy_block, fix_and_outro_and_destroy_block, fix_position, flush, getContext, get_binding_group_value, get_current_component, get_slot_changes, get_slot_context, get_spread_object, get_spread_update, get_store_value, globals, group_outros, handle_promise, has_prop, identity, init, insert, insert_dev, intros, invalid_attribute_name_character, is_client, is_crossorigin, is_function, is_promise, listen, listen_dev, loop, loop_guard, missing_component, mount_component, noop, not_equal, now, null_to_empty, object_without_properties, onDestroy, onMount, once, outro_and_destroy_block, prevent_default, prop_dev, query_selector_all, raf, run, run_all, safe_not_equal, schedule_update, select_multiple_value, select_option, select_options, select_value, self, setContext, set_attributes, set_current_component, set_custom_element_data, set_data, set_data_dev, set_input_type, set_input_value, set_now, set_raf, set_store_value, set_style, set_svg_attributes, space, spread, stop_propagation, subscribe, svg_element, text, tick, time_ranges_to_array, to_number, toggle_class, transition_in, transition_out, update_keyed_each, update_slot, validate_component, validate_each_argument, validate_each_keys, validate_slots, validate_store, xlink_attr */
 /***/ (function(__webpack_module__, __webpack_exports__, __webpack_require__) {
 
@@ -6448,7 +6505,7 @@ class SvelteComponent {
 }
 
 function dispatch_dev(type, detail) {
-    document.dispatchEvent(custom_event(type, Object.assign({ version: '3.23.2' }, detail)));
+    document.dispatchEvent(custom_event(type, Object.assign({ version: '3.23.1' }, detail)));
 }
 function append_dev(target, node) {
     dispatch_dev("SvelteDOMInsert", { target, node });
@@ -6558,10 +6615,10 @@ function loop_guard(timeout) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/store/index.mjs":
-/*!******************************************************************************!*\
-  !*** ./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/store/index.mjs ***!
-  \******************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/store/index.mjs":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/store/index.mjs ***!
+  \*************************************************************************************************/
 /*! exports provided: get, derived, readable, writable */
 /***/ (function(__webpack_module__, __webpack_exports__, __webpack_require__) {
 
@@ -6570,7 +6627,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "derived", function() { return derived; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "readable", function() { return readable; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "writable", function() { return writable; });
-/* harmony import */ var _internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "get", function() { return _internal__WEBPACK_IMPORTED_MODULE_0__["get_store_value"]; });
 
 
@@ -6684,17 +6741,17 @@ function derived(stores, fn, initial_value) {
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/sveltejs-tippy@3.0.0/node_modules/sveltejs-tippy/src/index.js":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/.pnpm/sveltejs-tippy@3.0.0/node_modules/sveltejs-tippy/src/index.js ***!
-  \******************************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/sveltejs-tippy/3.0.0/node_modules/sveltejs-tippy/src/index.js":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/sveltejs-tippy/3.0.0/node_modules/sveltejs-tippy/src/index.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var tippy_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tippy.js */ "./node_modules/.pnpm/tippy.js@6.0.3/node_modules/tippy.js/dist/tippy.esm.js");
-/* harmony import */ var tippy_js_dist_tippy_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tippy.js/dist/tippy.css */ "./node_modules/.pnpm/tippy.js@6.0.3/node_modules/tippy.js/dist/tippy.css");
+/* harmony import */ var tippy_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tippy.js */ "./node_modules/.pnpm/registry.npmjs.org/tippy.js/6.0.3/node_modules/tippy.js/dist/tippy.esm.js");
+/* harmony import */ var tippy_js_dist_tippy_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tippy.js/dist/tippy.css */ "./node_modules/.pnpm/registry.npmjs.org/tippy.js/6.0.3/node_modules/tippy.js/dist/tippy.css");
 /* harmony import */ var tippy_js_dist_tippy_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(tippy_js_dist_tippy_css__WEBPACK_IMPORTED_MODULE_1__);
 
 
@@ -6706,15 +6763,15 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/tippy.js@6.0.3/node_modules/tippy.js/dist/tippy.css":
-/*!********************************************************************************!*\
-  !*** ./node_modules/.pnpm/tippy.js@6.0.3/node_modules/tippy.js/dist/tippy.css ***!
-  \********************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/tippy.js/6.0.3/node_modules/tippy.js/dist/tippy.css":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/tippy.js/6.0.3/node_modules/tippy.js/dist/tippy.css ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../../../../style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../../css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./tippy.css */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/tippy.js@6.0.3/node_modules/tippy.js/dist/tippy.css");
+var api = __webpack_require__(/*! ../../../../../style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../../css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./tippy.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/registry.npmjs.org/tippy.js/6.0.3/node_modules/tippy.js/dist/tippy.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -6735,10 +6792,10 @@ module.exports = content.locals || {};
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/tippy.js@6.0.3/node_modules/tippy.js/dist/tippy.esm.js":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/.pnpm/tippy.js@6.0.3/node_modules/tippy.js/dist/tippy.esm.js ***!
-  \***********************************************************************************/
+/***/ "./node_modules/.pnpm/registry.npmjs.org/tippy.js/6.0.3/node_modules/tippy.js/dist/tippy.esm.js":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/registry.npmjs.org/tippy.js/6.0.3/node_modules/tippy.js/dist/tippy.esm.js ***!
+  \******************************************************************************************************/
 /*! exports provided: default, animateFill, createSingleton, delegate, followCursor, hideAll, inlinePositioning, roundArrow, sticky */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6752,7 +6809,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "inlinePositioning", function() { return inlinePositioning; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "roundArrow", function() { return ROUND_ARROW; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sticky", function() { return sticky; });
-/* harmony import */ var _popperjs_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @popperjs/core */ "./node_modules/.pnpm/@popperjs/core@2.4.2/node_modules/@popperjs/core/lib/popper.js");
+/* harmony import */ var _popperjs_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @popperjs/core */ "./node_modules/.pnpm/registry.npmjs.org/@popperjs/core/2.4.2/node_modules/@popperjs/core/lib/popper.js");
 /**!
 * tippy.js v6.0.3
 * (c) 2017-2020 atomiks
@@ -8884,7 +8941,7 @@ tippy.setDefaultProps({
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/webpack@4.43.0_webpack@4.43.0/node_modules/webpack/buildin/global.js":
+/***/ "./node_modules/.pnpm/registry.npmjs.org/webpack/4.43.0_webpack@4.43.0/node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
   \***********************************/
@@ -8915,7 +8972,7 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./node_modules/.pnpm/webpack@4.43.0_webpack@4.43.0/node_modules/webpack/buildin/module.js":
+/***/ "./node_modules/.pnpm/registry.npmjs.org/webpack/4.43.0_webpack@4.43.0/node_modules/webpack/buildin/module.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/module.js ***!
   \***********************************/
@@ -8957,13 +9014,13 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
 /* harmony import */ var _Instance_index_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Instance/index.svelte */ "./src/components/Instance/index.svelte");
-/* harmony import */ var lodash_fp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/fp */ "./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp.js");
+/* harmony import */ var lodash_fp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/fp */ "./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp.js");
 /* harmony import */ var lodash_fp__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_fp__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Examples_Example_svelte_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/components/Examples/Example.svelte.css */ "./src/components/Examples/Example.svelte.css");
 /* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Examples_Example_svelte_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Examples_Example_svelte_css__WEBPACK_IMPORTED_MODULE_3__);
-/* src/components/Examples/Example.svelte generated by Svelte v3.23.2 */
+/* src/components/Examples/Example.svelte generated by Svelte v3.23.1 */
 
 
 
@@ -8987,10 +9044,10 @@ function create_else_block(ctx) {
 			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
 			input = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("input");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(pre, "class", "svelte-xqf2on");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(pre, "class", "svelte-fjh7gp");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input, "type", "button");
 			input.value = "edit me";
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "edit_me svelte-xqf2on");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "edit_me svelte-fjh7gp");
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, pre, anchor);
@@ -9035,7 +9092,7 @@ function create_if_block(ctx) {
 			if_block_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(textarea, "cols", "60");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(textarea, "rows", "10");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(textarea, "class", "svelte-xqf2on");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(textarea, "class", "svelte-fjh7gp");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["toggle_class"])(textarea, "error", /*error_edit*/ ctx[2]);
 		},
 		m(target, anchor) {
@@ -9083,7 +9140,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (7:8) {#if error_edit }
+// (10:6) {#if error_edit}
 function create_if_block_1(ctx) {
 	let div;
 
@@ -9091,7 +9148,7 @@ function create_if_block_1(ctx) {
 		c() {
 			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
 			div.textContent = "Invalid JSON";
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "error svelte-xqf2on");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "error svelte-fjh7gp");
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div, anchor);
@@ -9107,7 +9164,6 @@ function create_fragment(ctx) {
 	let div0;
 	let t0;
 	let div1;
-	let instance;
 	let t1;
 	let hr;
 	let current;
@@ -9120,7 +9176,7 @@ function create_fragment(ctx) {
 	let current_block_type = select_block_type(ctx, -1);
 	let if_block = current_block_type(ctx);
 
-	instance = new _Instance_index_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+	const instance = new _Instance_index_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
 			props: {
 				top_level: true,
 				definition: /*edited_def*/ ctx[3]
@@ -9137,10 +9193,10 @@ function create_fragment(ctx) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(instance.$$.fragment);
 			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			hr = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("hr");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "svelte-xqf2on");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "instance svelte-xqf2on");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div2, "class", "example svelte-xqf2on");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(hr, "class", "svelte-xqf2on");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "svelte-fjh7gp");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "instance svelte-fjh7gp");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div2, "class", "example svelte-fjh7gp");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(hr, "class", "svelte-fjh7gp");
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div2, anchor);
@@ -9260,8 +9316,103 @@ if (false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../../../node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./Example.svelte.css */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/Example.svelte.css");
+var api = __webpack_require__(/*! ../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./Example.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/Example.svelte.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/components/Examples/GithubCorner.svelte":
+/*!*****************************************************!*\
+  !*** ./src/components/Examples/GithubCorner.svelte ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Examples_GithubCorner_svelte_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/components/Examples/GithubCorner.svelte.css */ "./src/components/Examples/GithubCorner.svelte.css");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Examples_GithubCorner_svelte_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Examples_GithubCorner_svelte_css__WEBPACK_IMPORTED_MODULE_1__);
+/* src/components/Examples/GithubCorner.svelte generated by Svelte v3.23.1 */
+
+
+function create_fragment(ctx) {
+	let a;
+
+	return {
+		c() {
+			a = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("a");
+
+			a.innerHTML = `<svg width="80" height="80" viewBox="0 0 250 250" style="position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true" class="svelte-1tfh411"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6
+      120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3
+      125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm svelte-1tfh411"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6
+      C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0
+      C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1
+      C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4
+      C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9
+      C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5
+      C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9
+      L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg>`;
+
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "href", "https://github.com/yanick/jsonschematic");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "class", "github-corner svelte-1tfh411");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "aria-label", "View source on GitHub");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, a, anchor);
+		},
+		p: svelte_internal__WEBPACK_IMPORTED_MODULE_0__["noop"],
+		i: svelte_internal__WEBPACK_IMPORTED_MODULE_0__["noop"],
+		o: svelte_internal__WEBPACK_IMPORTED_MODULE_0__["noop"],
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(a);
+		}
+	};
+}
+
+class GithubCorner extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
+	constructor(options) {
+		super();
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, null, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {});
+	}
+}
+
+
+if (false) {}
+
+/* harmony default export */ __webpack_exports__["default"] = (GithubCorner);
+
+
+
+
+/***/ }),
+
+/***/ "./src/components/Examples/GithubCorner.svelte.css":
+/*!*********************************************************!*\
+  !*** ./src/components/Examples/GithubCorner.svelte.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./GithubCorner.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/GithubCorner.svelte.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -9292,79 +9443,247 @@ module.exports = content.locals || {};
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ([
-    { title: "object with properties", type: "object", properties: {
-        foo: { type: "string" },
-        bar: { type: "number" },
-    } },
-    { title: "string with a date-time format", type: "string", format: "date-time", description: "the format comes with a tooltip too! Hover over the format to see it." },
-    { title: "examples", type: "number", examples: [ 1, 2, 3 ] },
-    { title: "object examples", type: "object", examples: [ { level: 3 } ] },
-    { 
-        title: "array type",
-        type: "array",
-        maxItems: 10,
-        minItems: 3,
-        maxContains: 2,
-        minContains: 1,
-        uniqueItems: true,
+  {
+    type: "object",
+    properties: {
+      builtin: { type: "number" },
     },
-    { type: "boolean type",
-        type: "boolean", },
-    {
-        title: "number w/ minimum, maximum",
-        keywords: [ 'number', 'minimum', 'maximum' ],
-            type: "number",
-            minimum: 3,
-            maximum: 10,
+    patternProperties: {
+      "^S_": { type: "string" },
+      "^I_": { type: "integer" },
     },
-    {
-        title: "number w/ exclusiveMinimum, exclusiveMaximum",
-        keywords: [ 'number', 'exclusiveMaximum', 'exclusiveMinimum' ],
-            type: "number",
-            exclusiveMinimum: 3,
-            exclusiveMaximum: 10,
+    additionalProperties: { type: "string" },
+    title: "patternProperties",
+  },
+  {
+    type: "array",
+    items: {
+      type: "number",
     },
-    {
-        title: "integer w/ exclusiveMinimum, exclusiveMaximum",
-            type: "integer",
-            exclusiveMinimum: 3,
-            exclusiveMaximum: 10,
+    title: "items as a schema",
+  },
+  {
+    type: "array",
+    items: [{ type: "number" }, { type: "string" }],
+    title: "items as a tuple",
+  },
+  {
+    type: "object",
+    propertyNames: {
+      pattern: "^[A-Za-z_][A-Za-z0-9_]*$",
     },
-    {
-        title: "number w/ multipleOf",
-        keywords: [ 'number', 'multipleOf' ],
-            type: "number",
-            multipleOf: 3,
+    title: "propertyNames",
+  },
+  {
+    title: "additionalProperties as `false`",
+    type: "object",
+    properties: {
+      foo: { type: "string" },
     },
-    {
-        title: "integer w/ default",
-            type: "integer",
-            default: 13,
+    additionalProperties: false,
+  },
+  {
+    title: "additionalProperties as object",
+    type: "object",
+    properties: {
+      foo: { type: "string" },
     },
-    {
-        title: "string type w/ minLength, maxLength",
+    additionalProperties: {
+      type: "string",
+    },
+  },
+  { title: "writeOnly", writeOnly: true, type: "string" },
+  { title: "readOnly", readOnly: true, type: "string" },
+  {
+    title: "not",
+    type: "string",
+    not: { maxLength: 5 },
+  },
+  {
+    title: "anyOf",
+    anyOf: [
+      { type: "string", maxLength: 5 },
+      { type: "number", minimum: 0 },
+    ],
+  },
+  {
+    title: "oneOf",
+    oneOf: [
+      { type: "string", maxLength: 5 },
+      { type: "number", minimum: 0 },
+    ],
+  },
+  {
+    title: "allOf",
+    allOf: [
+      { type: "string", maxLength: 5 },
+      { type: "number", minimum: 0 },
+    ],
+  },
+  {
+    title: "if-then-else",
+    type: "object",
+    properties: {
+      street_address: {
         type: "string",
-        minLength: 3,
-        maxLength: 13,
+      },
+      country: {
+        enum: ["United States of America", "Canada"],
+      },
     },
-    {
-        title: "a simple ref",
-        $ref: "#/somewhere/else",
+    if: {
+      properties: { country: { const: "United States of America" } },
     },
-    {
-        type: "object",
-        $id: "http://yanick.github.io/jsonschematic",
-        "$schema": "http://json-schema.org/draft-07/schema#",
-        title: "$id and regular $schema",
-        description: "if the $schema is one of the official json schema urls, the display will simply be v*number*"
-    }
-].map( entry => {
-    if(!entry.keywords) entry.keywords = [];
-    entry.keywords.push(...Object.keys(entry));
-    entry.keywords.push(entry.type);
-    return entry;
-}
-));
+    then: {
+      properties: { postal_code: { pattern: "[0-9]{5}(-[0-9]{4})?" } },
+    },
+    else: {
+      properties: {
+        postal_code: { pattern: "[A-Z][0-9][A-Z] [0-9][A-Z][0-9]" },
+      },
+    },
+  },
+  {
+    type: "object",
+
+    properties: {
+      name: { type: "string" },
+      credit_card: { type: "number" },
+    },
+
+    required: ["name"],
+
+    dependencies: {
+      credit_card: {
+        properties: {
+          billing_address: { type: "string" },
+        },
+        required: ["billing_address"],
+      },
+    },
+  },
+  {
+    title: "property dependencies",
+    type: "object",
+
+    properties: {
+      name: { type: "string" },
+      credit_card: { type: "number" },
+      billing_address: { type: "string" },
+    },
+
+    required: ["name"],
+
+    dependencies: {
+      credit_card: ["billing_address"],
+    },
+  },
+  {
+    title: "null type",
+    type: "null",
+  },
+  {
+    title: "string w/ enum",
+    type: "string",
+    enum: ["potato", "cauliflower", "beet"],
+  },
+  {
+    title: "string w/ const",
+    type: "string",
+    const: "potato",
+  },
+  {
+    title: "string w/ content type and encoding",
+    type: "string",
+    contentEncoding: "base64",
+    contentMediaType: "image/png",
+  },
+  {
+    title: "object with properties, required, minProperties, maxProperties",
+    type: "object",
+    properties: {
+      foo: { type: "string" },
+      bar: { type: "number" },
+      baz: { type: "boolean" },
+    },
+    required: ["foo"],
+    minProperties: 2,
+    maxProperties: 3,
+  },
+  {
+    title: "string with a date-time format",
+    type: "string",
+    format: "date-time",
+    description:
+      "the format comes with a tooltip too! Hover over the format to see it.",
+  },
+  { title: "examples", type: "number", examples: [1, 2, 3] },
+  { title: "object examples", type: "object", examples: [{ level: 3 }] },
+  {
+    title: "array type",
+    type: "array",
+    maxItems: 10,
+    minItems: 3,
+    maxContains: 2,
+    minContains: 1,
+    uniqueItems: true,
+  },
+  { type: "boolean type", type: "boolean" },
+  {
+    title: "number w/ minimum, maximum",
+    keywords: ["number", "minimum", "maximum"],
+    type: "number",
+    minimum: 3,
+    maximum: 10,
+  },
+  {
+    title: "number w/ exclusiveMinimum, exclusiveMaximum",
+    keywords: ["number", "exclusiveMaximum", "exclusiveMinimum"],
+    type: "number",
+    exclusiveMinimum: 3,
+    exclusiveMaximum: 10,
+  },
+  {
+    title: "integer w/ exclusiveMinimum, exclusiveMaximum",
+    type: "integer",
+    exclusiveMinimum: 3,
+    exclusiveMaximum: 10,
+  },
+  {
+    title: "number w/ multipleOf",
+    keywords: ["number", "multipleOf"],
+    type: "number",
+    multipleOf: 3,
+  },
+  {
+    title: "integer w/ default",
+    type: "integer",
+    default: 13,
+  },
+  {
+    title: "string type w/ minLength, maxLength",
+    type: "string",
+    minLength: 3,
+    maxLength: 13,
+  },
+  {
+    title: "a simple ref",
+    $ref: "#/somewhere/else",
+  },
+  {
+    type: "object",
+    $id: "http://yanick.github.io/jsonschematic",
+    $schema: "http://json-schema.org/draft-07/schema#",
+    title: "$id and regular $schema",
+    description:
+      "if the $schema is one of the official json schema urls, the display will simply be v*number*",
+  },
+].map((entry) => {
+  if (!entry.keywords) entry.keywords = [];
+  entry.keywords.push(...Object.keys(entry));
+  entry.keywords.push(entry.type);
+  return entry;
+}));
 
 
 /***/ }),
@@ -9378,14 +9697,16 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
 /* harmony import */ var _examples__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./examples */ "./src/components/Examples/examples.js");
 /* harmony import */ var _Example_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Example.svelte */ "./src/components/Examples/Example.svelte");
-/* harmony import */ var lodash_fp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/fp */ "./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp.js");
-/* harmony import */ var lodash_fp__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_fp__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Examples_index_svelte_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./src/components/Examples/index.svelte.css */ "./src/components/Examples/index.svelte.css");
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Examples_index_svelte_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Examples_index_svelte_css__WEBPACK_IMPORTED_MODULE_4__);
-/* src/components/Examples/index.svelte generated by Svelte v3.23.2 */
+/* harmony import */ var _GithubCorner_svelte__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./GithubCorner.svelte */ "./src/components/Examples/GithubCorner.svelte");
+/* harmony import */ var lodash_fp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash/fp */ "./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp.js");
+/* harmony import */ var lodash_fp__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_fp__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Examples_index_svelte_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./src/components/Examples/index.svelte.css */ "./src/components/Examples/index.svelte.css");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Examples_index_svelte_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Examples_index_svelte_css__WEBPACK_IMPORTED_MODULE_5__);
+/* src/components/Examples/index.svelte generated by Svelte v3.23.1 */
+
 
 
 
@@ -9404,7 +9725,7 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (4:2) {#if selected_keywords}
+// (7:2) {#if selected_keywords}
 function create_if_block(ctx) {
 	let t0;
 	let t1_value = /*selected_keywords*/ ctx[0].join(", ") + "";
@@ -9429,7 +9750,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (18:0) {#each all_keywords as kw (kw) }
+// (19:6) {#each all_keywords as kw (kw)}
 function create_each_block_1(key_1, ctx) {
 	let li;
 	let a;
@@ -9468,13 +9789,12 @@ function create_each_block_1(key_1, ctx) {
 	};
 }
 
-// (29:0) {#each filtered_examples as definition (definition.title)}
+// (30:4) {#each filtered_examples as definition (definition.title)}
 function create_each_block(key_1, ctx) {
 	let first;
-	let example;
 	let current;
 
-	example = new _Example_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
+	const example = new _Example_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
 			props: { definition: /*definition*/ ctx[4] }
 		});
 
@@ -9513,25 +9833,27 @@ function create_each_block(key_1, ctx) {
 }
 
 function create_fragment(ctx) {
-	let h1;
 	let t0;
+	let h1;
 	let t1;
+	let t2;
 	let div1;
 	let div0;
 	let h2;
-	let t3;
+	let t4;
 	let ul;
 	let li;
-	let t5;
+	let t6;
 	let each_blocks_1 = [];
 	let each0_lookup = new Map();
-	let t6;
+	let t7;
 	let main;
 	let each_blocks = [];
 	let each1_lookup = new Map();
 	let current;
 	let mounted;
 	let dispose;
+	const githubcorner = new _GithubCorner_svelte__WEBPACK_IMPORTED_MODULE_3__["default"]({});
 	let if_block = /*selected_keywords*/ ctx[0] && create_if_block(ctx);
 	let each_value_1 = /*all_keywords*/ ctx[2];
 	const get_key = ctx => /*kw*/ ctx[7];
@@ -9553,52 +9875,56 @@ function create_fragment(ctx) {
 
 	return {
 		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(githubcorner.$$.fragment);
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			h1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("h1");
-			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("jsonchematic demos\n  ");
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("jsonchematic demos\n  ");
 			if (if_block) if_block.c();
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			div1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
 			div0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
 			h2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("h2");
 			h2.textContent = "keywords";
-			t3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			t4 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			ul = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("ul");
 			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
 			li.innerHTML = `<a href="./">all examples</a>`;
-			t5 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			t6 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 
 			for (let i = 0; i < each_blocks_1.length; i += 1) {
 				each_blocks_1[i].c();
 			}
 
-			t6 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			t7 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			main = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("main");
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
 				each_blocks[i].c();
 			}
 
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "svelte-q6c56d");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "body svelte-q6c56d");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "svelte-r0qbz7");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "body svelte-r0qbz7");
 		},
 		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(githubcorner, target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t0, anchor);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, h1, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(h1, t0);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(h1, t1);
 			if (if_block) if_block.m(h1, null);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t1, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t2, anchor);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div1, anchor);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, div0);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div0, h2);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div0, t3);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div0, t4);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div0, ul);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, li);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t5);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t6);
 
 			for (let i = 0; i < each_blocks_1.length; i += 1) {
 				each_blocks_1[i].m(ul, null);
 			}
 
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t6);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t7);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, main);
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -9640,6 +9966,7 @@ function create_fragment(ctx) {
 		},
 		i(local) {
 			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(githubcorner.$$.fragment, local);
 
 			for (let i = 0; i < each_value.length; i += 1) {
 				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(each_blocks[i]);
@@ -9648,6 +9975,8 @@ function create_fragment(ctx) {
 			current = true;
 		},
 		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(githubcorner.$$.fragment, local);
+
 			for (let i = 0; i < each_blocks.length; i += 1) {
 				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(each_blocks[i]);
 			}
@@ -9655,9 +9984,11 @@ function create_fragment(ctx) {
 			current = false;
 		},
 		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(githubcorner, detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t0);
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(h1);
 			if (if_block) if_block.d();
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t1);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t2);
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div1);
 
 			for (let i = 0; i < each_blocks_1.length; i += 1) {
@@ -9699,12 +10030,12 @@ function instance($$self, $$props, $$invalidate) {
 		}
 	};
 
-	$: $$invalidate(2, all_keywords = lodash_fp__WEBPACK_IMPORTED_MODULE_3___default.a.flow([
-		lodash_fp__WEBPACK_IMPORTED_MODULE_3___default.a.map(lodash_fp__WEBPACK_IMPORTED_MODULE_3___default.a.get("keywords")),
-		lodash_fp__WEBPACK_IMPORTED_MODULE_3___default.a.flatten,
-		lodash_fp__WEBPACK_IMPORTED_MODULE_3___default.a.filter(x => x),
-		lodash_fp__WEBPACK_IMPORTED_MODULE_3___default.a.uniq,
-		lodash_fp__WEBPACK_IMPORTED_MODULE_3___default.a.sortBy(x => x)
+	$: $$invalidate(2, all_keywords = lodash_fp__WEBPACK_IMPORTED_MODULE_4___default.a.flow([
+		lodash_fp__WEBPACK_IMPORTED_MODULE_4___default.a.map(lodash_fp__WEBPACK_IMPORTED_MODULE_4___default.a.get("keywords")),
+		lodash_fp__WEBPACK_IMPORTED_MODULE_4___default.a.flatten,
+		lodash_fp__WEBPACK_IMPORTED_MODULE_4___default.a.filter(x => x),
+		lodash_fp__WEBPACK_IMPORTED_MODULE_4___default.a.uniq,
+		lodash_fp__WEBPACK_IMPORTED_MODULE_4___default.a.sortBy(x => x)
 	])(_examples__WEBPACK_IMPORTED_MODULE_1__["default"]));
 
 	return [selected_keywords, filtered_examples, all_keywords, hash_change];
@@ -9734,8 +10065,889 @@ if (false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../../../node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/index.svelte.css");
+var api = __webpack_require__(/*! ../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Examples/index.svelte.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/components/Instance/ArrayRestraints/index.svelte":
+/*!**************************************************************!*\
+  !*** ./src/components/Instance/ArrayRestraints/index.svelte ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _Items_index_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Items/index.svelte */ "./src/components/Instance/Items/index.svelte");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_ArrayRestraints_index_svelte_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/components/Instance/ArrayRestraints/index.svelte.css */ "./src/components/Instance/ArrayRestraints/index.svelte.css");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_ArrayRestraints_index_svelte_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_ArrayRestraints_index_svelte_css__WEBPACK_IMPORTED_MODULE_2__);
+/* src/components/Instance/ArrayRestraints/index.svelte generated by Svelte v3.23.1 */
+
+
+
+
+function create_if_block_3(ctx) {
+	let li;
+	let t0;
+	let t1_value = (/*minItems*/ ctx[2] || "") + "";
+	let t1;
+	let t2;
+	let t3_value = (/*maxItems*/ ctx[1] || "") + "";
+	let t3;
+
+	return {
+		c() {
+			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("items: ");
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t1_value);
+			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("...");
+			t3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t3_value);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(li, "class", "svelte-1d1hqb9");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t2);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t3);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*minItems*/ 4 && t1_value !== (t1_value = (/*minItems*/ ctx[2] || "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, t1_value);
+			if (dirty & /*maxItems*/ 2 && t3_value !== (t3_value = (/*maxItems*/ ctx[1] || "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t3, t3_value);
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
+		}
+	};
+}
+
+// (6:2) {#if maxContains || minContains}
+function create_if_block_2(ctx) {
+	let li;
+	let t0;
+	let t1_value = (/*minContains*/ ctx[5] || "") + "";
+	let t1;
+	let t2;
+	let t3_value = (/*maxContains*/ ctx[4] || "") + "";
+	let t3;
+
+	return {
+		c() {
+			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("contains: ");
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t1_value);
+			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("...");
+			t3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t3_value);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(li, "class", "svelte-1d1hqb9");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t2);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t3);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*minContains*/ 32 && t1_value !== (t1_value = (/*minContains*/ ctx[5] || "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, t1_value);
+			if (dirty & /*maxContains*/ 16 && t3_value !== (t3_value = (/*maxContains*/ ctx[4] || "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t3, t3_value);
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
+		}
+	};
+}
+
+// (10:2) {#if uniqueItems}
+function create_if_block_1(ctx) {
+	let li;
+
+	return {
+		c() {
+			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
+			li.textContent = "unique";
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(li, "class", "svelte-1d1hqb9");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
+		}
+	};
+}
+
+// (15:0) {#if items}
+function create_if_block(ctx) {
+	let current;
+
+	const items_1 = new _Items_index_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				items: /*items*/ ctx[6],
+				href: `${/*href*/ ctx[0]}/items`
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(items_1.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(items_1, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const items_1_changes = {};
+			if (dirty & /*items*/ 64) items_1_changes.items = /*items*/ ctx[6];
+			if (dirty & /*href*/ 1) items_1_changes.href = `${/*href*/ ctx[0]}/items`;
+			items_1.$set(items_1_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(items_1.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(items_1.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(items_1, detaching);
+		}
+	};
+}
+
+function create_fragment(ctx) {
+	let ul;
+	let t0;
+	let t1;
+	let t2;
+	let if_block3_anchor;
+	let current;
+	let if_block0 = (/*maxItems*/ ctx[1] || /*minItems*/ ctx[2]) && create_if_block_3(ctx);
+	let if_block1 = (/*maxContains*/ ctx[4] || /*minContains*/ ctx[5]) && create_if_block_2(ctx);
+	let if_block2 = /*uniqueItems*/ ctx[3] && create_if_block_1(ctx);
+	let if_block3 = /*items*/ ctx[6] && create_if_block(ctx);
+
+	return {
+		c() {
+			ul = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("ul");
+			if (if_block0) if_block0.c();
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block1) if_block1.c();
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block2) if_block2.c();
+			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block3) if_block3.c();
+			if_block3_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(ul, "class", "svelte-1d1hqb9");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, ul, anchor);
+			if (if_block0) if_block0.m(ul, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t0);
+			if (if_block1) if_block1.m(ul, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t1);
+			if (if_block2) if_block2.m(ul, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t2, anchor);
+			if (if_block3) if_block3.m(target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, if_block3_anchor, anchor);
+			current = true;
+		},
+		p(ctx, [dirty]) {
+			if (/*maxItems*/ ctx[1] || /*minItems*/ ctx[2]) {
+				if (if_block0) {
+					if_block0.p(ctx, dirty);
+				} else {
+					if_block0 = create_if_block_3(ctx);
+					if_block0.c();
+					if_block0.m(ul, t0);
+				}
+			} else if (if_block0) {
+				if_block0.d(1);
+				if_block0 = null;
+			}
+
+			if (/*maxContains*/ ctx[4] || /*minContains*/ ctx[5]) {
+				if (if_block1) {
+					if_block1.p(ctx, dirty);
+				} else {
+					if_block1 = create_if_block_2(ctx);
+					if_block1.c();
+					if_block1.m(ul, t1);
+				}
+			} else if (if_block1) {
+				if_block1.d(1);
+				if_block1 = null;
+			}
+
+			if (/*uniqueItems*/ ctx[3]) {
+				if (if_block2) {
+					
+				} else {
+					if_block2 = create_if_block_1(ctx);
+					if_block2.c();
+					if_block2.m(ul, null);
+				}
+			} else if (if_block2) {
+				if_block2.d(1);
+				if_block2 = null;
+			}
+
+			if (/*items*/ ctx[6]) {
+				if (if_block3) {
+					if_block3.p(ctx, dirty);
+
+					if (dirty & /*items*/ 64) {
+						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block3, 1);
+					}
+				} else {
+					if_block3 = create_if_block(ctx);
+					if_block3.c();
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block3, 1);
+					if_block3.m(if_block3_anchor.parentNode, if_block3_anchor);
+				}
+			} else if (if_block3) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block3, 1, 1, () => {
+					if_block3 = null;
+				});
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+			}
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block3);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block3);
+			current = false;
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(ul);
+			if (if_block0) if_block0.d();
+			if (if_block1) if_block1.d();
+			if (if_block2) if_block2.d();
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t2);
+			if (if_block3) if_block3.d(detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(if_block3_anchor);
+		}
+	};
+}
+
+function instance($$self, $$props, $$invalidate) {
+	let { definition = {} } = $$props;
+	let { href = "" } = $$props;
+	let { maxItems } = $$props;
+	let { minItems } = $$props;
+	let { uniqueItems = false } = $$props;
+	let { maxContains } = $$props;
+	let { minContains } = $$props;
+	let { items } = $$props;
+
+	$$self.$set = $$props => {
+		if ("definition" in $$props) $$invalidate(7, definition = $$props.definition);
+		if ("href" in $$props) $$invalidate(0, href = $$props.href);
+		if ("maxItems" in $$props) $$invalidate(1, maxItems = $$props.maxItems);
+		if ("minItems" in $$props) $$invalidate(2, minItems = $$props.minItems);
+		if ("uniqueItems" in $$props) $$invalidate(3, uniqueItems = $$props.uniqueItems);
+		if ("maxContains" in $$props) $$invalidate(4, maxContains = $$props.maxContains);
+		if ("minContains" in $$props) $$invalidate(5, minContains = $$props.minContains);
+		if ("items" in $$props) $$invalidate(6, items = $$props.items);
+	};
+
+	return [
+		href,
+		maxItems,
+		minItems,
+		uniqueItems,
+		maxContains,
+		minContains,
+		items,
+		definition
+	];
+}
+
+class ArrayRestraints extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
+	constructor(options) {
+		super();
+
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {
+			definition: 7,
+			href: 0,
+			maxItems: 1,
+			minItems: 2,
+			uniqueItems: 3,
+			maxContains: 4,
+			minContains: 5,
+			items: 6
+		});
+	}
+}
+
+
+if (false) {}
+
+/* harmony default export */ __webpack_exports__["default"] = (ArrayRestraints);
+
+
+
+
+/***/ }),
+
+/***/ "./src/components/Instance/ArrayRestraints/index.svelte.css":
+/*!******************************************************************!*\
+  !*** ./src/components/Instance/ArrayRestraints/index.svelte.css ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/ArrayRestraints/index.svelte.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/components/Instance/BoxSegment.svelte":
+/*!***************************************************!*\
+  !*** ./src/components/Instance/BoxSegment.svelte ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_BoxSegment_svelte_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/components/Instance/BoxSegment.svelte.css */ "./src/components/Instance/BoxSegment.svelte.css");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_BoxSegment_svelte_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_BoxSegment_svelte_css__WEBPACK_IMPORTED_MODULE_1__);
+/* src/components/Instance/BoxSegment.svelte generated by Svelte v3.23.1 */
+
+
+function create_if_block(ctx) {
+	let legend_1;
+	let t;
+
+	return {
+		c() {
+			legend_1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("legend");
+			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*legend*/ ctx[0]);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(legend_1, "class", "svelte-1myiyqa");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, legend_1, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(legend_1, t);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*legend*/ 1) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, /*legend*/ ctx[0]);
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(legend_1);
+		}
+	};
+}
+
+function create_fragment(ctx) {
+	let fieldset;
+	let t;
+	let current;
+	let if_block = /*legend*/ ctx[0] && create_if_block(ctx);
+	const default_slot_template = /*$$slots*/ ctx[2].default;
+	const default_slot = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_slot"])(default_slot_template, ctx, /*$$scope*/ ctx[1], null);
+
+	return {
+		c() {
+			fieldset = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("fieldset");
+			if (if_block) if_block.c();
+			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (default_slot) default_slot.c();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(fieldset, "class", "svelte-1myiyqa");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, fieldset, anchor);
+			if (if_block) if_block.m(fieldset, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(fieldset, t);
+
+			if (default_slot) {
+				default_slot.m(fieldset, null);
+			}
+
+			current = true;
+		},
+		p(ctx, [dirty]) {
+			if (/*legend*/ ctx[0]) {
+				if (if_block) {
+					if_block.p(ctx, dirty);
+				} else {
+					if_block = create_if_block(ctx);
+					if_block.c();
+					if_block.m(fieldset, t);
+				}
+			} else if (if_block) {
+				if_block.d(1);
+				if_block = null;
+			}
+
+			if (default_slot) {
+				if (default_slot.p && dirty & /*$$scope*/ 2) {
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_slot"])(default_slot, default_slot_template, ctx, /*$$scope*/ ctx[1], dirty, null, null);
+				}
+			}
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(default_slot, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(default_slot, local);
+			current = false;
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(fieldset);
+			if (if_block) if_block.d();
+			if (default_slot) default_slot.d(detaching);
+		}
+	};
+}
+
+function instance($$self, $$props, $$invalidate) {
+	let { legend } = $$props;
+	let { $$slots = {}, $$scope } = $$props;
+
+	$$self.$set = $$props => {
+		if ("legend" in $$props) $$invalidate(0, legend = $$props.legend);
+		if ("$$scope" in $$props) $$invalidate(1, $$scope = $$props.$$scope);
+	};
+
+	return [legend, $$scope, $$slots];
+}
+
+class BoxSegment extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
+	constructor(options) {
+		super();
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], { legend: 0 });
+	}
+}
+
+
+if (false) {}
+
+/* harmony default export */ __webpack_exports__["default"] = (BoxSegment);
+
+
+
+
+/***/ }),
+
+/***/ "./src/components/Instance/BoxSegment.svelte.css":
+/*!*******************************************************!*\
+  !*** ./src/components/Instance/BoxSegment.svelte.css ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./BoxSegment.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/BoxSegment.svelte.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/components/Instance/Dependencies.svelte":
+/*!*****************************************************!*\
+  !*** ./src/components/Instance/Dependencies.svelte ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _index_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.svelte */ "./src/components/Instance/index.svelte");
+/* harmony import */ var _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BoxSegment.svelte */ "./src/components/Instance/BoxSegment.svelte");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Dependencies_svelte_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/components/Instance/Dependencies.svelte.css */ "./src/components/Instance/Dependencies.svelte.css");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Dependencies_svelte_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_Dependencies_svelte_css__WEBPACK_IMPORTED_MODULE_3__);
+/* src/components/Instance/Dependencies.svelte generated by Svelte v3.23.1 */
+
+
+
+
+
+function get_each_context(ctx, list, i) {
+	const child_ctx = ctx.slice();
+	child_ctx[1] = list[i];
+	return child_ctx;
+}
+
+// (1:0) {#if dependencies}
+function create_if_block(ctx) {
+	let show_if;
+	let current_block_type_index;
+	let if_block;
+	let if_block_anchor;
+	let current;
+	const if_block_creators = [create_if_block_1, create_else_block];
+	const if_blocks = [];
+
+	function select_block_type(ctx, dirty) {
+		if (dirty & /*dependencies*/ 1) show_if = !!Array.isArray(/*dependencies*/ ctx[0]);
+		if (show_if) return 0;
+		return 1;
+	}
+
+	current_block_type_index = select_block_type(ctx, -1);
+	if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+
+	return {
+		c() {
+			if_block.c();
+			if_block_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
+		},
+		m(target, anchor) {
+			if_blocks[current_block_type_index].m(target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, if_block_anchor, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			let previous_block_index = current_block_type_index;
+			current_block_type_index = select_block_type(ctx, dirty);
+
+			if (current_block_type_index === previous_block_index) {
+				if_blocks[current_block_type_index].p(ctx, dirty);
+			} else {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_blocks[previous_block_index], 1, 1, () => {
+					if_blocks[previous_block_index] = null;
+				});
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+				if_block = if_blocks[current_block_type_index];
+
+				if (!if_block) {
+					if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+					if_block.c();
+				}
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block, 1);
+				if_block.m(if_block_anchor.parentNode, if_block_anchor);
+			}
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block);
+			current = false;
+		},
+		d(detaching) {
+			if_blocks[current_block_type_index].d(detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(if_block_anchor);
+		}
+	};
+}
+
+// (8:2) {:else}
+function create_else_block(ctx) {
+	let current;
+
+	const boxsegment = new _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
+			props: {
+				legend: "dependencies",
+				$$slots: { default: [create_default_slot] },
+				$$scope: { ctx }
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(boxsegment.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(boxsegment, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const boxsegment_changes = {};
+
+			if (dirty & /*$$scope, dependencies*/ 17) {
+				boxsegment_changes.$$scope = { dirty, ctx };
+			}
+
+			boxsegment.$set(boxsegment_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(boxsegment.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(boxsegment.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(boxsegment, detaching);
+		}
+	};
+}
+
+// (2:2) {#if Array.isArray(dependencies)}
+function create_if_block_1(ctx) {
+	let ul;
+	let each_blocks = [];
+	let each_1_lookup = new Map();
+	let each_value = /*dependencies*/ ctx[0];
+	const get_key = ctx => /*dependency*/ ctx[1];
+
+	for (let i = 0; i < each_value.length; i += 1) {
+		let child_ctx = get_each_context(ctx, each_value, i);
+		let key = get_key(child_ctx);
+		each_1_lookup.set(key, each_blocks[i] = create_each_block(key, child_ctx));
+	}
+
+	return {
+		c() {
+			ul = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("ul");
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].c();
+			}
+
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(ul, "class", "dependencies svelte-1mezgji");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, ul, anchor);
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].m(ul, null);
+			}
+		},
+		p(ctx, dirty) {
+			if (dirty & /*dependencies*/ 1) {
+				const each_value = /*dependencies*/ ctx[0];
+				each_blocks = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_keyed_each"])(each_blocks, dirty, get_key, 1, ctx, each_value, each_1_lookup, ul, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_block"], create_each_block, null, get_each_context);
+			}
+		},
+		i: svelte_internal__WEBPACK_IMPORTED_MODULE_0__["noop"],
+		o: svelte_internal__WEBPACK_IMPORTED_MODULE_0__["noop"],
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(ul);
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].d();
+			}
+		}
+	};
+}
+
+// (9:4) <BoxSegment legend="dependencies">
+function create_default_slot(ctx) {
+	let current;
+
+	const instance = new _index_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: { definition: /*dependencies*/ ctx[0] }
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(instance.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(instance, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const instance_changes = {};
+			if (dirty & /*dependencies*/ 1) instance_changes.definition = /*dependencies*/ ctx[0];
+			instance.$set(instance_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(instance.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(instance.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(instance, detaching);
+		}
+	};
+}
+
+// (4:6) {#each dependencies as dependency (dependency)}
+function create_each_block(key_1, ctx) {
+	let li;
+	let t_value = /*dependency*/ ctx[1] + "";
+	let t;
+
+	return {
+		key: key_1,
+		first: null,
+		c() {
+			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
+			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t_value);
+			this.first = li;
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*dependencies*/ 1 && t_value !== (t_value = /*dependency*/ ctx[1] + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, t_value);
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
+		}
+	};
+}
+
+function create_fragment(ctx) {
+	let if_block_anchor;
+	let current;
+	let if_block = /*dependencies*/ ctx[0] && create_if_block(ctx);
+
+	return {
+		c() {
+			if (if_block) if_block.c();
+			if_block_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
+		},
+		m(target, anchor) {
+			if (if_block) if_block.m(target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, if_block_anchor, anchor);
+			current = true;
+		},
+		p(ctx, [dirty]) {
+			if (/*dependencies*/ ctx[0]) {
+				if (if_block) {
+					if_block.p(ctx, dirty);
+
+					if (dirty & /*dependencies*/ 1) {
+						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block, 1);
+					}
+				} else {
+					if_block = create_if_block(ctx);
+					if_block.c();
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block, 1);
+					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+				}
+			} else if (if_block) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block, 1, 1, () => {
+					if_block = null;
+				});
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+			}
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block);
+			current = false;
+		},
+		d(detaching) {
+			if (if_block) if_block.d(detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(if_block_anchor);
+		}
+	};
+}
+
+function instance_1($$self, $$props, $$invalidate) {
+	let { dependencies = false } = $$props;
+
+	$$self.$set = $$props => {
+		if ("dependencies" in $$props) $$invalidate(0, dependencies = $$props.dependencies);
+	};
+
+	return [dependencies];
+}
+
+class Dependencies extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
+	constructor(options) {
+		super();
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance_1, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], { dependencies: 0 });
+	}
+}
+
+
+if (false) {}
+
+/* harmony default export */ __webpack_exports__["default"] = (Dependencies);
+
+
+
+
+/***/ }),
+
+/***/ "./src/components/Instance/Dependencies.svelte.css":
+/*!*********************************************************!*\
+  !*** ./src/components/Instance/Dependencies.svelte.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./Dependencies.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Dependencies.svelte.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -9765,25 +10977,25 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
 /* harmony import */ var _Properties_Property_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Properties/Property.svelte */ "./src/components/Instance/Properties/Property.svelte");
 /* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Enum_index_svelte_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/components/Instance/Enum/index.svelte.css */ "./src/components/Instance/Enum/index.svelte.css");
 /* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Enum_index_svelte_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_Enum_index_svelte_css__WEBPACK_IMPORTED_MODULE_2__);
-/* src/components/Instance/Enum/index.svelte generated by Svelte v3.23.2 */
+/* src/components/Instance/Enum/index.svelte generated by Svelte v3.23.1 */
 
 
 
 
 function get_each_context(ctx, list, i) {
 	const child_ctx = ctx.slice();
-	child_ctx[7] = list[i];
+	child_ctx[9] = list[i];
 	return child_ctx;
 }
 
 // (3:4) {#each display as e (e)}
 function create_each_block(key_1, ctx) {
 	let li;
-	let t_value = /*e*/ ctx[7] + "";
+	let t_value = /*e*/ ctx[9] + "";
 	let t;
 
 	return {
@@ -9800,7 +11012,7 @@ function create_each_block(key_1, ctx) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*display*/ 8 && t_value !== (t_value = /*e*/ ctx[7] + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, t_value);
+			if (dirty & /*display*/ 8 && t_value !== (t_value = /*e*/ ctx[9] + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, t_value);
 		},
 		d(detaching) {
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
@@ -9835,7 +11047,7 @@ function create_if_block(ctx) {
 			if (if_block) if_block.m(div, null);
 
 			if (!mounted) {
-				dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(input, "click", /*toggle_filter*/ ctx[5]);
+				dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(input, "click", /*toggle_filter*/ ctx[6]);
 				mounted = true;
 			}
 		},
@@ -9879,7 +11091,7 @@ function create_if_block_1(ctx) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_input_value"])(input, /*filter*/ ctx[2]);
 
 			if (!mounted) {
-				dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(input, "input", /*input_input_handler*/ ctx[6]);
+				dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(input, "input", /*input_input_handler*/ ctx[8]);
 				mounted = true;
 			}
 		},
@@ -9896,7 +11108,7 @@ function create_if_block_1(ctx) {
 	};
 }
 
-// (1:0) <Property name="enum" href="{href}/enum">
+// (1:0) <Property {name} href="{href}/{name}">
 function create_default_slot(ctx) {
 	let ul;
 	let each_blocks = [];
@@ -9904,7 +11116,7 @@ function create_default_slot(ctx) {
 	let t;
 	let if_block_anchor;
 	let each_value = /*display*/ ctx[3];
-	const get_key = ctx => /*e*/ ctx[7];
+	const get_key = ctx => /*e*/ ctx[9];
 
 	for (let i = 0; i < each_value.length; i += 1) {
 		let child_ctx = get_each_context(ctx, each_value, i);
@@ -9972,13 +11184,12 @@ function create_default_slot(ctx) {
 }
 
 function create_fragment(ctx) {
-	let property;
 	let current;
 
-	property = new _Properties_Property_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+	const property = new _Properties_Property_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
 			props: {
-				name: "enum",
-				href: "" + (/*href*/ ctx[1] + "/enum"),
+				name: /*name*/ ctx[5],
+				href: "" + (/*href*/ ctx[1] + "/" + /*name*/ ctx[5]),
 				$$slots: { default: [create_default_slot] },
 				$$scope: { ctx }
 			}
@@ -9994,9 +11205,9 @@ function create_fragment(ctx) {
 		},
 		p(ctx, [dirty]) {
 			const property_changes = {};
-			if (dirty & /*href*/ 2) property_changes.href = "" + (/*href*/ ctx[1] + "/enum");
+			if (dirty & /*href*/ 2) property_changes.href = "" + (/*href*/ ctx[1] + "/" + /*name*/ ctx[5]);
 
-			if (dirty & /*$$scope, filter, show_filter, enumeration, display*/ 1053) {
+			if (dirty & /*$$scope, filter, show_filter, enumeration, display*/ 4125) {
 				property_changes.$$scope = { dirty, ctx };
 			}
 
@@ -10020,6 +11231,8 @@ function create_fragment(ctx) {
 function instance($$self, $$props, $$invalidate) {
 	let { enumeration = [] } = $$props;
 	let { href = "" } = $$props;
+	let { constant = false } = $$props;
+	let name = constant ? "const" : "enum";
 	let filter = "";
 	let display = [];
 	let show_filter = false;
@@ -10036,6 +11249,7 @@ function instance($$self, $$props, $$invalidate) {
 	$$self.$set = $$props => {
 		if ("enumeration" in $$props) $$invalidate(0, enumeration = $$props.enumeration);
 		if ("href" in $$props) $$invalidate(1, href = $$props.href);
+		if ("constant" in $$props) $$invalidate(7, constant = $$props.constant);
 	};
 
 	$$self.$$.update = () => {
@@ -10057,7 +11271,9 @@ function instance($$self, $$props, $$invalidate) {
 		filter,
 		display,
 		show_filter,
+		name,
 		toggle_filter,
+		constant,
 		input_input_handler
 	];
 }
@@ -10065,7 +11281,7 @@ function instance($$self, $$props, $$invalidate) {
 class Enum extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
 	constructor(options) {
 		super();
-		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], { enumeration: 0, href: 1 });
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], { enumeration: 0, href: 1, constant: 7 });
 	}
 }
 
@@ -10086,8 +11302,8 @@ if (false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Enum/index.svelte.css");
+var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Enum/index.svelte.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -10117,11 +11333,11 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
 /* harmony import */ var _Properties_Property_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Properties/Property.svelte */ "./src/components/Instance/Properties/Property.svelte");
 /* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Examples_index_svelte_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/components/Instance/Examples/index.svelte.css */ "./src/components/Instance/Examples/index.svelte.css");
 /* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Examples_index_svelte_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_Examples_index_svelte_css__WEBPACK_IMPORTED_MODULE_2__);
-/* src/components/Instance/Examples/index.svelte generated by Svelte v3.23.2 */
+/* src/components/Instance/Examples/index.svelte generated by Svelte v3.23.1 */
 
 
 
@@ -10136,7 +11352,7 @@ function get_each_context(ctx, list, i) {
 function create_each_block(key_1, ctx) {
 	let pre;
 	let code;
-	let t0_value = /*example*/ ctx[2] + "";
+	let t0_value = JSON.stringify(/*example*/ ctx[2], null, 2) + "";
 	let t0;
 	let t1;
 
@@ -10158,7 +11374,7 @@ function create_each_block(key_1, ctx) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(pre, t1);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*examples*/ 1 && t0_value !== (t0_value = /*example*/ ctx[2] + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t0, t0_value);
+			if (dirty & /*examples*/ 1 && t0_value !== (t0_value = JSON.stringify(/*example*/ ctx[2], null, 2) + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t0, t0_value);
 		},
 		d(detaching) {
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(pre);
@@ -10196,7 +11412,7 @@ function create_default_slot(ctx) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, each_1_anchor, anchor);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*examples*/ 1) {
+			if (dirty & /*JSON, examples*/ 1) {
 				const each_value = /*examples*/ ctx[0];
 				each_blocks = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_keyed_each"])(each_blocks, dirty, get_key, 1, ctx, each_value, each_1_lookup, each_1_anchor.parentNode, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_block"], create_each_block, each_1_anchor, get_each_context);
 			}
@@ -10212,10 +11428,9 @@ function create_default_slot(ctx) {
 }
 
 function create_fragment(ctx) {
-	let property;
 	let current;
 
-	property = new _Properties_Property_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+	const property = new _Properties_Property_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
 			props: {
 				name: "examples",
 				href: "" + (/*href*/ ctx[1] + "/examples"),
@@ -10293,8 +11508,8 @@ if (false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Examples/index.svelte.css");
+var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Examples/index.svelte.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -10315,6 +11530,418 @@ module.exports = content.locals || {};
 
 /***/ }),
 
+/***/ "./src/components/Instance/IfThenElse/index.svelte":
+/*!*********************************************************!*\
+  !*** ./src/components/Instance/IfThenElse/index.svelte ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../BoxSegment.svelte */ "./src/components/Instance/BoxSegment.svelte");
+/* harmony import */ var _index_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../index.svelte */ "./src/components/Instance/index.svelte");
+/* src/components/Instance/IfThenElse/index.svelte generated by Svelte v3.23.1 */
+
+
+
+
+
+function create_if_block(ctx) {
+	let current;
+
+	const boxsegment = new _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				legend: "if",
+				$$slots: { default: [create_default_slot] },
+				$$scope: { ctx }
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(boxsegment.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(boxsegment, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const boxsegment_changes = {};
+
+			if (dirty & /*$$scope, else_cond, then_cond, if_cond*/ 15) {
+				boxsegment_changes.$$scope = { dirty, ctx };
+			}
+
+			boxsegment.$set(boxsegment_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(boxsegment.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(boxsegment.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(boxsegment, detaching);
+		}
+	};
+}
+
+// (4:4) {#if then_cond}
+function create_if_block_2(ctx) {
+	let current;
+
+	const boxsegment = new _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				legend: "then",
+				$$slots: { default: [create_default_slot_2] },
+				$$scope: { ctx }
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(boxsegment.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(boxsegment, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const boxsegment_changes = {};
+
+			if (dirty & /*$$scope, then_cond*/ 10) {
+				boxsegment_changes.$$scope = { dirty, ctx };
+			}
+
+			boxsegment.$set(boxsegment_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(boxsegment.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(boxsegment.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(boxsegment, detaching);
+		}
+	};
+}
+
+// (5:6) <BoxSegment legend="then">
+function create_default_slot_2(ctx) {
+	let current;
+
+	const instance = new _index_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
+			props: { definition: /*then_cond*/ ctx[1] }
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(instance.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(instance, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const instance_changes = {};
+			if (dirty & /*then_cond*/ 2) instance_changes.definition = /*then_cond*/ ctx[1];
+			instance.$set(instance_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(instance.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(instance.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(instance, detaching);
+		}
+	};
+}
+
+// (9:4) {#if else_cond}
+function create_if_block_1(ctx) {
+	let current;
+
+	const boxsegment = new _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				legend: "else",
+				$$slots: { default: [create_default_slot_1] },
+				$$scope: { ctx }
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(boxsegment.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(boxsegment, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const boxsegment_changes = {};
+
+			if (dirty & /*$$scope, else_cond*/ 12) {
+				boxsegment_changes.$$scope = { dirty, ctx };
+			}
+
+			boxsegment.$set(boxsegment_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(boxsegment.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(boxsegment.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(boxsegment, detaching);
+		}
+	};
+}
+
+// (10:6) <BoxSegment legend="else">
+function create_default_slot_1(ctx) {
+	let current;
+
+	const instance = new _index_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
+			props: { definition: /*else_cond*/ ctx[2] }
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(instance.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(instance, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const instance_changes = {};
+			if (dirty & /*else_cond*/ 4) instance_changes.definition = /*else_cond*/ ctx[2];
+			instance.$set(instance_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(instance.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(instance.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(instance, detaching);
+		}
+	};
+}
+
+// (2:2) <BoxSegment legend="if">
+function create_default_slot(ctx) {
+	let t0;
+	let t1;
+	let if_block1_anchor;
+	let current;
+
+	const instance = new _index_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
+			props: { definition: /*if_cond*/ ctx[0] }
+		});
+
+	let if_block0 = /*then_cond*/ ctx[1] && create_if_block_2(ctx);
+	let if_block1 = /*else_cond*/ ctx[2] && create_if_block_1(ctx);
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(instance.$$.fragment);
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block0) if_block0.c();
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block1) if_block1.c();
+			if_block1_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(instance, target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t0, anchor);
+			if (if_block0) if_block0.m(target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t1, anchor);
+			if (if_block1) if_block1.m(target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, if_block1_anchor, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const instance_changes = {};
+			if (dirty & /*if_cond*/ 1) instance_changes.definition = /*if_cond*/ ctx[0];
+			instance.$set(instance_changes);
+
+			if (/*then_cond*/ ctx[1]) {
+				if (if_block0) {
+					if_block0.p(ctx, dirty);
+
+					if (dirty & /*then_cond*/ 2) {
+						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block0, 1);
+					}
+				} else {
+					if_block0 = create_if_block_2(ctx);
+					if_block0.c();
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block0, 1);
+					if_block0.m(t1.parentNode, t1);
+				}
+			} else if (if_block0) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block0, 1, 1, () => {
+					if_block0 = null;
+				});
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+			}
+
+			if (/*else_cond*/ ctx[2]) {
+				if (if_block1) {
+					if_block1.p(ctx, dirty);
+
+					if (dirty & /*else_cond*/ 4) {
+						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block1, 1);
+					}
+				} else {
+					if_block1 = create_if_block_1(ctx);
+					if_block1.c();
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block1, 1);
+					if_block1.m(if_block1_anchor.parentNode, if_block1_anchor);
+				}
+			} else if (if_block1) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block1, 1, 1, () => {
+					if_block1 = null;
+				});
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+			}
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(instance.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block0);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block1);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(instance.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block0);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block1);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(instance, detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t0);
+			if (if_block0) if_block0.d(detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t1);
+			if (if_block1) if_block1.d(detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(if_block1_anchor);
+		}
+	};
+}
+
+function create_fragment(ctx) {
+	let if_block_anchor;
+	let current;
+	let if_block = /*if_cond*/ ctx[0] && create_if_block(ctx);
+
+	return {
+		c() {
+			if (if_block) if_block.c();
+			if_block_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
+		},
+		m(target, anchor) {
+			if (if_block) if_block.m(target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, if_block_anchor, anchor);
+			current = true;
+		},
+		p(ctx, [dirty]) {
+			if (/*if_cond*/ ctx[0]) {
+				if (if_block) {
+					if_block.p(ctx, dirty);
+
+					if (dirty & /*if_cond*/ 1) {
+						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block, 1);
+					}
+				} else {
+					if_block = create_if_block(ctx);
+					if_block.c();
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block, 1);
+					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+				}
+			} else if (if_block) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block, 1, 1, () => {
+					if_block = null;
+				});
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+			}
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block);
+			current = false;
+		},
+		d(detaching) {
+			if (if_block) if_block.d(detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(if_block_anchor);
+		}
+	};
+}
+
+function instance_1($$self, $$props, $$invalidate) {
+	let { if_cond } = $$props;
+	let { then_cond } = $$props;
+	let { else_cond } = $$props;
+
+	$$self.$set = $$props => {
+		if ("if_cond" in $$props) $$invalidate(0, if_cond = $$props.if_cond);
+		if ("then_cond" in $$props) $$invalidate(1, then_cond = $$props.then_cond);
+		if ("else_cond" in $$props) $$invalidate(2, else_cond = $$props.else_cond);
+	};
+
+	return [if_cond, then_cond, else_cond];
+}
+
+class IfThenElse extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
+	constructor(options) {
+		super();
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance_1, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], { if_cond: 0, then_cond: 1, else_cond: 2 });
+	}
+}
+
+
+if (false) {}
+
+/* harmony default export */ __webpack_exports__["default"] = (IfThenElse);
+
+
+/***/ }),
+
 /***/ "./src/components/Instance/Items/index.svelte":
 /*!****************************************************!*\
   !*** ./src/components/Instance/Items/index.svelte ***!
@@ -10324,24 +11951,114 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
 /* harmony import */ var _index_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../index.svelte */ "./src/components/Instance/index.svelte");
-/* harmony import */ var _Properties_Property_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Properties/Property.svelte */ "./src/components/Instance/Properties/Property.svelte");
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Items_index_svelte_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/components/Instance/Items/index.svelte.css */ "./src/components/Instance/Items/index.svelte.css");
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Items_index_svelte_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_Items_index_svelte_css__WEBPACK_IMPORTED_MODULE_3__);
-/* src/components/Instance/Items/index.svelte generated by Svelte v3.23.2 */
+/* harmony import */ var _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../BoxSegment.svelte */ "./src/components/Instance/BoxSegment.svelte");
+/* src/components/Instance/Items/index.svelte generated by Svelte v3.23.1 */
 
 
 
 
 
-function create_fragment(ctx) {
-	let div;
-	let t1;
-	let instance;
+function get_each_context(ctx, list, i) {
+	const child_ctx = ctx.slice();
+	child_ctx[2] = list[i];
+	return child_ctx;
+}
+
+// (12:2) {#if items}
+function create_if_block_1(ctx) {
 	let current;
 
-	instance = new _index_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+	const boxsegment = new _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
+			props: {
+				legend: "items",
+				$$slots: { default: [create_default_slot_1] },
+				$$scope: { ctx }
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(boxsegment.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(boxsegment, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const boxsegment_changes = {};
+
+			if (dirty & /*$$scope, href, items*/ 35) {
+				boxsegment_changes.$$scope = { dirty, ctx };
+			}
+
+			boxsegment.$set(boxsegment_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(boxsegment.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(boxsegment.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(boxsegment, detaching);
+		}
+	};
+}
+
+// (1:0) {#if items && Array.isArray(items)}
+function create_if_block(ctx) {
+	let current;
+
+	const boxsegment = new _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
+			props: {
+				legend: "items",
+				$$slots: { default: [create_default_slot] },
+				$$scope: { ctx }
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(boxsegment.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(boxsegment, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const boxsegment_changes = {};
+
+			if (dirty & /*$$scope, items, href*/ 35) {
+				boxsegment_changes.$$scope = { dirty, ctx };
+			}
+
+			boxsegment.$set(boxsegment_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(boxsegment.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(boxsegment.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(boxsegment, detaching);
+		}
+	};
+}
+
+// (13:4) <BoxSegment legend="items">
+function create_default_slot_1(ctx) {
+	let current;
+
+	const instance = new _index_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
 			props: {
 				href: /*href*/ ctx[1],
 				definition: /*items*/ ctx[0]
@@ -10350,19 +12067,13 @@ function create_fragment(ctx) {
 
 	return {
 		c() {
-			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
-			div.textContent = "items";
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(instance.$$.fragment);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "svelte-5w6ux0");
 		},
 		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t1, anchor);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(instance, target, anchor);
 			current = true;
 		},
-		p(ctx, [dirty]) {
+		p(ctx, dirty) {
 			const instance_changes = {};
 			if (dirty & /*href*/ 2) instance_changes.href = /*href*/ ctx[1];
 			if (dirty & /*items*/ 1) instance_changes.definition = /*items*/ ctx[0];
@@ -10378,27 +12089,220 @@ function create_fragment(ctx) {
 			current = false;
 		},
 		d(detaching) {
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div);
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t1);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(instance, detaching);
 		}
 	};
 }
 
+// (4:6) {#each items as item (item)}
+function create_each_block(key_1, ctx) {
+	let li;
+	let t;
+	let current;
+
+	const instance = new _index_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				href: /*href*/ ctx[1],
+				definition: /*item*/ ctx[2]
+			}
+		});
+
+	return {
+		key: key_1,
+		first: null,
+		c() {
+			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(instance.$$.fragment);
+			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			this.first = li;
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(instance, li, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const instance_changes = {};
+			if (dirty & /*href*/ 2) instance_changes.href = /*href*/ ctx[1];
+			if (dirty & /*items*/ 1) instance_changes.definition = /*item*/ ctx[2];
+			instance.$set(instance_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(instance.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(instance.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(instance);
+		}
+	};
+}
+
+// (2:2) <BoxSegment legend="items">
+function create_default_slot(ctx) {
+	let ol;
+	let each_blocks = [];
+	let each_1_lookup = new Map();
+	let current;
+	let each_value = /*items*/ ctx[0];
+	const get_key = ctx => /*item*/ ctx[2];
+
+	for (let i = 0; i < each_value.length; i += 1) {
+		let child_ctx = get_each_context(ctx, each_value, i);
+		let key = get_key(child_ctx);
+		each_1_lookup.set(key, each_blocks[i] = create_each_block(key, child_ctx));
+	}
+
+	return {
+		c() {
+			ol = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("ol");
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].c();
+			}
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, ol, anchor);
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].m(ol, null);
+			}
+
+			current = true;
+		},
+		p(ctx, dirty) {
+			if (dirty & /*href, items*/ 3) {
+				const each_value = /*items*/ ctx[0];
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+				each_blocks = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_keyed_each"])(each_blocks, dirty, get_key, 1, ctx, each_value, each_1_lookup, ol, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["outro_and_destroy_block"], create_each_block, null, get_each_context);
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+			}
+		},
+		i(local) {
+			if (current) return;
+
+			for (let i = 0; i < each_value.length; i += 1) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(each_blocks[i]);
+			}
+
+			current = true;
+		},
+		o(local) {
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(each_blocks[i]);
+			}
+
+			current = false;
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(ol);
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].d();
+			}
+		}
+	};
+}
+
+function create_fragment(ctx) {
+	let show_if;
+	let current_block_type_index;
+	let if_block;
+	let if_block_anchor;
+	let current;
+	const if_block_creators = [create_if_block, create_if_block_1];
+	const if_blocks = [];
+
+	function select_block_type(ctx, dirty) {
+		if (dirty & /*items*/ 1) show_if = !!(/*items*/ ctx[0] && Array.isArray(/*items*/ ctx[0]));
+		if (show_if) return 0;
+		if (/*items*/ ctx[0]) return 1;
+		return -1;
+	}
+
+	if (~(current_block_type_index = select_block_type(ctx, -1))) {
+		if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+	}
+
+	return {
+		c() {
+			if (if_block) if_block.c();
+			if_block_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
+		},
+		m(target, anchor) {
+			if (~current_block_type_index) {
+				if_blocks[current_block_type_index].m(target, anchor);
+			}
+
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, if_block_anchor, anchor);
+			current = true;
+		},
+		p(ctx, [dirty]) {
+			let previous_block_index = current_block_type_index;
+			current_block_type_index = select_block_type(ctx, dirty);
+
+			if (current_block_type_index === previous_block_index) {
+				if (~current_block_type_index) {
+					if_blocks[current_block_type_index].p(ctx, dirty);
+				}
+			} else {
+				if (if_block) {
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_blocks[previous_block_index], 1, 1, () => {
+						if_blocks[previous_block_index] = null;
+					});
+
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+				}
+
+				if (~current_block_type_index) {
+					if_block = if_blocks[current_block_type_index];
+
+					if (!if_block) {
+						if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+						if_block.c();
+					}
+
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block, 1);
+					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+				} else {
+					if_block = null;
+				}
+			}
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block);
+			current = false;
+		},
+		d(detaching) {
+			if (~current_block_type_index) {
+				if_blocks[current_block_type_index].d(detaching);
+			}
+
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(if_block_anchor);
+		}
+	};
+}
+
 function instance_1($$self, $$props, $$invalidate) {
-	let { items = {} } = $$props;
+	let { items } = $$props;
 	let { href } = $$props;
-	let items_href;
 
 	$$self.$set = $$props => {
 		if ("items" in $$props) $$invalidate(0, items = $$props.items);
 		if ("href" in $$props) $$invalidate(1, href = $$props.href);
-	};
-
-	$$self.$$.update = () => {
-		if ($$self.$$.dirty & /*href*/ 2) {
-			$: items_href = [href, "items"].join("/");
-		}
 	};
 
 	return [items, href];
@@ -10417,19 +12321,1008 @@ if (false) {}
 /* harmony default export */ __webpack_exports__["default"] = (Items);
 
 
+/***/ }),
+
+/***/ "./src/components/Instance/Not.svelte":
+/*!********************************************!*\
+  !*** ./src/components/Instance/Not.svelte ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BoxSegment.svelte */ "./src/components/Instance/BoxSegment.svelte");
+/* harmony import */ var _index_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.svelte */ "./src/components/Instance/index.svelte");
+/* src/components/Instance/Not.svelte generated by Svelte v3.23.1 */
+
+
+
+
+
+function create_if_block(ctx) {
+	let current;
+
+	const boxsegment = new _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				legend: "not",
+				$$slots: { default: [create_default_slot] },
+				$$scope: { ctx }
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(boxsegment.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(boxsegment, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const boxsegment_changes = {};
+
+			if (dirty & /*$$scope, definition*/ 3) {
+				boxsegment_changes.$$scope = { dirty, ctx };
+			}
+
+			boxsegment.$set(boxsegment_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(boxsegment.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(boxsegment.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(boxsegment, detaching);
+		}
+	};
+}
+
+// (2:2) <BoxSegment legend="not">
+function create_default_slot(ctx) {
+	let current;
+
+	const instance = new _index_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
+			props: { definition: /*definition*/ ctx[0] }
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(instance.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(instance, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const instance_changes = {};
+			if (dirty & /*definition*/ 1) instance_changes.definition = /*definition*/ ctx[0];
+			instance.$set(instance_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(instance.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(instance.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(instance, detaching);
+		}
+	};
+}
+
+function create_fragment(ctx) {
+	let if_block_anchor;
+	let current;
+	let if_block = /*definition*/ ctx[0] && create_if_block(ctx);
+
+	return {
+		c() {
+			if (if_block) if_block.c();
+			if_block_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
+		},
+		m(target, anchor) {
+			if (if_block) if_block.m(target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, if_block_anchor, anchor);
+			current = true;
+		},
+		p(ctx, [dirty]) {
+			if (/*definition*/ ctx[0]) {
+				if (if_block) {
+					if_block.p(ctx, dirty);
+
+					if (dirty & /*definition*/ 1) {
+						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block, 1);
+					}
+				} else {
+					if_block = create_if_block(ctx);
+					if_block.c();
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block, 1);
+					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+				}
+			} else if (if_block) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block, 1, 1, () => {
+					if_block = null;
+				});
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+			}
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block);
+			current = false;
+		},
+		d(detaching) {
+			if (if_block) if_block.d(detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(if_block_anchor);
+		}
+	};
+}
+
+function instance_1($$self, $$props, $$invalidate) {
+	let { definition } = $$props;
+
+	$$self.$set = $$props => {
+		if ("definition" in $$props) $$invalidate(0, definition = $$props.definition);
+	};
+
+	return [definition];
+}
+
+class Not extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
+	constructor(options) {
+		super();
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance_1, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], { definition: 0 });
+	}
+}
+
+
+if (false) {}
+
+/* harmony default export */ __webpack_exports__["default"] = (Not);
 
 
 /***/ }),
 
-/***/ "./src/components/Instance/Items/index.svelte.css":
-/*!********************************************************!*\
-  !*** ./src/components/Instance/Items/index.svelte.css ***!
-  \********************************************************/
+/***/ "./src/components/Instance/NumberRestraints/index.svelte":
+/*!***************************************************************!*\
+  !*** ./src/components/Instance/NumberRestraints/index.svelte ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _Types_Range_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Types/Range.svelte */ "./src/components/Instance/Types/Range.svelte");
+/* src/components/Instance/NumberRestraints/index.svelte generated by Svelte v3.23.1 */
+
+
+
+
+function create_if_block(ctx) {
+	let li;
+	let t0;
+	let t1;
+
+	return {
+		c() {
+			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("×");
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*multipleOf*/ ctx[0]);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*multipleOf*/ 1) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, /*multipleOf*/ ctx[0]);
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
+		}
+	};
+}
+
+function create_fragment(ctx) {
+	let ul;
+	let t0;
+	let t1;
+	let t2;
+	let current;
+	let if_block = /*multipleOf*/ ctx[0] !== undefined && create_if_block(ctx);
+
+	const range0 = new _Types_Range_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				min: /*minimum*/ ctx[1],
+				exclusive: /*exclusiveMinimum*/ ctx[3]
+			}
+		});
+
+	const range1 = new _Types_Range_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				max: /*maximum*/ ctx[2],
+				exclusive: /*exclusiveMaximum*/ ctx[4]
+			}
+		});
+
+	const range2 = new _Types_Range_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				min: /*exclusiveMinimum*/ ctx[3],
+				max: /*exclusiveMaximum*/ ctx[4],
+				exclusive: "true"
+			}
+		});
+
+	return {
+		c() {
+			ul = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("ul");
+			if (if_block) if_block.c();
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(range0.$$.fragment);
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(range1.$$.fragment);
+			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(range2.$$.fragment);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(ul, "class", "restraint-list");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, ul, anchor);
+			if (if_block) if_block.m(ul, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t0);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(range0, ul, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t1);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(range1, ul, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t2);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(range2, ul, null);
+			current = true;
+		},
+		p(ctx, [dirty]) {
+			if (/*multipleOf*/ ctx[0] !== undefined) {
+				if (if_block) {
+					if_block.p(ctx, dirty);
+				} else {
+					if_block = create_if_block(ctx);
+					if_block.c();
+					if_block.m(ul, t0);
+				}
+			} else if (if_block) {
+				if_block.d(1);
+				if_block = null;
+			}
+
+			const range0_changes = {};
+			if (dirty & /*minimum*/ 2) range0_changes.min = /*minimum*/ ctx[1];
+			if (dirty & /*exclusiveMinimum*/ 8) range0_changes.exclusive = /*exclusiveMinimum*/ ctx[3];
+			range0.$set(range0_changes);
+			const range1_changes = {};
+			if (dirty & /*maximum*/ 4) range1_changes.max = /*maximum*/ ctx[2];
+			if (dirty & /*exclusiveMaximum*/ 16) range1_changes.exclusive = /*exclusiveMaximum*/ ctx[4];
+			range1.$set(range1_changes);
+			const range2_changes = {};
+			if (dirty & /*exclusiveMinimum*/ 8) range2_changes.min = /*exclusiveMinimum*/ ctx[3];
+			if (dirty & /*exclusiveMaximum*/ 16) range2_changes.max = /*exclusiveMaximum*/ ctx[4];
+			range2.$set(range2_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(range0.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(range1.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(range2.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(range0.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(range1.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(range2.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(ul);
+			if (if_block) if_block.d();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(range0);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(range1);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(range2);
+		}
+	};
+}
+
+function instance($$self, $$props, $$invalidate) {
+	let { multipleOf } = $$props;
+	let { minimum } = $$props;
+	let { maximum } = $$props;
+	let { exclusiveMinimum } = $$props;
+	let { exclusiveMaximum } = $$props;
+
+	$$self.$set = $$props => {
+		if ("multipleOf" in $$props) $$invalidate(0, multipleOf = $$props.multipleOf);
+		if ("minimum" in $$props) $$invalidate(1, minimum = $$props.minimum);
+		if ("maximum" in $$props) $$invalidate(2, maximum = $$props.maximum);
+		if ("exclusiveMinimum" in $$props) $$invalidate(3, exclusiveMinimum = $$props.exclusiveMinimum);
+		if ("exclusiveMaximum" in $$props) $$invalidate(4, exclusiveMaximum = $$props.exclusiveMaximum);
+	};
+
+	return [multipleOf, minimum, maximum, exclusiveMinimum, exclusiveMaximum];
+}
+
+class NumberRestraints extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
+	constructor(options) {
+		super();
+
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {
+			multipleOf: 0,
+			minimum: 1,
+			maximum: 2,
+			exclusiveMinimum: 3,
+			exclusiveMaximum: 4
+		});
+	}
+}
+
+
+if (false) {}
+
+/* harmony default export */ __webpack_exports__["default"] = (NumberRestraints);
+
+
+/***/ }),
+
+/***/ "./src/components/Instance/ObjectRestraints/index.svelte":
+/*!***************************************************************!*\
+  !*** ./src/components/Instance/ObjectRestraints/index.svelte ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _Properties_index_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Properties/index.svelte */ "./src/components/Instance/Properties/index.svelte");
+/* harmony import */ var _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../BoxSegment.svelte */ "./src/components/Instance/BoxSegment.svelte");
+/* harmony import */ var _index_svelte__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../index.svelte */ "./src/components/Instance/index.svelte");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_ObjectRestraints_index_svelte_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./src/components/Instance/ObjectRestraints/index.svelte.css */ "./src/components/Instance/ObjectRestraints/index.svelte.css");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_ObjectRestraints_index_svelte_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_ObjectRestraints_index_svelte_css__WEBPACK_IMPORTED_MODULE_4__);
+/* src/components/Instance/ObjectRestraints/index.svelte generated by Svelte v3.23.1 */
+
+
+
+
+
+
+function get_each_context(ctx, list, i) {
+	const child_ctx = ctx.slice();
+	child_ctx[8] = list[i];
+	return child_ctx;
+}
+
+// (2:2) {#if minProperties || maxProperties}
+function create_if_block_4(ctx) {
+	let li;
+	let t0;
+	let t1_value = (/*minProperties*/ ctx[2] || "") + "";
+	let t1;
+	let t2;
+	let t3_value = (/*maxProperties*/ ctx[3] || "") + "";
+	let t3;
+
+	return {
+		c() {
+			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("nbr properties: ");
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t1_value);
+			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("...");
+			t3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t3_value);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t2);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t3);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*minProperties*/ 4 && t1_value !== (t1_value = (/*minProperties*/ ctx[2] || "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, t1_value);
+			if (dirty & /*maxProperties*/ 8 && t3_value !== (t3_value = (/*maxProperties*/ ctx[3] || "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t3, t3_value);
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
+		}
+	};
+}
+
+// (7:0) {#if required && required.length}
+function create_if_block_3(ctx) {
+	let div0;
+	let t1;
+	let div1;
+	let ul;
+	let each_blocks = [];
+	let each_1_lookup = new Map();
+	let each_value = /*required*/ ctx[5];
+	const get_key = ctx => /*r*/ ctx[8];
+
+	for (let i = 0; i < each_value.length; i += 1) {
+		let child_ctx = get_each_context(ctx, each_value, i);
+		let key = get_key(child_ctx);
+		each_1_lookup.set(key, each_blocks[i] = create_each_block(key, child_ctx));
+	}
+
+	return {
+		c() {
+			div0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
+			div0.textContent = "required";
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			div1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
+			ul = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("ul");
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].c();
+			}
+
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "label svelte-18d4qi0");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(ul, "class", "svelte-18d4qi0");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div0, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t1, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div1, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, ul);
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].m(ul, null);
+			}
+		},
+		p(ctx, dirty) {
+			if (dirty & /*required*/ 32) {
+				const each_value = /*required*/ ctx[5];
+				each_blocks = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_keyed_each"])(each_blocks, dirty, get_key, 1, ctx, each_value, each_1_lookup, ul, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_block"], create_each_block, null, get_each_context);
+			}
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div0);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t1);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div1);
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].d();
+			}
+		}
+	};
+}
+
+// (11:6) {#each required as r (r)}
+function create_each_block(key_1, ctx) {
+	let li;
+	let t_value = /*r*/ ctx[8] + "";
+	let t;
+
+	return {
+		key: key_1,
+		first: null,
+		c() {
+			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
+			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t_value);
+			this.first = li;
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*required*/ 32 && t_value !== (t_value = /*r*/ ctx[8] + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, t_value);
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
+		}
+	};
+}
+
+// (18:0) {#if properties}
+function create_if_block_2(ctx) {
+	let current;
+
+	const boxsegment = new _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
+			props: {
+				legend: "properties",
+				$$slots: { default: [create_default_slot_2] },
+				$$scope: { ctx }
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(boxsegment.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(boxsegment, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const boxsegment_changes = {};
+
+			if (dirty & /*$$scope, properties, dependencies, required, href*/ 2099) {
+				boxsegment_changes.$$scope = { dirty, ctx };
+			}
+
+			boxsegment.$set(boxsegment_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(boxsegment.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(boxsegment.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(boxsegment, detaching);
+		}
+	};
+}
+
+// (19:2) <BoxSegment legend="properties">
+function create_default_slot_2(ctx) {
+	let current;
+
+	const properties_1 = new _Properties_index_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				properties: /*properties*/ ctx[1],
+				dependencies: /*dependencies*/ ctx[4],
+				required: /*required*/ ctx[5],
+				href: `${/*href*/ ctx[0]}/properties`
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(properties_1.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(properties_1, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const properties_1_changes = {};
+			if (dirty & /*properties*/ 2) properties_1_changes.properties = /*properties*/ ctx[1];
+			if (dirty & /*dependencies*/ 16) properties_1_changes.dependencies = /*dependencies*/ ctx[4];
+			if (dirty & /*required*/ 32) properties_1_changes.required = /*required*/ ctx[5];
+			if (dirty & /*href*/ 1) properties_1_changes.href = `${/*href*/ ctx[0]}/properties`;
+			properties_1.$set(properties_1_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(properties_1.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(properties_1.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(properties_1, detaching);
+		}
+	};
+}
+
+// (28:0) {#if propertyNames}
+function create_if_block_1(ctx) {
+	let current;
+
+	const boxsegment = new _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
+			props: {
+				legend: "property names",
+				$$slots: { default: [create_default_slot_1] },
+				$$scope: { ctx }
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(boxsegment.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(boxsegment, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const boxsegment_changes = {};
+
+			if (dirty & /*$$scope, propertyNames*/ 2112) {
+				boxsegment_changes.$$scope = { dirty, ctx };
+			}
+
+			boxsegment.$set(boxsegment_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(boxsegment.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(boxsegment.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(boxsegment, detaching);
+		}
+	};
+}
+
+// (29:2) <BoxSegment legend="property names">
+function create_default_slot_1(ctx) {
+	let current;
+
+	const instance = new _index_svelte__WEBPACK_IMPORTED_MODULE_3__["default"]({
+			props: { definition: /*propertyNames*/ ctx[6] }
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(instance.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(instance, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const instance_changes = {};
+			if (dirty & /*propertyNames*/ 64) instance_changes.definition = /*propertyNames*/ ctx[6];
+			instance.$set(instance_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(instance.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(instance.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(instance, detaching);
+		}
+	};
+}
+
+// (34:0) {#if patternProperties}
+function create_if_block(ctx) {
+	let current;
+
+	const boxsegment = new _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
+			props: {
+				legend: "pattern properties",
+				$$slots: { default: [create_default_slot] },
+				$$scope: { ctx }
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(boxsegment.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(boxsegment, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const boxsegment_changes = {};
+
+			if (dirty & /*$$scope, patternProperties, href*/ 2177) {
+				boxsegment_changes.$$scope = { dirty, ctx };
+			}
+
+			boxsegment.$set(boxsegment_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(boxsegment.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(boxsegment.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(boxsegment, detaching);
+		}
+	};
+}
+
+// (35:2) <BoxSegment legend="pattern properties">
+function create_default_slot(ctx) {
+	let current;
+
+	const properties_1 = new _Properties_index_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				properties: /*patternProperties*/ ctx[7],
+				href: `${/*href*/ ctx[0]}/patternProperties`
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(properties_1.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(properties_1, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const properties_1_changes = {};
+			if (dirty & /*patternProperties*/ 128) properties_1_changes.properties = /*patternProperties*/ ctx[7];
+			if (dirty & /*href*/ 1) properties_1_changes.href = `${/*href*/ ctx[0]}/patternProperties`;
+			properties_1.$set(properties_1_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(properties_1.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(properties_1.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(properties_1, detaching);
+		}
+	};
+}
+
+function create_fragment(ctx) {
+	let ul;
+	let t0;
+	let t1;
+	let t2;
+	let t3;
+	let if_block4_anchor;
+	let current;
+	let if_block0 = (/*minProperties*/ ctx[2] || /*maxProperties*/ ctx[3]) && create_if_block_4(ctx);
+	let if_block1 = /*required*/ ctx[5] && /*required*/ ctx[5].length && create_if_block_3(ctx);
+	let if_block2 = /*properties*/ ctx[1] && create_if_block_2(ctx);
+	let if_block3 = /*propertyNames*/ ctx[6] && create_if_block_1(ctx);
+	let if_block4 = /*patternProperties*/ ctx[7] && create_if_block(ctx);
+
+	return {
+		c() {
+			ul = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("ul");
+			if (if_block0) if_block0.c();
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block1) if_block1.c();
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block2) if_block2.c();
+			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block3) if_block3.c();
+			t3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block4) if_block4.c();
+			if_block4_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(ul, "class", "restraint-list svelte-18d4qi0");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, ul, anchor);
+			if (if_block0) if_block0.m(ul, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t0, anchor);
+			if (if_block1) if_block1.m(target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t1, anchor);
+			if (if_block2) if_block2.m(target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t2, anchor);
+			if (if_block3) if_block3.m(target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t3, anchor);
+			if (if_block4) if_block4.m(target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, if_block4_anchor, anchor);
+			current = true;
+		},
+		p(ctx, [dirty]) {
+			if (/*minProperties*/ ctx[2] || /*maxProperties*/ ctx[3]) {
+				if (if_block0) {
+					if_block0.p(ctx, dirty);
+				} else {
+					if_block0 = create_if_block_4(ctx);
+					if_block0.c();
+					if_block0.m(ul, null);
+				}
+			} else if (if_block0) {
+				if_block0.d(1);
+				if_block0 = null;
+			}
+
+			if (/*required*/ ctx[5] && /*required*/ ctx[5].length) {
+				if (if_block1) {
+					if_block1.p(ctx, dirty);
+				} else {
+					if_block1 = create_if_block_3(ctx);
+					if_block1.c();
+					if_block1.m(t1.parentNode, t1);
+				}
+			} else if (if_block1) {
+				if_block1.d(1);
+				if_block1 = null;
+			}
+
+			if (/*properties*/ ctx[1]) {
+				if (if_block2) {
+					if_block2.p(ctx, dirty);
+
+					if (dirty & /*properties*/ 2) {
+						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block2, 1);
+					}
+				} else {
+					if_block2 = create_if_block_2(ctx);
+					if_block2.c();
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block2, 1);
+					if_block2.m(t2.parentNode, t2);
+				}
+			} else if (if_block2) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block2, 1, 1, () => {
+					if_block2 = null;
+				});
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+			}
+
+			if (/*propertyNames*/ ctx[6]) {
+				if (if_block3) {
+					if_block3.p(ctx, dirty);
+
+					if (dirty & /*propertyNames*/ 64) {
+						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block3, 1);
+					}
+				} else {
+					if_block3 = create_if_block_1(ctx);
+					if_block3.c();
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block3, 1);
+					if_block3.m(t3.parentNode, t3);
+				}
+			} else if (if_block3) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block3, 1, 1, () => {
+					if_block3 = null;
+				});
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+			}
+
+			if (/*patternProperties*/ ctx[7]) {
+				if (if_block4) {
+					if_block4.p(ctx, dirty);
+
+					if (dirty & /*patternProperties*/ 128) {
+						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block4, 1);
+					}
+				} else {
+					if_block4 = create_if_block(ctx);
+					if_block4.c();
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block4, 1);
+					if_block4.m(if_block4_anchor.parentNode, if_block4_anchor);
+				}
+			} else if (if_block4) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block4, 1, 1, () => {
+					if_block4 = null;
+				});
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+			}
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block2);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block3);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block4);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block2);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block3);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block4);
+			current = false;
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(ul);
+			if (if_block0) if_block0.d();
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t0);
+			if (if_block1) if_block1.d(detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t1);
+			if (if_block2) if_block2.d(detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t2);
+			if (if_block3) if_block3.d(detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t3);
+			if (if_block4) if_block4.d(detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(if_block4_anchor);
+		}
+	};
+}
+
+function instance_1($$self, $$props, $$invalidate) {
+	let { href } = $$props;
+	let { properties } = $$props;
+	let { minProperties } = $$props;
+	let { maxProperties } = $$props;
+	let { dependencies } = $$props;
+	let { required = [] } = $$props;
+	let { propertyNames } = $$props;
+	let { patternProperties } = $$props;
+
+	$$self.$set = $$props => {
+		if ("href" in $$props) $$invalidate(0, href = $$props.href);
+		if ("properties" in $$props) $$invalidate(1, properties = $$props.properties);
+		if ("minProperties" in $$props) $$invalidate(2, minProperties = $$props.minProperties);
+		if ("maxProperties" in $$props) $$invalidate(3, maxProperties = $$props.maxProperties);
+		if ("dependencies" in $$props) $$invalidate(4, dependencies = $$props.dependencies);
+		if ("required" in $$props) $$invalidate(5, required = $$props.required);
+		if ("propertyNames" in $$props) $$invalidate(6, propertyNames = $$props.propertyNames);
+		if ("patternProperties" in $$props) $$invalidate(7, patternProperties = $$props.patternProperties);
+	};
+
+	return [
+		href,
+		properties,
+		minProperties,
+		maxProperties,
+		dependencies,
+		required,
+		propertyNames,
+		patternProperties
+	];
+}
+
+class ObjectRestraints extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
+	constructor(options) {
+		super();
+
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance_1, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {
+			href: 0,
+			properties: 1,
+			minProperties: 2,
+			maxProperties: 3,
+			dependencies: 4,
+			required: 5,
+			propertyNames: 6,
+			patternProperties: 7
+		});
+	}
+}
+
+
+if (false) {}
+
+/* harmony default export */ __webpack_exports__["default"] = (ObjectRestraints);
+
+
+
+
+/***/ }),
+
+/***/ "./src/components/Instance/ObjectRestraints/index.svelte.css":
+/*!*******************************************************************!*\
+  !*** ./src/components/Instance/ObjectRestraints/index.svelte.css ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Items/index.svelte.css");
+var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/ObjectRestraints/index.svelte.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -10459,10 +13352,10 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
 /* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Properties_Property_svelte_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/components/Instance/Properties/Property.svelte.css */ "./src/components/Instance/Properties/Property.svelte.css");
 /* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Properties_Property_svelte_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_Properties_Property_svelte_css__WEBPACK_IMPORTED_MODULE_1__);
-/* src/components/Instance/Properties/Property.svelte generated by Svelte v3.23.2 */
+/* src/components/Instance/Properties/Property.svelte generated by Svelte v3.23.1 */
 
 
 function create_fragment(ctx) {
@@ -10481,7 +13374,7 @@ function create_fragment(ctx) {
 			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			div1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
 			if (default_slot) default_slot.c();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "svelte-6uz0tt");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "property-name svelte-16w2dtc");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["toggle_class"])(div0, "required", /*required*/ ctx[1]);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "property_def");
 		},
@@ -10566,8 +13459,8 @@ if (false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./Property.svelte.css */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Properties/Property.svelte.css");
+var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./Property.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Properties/Property.svelte.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -10597,12 +13490,13 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
 /* harmony import */ var _Property_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Property.svelte */ "./src/components/Instance/Properties/Property.svelte");
-/* harmony import */ var _index_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../index.svelte */ "./src/components/Instance/index.svelte");
+/* harmony import */ var lodash_fp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/fp */ "./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp.js");
+/* harmony import */ var lodash_fp__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_fp__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Properties_index_svelte_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/components/Instance/Properties/index.svelte.css */ "./src/components/Instance/Properties/index.svelte.css");
 /* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Properties_index_svelte_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_Properties_index_svelte_css__WEBPACK_IMPORTED_MODULE_3__);
-/* src/components/Instance/Properties/index.svelte generated by Svelte v3.23.2 */
+/* src/components/Instance/Properties/index.svelte generated by Svelte v3.23.1 */
 
 
 
@@ -10610,21 +13504,21 @@ __webpack_require__.r(__webpack_exports__);
 
 function get_each_context(ctx, list, i) {
 	const child_ctx = ctx.slice();
-	child_ctx[9] = list[i][0];
-	child_ctx[10] = list[i][1];
+	child_ctx[10] = list[i][0];
+	child_ctx[11] = list[i][1];
 	return child_ctx;
 }
 
-// (4:2) <Property {name} required="{required.includes(name)}">
+// (3:4) <Property {name} required={required.includes(name)}>
 function create_default_slot(ctx) {
-	let instance;
 	let t;
 	let current;
 
-	instance = new _index_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
+	const instance = new /*Instance*/ ctx[4]({
 			props: {
-				href: /*href*/ ctx[1] + "/" + /*name*/ ctx[9],
-				definition: /*definition*/ ctx[10]
+				href: /*href*/ ctx[1] + "/" + /*name*/ ctx[10],
+				definition: /*definition*/ ctx[11],
+				dependencies: /*dependencies*/ ctx[2][/*name*/ ctx[10]]
 			}
 		});
 
@@ -10640,8 +13534,9 @@ function create_default_slot(ctx) {
 		},
 		p(ctx, dirty) {
 			const instance_changes = {};
-			if (dirty & /*href, entries*/ 10) instance_changes.href = /*href*/ ctx[1] + "/" + /*name*/ ctx[9];
-			if (dirty & /*entries*/ 8) instance_changes.definition = /*definition*/ ctx[10];
+			if (dirty & /*href, entries*/ 10) instance_changes.href = /*href*/ ctx[1] + "/" + /*name*/ ctx[10];
+			if (dirty & /*entries*/ 8) instance_changes.definition = /*definition*/ ctx[11];
+			if (dirty & /*dependencies, entries*/ 12) instance_changes.dependencies = /*dependencies*/ ctx[2][/*name*/ ctx[10]];
 			instance.$set(instance_changes);
 		},
 		i(local) {
@@ -10660,16 +13555,15 @@ function create_default_slot(ctx) {
 	};
 }
 
-// (3:0) {#each entries as [name, definition] (name)}
+// (2:2) {#each entries as [name, definition] (name)}
 function create_each_block(key_1, ctx) {
 	let first;
-	let property;
 	let current;
 
-	property = new _Property_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+	const property = new _Property_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
 			props: {
-				name: /*name*/ ctx[9],
-				required: /*required*/ ctx[0].includes(/*name*/ ctx[9]),
+				name: /*name*/ ctx[10],
+				required: /*required*/ ctx[0].includes(/*name*/ ctx[10]),
 				$$slots: { default: [create_default_slot] },
 				$$scope: { ctx }
 			}
@@ -10690,10 +13584,10 @@ function create_each_block(key_1, ctx) {
 		},
 		p(ctx, dirty) {
 			const property_changes = {};
-			if (dirty & /*entries*/ 8) property_changes.name = /*name*/ ctx[9];
-			if (dirty & /*required, entries*/ 9) property_changes.required = /*required*/ ctx[0].includes(/*name*/ ctx[9]);
+			if (dirty & /*entries*/ 8) property_changes.name = /*name*/ ctx[10];
+			if (dirty & /*required, entries*/ 9) property_changes.required = /*required*/ ctx[0].includes(/*name*/ ctx[10]);
 
-			if (dirty & /*$$scope, href, entries*/ 8202) {
+			if (dirty & /*$$scope, href, entries, dependencies*/ 16398) {
 				property_changes.$$scope = { dirty, ctx };
 			}
 
@@ -10717,14 +13611,11 @@ function create_each_block(key_1, ctx) {
 
 function create_fragment(ctx) {
 	let div;
-	let t0;
-	let t1;
 	let each_blocks = [];
 	let each_1_lookup = new Map();
-	let each_1_anchor;
 	let current;
 	let each_value = /*entries*/ ctx[3];
-	const get_key = ctx => /*name*/ ctx[9];
+	const get_key = ctx => /*name*/ ctx[10];
 
 	for (let i = 0; i < each_value.length; i += 1) {
 		let child_ctx = get_each_context(ctx, each_value, i);
@@ -10735,21 +13626,327 @@ function create_fragment(ctx) {
 	return {
 		c() {
 			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
-			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*title*/ ctx[2]);
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
 				each_blocks[i].c();
 			}
 
-			each_1_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "svelte-2cmx6b");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "svelte-jqilkm");
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div, t0);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t1, anchor);
 
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].m(div, null);
+			}
+
+			current = true;
+		},
+		p(ctx, [dirty]) {
+			if (dirty & /*entries, required, href, dependencies*/ 15) {
+				const each_value = /*entries*/ ctx[3];
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+				each_blocks = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_keyed_each"])(each_blocks, dirty, get_key, 1, ctx, each_value, each_1_lookup, div, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["outro_and_destroy_block"], create_each_block, null, get_each_context);
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+			}
+		},
+		i(local) {
+			if (current) return;
+
+			for (let i = 0; i < each_value.length; i += 1) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(each_blocks[i]);
+			}
+
+			current = true;
+		},
+		o(local) {
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(each_blocks[i]);
+			}
+
+			current = false;
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div);
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].d();
+			}
+		}
+	};
+}
+
+function instance_1($$self, $$props, $$invalidate) {
+	let { properties = {} } = $$props;
+	let { required = [] } = $$props;
+	let { href } = $$props;
+	let { title = "properties" } = $$props;
+	let { dependencies = {} } = $$props;
+	const Instance = __webpack_require__(/*! ../index.svelte */ "./src/components/Instance/index.svelte").default;
+	let entries = [];
+	const sort_by_required = Object(lodash_fp__WEBPACK_IMPORTED_MODULE_2__["sortBy"])(e => !required.includes(e[0]));
+	const sort_by_name = Object(lodash_fp__WEBPACK_IMPORTED_MODULE_2__["sortBy"])(e => e[0]);
+	let items_href;
+
+	$$self.$set = $$props => {
+		if ("properties" in $$props) $$invalidate(5, properties = $$props.properties);
+		if ("required" in $$props) $$invalidate(0, required = $$props.required);
+		if ("href" in $$props) $$invalidate(1, href = $$props.href);
+		if ("title" in $$props) $$invalidate(6, title = $$props.title);
+		if ("dependencies" in $$props) $$invalidate(2, dependencies = $$props.dependencies);
+	};
+
+	$$self.$$.update = () => {
+		if ($$self.$$.dirty & /*properties*/ 32) {
+			$: {
+				$$invalidate(3, entries = Object(lodash_fp__WEBPACK_IMPORTED_MODULE_2__["flow"])([Object.entries, sort_by_name, sort_by_required])(properties));
+			}
+		}
+
+		if ($$self.$$.dirty & /*href*/ 2) {
+			$: items_href = [href, "items"].join("/");
+		}
+	};
+
+	return [required, href, dependencies, entries, Instance, properties, title];
+}
+
+class Properties extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
+	constructor(options) {
+		super();
+
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance_1, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {
+			properties: 5,
+			required: 0,
+			href: 1,
+			title: 6,
+			dependencies: 2
+		});
+	}
+}
+
+
+if (false) {}
+
+/* harmony default export */ __webpack_exports__["default"] = (Properties);
+
+
+
+
+/***/ }),
+
+/***/ "./src/components/Instance/Properties/index.svelte.css":
+/*!*************************************************************!*\
+  !*** ./src/components/Instance/Properties/index.svelte.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Properties/index.svelte.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/components/Instance/SomeOf.svelte":
+/*!***********************************************!*\
+  !*** ./src/components/Instance/SomeOf.svelte ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BoxSegment.svelte */ "./src/components/Instance/BoxSegment.svelte");
+/* harmony import */ var _index_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.svelte */ "./src/components/Instance/index.svelte");
+/* src/components/Instance/SomeOf.svelte generated by Svelte v3.23.1 */
+
+
+
+
+
+function get_each_context(ctx, list, i) {
+	const child_ctx = ctx.slice();
+	child_ctx[2] = list[i];
+	return child_ctx;
+}
+
+// (1:0) {#if alternatives && alternatives.length}
+function create_if_block(ctx) {
+	let current;
+
+	const boxsegment = new _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				legend: /*type*/ ctx[0],
+				$$slots: { default: [create_default_slot] },
+				$$scope: { ctx }
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(boxsegment.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(boxsegment, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const boxsegment_changes = {};
+			if (dirty & /*type*/ 1) boxsegment_changes.legend = /*type*/ ctx[0];
+
+			if (dirty & /*$$scope, alternatives*/ 34) {
+				boxsegment_changes.$$scope = { dirty, ctx };
+			}
+
+			boxsegment.$set(boxsegment_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(boxsegment.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(boxsegment.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(boxsegment, detaching);
+		}
+	};
+}
+
+// (4:6) <BoxSegment>
+function create_default_slot_1(ctx) {
+	let t;
+	let current;
+
+	const instance = new _index_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
+			props: { definition: /*alternative*/ ctx[2] }
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(instance.$$.fragment);
+			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(instance, target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const instance_changes = {};
+			if (dirty & /*alternatives*/ 2) instance_changes.definition = /*alternative*/ ctx[2];
+			instance.$set(instance_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(instance.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(instance.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(instance, detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t);
+		}
+	};
+}
+
+// (3:4) {#each alternatives as alternative (alternative)}
+function create_each_block(key_1, ctx) {
+	let first;
+	let current;
+
+	const boxsegment = new _BoxSegment_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				$$slots: { default: [create_default_slot_1] },
+				$$scope: { ctx }
+			}
+		});
+
+	return {
+		key: key_1,
+		first: null,
+		c() {
+			first = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(boxsegment.$$.fragment);
+			this.first = first;
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, first, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(boxsegment, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const boxsegment_changes = {};
+
+			if (dirty & /*$$scope, alternatives*/ 34) {
+				boxsegment_changes.$$scope = { dirty, ctx };
+			}
+
+			boxsegment.$set(boxsegment_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(boxsegment.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(boxsegment.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(first);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(boxsegment, detaching);
+		}
+	};
+}
+
+// (2:2) <BoxSegment legend={type}>
+function create_default_slot(ctx) {
+	let each_blocks = [];
+	let each_1_lookup = new Map();
+	let each_1_anchor;
+	let current;
+	let each_value = /*alternatives*/ ctx[1];
+	const get_key = ctx => /*alternative*/ ctx[2];
+
+	for (let i = 0; i < each_value.length; i += 1) {
+		let child_ctx = get_each_context(ctx, each_value, i);
+		let key = get_key(child_ctx);
+		each_1_lookup.set(key, each_blocks[i] = create_each_block(key, child_ctx));
+	}
+
+	return {
+		c() {
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].c();
+			}
+
+			each_1_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
+		},
+		m(target, anchor) {
 			for (let i = 0; i < each_blocks.length; i += 1) {
 				each_blocks[i].m(target, anchor);
 			}
@@ -10757,11 +13954,9 @@ function create_fragment(ctx) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, each_1_anchor, anchor);
 			current = true;
 		},
-		p(ctx, [dirty]) {
-			if (!current || dirty & /*title*/ 4) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t0, /*title*/ ctx[2]);
-
-			if (dirty & /*entries, required, href*/ 11) {
-				const each_value = /*entries*/ ctx[3];
+		p(ctx, dirty) {
+			if (dirty & /*alternatives*/ 2) {
+				const each_value = /*alternatives*/ ctx[1];
 				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
 				each_blocks = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_keyed_each"])(each_blocks, dirty, get_key, 1, ctx, each_value, each_1_lookup, each_1_anchor.parentNode, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["outro_and_destroy_block"], create_each_block, each_1_anchor, get_each_context);
 				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
@@ -10784,9 +13979,6 @@ function create_fragment(ctx) {
 			current = false;
 		},
 		d(detaching) {
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div);
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t1);
-
 			for (let i = 0; i < each_blocks.length; i += 1) {
 				each_blocks[i].d(detaching);
 			}
@@ -10796,109 +13988,107 @@ function create_fragment(ctx) {
 	};
 }
 
-function instance_1($$self, $$props, $$invalidate) {
-	let { properties = {} } = $$props;
-	let { required = [] } = $$props;
-	let { href } = $$props;
-	let { title = "properties" } = $$props;
+function create_fragment(ctx) {
+	let if_block_anchor;
+	let current;
+	let if_block = /*alternatives*/ ctx[1] && /*alternatives*/ ctx[1].length && create_if_block(ctx);
 
-	//import fp from "lodash/fp";
-	const fp = __webpack_require__(/*! lodash/fp */ "./node_modules/.pnpm/lodash@4.17.15/node_modules/lodash/fp.js");
+	return {
+		c() {
+			if (if_block) if_block.c();
+			if_block_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
+		},
+		m(target, anchor) {
+			if (if_block) if_block.m(target, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, if_block_anchor, anchor);
+			current = true;
+		},
+		p(ctx, [dirty]) {
+			if (/*alternatives*/ ctx[1] && /*alternatives*/ ctx[1].length) {
+				if (if_block) {
+					if_block.p(ctx, dirty);
 
-	let entries = [];
-	const sort_by_required = fp.sortBy(e => !required.includes(e[0]));
-	const sort_by_name = fp.sortBy(e => e[0]);
-	let items_href;
+					if (dirty & /*alternatives*/ 2) {
+						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block, 1);
+					}
+				} else {
+					if_block = create_if_block(ctx);
+					if_block.c();
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block, 1);
+					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+				}
+			} else if (if_block) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
 
-	$$self.$set = $$props => {
-		if ("properties" in $$props) $$invalidate(4, properties = $$props.properties);
-		if ("required" in $$props) $$invalidate(0, required = $$props.required);
-		if ("href" in $$props) $$invalidate(1, href = $$props.href);
-		if ("title" in $$props) $$invalidate(2, title = $$props.title);
-	};
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block, 1, 1, () => {
+					if_block = null;
+				});
 
-	$$self.$$.update = () => {
-		if ($$self.$$.dirty & /*properties*/ 16) {
-			$: {
-				$$invalidate(3, entries = sort_by_required(sort_by_name(Object.entries(properties))));
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
 			}
-		}
-
-		if ($$self.$$.dirty & /*href*/ 2) {
-			$: items_href = [href, "items"].join("/");
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block);
+			current = false;
+		},
+		d(detaching) {
+			if (if_block) if_block.d(detaching);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(if_block_anchor);
 		}
 	};
-
-	return [required, href, title, entries, properties];
 }
 
-class Properties extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
+function instance_1($$self, $$props, $$invalidate) {
+	let { type } = $$props;
+	let { alternatives } = $$props;
+
+	$$self.$set = $$props => {
+		if ("type" in $$props) $$invalidate(0, type = $$props.type);
+		if ("alternatives" in $$props) $$invalidate(1, alternatives = $$props.alternatives);
+	};
+
+	return [type, alternatives];
+}
+
+class SomeOf extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
 	constructor(options) {
 		super();
-
-		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance_1, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {
-			properties: 4,
-			required: 0,
-			href: 1,
-			title: 2
-		});
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance_1, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], { type: 0, alternatives: 1 });
 	}
 }
 
 
 if (false) {}
 
-/* harmony default export */ __webpack_exports__["default"] = (Properties);
-
-
+/* harmony default export */ __webpack_exports__["default"] = (SomeOf);
 
 
 /***/ }),
 
-/***/ "./src/components/Instance/Properties/index.svelte.css":
-/*!*************************************************************!*\
-  !*** ./src/components/Instance/Properties/index.svelte.css ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Properties/index.svelte.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
-/***/ "./src/components/Instance/Types/Array/index.svelte":
-/*!**********************************************************!*\
-  !*** ./src/components/Instance/Types/Array/index.svelte ***!
-  \**********************************************************/
+/***/ "./src/components/Instance/StringRestraints/index.svelte":
+/*!***************************************************************!*\
+  !*** ./src/components/Instance/StringRestraints/index.svelte ***!
+  \***************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
-/* harmony import */ var _Type_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Type.svelte */ "./src/components/Instance/Types/Type.svelte");
-/* harmony import */ var _Items_index_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Items/index.svelte */ "./src/components/Instance/Items/index.svelte");
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_Array_index_svelte_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/components/Instance/Types/Array/index.svelte.css */ "./src/components/Instance/Types/Array/index.svelte.css");
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_Array_index_svelte_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_Array_index_svelte_css__WEBPACK_IMPORTED_MODULE_3__);
-/* src/components/Instance/Types/Array/index.svelte generated by Svelte v3.23.2 */
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var sveltejs_tippy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! sveltejs-tippy */ "./node_modules/.pnpm/registry.npmjs.org/sveltejs-tippy/3.0.0/node_modules/sveltejs-tippy/src/index.js");
+/* harmony import */ var _Types_Type_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Types/Type.svelte */ "./src/components/Instance/Types/Type.svelte");
+/* harmony import */ var _Types_Range_svelte__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Types/Range.svelte */ "./src/components/Instance/Types/Range.svelte");
+/* harmony import */ var _Types_String_formats__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Types/String/formats */ "./src/components/Instance/Types/String/formats.js");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_StringRestraints_index_svelte_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./src/components/Instance/StringRestraints/index.svelte.css */ "./src/components/Instance/StringRestraints/index.svelte.css");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_StringRestraints_index_svelte_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_StringRestraints_index_svelte_css__WEBPACK_IMPORTED_MODULE_5__);
+/* src/components/Instance/StringRestraints/index.svelte generated by Svelte v3.23.1 */
+
+
 
 
 
@@ -10907,31 +14097,21 @@ __webpack_require__.r(__webpack_exports__);
 function create_if_block_3(ctx) {
 	let li;
 	let t0;
-	let t1_value = (/*minItems*/ ctx[2] || "") + "";
 	let t1;
-	let t2;
-	let t3_value = (/*maxItems*/ ctx[1] || "") + "";
-	let t3;
 
 	return {
 		c() {
 			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
-			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("items: ");
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t1_value);
-			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("...");
-			t3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t3_value);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(li, "class", "svelte-13ha4gv");
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("value matches pattern ");
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*pattern*/ ctx[2]);
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t2);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t3);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*minItems*/ 4 && t1_value !== (t1_value = (/*minItems*/ ctx[2] || "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, t1_value);
-			if (dirty & /*maxItems*/ 2 && t3_value !== (t3_value = (/*maxItems*/ ctx[1] || "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t3, t3_value);
+			if (dirty & /*pattern*/ 4) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, /*pattern*/ ctx[2]);
 		},
 		d(detaching) {
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
@@ -10939,35 +14119,72 @@ function create_if_block_3(ctx) {
 	};
 }
 
-// (7:4) {#if maxContains || minContains}
+// (9:2) {#if format}
 function create_if_block_2(ctx) {
 	let li;
-	let t0;
-	let t1_value = (/*minContains*/ ctx[5] || "") + "";
-	let t1;
-	let t2;
-	let t3_value = (/*maxContains*/ ctx[4] || "") + "";
-	let t3;
+	let t;
+	let tippy_action;
+	let mounted;
+	let dispose;
 
 	return {
 		c() {
 			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
-			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("contains: ");
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t1_value);
-			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("...");
-			t3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t3_value);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(li, "class", "svelte-13ha4gv");
+			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*format*/ ctx[3]);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(li, "class", "format svelte-s7s18v");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t);
+
+			if (!mounted) {
+				dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["action_destroyer"])(tippy_action = /*tippy*/ ctx[7].call(null, li, {
+					placement: "right",
+					content: /*format_tip*/ ctx[6],
+					allowHTML: true,
+					interactive: true
+				}));
+
+				mounted = true;
+			}
+		},
+		p(ctx, dirty) {
+			if (dirty & /*format*/ 8) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, /*format*/ ctx[3]);
+
+			if (tippy_action && Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["is_function"])(tippy_action.update) && dirty & /*format_tip*/ 64) tippy_action.update.call(null, {
+				placement: "right",
+				content: /*format_tip*/ ctx[6],
+				allowHTML: true,
+				interactive: true
+			});
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
+			mounted = false;
+			dispose();
+		}
+	};
+}
+
+// (17:2) {#if contentEncoding}
+function create_if_block_1(ctx) {
+	let li;
+	let t0;
+	let t1;
+
+	return {
+		c() {
+			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("encoding: ");
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*contentEncoding*/ ctx[4]);
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t2);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t3);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*minContains*/ 32 && t1_value !== (t1_value = (/*minContains*/ ctx[5] || "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, t1_value);
-			if (dirty & /*maxContains*/ 16 && t3_value !== (t3_value = (/*maxContains*/ ctx[4] || "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t3, t3_value);
+			if (dirty & /*contentEncoding*/ 16) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, /*contentEncoding*/ ctx[4]);
 		},
 		d(detaching) {
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
@@ -10975,18 +14192,25 @@ function create_if_block_2(ctx) {
 	};
 }
 
-// (11:4) {#if uniqueItems}
-function create_if_block_1(ctx) {
+// (21:2) {#if contentMediaType}
+function create_if_block(ctx) {
 	let li;
+	let t0;
+	let t1;
 
 	return {
 		c() {
 			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
-			li.textContent = "unique";
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(li, "class", "svelte-13ha4gv");
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("media type: ");
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*contentMediaType*/ ctx[5]);
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*contentMediaType*/ 32) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, /*contentMediaType*/ ctx[5]);
 		},
 		d(detaching) {
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
@@ -10994,272 +14218,205 @@ function create_if_block_1(ctx) {
 	};
 }
 
-// (16:2) {#if items}
-function create_if_block(ctx) {
-	let items_1;
-	let current;
-
-	items_1 = new _Items_index_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
-			props: {
-				items: /*items*/ ctx[6],
-				href: `${/*href*/ ctx[0]}/items`
-			}
-		});
-
-	return {
-		c() {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(items_1.$$.fragment);
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(items_1, target, anchor);
-			current = true;
-		},
-		p(ctx, dirty) {
-			const items_1_changes = {};
-			if (dirty & /*items*/ 64) items_1_changes.items = /*items*/ ctx[6];
-			if (dirty & /*href*/ 1) items_1_changes.href = `${/*href*/ ctx[0]}/items`;
-			items_1.$set(items_1_changes);
-		},
-		i(local) {
-			if (current) return;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(items_1.$$.fragment, local);
-			current = true;
-		},
-		o(local) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(items_1.$$.fragment, local);
-			current = false;
-		},
-		d(detaching) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(items_1, detaching);
-		}
-	};
-}
-
-// (1:0) <Type name="array">
-function create_default_slot(ctx) {
+function create_fragment(ctx) {
 	let ul;
 	let t0;
 	let t1;
 	let t2;
-	let if_block3_anchor;
+	let t3;
 	let current;
-	let if_block0 = (/*maxItems*/ ctx[1] || /*minItems*/ ctx[2]) && create_if_block_3(ctx);
-	let if_block1 = (/*maxContains*/ ctx[4] || /*minContains*/ ctx[5]) && create_if_block_2(ctx);
-	let if_block2 = /*uniqueItems*/ ctx[3] && create_if_block_1(ctx);
-	let if_block3 = /*items*/ ctx[6] && create_if_block(ctx);
+
+	const range = new _Types_Range_svelte__WEBPACK_IMPORTED_MODULE_3__["default"]({
+			props: {
+				min: /*minLength*/ ctx[0],
+				max: /*maxLength*/ ctx[1]
+			}
+		});
+
+	let if_block0 = /*pattern*/ ctx[2] && create_if_block_3(ctx);
+	let if_block1 = /*format*/ ctx[3] && create_if_block_2(ctx);
+	let if_block2 = /*contentEncoding*/ ctx[4] && create_if_block_1(ctx);
+	let if_block3 = /*contentMediaType*/ ctx[5] && create_if_block(ctx);
 
 	return {
 		c() {
 			ul = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("ul");
-			if (if_block0) if_block0.c();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(range.$$.fragment);
 			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			if (if_block1) if_block1.c();
+			if (if_block0) if_block0.c();
 			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			if (if_block2) if_block2.c();
+			if (if_block1) if_block1.c();
 			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block2) if_block2.c();
+			t3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			if (if_block3) if_block3.c();
-			if_block3_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(ul, "class", "svelte-13ha4gv");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(ul, "class", "restraint-list");
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, ul, anchor);
-			if (if_block0) if_block0.m(ul, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(range, ul, null);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t0);
-			if (if_block1) if_block1.m(ul, null);
+			if (if_block0) if_block0.m(ul, null);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t1);
+			if (if_block1) if_block1.m(ul, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t2);
 			if (if_block2) if_block2.m(ul, null);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t2, anchor);
-			if (if_block3) if_block3.m(target, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, if_block3_anchor, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t3);
+			if (if_block3) if_block3.m(ul, null);
 			current = true;
 		},
-		p(ctx, dirty) {
-			if (/*maxItems*/ ctx[1] || /*minItems*/ ctx[2]) {
+		p(ctx, [dirty]) {
+			const range_changes = {};
+			if (dirty & /*minLength*/ 1) range_changes.min = /*minLength*/ ctx[0];
+			if (dirty & /*maxLength*/ 2) range_changes.max = /*maxLength*/ ctx[1];
+			range.$set(range_changes);
+
+			if (/*pattern*/ ctx[2]) {
 				if (if_block0) {
 					if_block0.p(ctx, dirty);
 				} else {
 					if_block0 = create_if_block_3(ctx);
 					if_block0.c();
-					if_block0.m(ul, t0);
+					if_block0.m(ul, t1);
 				}
 			} else if (if_block0) {
 				if_block0.d(1);
 				if_block0 = null;
 			}
 
-			if (/*maxContains*/ ctx[4] || /*minContains*/ ctx[5]) {
+			if (/*format*/ ctx[3]) {
 				if (if_block1) {
 					if_block1.p(ctx, dirty);
 				} else {
 					if_block1 = create_if_block_2(ctx);
 					if_block1.c();
-					if_block1.m(ul, t1);
+					if_block1.m(ul, t2);
 				}
 			} else if (if_block1) {
 				if_block1.d(1);
 				if_block1 = null;
 			}
 
-			if (/*uniqueItems*/ ctx[3]) {
+			if (/*contentEncoding*/ ctx[4]) {
 				if (if_block2) {
-					
+					if_block2.p(ctx, dirty);
 				} else {
 					if_block2 = create_if_block_1(ctx);
 					if_block2.c();
-					if_block2.m(ul, null);
+					if_block2.m(ul, t3);
 				}
 			} else if (if_block2) {
 				if_block2.d(1);
 				if_block2 = null;
 			}
 
-			if (/*items*/ ctx[6]) {
+			if (/*contentMediaType*/ ctx[5]) {
 				if (if_block3) {
 					if_block3.p(ctx, dirty);
-
-					if (dirty & /*items*/ 64) {
-						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block3, 1);
-					}
 				} else {
 					if_block3 = create_if_block(ctx);
 					if_block3.c();
-					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block3, 1);
-					if_block3.m(if_block3_anchor.parentNode, if_block3_anchor);
+					if_block3.m(ul, null);
 				}
 			} else if (if_block3) {
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
-
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block3, 1, 1, () => {
-					if_block3 = null;
-				});
-
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+				if_block3.d(1);
+				if_block3 = null;
 			}
 		},
 		i(local) {
 			if (current) return;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block3);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(range.$$.fragment, local);
 			current = true;
 		},
 		o(local) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block3);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(range.$$.fragment, local);
 			current = false;
 		},
 		d(detaching) {
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(ul);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(range);
 			if (if_block0) if_block0.d();
 			if (if_block1) if_block1.d();
 			if (if_block2) if_block2.d();
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t2);
-			if (if_block3) if_block3.d(detaching);
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(if_block3_anchor);
-		}
-	};
-}
-
-function create_fragment(ctx) {
-	let type;
-	let current;
-
-	type = new _Type_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
-			props: {
-				name: "array",
-				$$slots: { default: [create_default_slot] },
-				$$scope: { ctx }
-			}
-		});
-
-	return {
-		c() {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(type.$$.fragment);
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(type, target, anchor);
-			current = true;
-		},
-		p(ctx, [dirty]) {
-			const type_changes = {};
-
-			if (dirty & /*$$scope, items, href, uniqueItems, maxContains, minContains, maxItems, minItems*/ 383) {
-				type_changes.$$scope = { dirty, ctx };
-			}
-
-			type.$set(type_changes);
-		},
-		i(local) {
-			if (current) return;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(type.$$.fragment, local);
-			current = true;
-		},
-		o(local) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(type.$$.fragment, local);
-			current = false;
-		},
-		d(detaching) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(type, detaching);
+			if (if_block3) if_block3.d();
 		}
 	};
 }
 
 function instance($$self, $$props, $$invalidate) {
-	let { definition = {} } = $$props;
-	let { href = "" } = $$props;
-	let maxItems;
-	let minItems;
-	let uniqueItems = false;
-	let maxContains;
-	let minContains;
-	let items;
+	const tippy = sveltejs_tippy__WEBPACK_IMPORTED_MODULE_1__["default"] || (() => {
+		
+	});
+
+	let { minLength } = $$props;
+	let { maxLength } = $$props;
+	let { pattern } = $$props;
+	let { format } = $$props;
+	let { contentEncoding } = $$props;
+	let { contentMediaType } = $$props;
+	let format_tip;
 
 	$$self.$set = $$props => {
-		if ("definition" in $$props) $$invalidate(7, definition = $$props.definition);
-		if ("href" in $$props) $$invalidate(0, href = $$props.href);
+		if ("minLength" in $$props) $$invalidate(0, minLength = $$props.minLength);
+		if ("maxLength" in $$props) $$invalidate(1, maxLength = $$props.maxLength);
+		if ("pattern" in $$props) $$invalidate(2, pattern = $$props.pattern);
+		if ("format" in $$props) $$invalidate(3, format = $$props.format);
+		if ("contentEncoding" in $$props) $$invalidate(4, contentEncoding = $$props.contentEncoding);
+		if ("contentMediaType" in $$props) $$invalidate(5, contentMediaType = $$props.contentMediaType);
 	};
 
 	$$self.$$.update = () => {
-		if ($$self.$$.dirty & /*definition*/ 128) {
-			$: $$invalidate(1, { maxItems, minItems, uniqueItems, maxContains, minContains, items } = definition, maxItems, ($$invalidate(2, minItems), $$invalidate(7, definition)), ($$invalidate(3, uniqueItems), $$invalidate(7, definition)), ($$invalidate(4, maxContains), $$invalidate(7, definition)), ($$invalidate(5, minContains), $$invalidate(7, definition)), ($$invalidate(6, items), $$invalidate(7, definition)));
+		if ($$self.$$.dirty & /*format*/ 8) {
+			$: $$invalidate(6, format_tip = _Types_String_formats__WEBPACK_IMPORTED_MODULE_4__["default"][format] || "no tip");
 		}
 	};
 
 	return [
-		href,
-		maxItems,
-		minItems,
-		uniqueItems,
-		maxContains,
-		minContains,
-		items,
-		definition
+		minLength,
+		maxLength,
+		pattern,
+		format,
+		contentEncoding,
+		contentMediaType,
+		format_tip,
+		tippy
 	];
 }
 
-class Array extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
+class StringRestraints extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
 	constructor(options) {
 		super();
-		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], { definition: 7, href: 0 });
+
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {
+			minLength: 0,
+			maxLength: 1,
+			pattern: 2,
+			format: 3,
+			contentEncoding: 4,
+			contentMediaType: 5
+		});
 	}
 }
 
 
 if (false) {}
 
-/* harmony default export */ __webpack_exports__["default"] = (Array);
+/* harmony default export */ __webpack_exports__["default"] = (StringRestraints);
 
 
 
 
 /***/ }),
 
-/***/ "./src/components/Instance/Types/Array/index.svelte.css":
-/*!**************************************************************!*\
-  !*** ./src/components/Instance/Types/Array/index.svelte.css ***!
-  \**************************************************************/
+/***/ "./src/components/Instance/StringRestraints/index.svelte.css":
+/*!*******************************************************************!*\
+  !*** ./src/components/Instance/StringRestraints/index.svelte.css ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../../../../../node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/Array/index.svelte.css");
+var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/StringRestraints/index.svelte.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -11280,100 +14437,41 @@ module.exports = content.locals || {};
 
 /***/ }),
 
-/***/ "./src/components/Instance/Types/Boolean/index.svelte":
-/*!************************************************************!*\
-  !*** ./src/components/Instance/Types/Boolean/index.svelte ***!
-  \************************************************************/
+/***/ "./src/components/Instance/Types/Range.svelte":
+/*!****************************************************!*\
+  !*** ./src/components/Instance/Types/Range.svelte ***!
+  \****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
-/* harmony import */ var _Type_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Type.svelte */ "./src/components/Instance/Types/Type.svelte");
-/* src/components/Instance/Types/Boolean/index.svelte generated by Svelte v3.23.2 */
-
-
-
-
-function create_fragment(ctx) {
-	let type;
-	let current;
-	type = new _Type_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({ props: { name: "boolean" } });
-
-	return {
-		c() {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(type.$$.fragment);
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(type, target, anchor);
-			current = true;
-		},
-		p: svelte_internal__WEBPACK_IMPORTED_MODULE_0__["noop"],
-		i(local) {
-			if (current) return;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(type.$$.fragment, local);
-			current = true;
-		},
-		o(local) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(type.$$.fragment, local);
-			current = false;
-		},
-		d(detaching) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(type, detaching);
-		}
-	};
-}
-
-class Boolean extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
-	constructor(options) {
-		super();
-		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, null, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {});
-	}
-}
-
-
-if (false) {}
-
-/* harmony default export */ __webpack_exports__["default"] = (Boolean);
-
-
-/***/ }),
-
-/***/ "./src/components/Instance/Types/Integer.svelte":
-/*!******************************************************!*\
-  !*** ./src/components/Instance/Types/Integer.svelte ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
-/* harmony import */ var _Type_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Type.svelte */ "./src/components/Instance/Types/Type.svelte");
-/* src/components/Instance/Types/Integer.svelte generated by Svelte v3.23.2 */
-
-
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* src/components/Instance/Types/Range.svelte generated by Svelte v3.23.1 */
 
 
 function create_if_block_1(ctx) {
 	let li;
+	let html_tag;
 	let t0;
 	let t1;
 
 	return {
 		c() {
 			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
-			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("×");
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*multipleOf*/ ctx[0]);
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*min*/ ctx[0]);
+			html_tag = new svelte_internal__WEBPACK_IMPORTED_MODULE_0__["HtmlTag"](t0);
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
+			html_tag.m(/*greater*/ ctx[2], li);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*multipleOf*/ 1) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, /*multipleOf*/ ctx[0]);
+			if (dirty & /*greater*/ 4) html_tag.p(/*greater*/ ctx[2]);
+			if (dirty & /*min*/ 1) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, /*min*/ ctx[0]);
 		},
 		d(detaching) {
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
@@ -11381,62 +14479,29 @@ function create_if_block_1(ctx) {
 	};
 }
 
-// (6:2) {#if minimum !== undefined || maximum !== undefined}
+// (8:0) {#if max !== undefined}
 function create_if_block(ctx) {
 	let li;
-	let t0_value = (/*exclusiveMinimum*/ ctx[4] ? "]" : "") + "";
+	let html_tag;
 	let t0;
 	let t1;
-
-	let t2_value = (/*minimum*/ ctx[1] !== undefined
-	? /*minimum*/ ctx[1]
-	: "") + "";
-
-	let t2;
-	let t3;
-
-	let t4_value = (/*maximum*/ ctx[2] !== undefined
-	? /*maximum*/ ctx[2]
-	: "") + "";
-
-	let t4;
-	let t5;
-	let t6_value = (/*exclusiveMaximum*/ ctx[3] ? "[" : "") + "";
-	let t6;
 
 	return {
 		c() {
 			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
-			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t0_value);
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t2_value);
-			t3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(" ... ");
-			t4 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t4_value);
-			t5 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			t6 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t6_value);
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*max*/ ctx[1]);
+			html_tag = new svelte_internal__WEBPACK_IMPORTED_MODULE_0__["HtmlTag"](t0);
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
+			html_tag.m(/*less*/ ctx[3], li);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t2);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t3);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t4);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t5);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t6);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*exclusiveMinimum*/ 16 && t0_value !== (t0_value = (/*exclusiveMinimum*/ ctx[4] ? "]" : "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t0, t0_value);
-
-			if (dirty & /*minimum*/ 2 && t2_value !== (t2_value = (/*minimum*/ ctx[1] !== undefined
-			? /*minimum*/ ctx[1]
-			: "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t2, t2_value);
-
-			if (dirty & /*maximum*/ 4 && t4_value !== (t4_value = (/*maximum*/ ctx[2] !== undefined
-			? /*maximum*/ ctx[2]
-			: "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t4, t4_value);
-
-			if (dirty & /*exclusiveMaximum*/ 8 && t6_value !== (t6_value = (/*exclusiveMaximum*/ ctx[3] ? "[" : "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t6, t6_value);
+			if (dirty & /*less*/ 8) html_tag.p(/*less*/ ctx[3]);
+			if (dirty & /*max*/ 2) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, /*max*/ ctx[1]);
 		},
 		d(detaching) {
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
@@ -11444,12 +14509,11 @@ function create_if_block(ctx) {
 	};
 }
 
-// (1:0) <Type name="integer">
-function create_default_slot(ctx) {
+function create_fragment(ctx) {
 	let t;
 	let if_block1_anchor;
-	let if_block0 = /*multipleOf*/ ctx[0] !== undefined && create_if_block_1(ctx);
-	let if_block1 = (/*minimum*/ ctx[1] !== undefined || /*maximum*/ ctx[2] !== undefined) && create_if_block(ctx);
+	let if_block0 = /*min*/ ctx[0] !== undefined && create_if_block_1(ctx);
+	let if_block1 = /*max*/ ctx[1] !== undefined && create_if_block(ctx);
 
 	return {
 		c() {
@@ -11464,8 +14528,8 @@ function create_default_slot(ctx) {
 			if (if_block1) if_block1.m(target, anchor);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, if_block1_anchor, anchor);
 		},
-		p(ctx, dirty) {
-			if (/*multipleOf*/ ctx[0] !== undefined) {
+		p(ctx, [dirty]) {
+			if (/*min*/ ctx[0] !== undefined) {
 				if (if_block0) {
 					if_block0.p(ctx, dirty);
 				} else {
@@ -11478,7 +14542,7 @@ function create_default_slot(ctx) {
 				if_block0 = null;
 			}
 
-			if (/*minimum*/ ctx[1] !== undefined || /*maximum*/ ctx[2] !== undefined) {
+			if (/*max*/ ctx[1] !== undefined) {
 				if (if_block1) {
 					if_block1.p(ctx, dirty);
 				} else {
@@ -11491,6 +14555,8 @@ function create_default_slot(ctx) {
 				if_block1 = null;
 			}
 		},
+		i: svelte_internal__WEBPACK_IMPORTED_MODULE_0__["noop"],
+		o: svelte_internal__WEBPACK_IMPORTED_MODULE_0__["noop"],
 		d(detaching) {
 			if (if_block0) if_block0.d(detaching);
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t);
@@ -11500,657 +14566,151 @@ function create_default_slot(ctx) {
 	};
 }
 
-function create_fragment(ctx) {
-	let type;
-	let current;
-
-	type = new _Type_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
-			props: {
-				name: "integer",
-				$$slots: { default: [create_default_slot] },
-				$$scope: { ctx }
-			}
-		});
-
-	return {
-		c() {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(type.$$.fragment);
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(type, target, anchor);
-			current = true;
-		},
-		p(ctx, [dirty]) {
-			const type_changes = {};
-
-			if (dirty & /*$$scope, exclusiveMaximum, maximum, minimum, exclusiveMinimum, multipleOf*/ 63) {
-				type_changes.$$scope = { dirty, ctx };
-			}
-
-			type.$set(type_changes);
-		},
-		i(local) {
-			if (current) return;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(type.$$.fragment, local);
-			current = true;
-		},
-		o(local) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(type.$$.fragment, local);
-			current = false;
-		},
-		d(detaching) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(type, detaching);
-		}
-	};
-}
-
 function instance($$self, $$props, $$invalidate) {
-	let { multipleOf } = $$props;
-	let { minimum } = $$props;
-	let { maximum } = $$props;
-	let { exclusiveMaximum } = $$props;
-	let { exclusiveMinimum } = $$props;
+	let { min } = $$props;
+	let { max } = $$props;
+	let { exclusive = false } = $$props;
+	let greater = "";
+	let less = "";
+
+	//coerce the variable to numeric and see if it's still strictly equal to itself
+	const isNumber = n => +n === n;
 
 	$$self.$set = $$props => {
-		if ("multipleOf" in $$props) $$invalidate(0, multipleOf = $$props.multipleOf);
-		if ("minimum" in $$props) $$invalidate(1, minimum = $$props.minimum);
-		if ("maximum" in $$props) $$invalidate(2, maximum = $$props.maximum);
-		if ("exclusiveMaximum" in $$props) $$invalidate(3, exclusiveMaximum = $$props.exclusiveMaximum);
-		if ("exclusiveMinimum" in $$props) $$invalidate(4, exclusiveMinimum = $$props.exclusiveMinimum);
-	};
-
-	return [multipleOf, minimum, maximum, exclusiveMaximum, exclusiveMinimum];
-}
-
-class Integer extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
-	constructor(options) {
-		super();
-
-		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {
-			multipleOf: 0,
-			minimum: 1,
-			maximum: 2,
-			exclusiveMaximum: 3,
-			exclusiveMinimum: 4
-		});
-	}
-}
-
-
-if (false) {}
-
-/* harmony default export */ __webpack_exports__["default"] = (Integer);
-
-
-/***/ }),
-
-/***/ "./src/components/Instance/Types/Number/index.svelte":
-/*!***********************************************************!*\
-  !*** ./src/components/Instance/Types/Number/index.svelte ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
-/* harmony import */ var _Type_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Type.svelte */ "./src/components/Instance/Types/Type.svelte");
-/* src/components/Instance/Types/Number/index.svelte generated by Svelte v3.23.2 */
-
-
-
-
-function create_if_block_1(ctx) {
-	let li;
-	let t0;
-	let t1;
-
-	return {
-		c() {
-			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
-			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("×");
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*multipleOf*/ ctx[0]);
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
-		},
-		p(ctx, dirty) {
-			if (dirty & /*multipleOf*/ 1) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, /*multipleOf*/ ctx[0]);
-		},
-		d(detaching) {
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
-		}
-	};
-}
-
-// (6:2) {#if minimum !== undefined || maximum !== undefined}
-function create_if_block(ctx) {
-	let li;
-	let t0_value = (/*exclusiveMinimum*/ ctx[4] ? "]" : "") + "";
-	let t0;
-	let t1;
-
-	let t2_value = (/*minimum*/ ctx[1] !== undefined
-	? /*minimum*/ ctx[1]
-	: "") + "";
-
-	let t2;
-	let t3;
-
-	let t4_value = (/*maximum*/ ctx[2] !== undefined
-	? /*maximum*/ ctx[2]
-	: "") + "";
-
-	let t4;
-	let t5;
-	let t6_value = (/*exclusiveMaximum*/ ctx[3] ? "[" : "") + "";
-	let t6;
-
-	return {
-		c() {
-			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
-			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t0_value);
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t2_value);
-			t3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(" ... ");
-			t4 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t4_value);
-			t5 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			t6 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t6_value);
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t2);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t3);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t4);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t5);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t6);
-		},
-		p(ctx, dirty) {
-			if (dirty & /*exclusiveMinimum*/ 16 && t0_value !== (t0_value = (/*exclusiveMinimum*/ ctx[4] ? "]" : "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t0, t0_value);
-
-			if (dirty & /*minimum*/ 2 && t2_value !== (t2_value = (/*minimum*/ ctx[1] !== undefined
-			? /*minimum*/ ctx[1]
-			: "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t2, t2_value);
-
-			if (dirty & /*maximum*/ 4 && t4_value !== (t4_value = (/*maximum*/ ctx[2] !== undefined
-			? /*maximum*/ ctx[2]
-			: "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t4, t4_value);
-
-			if (dirty & /*exclusiveMaximum*/ 8 && t6_value !== (t6_value = (/*exclusiveMaximum*/ ctx[3] ? "[" : "") + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t6, t6_value);
-		},
-		d(detaching) {
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
-		}
-	};
-}
-
-// (1:0) <Type name="number">
-function create_default_slot(ctx) {
-	let t;
-	let if_block1_anchor;
-	let if_block0 = /*multipleOf*/ ctx[0] !== undefined && create_if_block_1(ctx);
-	let if_block1 = (/*minimum*/ ctx[1] !== undefined || /*maximum*/ ctx[2] !== undefined) && create_if_block(ctx);
-
-	return {
-		c() {
-			if (if_block0) if_block0.c();
-			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			if (if_block1) if_block1.c();
-			if_block1_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
-		},
-		m(target, anchor) {
-			if (if_block0) if_block0.m(target, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t, anchor);
-			if (if_block1) if_block1.m(target, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, if_block1_anchor, anchor);
-		},
-		p(ctx, dirty) {
-			if (/*multipleOf*/ ctx[0] !== undefined) {
-				if (if_block0) {
-					if_block0.p(ctx, dirty);
-				} else {
-					if_block0 = create_if_block_1(ctx);
-					if_block0.c();
-					if_block0.m(t.parentNode, t);
-				}
-			} else if (if_block0) {
-				if_block0.d(1);
-				if_block0 = null;
-			}
-
-			if (/*minimum*/ ctx[1] !== undefined || /*maximum*/ ctx[2] !== undefined) {
-				if (if_block1) {
-					if_block1.p(ctx, dirty);
-				} else {
-					if_block1 = create_if_block(ctx);
-					if_block1.c();
-					if_block1.m(if_block1_anchor.parentNode, if_block1_anchor);
-				}
-			} else if (if_block1) {
-				if_block1.d(1);
-				if_block1 = null;
-			}
-		},
-		d(detaching) {
-			if (if_block0) if_block0.d(detaching);
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t);
-			if (if_block1) if_block1.d(detaching);
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(if_block1_anchor);
-		}
-	};
-}
-
-function create_fragment(ctx) {
-	let type;
-	let current;
-
-	type = new _Type_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
-			props: {
-				name: "number",
-				$$slots: { default: [create_default_slot] },
-				$$scope: { ctx }
-			}
-		});
-
-	return {
-		c() {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(type.$$.fragment);
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(type, target, anchor);
-			current = true;
-		},
-		p(ctx, [dirty]) {
-			const type_changes = {};
-
-			if (dirty & /*$$scope, exclusiveMaximum, maximum, minimum, exclusiveMinimum, multipleOf*/ 63) {
-				type_changes.$$scope = { dirty, ctx };
-			}
-
-			type.$set(type_changes);
-		},
-		i(local) {
-			if (current) return;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(type.$$.fragment, local);
-			current = true;
-		},
-		o(local) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(type.$$.fragment, local);
-			current = false;
-		},
-		d(detaching) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(type, detaching);
-		}
-	};
-}
-
-function instance($$self, $$props, $$invalidate) {
-	let { multipleOf } = $$props;
-	let { minimum } = $$props;
-	let { maximum } = $$props;
-	let { exclusiveMaximum } = $$props;
-	let { exclusiveMinimum } = $$props;
-
-	$$self.$set = $$props => {
-		if ("multipleOf" in $$props) $$invalidate(0, multipleOf = $$props.multipleOf);
-		if ("minimum" in $$props) $$invalidate(1, minimum = $$props.minimum);
-		if ("maximum" in $$props) $$invalidate(2, maximum = $$props.maximum);
-		if ("exclusiveMaximum" in $$props) $$invalidate(3, exclusiveMaximum = $$props.exclusiveMaximum);
-		if ("exclusiveMinimum" in $$props) $$invalidate(4, exclusiveMinimum = $$props.exclusiveMinimum);
-	};
-
-	return [multipleOf, minimum, maximum, exclusiveMaximum, exclusiveMinimum];
-}
-
-class Number extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
-	constructor(options) {
-		super();
-
-		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {
-			multipleOf: 0,
-			minimum: 1,
-			maximum: 2,
-			exclusiveMaximum: 3,
-			exclusiveMinimum: 4
-		});
-	}
-}
-
-
-if (false) {}
-
-/* harmony default export */ __webpack_exports__["default"] = (Number);
-
-
-/***/ }),
-
-/***/ "./src/components/Instance/Types/ObjectType/index.svelte":
-/*!***************************************************************!*\
-  !*** ./src/components/Instance/Types/ObjectType/index.svelte ***!
-  \***************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
-/* harmony import */ var _Type_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Type.svelte */ "./src/components/Instance/Types/Type.svelte");
-/* harmony import */ var _Properties_index_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Properties/index.svelte */ "./src/components/Instance/Properties/index.svelte");
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_ObjectType_index_svelte_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/components/Instance/Types/ObjectType/index.svelte.css */ "./src/components/Instance/Types/ObjectType/index.svelte.css");
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_ObjectType_index_svelte_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_ObjectType_index_svelte_css__WEBPACK_IMPORTED_MODULE_3__);
-/* src/components/Instance/Types/ObjectType/index.svelte generated by Svelte v3.23.2 */
-
-
-
-
-
-function get_each_context(ctx, list, i) {
-	const child_ctx = ctx.slice();
-	child_ctx[4] = list[i];
-	return child_ctx;
-}
-
-// (2:2) {#if required.length}
-function create_if_block_1(ctx) {
-	let div0;
-	let t1;
-	let div1;
-	let ul;
-	let each_blocks = [];
-	let each_1_lookup = new Map();
-	let each_value = /*required*/ ctx[2];
-	const get_key = ctx => /*r*/ ctx[4];
-
-	for (let i = 0; i < each_value.length; i += 1) {
-		let child_ctx = get_each_context(ctx, each_value, i);
-		let key = get_key(child_ctx);
-		each_1_lookup.set(key, each_blocks[i] = create_each_block(key, child_ctx));
-	}
-
-	return {
-		c() {
-			div0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
-			div0.textContent = "required";
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			div1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
-			ul = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("ul");
-
-			for (let i = 0; i < each_blocks.length; i += 1) {
-				each_blocks[i].c();
-			}
-
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "label svelte-18d4qi0");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(ul, "class", "svelte-18d4qi0");
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div0, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t1, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div1, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, ul);
-
-			for (let i = 0; i < each_blocks.length; i += 1) {
-				each_blocks[i].m(ul, null);
-			}
-		},
-		p(ctx, dirty) {
-			if (dirty & /*required*/ 4) {
-				const each_value = /*required*/ ctx[2];
-				each_blocks = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_keyed_each"])(each_blocks, dirty, get_key, 1, ctx, each_value, each_1_lookup, ul, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_block"], create_each_block, null, get_each_context);
-			}
-		},
-		d(detaching) {
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div0);
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t1);
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div1);
-
-			for (let i = 0; i < each_blocks.length; i += 1) {
-				each_blocks[i].d();
-			}
-		}
-	};
-}
-
-// (6:8) {#each required as r (r)}
-function create_each_block(key_1, ctx) {
-	let li;
-	let t_value = /*r*/ ctx[4] + "";
-	let t;
-
-	return {
-		key: key_1,
-		first: null,
-		c() {
-			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
-			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t_value);
-			this.first = li;
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t);
-		},
-		p(ctx, dirty) {
-			if (dirty & /*required*/ 4 && t_value !== (t_value = /*r*/ ctx[4] + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, t_value);
-		},
-		d(detaching) {
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
-		}
-	};
-}
-
-// (12:2) {#if properties}
-function create_if_block(ctx) {
-	let properties_1;
-	let current;
-
-	properties_1 = new _Properties_index_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
-			props: {
-				properties: /*properties*/ ctx[1],
-				required: /*required*/ ctx[2],
-				href: `${/*href*/ ctx[0]}/properties`
-			}
-		});
-
-	return {
-		c() {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(properties_1.$$.fragment);
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(properties_1, target, anchor);
-			current = true;
-		},
-		p(ctx, dirty) {
-			const properties_1_changes = {};
-			if (dirty & /*properties*/ 2) properties_1_changes.properties = /*properties*/ ctx[1];
-			if (dirty & /*required*/ 4) properties_1_changes.required = /*required*/ ctx[2];
-			if (dirty & /*href*/ 1) properties_1_changes.href = `${/*href*/ ctx[0]}/properties`;
-			properties_1.$set(properties_1_changes);
-		},
-		i(local) {
-			if (current) return;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(properties_1.$$.fragment, local);
-			current = true;
-		},
-		o(local) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(properties_1.$$.fragment, local);
-			current = false;
-		},
-		d(detaching) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(properties_1, detaching);
-		}
-	};
-}
-
-// (1:0) <Type name="object">
-function create_default_slot(ctx) {
-	let t;
-	let if_block1_anchor;
-	let current;
-	let if_block0 = /*required*/ ctx[2].length && create_if_block_1(ctx);
-	let if_block1 = /*properties*/ ctx[1] && create_if_block(ctx);
-
-	return {
-		c() {
-			if (if_block0) if_block0.c();
-			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			if (if_block1) if_block1.c();
-			if_block1_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
-		},
-		m(target, anchor) {
-			if (if_block0) if_block0.m(target, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t, anchor);
-			if (if_block1) if_block1.m(target, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, if_block1_anchor, anchor);
-			current = true;
-		},
-		p(ctx, dirty) {
-			if (/*required*/ ctx[2].length) {
-				if (if_block0) {
-					if_block0.p(ctx, dirty);
-				} else {
-					if_block0 = create_if_block_1(ctx);
-					if_block0.c();
-					if_block0.m(t.parentNode, t);
-				}
-			} else if (if_block0) {
-				if_block0.d(1);
-				if_block0 = null;
-			}
-
-			if (/*properties*/ ctx[1]) {
-				if (if_block1) {
-					if_block1.p(ctx, dirty);
-
-					if (dirty & /*properties*/ 2) {
-						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block1, 1);
-					}
-				} else {
-					if_block1 = create_if_block(ctx);
-					if_block1.c();
-					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block1, 1);
-					if_block1.m(if_block1_anchor.parentNode, if_block1_anchor);
-				}
-			} else if (if_block1) {
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
-
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block1, 1, 1, () => {
-					if_block1 = null;
-				});
-
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
-			}
-		},
-		i(local) {
-			if (current) return;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block1);
-			current = true;
-		},
-		o(local) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block1);
-			current = false;
-		},
-		d(detaching) {
-			if (if_block0) if_block0.d(detaching);
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t);
-			if (if_block1) if_block1.d(detaching);
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(if_block1_anchor);
-		}
-	};
-}
-
-function create_fragment(ctx) {
-	let type;
-	let current;
-
-	type = new _Type_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
-			props: {
-				name: "object",
-				$$slots: { default: [create_default_slot] },
-				$$scope: { ctx }
-			}
-		});
-
-	return {
-		c() {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(type.$$.fragment);
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(type, target, anchor);
-			current = true;
-		},
-		p(ctx, [dirty]) {
-			const type_changes = {};
-
-			if (dirty & /*$$scope, properties, required, href*/ 135) {
-				type_changes.$$scope = { dirty, ctx };
-			}
-
-			type.$set(type_changes);
-		},
-		i(local) {
-			if (current) return;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(type.$$.fragment, local);
-			current = true;
-		},
-		o(local) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(type.$$.fragment, local);
-			current = false;
-		},
-		d(detaching) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(type, detaching);
-		}
-	};
-}
-
-function instance($$self, $$props, $$invalidate) {
-	let { definition } = $$props;
-	let { href } = $$props;
-	let properties;
-	let required = [];
-
-	$$self.$set = $$props => {
-		if ("definition" in $$props) $$invalidate(3, definition = $$props.definition);
-		if ("href" in $$props) $$invalidate(0, href = $$props.href);
+		if ("min" in $$props) $$invalidate(0, min = $$props.min);
+		if ("max" in $$props) $$invalidate(1, max = $$props.max);
+		if ("exclusive" in $$props) $$invalidate(4, exclusive = $$props.exclusive);
 	};
 
 	$$self.$$.update = () => {
-		if ($$self.$$.dirty & /*definition*/ 8) {
-			$: $$invalidate(1, { properties, required = [] } = definition, properties, ($$invalidate(2, required), $$invalidate(3, definition)));
+		if ($$self.$$.dirty & /*min, max, exclusive*/ 19) {
+			$: {
+				$$invalidate(0, min = isNumber(min) ? min : undefined);
+				$$invalidate(1, max = isNumber(max) ? max : undefined);
+
+				if (isNumber(exclusive)) {
+					$$invalidate(4, exclusive = false);
+				}
+
+				$$invalidate(2, greater = exclusive ? ">" : "&ge;");
+				$$invalidate(3, less = exclusive ? "<" : "&le;");
+			}
 		}
 	};
 
-	return [href, properties, required, definition];
+	return [min, max, greater, less, exclusive];
 }
 
-class ObjectType extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
+class Range extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
 	constructor(options) {
 		super();
-		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], { definition: 3, href: 0 });
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], { min: 0, max: 1, exclusive: 4 });
 	}
 }
 
 
 if (false) {}
 
-/* harmony default export */ __webpack_exports__["default"] = (ObjectType);
+/* harmony default export */ __webpack_exports__["default"] = (Range);
+
+
+/***/ }),
+
+/***/ "./src/components/Instance/Types/Restraints.svelte":
+/*!*********************************************************!*\
+  !*** ./src/components/Instance/Types/Restraints.svelte ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_Restraints_svelte_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/components/Instance/Types/Restraints.svelte.css */ "./src/components/Instance/Types/Restraints.svelte.css");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_Restraints_svelte_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_Restraints_svelte_css__WEBPACK_IMPORTED_MODULE_1__);
+/* src/components/Instance/Types/Restraints.svelte generated by Svelte v3.23.1 */
+
+
+function create_fragment(ctx) {
+	let div;
+	let current;
+	const default_slot_template = /*$$slots*/ ctx[1].default;
+	const default_slot = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_slot"])(default_slot_template, ctx, /*$$scope*/ ctx[0], null);
+
+	return {
+		c() {
+			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
+			if (default_slot) default_slot.c();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "type_restraints svelte-1jf1ci0");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div, anchor);
+
+			if (default_slot) {
+				default_slot.m(div, null);
+			}
+
+			current = true;
+		},
+		p(ctx, [dirty]) {
+			if (default_slot) {
+				if (default_slot.p && dirty & /*$$scope*/ 1) {
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_slot"])(default_slot, default_slot_template, ctx, /*$$scope*/ ctx[0], dirty, null, null);
+				}
+			}
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(default_slot, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(default_slot, local);
+			current = false;
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div);
+			if (default_slot) default_slot.d(detaching);
+		}
+	};
+}
+
+function instance($$self, $$props, $$invalidate) {
+	let { $$slots = {}, $$scope } = $$props;
+
+	$$self.$set = $$props => {
+		if ("$$scope" in $$props) $$invalidate(0, $$scope = $$props.$$scope);
+	};
+
+	return [$$scope, $$slots];
+}
+
+class Restraints extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
+	constructor(options) {
+		super();
+		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {});
+	}
+}
+
+
+if (false) {}
+
+/* harmony default export */ __webpack_exports__["default"] = (Restraints);
 
 
 
 
 /***/ }),
 
-/***/ "./src/components/Instance/Types/ObjectType/index.svelte.css":
-/*!*******************************************************************!*\
-  !*** ./src/components/Instance/Types/ObjectType/index.svelte.css ***!
-  \*******************************************************************/
+/***/ "./src/components/Instance/Types/Restraints.svelte.css":
+/*!*************************************************************!*\
+  !*** ./src/components/Instance/Types/Restraints.svelte.css ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../../../../../node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/ObjectType/index.svelte.css");
+var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./Restraints.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/Restraints.svelte.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -12224,362 +14784,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/components/Instance/Types/String/index.svelte":
-/*!***********************************************************!*\
-  !*** ./src/components/Instance/Types/String/index.svelte ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
-/* harmony import */ var sveltejs_tippy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! sveltejs-tippy */ "./node_modules/.pnpm/sveltejs-tippy@3.0.0/node_modules/sveltejs-tippy/src/index.js");
-/* harmony import */ var _Type_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Type.svelte */ "./src/components/Instance/Types/Type.svelte");
-/* harmony import */ var _formats__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./formats */ "./src/components/Instance/Types/String/formats.js");
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_String_index_svelte_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./src/components/Instance/Types/String/index.svelte.css */ "./src/components/Instance/Types/String/index.svelte.css");
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_String_index_svelte_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_String_index_svelte_css__WEBPACK_IMPORTED_MODULE_4__);
-/* src/components/Instance/Types/String/index.svelte generated by Svelte v3.23.2 */
-
-
-
-
-
-
-function create_if_block_3(ctx) {
-	let li;
-	let t0;
-	let t1;
-
-	return {
-		c() {
-			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
-			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("≥ ");
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*minLength*/ ctx[0]);
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
-		},
-		p(ctx, dirty) {
-			if (dirty & /*minLength*/ 1) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, /*minLength*/ ctx[0]);
-		},
-		d(detaching) {
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
-		}
-	};
-}
-
-// (8:4) {#if maxLength != undefined}
-function create_if_block_2(ctx) {
-	let li;
-	let t0;
-	let t1;
-
-	return {
-		c() {
-			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
-			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("≤ ");
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*maxLength*/ ctx[1]);
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
-		},
-		p(ctx, dirty) {
-			if (dirty & /*maxLength*/ 2) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, /*maxLength*/ ctx[1]);
-		},
-		d(detaching) {
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
-		}
-	};
-}
-
-// (12:4) {#if pattern}
-function create_if_block_1(ctx) {
-	let li;
-	let t0;
-	let t1;
-
-	return {
-		c() {
-			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
-			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("value matches pattern ");
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*pattern*/ ctx[2]);
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t0);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t1);
-		},
-		p(ctx, dirty) {
-			if (dirty & /*pattern*/ 4) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t1, /*pattern*/ ctx[2]);
-		},
-		d(detaching) {
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
-		}
-	};
-}
-
-// (16:4) {#if format}
-function create_if_block(ctx) {
-	let li;
-	let t;
-	let tippy_action;
-	let mounted;
-	let dispose;
-
-	return {
-		c() {
-			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
-			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*format*/ ctx[3]);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(li, "class", "format svelte-s7s18v");
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t);
-
-			if (!mounted) {
-				dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["action_destroyer"])(tippy_action = /*tippy*/ ctx[5].call(null, li, {
-					placement: "right",
-					content: /*format_tip*/ ctx[4],
-					allowHTML: true,
-					interactive: true
-				}));
-
-				mounted = true;
-			}
-		},
-		p(ctx, dirty) {
-			if (dirty & /*format*/ 8) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, /*format*/ ctx[3]);
-
-			if (tippy_action && Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["is_function"])(tippy_action.update) && dirty & /*format_tip*/ 16) tippy_action.update.call(null, {
-				placement: "right",
-				content: /*format_tip*/ ctx[4],
-				allowHTML: true,
-				interactive: true
-			});
-		},
-		d(detaching) {
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
-			mounted = false;
-			dispose();
-		}
-	};
-}
-
-// (1:0) <Type name="string">
-function create_default_slot(ctx) {
-	let ul;
-	let t0;
-	let t1;
-	let t2;
-	let if_block0 = /*minLength*/ ctx[0] != undefined && create_if_block_3(ctx);
-	let if_block1 = /*maxLength*/ ctx[1] != undefined && create_if_block_2(ctx);
-	let if_block2 = /*pattern*/ ctx[2] && create_if_block_1(ctx);
-	let if_block3 = /*format*/ ctx[3] && create_if_block(ctx);
-
-	return {
-		c() {
-			ul = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("ul");
-			if (if_block0) if_block0.c();
-			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			if (if_block1) if_block1.c();
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			if (if_block2) if_block2.c();
-			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			if (if_block3) if_block3.c();
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, ul, anchor);
-			if (if_block0) if_block0.m(ul, null);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t0);
-			if (if_block1) if_block1.m(ul, null);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t1);
-			if (if_block2) if_block2.m(ul, null);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(ul, t2);
-			if (if_block3) if_block3.m(ul, null);
-		},
-		p(ctx, dirty) {
-			if (/*minLength*/ ctx[0] != undefined) {
-				if (if_block0) {
-					if_block0.p(ctx, dirty);
-				} else {
-					if_block0 = create_if_block_3(ctx);
-					if_block0.c();
-					if_block0.m(ul, t0);
-				}
-			} else if (if_block0) {
-				if_block0.d(1);
-				if_block0 = null;
-			}
-
-			if (/*maxLength*/ ctx[1] != undefined) {
-				if (if_block1) {
-					if_block1.p(ctx, dirty);
-				} else {
-					if_block1 = create_if_block_2(ctx);
-					if_block1.c();
-					if_block1.m(ul, t1);
-				}
-			} else if (if_block1) {
-				if_block1.d(1);
-				if_block1 = null;
-			}
-
-			if (/*pattern*/ ctx[2]) {
-				if (if_block2) {
-					if_block2.p(ctx, dirty);
-				} else {
-					if_block2 = create_if_block_1(ctx);
-					if_block2.c();
-					if_block2.m(ul, t2);
-				}
-			} else if (if_block2) {
-				if_block2.d(1);
-				if_block2 = null;
-			}
-
-			if (/*format*/ ctx[3]) {
-				if (if_block3) {
-					if_block3.p(ctx, dirty);
-				} else {
-					if_block3 = create_if_block(ctx);
-					if_block3.c();
-					if_block3.m(ul, null);
-				}
-			} else if (if_block3) {
-				if_block3.d(1);
-				if_block3 = null;
-			}
-		},
-		d(detaching) {
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(ul);
-			if (if_block0) if_block0.d();
-			if (if_block1) if_block1.d();
-			if (if_block2) if_block2.d();
-			if (if_block3) if_block3.d();
-		}
-	};
-}
-
-function create_fragment(ctx) {
-	let type;
-	let current;
-
-	type = new _Type_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
-			props: {
-				name: "string",
-				$$slots: { default: [create_default_slot] },
-				$$scope: { ctx }
-			}
-		});
-
-	return {
-		c() {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(type.$$.fragment);
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(type, target, anchor);
-			current = true;
-		},
-		p(ctx, [dirty]) {
-			const type_changes = {};
-
-			if (dirty & /*$$scope, format_tip, format, pattern, maxLength, minLength*/ 159) {
-				type_changes.$$scope = { dirty, ctx };
-			}
-
-			type.$set(type_changes);
-		},
-		i(local) {
-			if (current) return;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(type.$$.fragment, local);
-			current = true;
-		},
-		o(local) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(type.$$.fragment, local);
-			current = false;
-		},
-		d(detaching) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(type, detaching);
-		}
-	};
-}
-
-function instance($$self, $$props, $$invalidate) {
-	const tippy = sveltejs_tippy__WEBPACK_IMPORTED_MODULE_1__["default"] || (() => {
-		
-	});
-
-	let { definition = {} } = $$props;
-	let minLength, maxLength, pattern, format, format_tip;
-
-	$$self.$set = $$props => {
-		if ("definition" in $$props) $$invalidate(6, definition = $$props.definition);
-	};
-
-	$$self.$$.update = () => {
-		if ($$self.$$.dirty & /*definition*/ 64) {
-			$: $$invalidate(0, { minLength, maxLength, pattern, format } = definition, minLength, ($$invalidate(1, maxLength), $$invalidate(6, definition)), ($$invalidate(2, pattern), $$invalidate(6, definition)), ($$invalidate(3, format), $$invalidate(6, definition)));
-		}
-
-		if ($$self.$$.dirty & /*format*/ 8) {
-			$: $$invalidate(4, format_tip = _formats__WEBPACK_IMPORTED_MODULE_3__["default"][format] || "no tip");
-		}
-	};
-
-	return [minLength, maxLength, pattern, format, format_tip, tippy, definition];
-}
-
-class String extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
-	constructor(options) {
-		super();
-		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], { definition: 6 });
-	}
-}
-
-
-if (false) {}
-
-/* harmony default export */ __webpack_exports__["default"] = (String);
-
-
-
-
-/***/ }),
-
-/***/ "./src/components/Instance/Types/String/index.svelte.css":
-/*!***************************************************************!*\
-  !*** ./src/components/Instance/Types/String/index.svelte.css ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../../../node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/String/index.svelte.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/components/Instance/Types/Type.svelte":
 /*!***************************************************!*\
   !*** ./src/components/Instance/Types/Type.svelte ***!
@@ -12589,49 +14793,35 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_Type_svelte_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/components/Instance/Types/Type.svelte.css */ "./src/components/Instance/Types/Type.svelte.css");
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_Type_svelte_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_Type_svelte_css__WEBPACK_IMPORTED_MODULE_1__);
-/* src/components/Instance/Types/Type.svelte generated by Svelte v3.23.2 */
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _Restraints_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Restraints.svelte */ "./src/components/Instance/Types/Restraints.svelte");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_Type_svelte_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/components/Instance/Types/Type.svelte.css */ "./src/components/Instance/Types/Type.svelte.css");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_Type_svelte_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_Types_Type_svelte_css__WEBPACK_IMPORTED_MODULE_2__);
+/* src/components/Instance/Types/Type.svelte generated by Svelte v3.23.1 */
 
 
-function create_fragment(ctx) {
-	let div0;
-	let t0;
-	let t1;
-	let div1;
+
+
+function create_default_slot(ctx) {
 	let current;
-	const default_slot_template = /*$$slots*/ ctx[2].default;
-	const default_slot = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_slot"])(default_slot_template, ctx, /*$$scope*/ ctx[1], null);
+	const default_slot_template = /*$$slots*/ ctx[1].default;
+	const default_slot = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_slot"])(default_slot_template, ctx, /*$$scope*/ ctx[2], null);
 
 	return {
 		c() {
-			div0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
-			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*name*/ ctx[0]);
-			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			div1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
 			if (default_slot) default_slot.c();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "type svelte-2x67ox");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "type_restraints svelte-2x67ox");
 		},
 		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div0, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div0, t0);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t1, anchor);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div1, anchor);
-
 			if (default_slot) {
-				default_slot.m(div1, null);
+				default_slot.m(target, anchor);
 			}
 
 			current = true;
 		},
-		p(ctx, [dirty]) {
-			if (!current || dirty & /*name*/ 1) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t0, /*name*/ ctx[0]);
-
+		p(ctx, dirty) {
 			if (default_slot) {
-				if (default_slot.p && dirty & /*$$scope*/ 2) {
-					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_slot"])(default_slot, default_slot_template, ctx, /*$$scope*/ ctx[1], dirty, null, null);
+				if (default_slot.p && dirty & /*$$scope*/ 4) {
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_slot"])(default_slot, default_slot_template, ctx, /*$$scope*/ ctx[2], dirty, null, null);
 				}
 			}
 		},
@@ -12645,10 +14835,62 @@ function create_fragment(ctx) {
 			current = false;
 		},
 		d(detaching) {
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div0);
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t1);
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div1);
 			if (default_slot) default_slot.d(detaching);
+		}
+	};
+}
+
+function create_fragment(ctx) {
+	let div;
+	let t0;
+	let t1;
+	let current;
+
+	const restraints = new _Restraints_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
+			props: {
+				$$slots: { default: [create_default_slot] },
+				$$scope: { ctx }
+			}
+		});
+
+	return {
+		c() {
+			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
+			t0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*name*/ ctx[0]);
+			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(restraints.$$.fragment);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "type svelte-nv4ip7");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div, t0);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, t1, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(restraints, target, anchor);
+			current = true;
+		},
+		p(ctx, [dirty]) {
+			if (!current || dirty & /*name*/ 1) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t0, /*name*/ ctx[0]);
+			const restraints_changes = {};
+
+			if (dirty & /*$$scope*/ 4) {
+				restraints_changes.$$scope = { dirty, ctx };
+			}
+
+			restraints.$set(restraints_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(restraints.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(restraints.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div);
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(t1);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(restraints, detaching);
 		}
 	};
 }
@@ -12660,10 +14902,10 @@ function instance($$self, $$props, $$invalidate) {
 
 	$$self.$set = $$props => {
 		if ("name" in $$props) $$invalidate(0, name = $$props.name);
-		if ("$$scope" in $$props) $$invalidate(1, $$scope = $$props.$$scope);
+		if ("$$scope" in $$props) $$invalidate(2, $$scope = $$props.$$scope);
 	};
 
-	return [name, $$scope, $$slots];
+	return [name, $$slots, $$scope];
 }
 
 class Type extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
@@ -12690,8 +14932,8 @@ if (false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./Type.svelte.css */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/Type.svelte.css");
+var api = __webpack_require__(/*! ../../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./Type.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/Types/Type.svelte.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -12712,23 +14954,37 @@ module.exports = content.locals || {};
 
 /***/ }),
 
-/***/ "./src/components/Instance/Types/index.svelte":
-/*!****************************************************!*\
-  !*** ./src/components/Instance/Types/index.svelte ***!
-  \****************************************************/
+/***/ "./src/components/Instance/index.svelte":
+/*!**********************************************!*\
+  !*** ./src/components/Instance/index.svelte ***!
+  \**********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
-/* harmony import */ var _Array_index_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Array/index.svelte */ "./src/components/Instance/Types/Array/index.svelte");
-/* harmony import */ var _Number_index_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Number/index.svelte */ "./src/components/Instance/Types/Number/index.svelte");
-/* harmony import */ var _Integer_svelte__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Integer.svelte */ "./src/components/Instance/Types/Integer.svelte");
-/* harmony import */ var _String_index_svelte__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./String/index.svelte */ "./src/components/Instance/Types/String/index.svelte");
-/* harmony import */ var _Boolean_index_svelte__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Boolean/index.svelte */ "./src/components/Instance/Types/Boolean/index.svelte");
-/* harmony import */ var _ObjectType_index_svelte__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ObjectType/index.svelte */ "./src/components/Instance/Types/ObjectType/index.svelte");
-/* src/components/Instance/Types/index.svelte generated by Svelte v3.23.2 */
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _routes_schemas__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../routes/_schemas */ "./src/routes/_schemas.js");
+/* harmony import */ var _Items_index_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Items/index.svelte */ "./src/components/Instance/Items/index.svelte");
+/* harmony import */ var _Examples_index_svelte__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Examples/index.svelte */ "./src/components/Instance/Examples/index.svelte");
+/* harmony import */ var _Enum_index_svelte__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Enum/index.svelte */ "./src/components/Instance/Enum/index.svelte");
+/* harmony import */ var _Dependencies_svelte__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Dependencies.svelte */ "./src/components/Instance/Dependencies.svelte");
+/* harmony import */ var _ArrayRestraints_index_svelte__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ArrayRestraints/index.svelte */ "./src/components/Instance/ArrayRestraints/index.svelte");
+/* harmony import */ var _StringRestraints_index_svelte__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./StringRestraints/index.svelte */ "./src/components/Instance/StringRestraints/index.svelte");
+/* harmony import */ var _NumberRestraints_index_svelte__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./NumberRestraints/index.svelte */ "./src/components/Instance/NumberRestraints/index.svelte");
+/* harmony import */ var _ObjectRestraints_index_svelte__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ObjectRestraints/index.svelte */ "./src/components/Instance/ObjectRestraints/index.svelte");
+/* harmony import */ var _IfThenElse_index_svelte__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./IfThenElse/index.svelte */ "./src/components/Instance/IfThenElse/index.svelte");
+/* harmony import */ var _SomeOf_svelte__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./SomeOf.svelte */ "./src/components/Instance/SomeOf.svelte");
+/* harmony import */ var _Not_svelte__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Not.svelte */ "./src/components/Instance/Not.svelte");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_index_svelte_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./src/components/Instance/index.svelte.css */ "./src/components/Instance/index.svelte.css");
+/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_index_svelte_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_index_svelte_css__WEBPACK_IMPORTED_MODULE_13__);
+/* src/components/Instance/index.svelte generated by Svelte v3.23.1 */
+
+
+
+
+
+
 
 
 
@@ -12740,244 +14996,33 @@ __webpack_require__.r(__webpack_exports__);
 
 function get_each_context(ctx, list, i) {
 	const child_ctx = ctx.slice();
-	child_ctx[5] = list[i];
+	child_ctx[26] = list[i];
 	return child_ctx;
 }
 
-// (1:0) {#each types as type (type)}
-function create_each_block(key_1, ctx) {
-	let first;
-	let switch_instance;
-	let switch_instance_anchor;
-	let current;
-	var switch_value = /*comp_for*/ ctx[3](/*type*/ ctx[5]);
-
-	function switch_props(ctx) {
-		return {
-			props: {
-				definition: /*definition*/ ctx[1],
-				href: /*href*/ ctx[2]
-			}
-		};
-	}
-
-	if (switch_value) {
-		switch_instance = new switch_value(switch_props(ctx));
-	}
-
-	return {
-		key: key_1,
-		first: null,
-		c() {
-			first = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
-			if (switch_instance) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(switch_instance.$$.fragment);
-			switch_instance_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
-			this.first = first;
-		},
-		m(target, anchor) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, first, anchor);
-
-			if (switch_instance) {
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(switch_instance, target, anchor);
-			}
-
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, switch_instance_anchor, anchor);
-			current = true;
-		},
-		p(ctx, dirty) {
-			const switch_instance_changes = {};
-			if (dirty & /*definition*/ 2) switch_instance_changes.definition = /*definition*/ ctx[1];
-			if (dirty & /*href*/ 4) switch_instance_changes.href = /*href*/ ctx[2];
-
-			if (switch_value !== (switch_value = /*comp_for*/ ctx[3](/*type*/ ctx[5]))) {
-				if (switch_instance) {
-					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
-					const old_component = switch_instance;
-
-					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(old_component.$$.fragment, 1, 0, () => {
-						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(old_component, 1);
-					});
-
-					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
-				}
-
-				if (switch_value) {
-					switch_instance = new switch_value(switch_props(ctx));
-					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(switch_instance.$$.fragment);
-					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(switch_instance.$$.fragment, 1);
-					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(switch_instance, switch_instance_anchor.parentNode, switch_instance_anchor);
-				} else {
-					switch_instance = null;
-				}
-			} else if (switch_value) {
-				switch_instance.$set(switch_instance_changes);
-			}
-		},
-		i(local) {
-			if (current) return;
-			if (switch_instance) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(switch_instance.$$.fragment, local);
-			current = true;
-		},
-		o(local) {
-			if (switch_instance) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(switch_instance.$$.fragment, local);
-			current = false;
-		},
-		d(detaching) {
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(first);
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(switch_instance_anchor);
-			if (switch_instance) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(switch_instance, detaching);
-		}
-	};
+function get_each_context_1(ctx, list, i) {
+	const child_ctx = ctx.slice();
+	child_ctx[26] = list[i];
+	return child_ctx;
 }
 
-function create_fragment(ctx) {
-	let each_blocks = [];
-	let each_1_lookup = new Map();
-	let each_1_anchor;
-	let current;
-	let each_value = /*types*/ ctx[0];
-	const get_key = ctx => /*type*/ ctx[5];
-
-	for (let i = 0; i < each_value.length; i += 1) {
-		let child_ctx = get_each_context(ctx, each_value, i);
-		let key = get_key(child_ctx);
-		each_1_lookup.set(key, each_blocks[i] = create_each_block(key, child_ctx));
-	}
-
-	return {
-		c() {
-			for (let i = 0; i < each_blocks.length; i += 1) {
-				each_blocks[i].c();
-			}
-
-			each_1_anchor = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
-		},
-		m(target, anchor) {
-			for (let i = 0; i < each_blocks.length; i += 1) {
-				each_blocks[i].m(target, anchor);
-			}
-
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, each_1_anchor, anchor);
-			current = true;
-		},
-		p(ctx, [dirty]) {
-			if (dirty & /*comp_for, types, definition, href*/ 15) {
-				const each_value = /*types*/ ctx[0];
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
-				each_blocks = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_keyed_each"])(each_blocks, dirty, get_key, 1, ctx, each_value, each_1_lookup, each_1_anchor.parentNode, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["outro_and_destroy_block"], create_each_block, each_1_anchor, get_each_context);
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
-			}
-		},
-		i(local) {
-			if (current) return;
-
-			for (let i = 0; i < each_value.length; i += 1) {
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(each_blocks[i]);
-			}
-
-			current = true;
-		},
-		o(local) {
-			for (let i = 0; i < each_blocks.length; i += 1) {
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(each_blocks[i]);
-			}
-
-			current = false;
-		},
-		d(detaching) {
-			for (let i = 0; i < each_blocks.length; i += 1) {
-				each_blocks[i].d(detaching);
-			}
-
-			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(each_1_anchor);
-		}
-	};
-}
-
-function instance($$self, $$props, $$invalidate) {
-	let { types = [] } = $$props;
-	let { definition = {} } = $$props;
-	let { href } = $$props;
-
-	const type_components = {
-		object: _ObjectType_index_svelte__WEBPACK_IMPORTED_MODULE_6__["default"],
-		array: _Array_index_svelte__WEBPACK_IMPORTED_MODULE_1__["default"],
-		number: _Number_index_svelte__WEBPACK_IMPORTED_MODULE_2__["default"],
-		string: _String_index_svelte__WEBPACK_IMPORTED_MODULE_4__["default"],
-		boolean: _Boolean_index_svelte__WEBPACK_IMPORTED_MODULE_5__["default"],
-		integer: _Integer_svelte__WEBPACK_IMPORTED_MODULE_3__["default"]
-	};
-
-	const comp_for = type => type_components[type];
-
-	$$self.$set = $$props => {
-		if ("types" in $$props) $$invalidate(0, types = $$props.types);
-		if ("definition" in $$props) $$invalidate(1, definition = $$props.definition);
-		if ("href" in $$props) $$invalidate(2, href = $$props.href);
-	};
-
-	return [types, definition, href, comp_for];
-}
-
-class Types extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteComponent"] {
-	constructor(options) {
-		super();
-		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], { types: 0, definition: 1, href: 2 });
-	}
-}
-
-
-if (false) {}
-
-/* harmony default export */ __webpack_exports__["default"] = (Types);
-
-
-/***/ }),
-
-/***/ "./src/components/Instance/index.svelte":
-/*!**********************************************!*\
-  !*** ./src/components/Instance/index.svelte ***!
-  \**********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/internal/index.mjs");
-/* harmony import */ var _routes_schemas__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../routes/_schemas */ "./src/routes/_schemas.js");
-/* harmony import */ var _Types_index_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Types/index.svelte */ "./src/components/Instance/Types/index.svelte");
-/* harmony import */ var _Items_index_svelte__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Items/index.svelte */ "./src/components/Instance/Items/index.svelte");
-/* harmony import */ var _Examples_index_svelte__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Examples/index.svelte */ "./src/components/Instance/Examples/index.svelte");
-/* harmony import */ var _Enum_index_svelte__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Enum/index.svelte */ "./src/components/Instance/Enum/index.svelte");
-/* harmony import */ var _Properties_index_svelte__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Properties/index.svelte */ "./src/components/Instance/Properties/index.svelte");
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_index_svelte_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./src/components/Instance/index.svelte.css */ "./src/components/Instance/index.svelte.css");
-/* harmony import */ var _home_yanick_work_javascript_jsonschematic_src_components_Instance_index_svelte_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_home_yanick_work_javascript_jsonschematic_src_components_Instance_index_svelte_css__WEBPACK_IMPORTED_MODULE_7__);
-/* src/components/Instance/index.svelte generated by Svelte v3.23.2 */
-
-
-
-
-
-
-
-
-
-function create_if_block_8(ctx) {
+// (3:4) {#if id}
+function create_if_block_11(ctx) {
 	let div;
 	let t;
 
 	return {
 		c() {
 			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
-			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*id*/ ctx[6]);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "instance_href svelte-1k2vdn9");
+			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*id*/ ctx[7]);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "instance_href svelte-jmrp");
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div, anchor);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div, t);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*id*/ 64) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, /*id*/ ctx[6]);
+			if (dirty & /*id*/ 128) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, /*id*/ ctx[7]);
 		},
 		d(detaching) {
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div);
@@ -12986,10 +15031,10 @@ function create_if_block_8(ctx) {
 }
 
 // (7:4) {#if schema}
-function create_if_block_7(ctx) {
+function create_if_block_10(ctx) {
 	let div;
 	let a;
-	let t_value = schema_name(/*schema*/ ctx[2]) + "";
+	let t_value = schema_name(/*schema*/ ctx[3]) + "";
 	let t;
 
 	return {
@@ -12997,8 +15042,8 @@ function create_if_block_7(ctx) {
 			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
 			a = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("a");
 			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t_value);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "href", /*schema*/ ctx[2]);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "schema svelte-1k2vdn9");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "href", /*schema*/ ctx[3]);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "schema svelte-jmrp");
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div, anchor);
@@ -13006,10 +15051,10 @@ function create_if_block_7(ctx) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(a, t);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*schema*/ 4 && t_value !== (t_value = schema_name(/*schema*/ ctx[2]) + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, t_value);
+			if (dirty & /*schema*/ 8 && t_value !== (t_value = schema_name(/*schema*/ ctx[3]) + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, t_value);
 
-			if (dirty & /*schema*/ 4) {
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "href", /*schema*/ ctx[2]);
+			if (dirty & /*schema*/ 8) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "href", /*schema*/ ctx[3]);
 			}
 		},
 		d(detaching) {
@@ -13019,22 +15064,22 @@ function create_if_block_7(ctx) {
 }
 
 // (14:2) {#if title}
-function create_if_block_6(ctx) {
+function create_if_block_9(ctx) {
 	let h1;
 	let t;
 
 	return {
 		c() {
 			h1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("h1");
-			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*title*/ ctx[5]);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(h1, "class", "title svelte-1k2vdn9");
+			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*title*/ ctx[6]);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(h1, "class", "title svelte-jmrp");
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, h1, anchor);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(h1, t);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*title*/ 32) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, /*title*/ ctx[5]);
+			if (dirty & /*title*/ 64) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, /*title*/ ctx[6]);
 		},
 		d(detaching) {
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(h1);
@@ -13043,22 +15088,22 @@ function create_if_block_6(ctx) {
 }
 
 // (18:2) {#if description}
-function create_if_block_5(ctx) {
+function create_if_block_8(ctx) {
 	let div;
 	let t;
 
 	return {
 		c() {
 			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
-			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*description*/ ctx[7]);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "description svelte-1k2vdn9");
+			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*description*/ ctx[8]);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "description svelte-jmrp");
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div, anchor);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div, t);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*description*/ 128) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, /*description*/ ctx[7]);
+			if (dirty & /*description*/ 256) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, /*description*/ ctx[8]);
 		},
 		d(detaching) {
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div);
@@ -13066,13 +15111,78 @@ function create_if_block_5(ctx) {
 	};
 }
 
-// (22:2) {#if default_value}
-function create_if_block_4(ctx) {
+// (22:2) {#if expanded_def.writeOnly}
+function create_if_block_7(ctx) {
+	let div;
+
+	return {
+		c() {
+			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
+			div.textContent = "write-only";
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "writeOnly svelte-jmrp");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div, anchor);
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div);
+		}
+	};
+}
+
+// (25:2) {#if expanded_def.readOnly}
+function create_if_block_6(ctx) {
+	let div;
+
+	return {
+		c() {
+			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
+			div.textContent = "read-only";
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "writeOnly svelte-jmrp");
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div, anchor);
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div);
+		}
+	};
+}
+
+// (30:4) {#each types as type (type)}
+function create_each_block_1(key_1, ctx) {
+	let li;
+	let t_value = /*type*/ ctx[26] + "";
+	let t;
+
+	return {
+		key: key_1,
+		first: null,
+		c() {
+			li = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("li");
+			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t_value);
+			this.first = li;
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, li, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(li, t);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*types*/ 16 && t_value !== (t_value = /*type*/ ctx[26] + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, t_value);
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(li);
+		}
+	};
+}
+
+// (37:2) {#if default_value !== undefined}
+function create_if_block_5(ctx) {
 	let div;
 	let t1;
 	let pre;
 	let code;
-	let t2_value = JSON.stringify(/*default_value*/ ctx[10], null, 2) + "";
+	let t2_value = JSON.stringify(/*default_value*/ ctx[12], null, 2) + "";
 	let t2;
 
 	return {
@@ -13084,7 +15194,7 @@ function create_if_block_4(ctx) {
 			code = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("code");
 			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(t2_value);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "label");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(pre, "class", "svelte-1k2vdn9");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(pre, "class", "svelte-jmrp");
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div, anchor);
@@ -13094,7 +15204,7 @@ function create_if_block_4(ctx) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(code, t2);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*default_value*/ 1024 && t2_value !== (t2_value = JSON.stringify(/*default_value*/ ctx[10], null, 2) + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t2, t2_value);
+			if (dirty & /*default_value*/ 4096 && t2_value !== (t2_value = JSON.stringify(/*default_value*/ ctx[12], null, 2) + "")) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t2, t2_value);
 		},
 		d(detaching) {
 			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(div);
@@ -13104,8 +15214,8 @@ function create_if_block_4(ctx) {
 	};
 }
 
-// (29:2) {#if ref}
-function create_if_block_2(ctx) {
+// (44:2) {#if ref}
+function create_if_block_3(ctx) {
 	let div0;
 	let t1;
 	let div1;
@@ -13115,7 +15225,7 @@ function create_if_block_2(ctx) {
 	let t3;
 
 	function select_block_type(ctx, dirty) {
-		if (/*is_expanded_ref*/ ctx[12]) return create_if_block_3;
+		if (/*is_expanded_ref*/ ctx[14]) return create_if_block_4;
 		return create_else_block;
 	}
 
@@ -13129,10 +15239,10 @@ function create_if_block_2(ctx) {
 			t1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			div1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
 			a = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("a");
-			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*ref*/ ctx[4]);
+			t2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(/*ref*/ ctx[5]);
 			t3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			if_block.c();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "href", a_href_value = "#" + /*relative_ref*/ ctx[16](/*ref*/ ctx[4]));
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "href", a_href_value = "#" + /*relative_ref*/ ctx[19](/*ref*/ ctx[5]));
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, div0, anchor);
@@ -13144,9 +15254,9 @@ function create_if_block_2(ctx) {
 			if_block.m(div1, null);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*ref*/ 16) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t2, /*ref*/ ctx[4]);
+			if (dirty & /*ref*/ 32) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t2, /*ref*/ ctx[5]);
 
-			if (dirty & /*ref*/ 16 && a_href_value !== (a_href_value = "#" + /*relative_ref*/ ctx[16](/*ref*/ ctx[4]))) {
+			if (dirty & /*ref*/ 32 && a_href_value !== (a_href_value = "#" + /*relative_ref*/ ctx[19](/*ref*/ ctx[5]))) {
 				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "href", a_href_value);
 			}
 
@@ -13171,7 +15281,7 @@ function create_if_block_2(ctx) {
 	};
 }
 
-// (36:6) {:else}
+// (51:6) {:else}
 function create_else_block(ctx) {
 	let input;
 	let input_value_value;
@@ -13181,24 +15291,24 @@ function create_else_block(ctx) {
 	return {
 		c() {
 			input = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("input");
-			input.disabled = /*loading_ref*/ ctx[11];
+			input.disabled = /*loading_ref*/ ctx[13];
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input, "type", "button");
-			input.value = input_value_value = /*loading_ref*/ ctx[11] ? "fetching..." : "expand";
+			input.value = input_value_value = /*loading_ref*/ ctx[13] ? "fetching..." : "expand";
 		},
 		m(target, anchor) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, input, anchor);
 
 			if (!mounted) {
-				dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(input, "click", /*fetch_ref*/ ctx[14]);
+				dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(input, "click", /*fetch_ref*/ ctx[17]);
 				mounted = true;
 			}
 		},
 		p(ctx, dirty) {
-			if (dirty & /*loading_ref*/ 2048) {
-				input.disabled = /*loading_ref*/ ctx[11];
+			if (dirty & /*loading_ref*/ 8192) {
+				input.disabled = /*loading_ref*/ ctx[13];
 			}
 
-			if (dirty & /*loading_ref*/ 2048 && input_value_value !== (input_value_value = /*loading_ref*/ ctx[11] ? "fetching..." : "expand")) {
+			if (dirty & /*loading_ref*/ 8192 && input_value_value !== (input_value_value = /*loading_ref*/ ctx[13] ? "fetching..." : "expand")) {
 				input.value = input_value_value;
 			}
 		},
@@ -13210,8 +15320,8 @@ function create_else_block(ctx) {
 	};
 }
 
-// (34:6) {#if is_expanded_ref}
-function create_if_block_3(ctx) {
+// (49:6) {#if is_expanded_ref}
+function create_if_block_4(ctx) {
 	let input;
 	let mounted;
 	let dispose;
@@ -13226,7 +15336,7 @@ function create_if_block_3(ctx) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, input, anchor);
 
 			if (!mounted) {
-				dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(input, "click", /*remove_ref*/ ctx[15]);
+				dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(input, "click", /*remove_ref*/ ctx[18]);
 				mounted = true;
 			}
 		},
@@ -13239,14 +15349,13 @@ function create_if_block_3(ctx) {
 	};
 }
 
-// (46:2) {#if enumeration}
-function create_if_block_1(ctx) {
-	let enum_1;
+// (61:2) {#if enumeration}
+function create_if_block_2(ctx) {
 	let current;
 
-	enum_1 = new _Enum_index_svelte__WEBPACK_IMPORTED_MODULE_5__["default"]({
+	const enum_1 = new _Enum_index_svelte__WEBPACK_IMPORTED_MODULE_4__["default"]({
 			props: {
-				enumeration: /*enumeration*/ ctx[9],
+				enumeration: /*enumeration*/ ctx[10],
 				href: /*href*/ ctx[0]
 			}
 		});
@@ -13261,7 +15370,7 @@ function create_if_block_1(ctx) {
 		},
 		p(ctx, dirty) {
 			const enum_1_changes = {};
-			if (dirty & /*enumeration*/ 512) enum_1_changes.enumeration = /*enumeration*/ ctx[9];
+			if (dirty & /*enumeration*/ 1024) enum_1_changes.enumeration = /*enumeration*/ ctx[10];
 			if (dirty & /*href*/ 1) enum_1_changes.href = /*href*/ ctx[0];
 			enum_1.$set(enum_1_changes);
 		},
@@ -13280,14 +15389,100 @@ function create_if_block_1(ctx) {
 	};
 }
 
-// (52:2) {#if examples}
-function create_if_block(ctx) {
-	let examples_1;
+// (65:2) {#if constant}
+function create_if_block_1(ctx) {
 	let current;
 
-	examples_1 = new _Examples_index_svelte__WEBPACK_IMPORTED_MODULE_4__["default"]({
+	const enum_1 = new _Enum_index_svelte__WEBPACK_IMPORTED_MODULE_4__["default"]({
 			props: {
-				examples: /*examples*/ ctx[8],
+				enumeration: [/*constant*/ ctx[11]],
+				constant: true,
+				href: /*href*/ ctx[0]
+			}
+		});
+
+	return {
+		c() {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(enum_1.$$.fragment);
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(enum_1, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const enum_1_changes = {};
+			if (dirty & /*constant*/ 2048) enum_1_changes.enumeration = [/*constant*/ ctx[11]];
+			if (dirty & /*href*/ 1) enum_1_changes.href = /*href*/ ctx[0];
+			enum_1.$set(enum_1_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(enum_1.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(enum_1.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(enum_1, detaching);
+		}
+	};
+}
+
+// (76:2) {#each ['allOf', 'anyOf', 'oneOf'] as type (type)}
+function create_each_block(key_1, ctx) {
+	let first;
+	let current;
+
+	const someof = new _SomeOf_svelte__WEBPACK_IMPORTED_MODULE_11__["default"]({
+			props: {
+				type: /*type*/ ctx[26],
+				alternatives: /*expanded_def*/ ctx[15][/*type*/ ctx[26]]
+			}
+		});
+
+	return {
+		key: key_1,
+		first: null,
+		c() {
+			first = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["empty"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(someof.$$.fragment);
+			this.first = first;
+		},
+		m(target, anchor) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["insert"])(target, first, anchor);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(someof, target, anchor);
+			current = true;
+		},
+		p(ctx, dirty) {
+			const someof_changes = {};
+			if (dirty & /*expanded_def*/ 32768) someof_changes.alternatives = /*expanded_def*/ ctx[15][/*type*/ ctx[26]];
+			someof.$set(someof_changes);
+		},
+		i(local) {
+			if (current) return;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(someof.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(someof.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			if (detaching) Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["detach"])(first);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(someof, detaching);
+		}
+	};
+}
+
+// (82:2) {#if examples}
+function create_if_block(ctx) {
+	let current;
+
+	const examples_1 = new _Examples_index_svelte__WEBPACK_IMPORTED_MODULE_3__["default"]({
+			props: {
+				examples: /*examples*/ ctx[9],
 				href: /*href*/ ctx[0]
 			}
 		});
@@ -13302,7 +15497,7 @@ function create_if_block(ctx) {
 		},
 		p(ctx, dirty) {
 			const examples_1_changes = {};
-			if (dirty & /*examples*/ 256) examples_1_changes.examples = /*examples*/ ctx[8];
+			if (dirty & /*examples*/ 512) examples_1_changes.examples = /*examples*/ ctx[9];
 			if (dirty & /*href*/ 1) examples_1_changes.href = /*href*/ ctx[0];
 			examples_1.$set(examples_1_changes);
 		},
@@ -13330,27 +15525,103 @@ function create_fragment(ctx) {
 	let t3;
 	let t4;
 	let t5;
+	let ul;
+	let each_blocks_1 = [];
+	let each0_lookup = new Map();
 	let t6;
-	let types_1;
 	let t7;
+	let t8;
+	let t9;
+	let t10;
+	let t11;
+	let t12;
+	let t13;
+	let t14;
+	let t15;
+	let t16;
+	let each_blocks = [];
+	let each1_lookup = new Map();
+	let t17;
+	let t18;
 	let current;
-	let if_block0 = /*id*/ ctx[6] && create_if_block_8(ctx);
-	let if_block1 = /*schema*/ ctx[2] && create_if_block_7(ctx);
-	let if_block2 = /*title*/ ctx[5] && create_if_block_6(ctx);
-	let if_block3 = /*description*/ ctx[7] && create_if_block_5(ctx);
-	let if_block4 = /*default_value*/ ctx[10] && create_if_block_4(ctx);
-	let if_block5 = /*ref*/ ctx[4] && create_if_block_2(ctx);
-	let if_block6 = /*enumeration*/ ctx[9] && create_if_block_1(ctx);
+	let if_block0 = /*id*/ ctx[7] && create_if_block_11(ctx);
+	let if_block1 = /*schema*/ ctx[3] && create_if_block_10(ctx);
+	let if_block2 = /*title*/ ctx[6] && create_if_block_9(ctx);
+	let if_block3 = /*description*/ ctx[8] && create_if_block_8(ctx);
+	let if_block4 = /*expanded_def*/ ctx[15].writeOnly && create_if_block_7(ctx);
+	let if_block5 = /*expanded_def*/ ctx[15].readOnly && create_if_block_6(ctx);
+	let each_value_1 = /*types*/ ctx[4];
+	const get_key = ctx => /*type*/ ctx[26];
 
-	types_1 = new _Types_index_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({
-			props: {
-				href: /*id*/ ctx[6],
-				types: /*types*/ ctx[3],
-				definition: /*expanded_def*/ ctx[13]
-			}
+	for (let i = 0; i < each_value_1.length; i += 1) {
+		let child_ctx = get_each_context_1(ctx, each_value_1, i);
+		let key = get_key(child_ctx);
+		each0_lookup.set(key, each_blocks_1[i] = create_each_block_1(key, child_ctx));
+	}
+
+	const dependencies_1 = new _Dependencies_svelte__WEBPACK_IMPORTED_MODULE_5__["default"]({
+			props: { dependencies: /*dependencies*/ ctx[2] }
 		});
 
-	let if_block7 = /*examples*/ ctx[8] && create_if_block(ctx);
+	let if_block6 = /*default_value*/ ctx[12] !== undefined && create_if_block_5(ctx);
+	let if_block7 = /*ref*/ ctx[5] && create_if_block_3(ctx);
+	let if_block8 = /*enumeration*/ ctx[10] && create_if_block_2(ctx);
+	let if_block9 = /*constant*/ ctx[11] && create_if_block_1(ctx);
+	const arrayrestraints_spread_levels = [/*expanded_def*/ ctx[15], { href: /*href*/ ctx[0] }];
+	let arrayrestraints_props = {};
+
+	for (let i = 0; i < arrayrestraints_spread_levels.length; i += 1) {
+		arrayrestraints_props = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["assign"])(arrayrestraints_props, arrayrestraints_spread_levels[i]);
+	}
+
+	const arrayrestraints = new _ArrayRestraints_index_svelte__WEBPACK_IMPORTED_MODULE_6__["default"]({ props: arrayrestraints_props });
+	const stringrestraints_spread_levels = [/*expanded_def*/ ctx[15], { href: /*href*/ ctx[0] }];
+	let stringrestraints_props = {};
+
+	for (let i = 0; i < stringrestraints_spread_levels.length; i += 1) {
+		stringrestraints_props = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["assign"])(stringrestraints_props, stringrestraints_spread_levels[i]);
+	}
+
+	const stringrestraints = new _StringRestraints_index_svelte__WEBPACK_IMPORTED_MODULE_7__["default"]({ props: stringrestraints_props });
+	const numberrestraints_spread_levels = [/*expanded_def*/ ctx[15], { href: /*href*/ ctx[0] }];
+	let numberrestraints_props = {};
+
+	for (let i = 0; i < numberrestraints_spread_levels.length; i += 1) {
+		numberrestraints_props = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["assign"])(numberrestraints_props, numberrestraints_spread_levels[i]);
+	}
+
+	const numberrestraints = new _NumberRestraints_index_svelte__WEBPACK_IMPORTED_MODULE_8__["default"]({ props: numberrestraints_props });
+	const objectrestraints_spread_levels = [/*expanded_def*/ ctx[15], { href: /*href*/ ctx[0] }];
+	let objectrestraints_props = {};
+
+	for (let i = 0; i < objectrestraints_spread_levels.length; i += 1) {
+		objectrestraints_props = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["assign"])(objectrestraints_props, objectrestraints_spread_levels[i]);
+	}
+
+	const objectrestraints = new _ObjectRestraints_index_svelte__WEBPACK_IMPORTED_MODULE_9__["default"]({ props: objectrestraints_props });
+
+	const not = new _Not_svelte__WEBPACK_IMPORTED_MODULE_12__["default"]({
+			props: { definition: /*expanded_def*/ ctx[15].not }
+		});
+
+	let each_value = ["allOf", "anyOf", "oneOf"];
+	const get_key_1 = ctx => /*type*/ ctx[26];
+
+	for (let i = 0; i < 3; i += 1) {
+		let child_ctx = get_each_context(ctx, each_value, i);
+		let key = get_key_1(child_ctx);
+		each1_lookup.set(key, each_blocks[i] = create_each_block(key, child_ctx));
+	}
+
+	const ifthenelse_spread_levels = [/*if_then_else*/ ctx[16], { href: /*href*/ ctx[0] }];
+	let ifthenelse_props = {};
+
+	for (let i = 0; i < ifthenelse_spread_levels.length; i += 1) {
+		ifthenelse_props = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["assign"])(ifthenelse_props, ifthenelse_spread_levels[i]);
+	}
+
+	const ifthenelse = new _IfThenElse_index_svelte__WEBPACK_IMPORTED_MODULE_10__["default"]({ props: ifthenelse_props });
+	let if_block10 = /*examples*/ ctx[9] && create_if_block(ctx);
 
 	return {
 		c() {
@@ -13368,13 +15639,45 @@ function create_fragment(ctx) {
 			t4 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			if (if_block5) if_block5.c();
 			t5 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			if (if_block6) if_block6.c();
+			ul = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("ul");
+
+			for (let i = 0; i < each_blocks_1.length; i += 1) {
+				each_blocks_1[i].c();
+			}
+
 			t6 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(types_1.$$.fragment);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(dependencies_1.$$.fragment);
 			t7 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block6) if_block6.c();
+			t8 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			if (if_block7) if_block7.c();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "top_section svelte-1k2vdn9");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "instance svelte-1k2vdn9");
+			t9 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block8) if_block8.c();
+			t10 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block9) if_block9.c();
+			t11 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(arrayrestraints.$$.fragment);
+			t12 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(stringrestraints.$$.fragment);
+			t13 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(numberrestraints.$$.fragment);
+			t14 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(objectrestraints.$$.fragment);
+			t15 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(not.$$.fragment);
+			t16 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+
+			for (let i = 0; i < 3; i += 1) {
+				each_blocks[i].c();
+			}
+
+			t17 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["create_component"])(ifthenelse.$$.fragment);
+			t18 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
+			if (if_block10) if_block10.c();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "top_section svelte-jmrp");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(ul, "class", "types svelte-jmrp");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "instance svelte-jmrp");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["toggle_class"])(div1, "top_level", /*top_level*/ ctx[1]);
 		},
 		m(target, anchor) {
@@ -13392,19 +15695,50 @@ function create_fragment(ctx) {
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t4);
 			if (if_block5) if_block5.m(div1, null);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t5);
-			if (if_block6) if_block6.m(div1, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, ul);
+
+			for (let i = 0; i < each_blocks_1.length; i += 1) {
+				each_blocks_1[i].m(ul, null);
+			}
+
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t6);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(types_1, div1, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(dependencies_1, div1, null);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t7);
+			if (if_block6) if_block6.m(div1, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t8);
 			if (if_block7) if_block7.m(div1, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t9);
+			if (if_block8) if_block8.m(div1, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t10);
+			if (if_block9) if_block9.m(div1, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t11);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(arrayrestraints, div1, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t12);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(stringrestraints, div1, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t13);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(numberrestraints, div1, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t14);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(objectrestraints, div1, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t15);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(not, div1, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t16);
+
+			for (let i = 0; i < 3; i += 1) {
+				each_blocks[i].m(div1, null);
+			}
+
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t17);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["mount_component"])(ifthenelse, div1, null);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["append"])(div1, t18);
+			if (if_block10) if_block10.m(div1, null);
 			current = true;
 		},
 		p(ctx, [dirty]) {
-			if (/*id*/ ctx[6]) {
+			if (/*id*/ ctx[7]) {
 				if (if_block0) {
 					if_block0.p(ctx, dirty);
 				} else {
-					if_block0 = create_if_block_8(ctx);
+					if_block0 = create_if_block_11(ctx);
 					if_block0.c();
 					if_block0.m(div0, t0);
 				}
@@ -13413,11 +15747,11 @@ function create_fragment(ctx) {
 				if_block0 = null;
 			}
 
-			if (/*schema*/ ctx[2]) {
+			if (/*schema*/ ctx[3]) {
 				if (if_block1) {
 					if_block1.p(ctx, dirty);
 				} else {
-					if_block1 = create_if_block_7(ctx);
+					if_block1 = create_if_block_10(ctx);
 					if_block1.c();
 					if_block1.m(div0, null);
 				}
@@ -13426,11 +15760,11 @@ function create_fragment(ctx) {
 				if_block1 = null;
 			}
 
-			if (/*title*/ ctx[5]) {
+			if (/*title*/ ctx[6]) {
 				if (if_block2) {
 					if_block2.p(ctx, dirty);
 				} else {
-					if_block2 = create_if_block_6(ctx);
+					if_block2 = create_if_block_9(ctx);
 					if_block2.c();
 					if_block2.m(div1, t2);
 				}
@@ -13439,11 +15773,11 @@ function create_fragment(ctx) {
 				if_block2 = null;
 			}
 
-			if (/*description*/ ctx[7]) {
+			if (/*description*/ ctx[8]) {
 				if (if_block3) {
 					if_block3.p(ctx, dirty);
 				} else {
-					if_block3 = create_if_block_5(ctx);
+					if_block3 = create_if_block_8(ctx);
 					if_block3.c();
 					if_block3.m(div1, t3);
 				}
@@ -13452,11 +15786,11 @@ function create_fragment(ctx) {
 				if_block3 = null;
 			}
 
-			if (/*default_value*/ ctx[10]) {
+			if (/*expanded_def*/ ctx[15].writeOnly) {
 				if (if_block4) {
-					if_block4.p(ctx, dirty);
+					
 				} else {
-					if_block4 = create_if_block_4(ctx);
+					if_block4 = create_if_block_7(ctx);
 					if_block4.c();
 					if_block4.m(div1, t4);
 				}
@@ -13465,11 +15799,11 @@ function create_fragment(ctx) {
 				if_block4 = null;
 			}
 
-			if (/*ref*/ ctx[4]) {
+			if (/*expanded_def*/ ctx[15].readOnly) {
 				if (if_block5) {
-					if_block5.p(ctx, dirty);
+					
 				} else {
-					if_block5 = create_if_block_2(ctx);
+					if_block5 = create_if_block_6(ctx);
 					if_block5.c();
 					if_block5.m(div1, t5);
 				}
@@ -13478,53 +15812,160 @@ function create_fragment(ctx) {
 				if_block5 = null;
 			}
 
-			if (/*enumeration*/ ctx[9]) {
+			if (dirty & /*types*/ 16) {
+				const each_value_1 = /*types*/ ctx[4];
+				each_blocks_1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_keyed_each"])(each_blocks_1, dirty, get_key, 1, ctx, each_value_1, each0_lookup, ul, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_block"], create_each_block_1, null, get_each_context_1);
+			}
+
+			const dependencies_1_changes = {};
+			if (dirty & /*dependencies*/ 4) dependencies_1_changes.dependencies = /*dependencies*/ ctx[2];
+			dependencies_1.$set(dependencies_1_changes);
+
+			if (/*default_value*/ ctx[12] !== undefined) {
 				if (if_block6) {
 					if_block6.p(ctx, dirty);
-
-					if (dirty & /*enumeration*/ 512) {
-						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block6, 1);
-					}
 				} else {
-					if_block6 = create_if_block_1(ctx);
+					if_block6 = create_if_block_5(ctx);
 					if_block6.c();
-					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block6, 1);
-					if_block6.m(div1, t6);
+					if_block6.m(div1, t8);
 				}
 			} else if (if_block6) {
+				if_block6.d(1);
+				if_block6 = null;
+			}
+
+			if (/*ref*/ ctx[5]) {
+				if (if_block7) {
+					if_block7.p(ctx, dirty);
+				} else {
+					if_block7 = create_if_block_3(ctx);
+					if_block7.c();
+					if_block7.m(div1, t9);
+				}
+			} else if (if_block7) {
+				if_block7.d(1);
+				if_block7 = null;
+			}
+
+			if (/*enumeration*/ ctx[10]) {
+				if (if_block8) {
+					if_block8.p(ctx, dirty);
+
+					if (dirty & /*enumeration*/ 1024) {
+						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block8, 1);
+					}
+				} else {
+					if_block8 = create_if_block_2(ctx);
+					if_block8.c();
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block8, 1);
+					if_block8.m(div1, t10);
+				}
+			} else if (if_block8) {
 				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
 
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block6, 1, 1, () => {
-					if_block6 = null;
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block8, 1, 1, () => {
+					if_block8 = null;
 				});
 
 				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
 			}
 
-			const types_1_changes = {};
-			if (dirty & /*id*/ 64) types_1_changes.href = /*id*/ ctx[6];
-			if (dirty & /*types*/ 8) types_1_changes.types = /*types*/ ctx[3];
-			if (dirty & /*expanded_def*/ 8192) types_1_changes.definition = /*expanded_def*/ ctx[13];
-			types_1.$set(types_1_changes);
+			if (/*constant*/ ctx[11]) {
+				if (if_block9) {
+					if_block9.p(ctx, dirty);
 
-			if (/*examples*/ ctx[8]) {
-				if (if_block7) {
-					if_block7.p(ctx, dirty);
-
-					if (dirty & /*examples*/ 256) {
-						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block7, 1);
+					if (dirty & /*constant*/ 2048) {
+						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block9, 1);
 					}
 				} else {
-					if_block7 = create_if_block(ctx);
-					if_block7.c();
-					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block7, 1);
-					if_block7.m(div1, null);
+					if_block9 = create_if_block_1(ctx);
+					if_block9.c();
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block9, 1);
+					if_block9.m(div1, t11);
 				}
-			} else if (if_block7) {
+			} else if (if_block9) {
 				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
 
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block7, 1, 1, () => {
-					if_block7 = null;
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block9, 1, 1, () => {
+					if_block9 = null;
+				});
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+			}
+
+			const arrayrestraints_changes = (dirty & /*expanded_def, href*/ 32769)
+			? Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["get_spread_update"])(arrayrestraints_spread_levels, [
+					dirty & /*expanded_def*/ 32768 && Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["get_spread_object"])(/*expanded_def*/ ctx[15]),
+					dirty & /*href*/ 1 && { href: /*href*/ ctx[0] }
+				])
+			: {};
+
+			arrayrestraints.$set(arrayrestraints_changes);
+
+			const stringrestraints_changes = (dirty & /*expanded_def, href*/ 32769)
+			? Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["get_spread_update"])(stringrestraints_spread_levels, [
+					dirty & /*expanded_def*/ 32768 && Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["get_spread_object"])(/*expanded_def*/ ctx[15]),
+					dirty & /*href*/ 1 && { href: /*href*/ ctx[0] }
+				])
+			: {};
+
+			stringrestraints.$set(stringrestraints_changes);
+
+			const numberrestraints_changes = (dirty & /*expanded_def, href*/ 32769)
+			? Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["get_spread_update"])(numberrestraints_spread_levels, [
+					dirty & /*expanded_def*/ 32768 && Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["get_spread_object"])(/*expanded_def*/ ctx[15]),
+					dirty & /*href*/ 1 && { href: /*href*/ ctx[0] }
+				])
+			: {};
+
+			numberrestraints.$set(numberrestraints_changes);
+
+			const objectrestraints_changes = (dirty & /*expanded_def, href*/ 32769)
+			? Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["get_spread_update"])(objectrestraints_spread_levels, [
+					dirty & /*expanded_def*/ 32768 && Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["get_spread_object"])(/*expanded_def*/ ctx[15]),
+					dirty & /*href*/ 1 && { href: /*href*/ ctx[0] }
+				])
+			: {};
+
+			objectrestraints.$set(objectrestraints_changes);
+			const not_changes = {};
+			if (dirty & /*expanded_def*/ 32768) not_changes.definition = /*expanded_def*/ ctx[15].not;
+			not.$set(not_changes);
+
+			if (dirty & /*expanded_def*/ 32768) {
+				const each_value = ["allOf", "anyOf", "oneOf"];
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+				each_blocks = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["update_keyed_each"])(each_blocks, dirty, get_key_1, 1, ctx, each_value, each1_lookup, div1, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["outro_and_destroy_block"], create_each_block, t17, get_each_context);
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
+			}
+
+			const ifthenelse_changes = (dirty & /*if_then_else, href*/ 65537)
+			? Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["get_spread_update"])(ifthenelse_spread_levels, [
+					dirty & /*if_then_else*/ 65536 && Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["get_spread_object"])(/*if_then_else*/ ctx[16]),
+					dirty & /*href*/ 1 && { href: /*href*/ ctx[0] }
+				])
+			: {};
+
+			ifthenelse.$set(ifthenelse_changes);
+
+			if (/*examples*/ ctx[9]) {
+				if (if_block10) {
+					if_block10.p(ctx, dirty);
+
+					if (dirty & /*examples*/ 512) {
+						Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block10, 1);
+					}
+				} else {
+					if_block10 = create_if_block(ctx);
+					if_block10.c();
+					Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block10, 1);
+					if_block10.m(div1, null);
+				}
+			} else if (if_block10) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["group_outros"])();
+
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block10, 1, 1, () => {
+					if_block10 = null;
 				});
 
 				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["check_outros"])();
@@ -13536,15 +15977,39 @@ function create_fragment(ctx) {
 		},
 		i(local) {
 			if (current) return;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block6);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(types_1.$$.fragment, local);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block7);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(dependencies_1.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block8);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block9);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(arrayrestraints.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(stringrestraints.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(numberrestraints.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(objectrestraints.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(not.$$.fragment, local);
+
+			for (let i = 0; i < 3; i += 1) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(each_blocks[i]);
+			}
+
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(ifthenelse.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_in"])(if_block10);
 			current = true;
 		},
 		o(local) {
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block6);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(types_1.$$.fragment, local);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block7);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(dependencies_1.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block8);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block9);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(arrayrestraints.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(stringrestraints.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(numberrestraints.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(objectrestraints.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(not.$$.fragment, local);
+
+			for (let i = 0; i < 3; i += 1) {
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(each_blocks[i]);
+			}
+
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(ifthenelse.$$.fragment, local);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["transition_out"])(if_block10);
 			current = false;
 		},
 		d(detaching) {
@@ -13555,9 +16020,28 @@ function create_fragment(ctx) {
 			if (if_block3) if_block3.d();
 			if (if_block4) if_block4.d();
 			if (if_block5) if_block5.d();
+
+			for (let i = 0; i < each_blocks_1.length; i += 1) {
+				each_blocks_1[i].d();
+			}
+
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(dependencies_1);
 			if (if_block6) if_block6.d();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(types_1);
 			if (if_block7) if_block7.d();
+			if (if_block8) if_block8.d();
+			if (if_block9) if_block9.d();
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(arrayrestraints);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(stringrestraints);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(numberrestraints);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(objectrestraints);
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(not);
+
+			for (let i = 0; i < 3; i += 1) {
+				each_blocks[i].d();
+			}
+
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["destroy_component"])(ifthenelse);
+			if (if_block10) if_block10.d();
 		}
 	};
 }
@@ -13569,10 +16053,12 @@ function schema_name(url) {
 }
 
 function instance($$self, $$props, $$invalidate) {
+	const fp = __webpack_require__(/*! lodash/fp */ "./node_modules/.pnpm/registry.npmjs.org/lodash/4.17.15/node_modules/lodash/fp.js");
 	let { definition = {} } = $$props;
 	let { href } = $$props;
 	let { fetch_segment = _routes_schemas__WEBPACK_IMPORTED_MODULE_1__["fetch_segment"] } = $$props;
 	let { top_level = false } = $$props;
+	let { dependencies = false } = $$props;
 
 	let schema,
 		types,
@@ -13584,24 +16070,26 @@ function instance($$self, $$props, $$invalidate) {
 		properties,
 		examples,
 		enumeration,
+		constant,
 		default_value;
 
 	let expanded_ref = {};
 	let loading_ref = false;
 	let is_expanded_ref = false;
 	let expanded_def = definition;
+	let if_then_else = {};
 
 	const fetch_ref = async () => {
-		$$invalidate(11, loading_ref = true);
+		$$invalidate(13, loading_ref = true);
 		const def = await fetch_segment(ref, href);
-		$$invalidate(12, is_expanded_ref = true);
-		$$invalidate(21, expanded_ref = def);
+		$$invalidate(14, is_expanded_ref = true);
+		$$invalidate(24, expanded_ref = def);
 	};
 
 	const remove_ref = async () => {
-		$$invalidate(11, loading_ref = false);
-		$$invalidate(21, expanded_ref = {});
-		$$invalidate(12, is_expanded_ref = false);
+		$$invalidate(13, loading_ref = false);
+		$$invalidate(24, expanded_ref = {});
+		$$invalidate(14, is_expanded_ref = false);
 	};
 
 	function relative_ref(ref) {
@@ -13613,37 +16101,43 @@ function instance($$self, $$props, $$invalidate) {
 	}
 
 	$$self.$set = $$props => {
-		if ("definition" in $$props) $$invalidate(17, definition = $$props.definition);
+		if ("definition" in $$props) $$invalidate(20, definition = $$props.definition);
 		if ("href" in $$props) $$invalidate(0, href = $$props.href);
-		if ("fetch_segment" in $$props) $$invalidate(18, fetch_segment = $$props.fetch_segment);
+		if ("fetch_segment" in $$props) $$invalidate(21, fetch_segment = $$props.fetch_segment);
 		if ("top_level" in $$props) $$invalidate(1, top_level = $$props.top_level);
+		if ("dependencies" in $$props) $$invalidate(2, dependencies = $$props.dependencies);
 	};
 
 	$$self.$$.update = () => {
-		if ($$self.$$.dirty & /*expanded_ref, definition, expanded_def, types*/ 2236424) {
+		if ($$self.$$.dirty & /*expanded_ref, definition, expanded_def, types*/ 17858576) {
 			$: {
-				$$invalidate(13, expanded_def = { ...expanded_ref, ...definition });
-				$$invalidate(10, { default: default_value, $id: id, description, title, $schema: schema, type: types, items, examples, $ref: ref, enum: enumeration, properties } = expanded_def, default_value, ((((($$invalidate(6, id), $$invalidate(21, expanded_ref)), $$invalidate(17, definition)), $$invalidate(13, expanded_def)), $$invalidate(3, types)), $$invalidate(0, href)), (((($$invalidate(7, description), $$invalidate(21, expanded_ref)), $$invalidate(17, definition)), $$invalidate(13, expanded_def)), $$invalidate(3, types)), (((($$invalidate(5, title), $$invalidate(21, expanded_ref)), $$invalidate(17, definition)), $$invalidate(13, expanded_def)), $$invalidate(3, types)), (((($$invalidate(2, schema), $$invalidate(21, expanded_ref)), $$invalidate(17, definition)), $$invalidate(13, expanded_def)), $$invalidate(3, types)), ((($$invalidate(3, types), $$invalidate(21, expanded_ref)), $$invalidate(17, definition)), $$invalidate(13, expanded_def)), (((($$invalidate(8, examples), $$invalidate(21, expanded_ref)), $$invalidate(17, definition)), $$invalidate(13, expanded_def)), $$invalidate(3, types)), (((($$invalidate(4, ref), $$invalidate(21, expanded_ref)), $$invalidate(17, definition)), $$invalidate(13, expanded_def)), $$invalidate(3, types)), (((($$invalidate(9, enumeration), $$invalidate(21, expanded_ref)), $$invalidate(17, definition)), $$invalidate(13, expanded_def)), $$invalidate(3, types)));
+				$$invalidate(15, expanded_def = { ...expanded_ref, ...definition });
+				$$invalidate(12, { default: default_value, $id: id, description, title, $schema: schema, type: types, items, examples, $ref: ref, enum: enumeration, const: constant, properties } = expanded_def, default_value, ((((($$invalidate(7, id), $$invalidate(24, expanded_ref)), $$invalidate(20, definition)), $$invalidate(15, expanded_def)), $$invalidate(4, types)), $$invalidate(0, href)), (((($$invalidate(8, description), $$invalidate(24, expanded_ref)), $$invalidate(20, definition)), $$invalidate(15, expanded_def)), $$invalidate(4, types)), (((($$invalidate(6, title), $$invalidate(24, expanded_ref)), $$invalidate(20, definition)), $$invalidate(15, expanded_def)), $$invalidate(4, types)), (((($$invalidate(3, schema), $$invalidate(24, expanded_ref)), $$invalidate(20, definition)), $$invalidate(15, expanded_def)), $$invalidate(4, types)), ((($$invalidate(4, types), $$invalidate(24, expanded_ref)), $$invalidate(20, definition)), $$invalidate(15, expanded_def)), (((($$invalidate(9, examples), $$invalidate(24, expanded_ref)), $$invalidate(20, definition)), $$invalidate(15, expanded_def)), $$invalidate(4, types)), (((($$invalidate(5, ref), $$invalidate(24, expanded_ref)), $$invalidate(20, definition)), $$invalidate(15, expanded_def)), $$invalidate(4, types)), (((($$invalidate(10, enumeration), $$invalidate(24, expanded_ref)), $$invalidate(20, definition)), $$invalidate(15, expanded_def)), $$invalidate(4, types)), (((($$invalidate(11, constant), $$invalidate(24, expanded_ref)), $$invalidate(20, definition)), $$invalidate(15, expanded_def)), $$invalidate(4, types)));
 
 				// always pass an array, to make it easier
 				if (!Array.isArray(types)) {
-					$$invalidate(3, types = [types]);
+					$$invalidate(4, types = types ? [types] : []);
 				}
 			}
 		}
 
-		if ($$self.$$.dirty & /*id, href*/ 65) {
-			$: if (!id) $$invalidate(6, id = href || "");
+		if ($$self.$$.dirty & /*expanded_def*/ 32768) {
+			$: $$invalidate(16, if_then_else = fp.mapKeys(key => key + "_cond", fp.pick(["if", "then", "else"], expanded_def)));
 		}
 
-		if ($$self.$$.dirty & /*id*/ 64) {
-			$: if (id && -1 === id.indexOf("#")) $$invalidate(6, id = id + "#");
+		if ($$self.$$.dirty & /*id, href*/ 129) {
+			$: if (!id) $$invalidate(7, id = href || "");
+		}
+
+		if ($$self.$$.dirty & /*id*/ 128) {
+			$: if (id && -1 === id.indexOf("#")) $$invalidate(7, id = id + "#");
 		}
 	};
 
 	return [
 		href,
 		top_level,
+		dependencies,
 		schema,
 		types,
 		ref,
@@ -13652,10 +16146,12 @@ function instance($$self, $$props, $$invalidate) {
 		description,
 		examples,
 		enumeration,
+		constant,
 		default_value,
 		loading_ref,
 		is_expanded_ref,
 		expanded_def,
+		if_then_else,
 		fetch_ref,
 		remove_ref,
 		relative_ref,
@@ -13669,10 +16165,11 @@ class Instance extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__["SvelteCompo
 		super();
 
 		Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["init"])(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__["safe_not_equal"], {
-			definition: 17,
+			definition: 20,
 			href: 0,
-			fetch_segment: 18,
-			top_level: 1
+			fetch_segment: 21,
+			top_level: 1,
+			dependencies: 2
 		});
 	}
 }
@@ -13694,8 +16191,8 @@ if (false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../../../node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/style-loader@1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/css-loader@3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/index.svelte.css");
+var api = __webpack_require__(/*! ../../../node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/.pnpm/registry.npmjs.org/style-loader/1.2.1_webpack@4.43.0/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./index.svelte.css */ "./node_modules/.pnpm/registry.npmjs.org/css-loader/3.6.0_webpack@4.43.0/node_modules/css-loader/dist/cjs.js!./src/components/Instance/index.svelte.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -13729,9 +16226,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const app = new _components_Examples_index_svelte__WEBPACK_IMPORTED_MODULE_0__["default"]({
-	target: document.body,
-	props: {
-	}
+  target: document.body,
+  props: {},
 });
 
 /* harmony default export */ __webpack_exports__["default"] = (app);
@@ -13754,8 +16250,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "set_selected_instance_url", function() { return set_selected_instance_url; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "selected_instance", function() { return selected_instance; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fetch_segment", function() { return fetch_segment; });
-/* harmony import */ var svelte_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/store */ "./node_modules/.pnpm/svelte@3.23.2/node_modules/svelte/store/index.mjs");
-/* harmony import */ var jsonpointer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jsonpointer */ "./node_modules/.pnpm/jsonpointer@4.0.1/node_modules/jsonpointer/jsonpointer.js");
+/* harmony import */ var svelte_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/store */ "./node_modules/.pnpm/registry.npmjs.org/svelte/3.23.1/node_modules/svelte/store/index.mjs");
+/* harmony import */ var jsonpointer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jsonpointer */ "./node_modules/.pnpm/registry.npmjs.org/jsonpointer/4.1.0/node_modules/jsonpointer/jsonpointer.js");
 /* harmony import */ var jsonpointer__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jsonpointer__WEBPACK_IMPORTED_MODULE_1__);
 
 
