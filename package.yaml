@@ -26,7 +26,11 @@ bin:
   jsonschematic: bin/jsonschematic.js
 
 eslintConfig:
-  extends: [prettier]
+  env:
+    amd: true
+  extends:
+    - prettier
+    - eslint:recommended
   ignorePatterns:
     - "src/node_modules"
   parserOptions:

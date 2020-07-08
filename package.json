@@ -63,8 +63,12 @@
       "webpack-cli": "^3.3.12"
    },
    "eslintConfig": {
+       "env": {
+           "amd": true
+       },
       "extends": [
-         "prettier"
+         "prettier",
+         "eslint:recommended"
       ],
       "ignorePatterns": [
          "src/node_modules"
@@ -86,8 +90,7 @@
       },
       "plugins": [
          "svelte3"
-      ],
-      "rules": {}
+      ]
    },
    "homepage": "https://yanick.github.io/jsonschematic/",
    "keywords": [
