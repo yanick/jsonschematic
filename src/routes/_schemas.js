@@ -1,3 +1,5 @@
+// TODO move out of the /routes hierarchy and into /src/stores
+
 import { writable, derived, get } from "svelte/store";
 import ptr from "jsonpointer";
 
