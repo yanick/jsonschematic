@@ -1,4 +1,5 @@
 {#if items && Array.isArray(items)}
+
   <BoxSegment legend="items">
     <ol>
       {#each items as item (item)}
@@ -10,13 +11,15 @@
   </BoxSegment>
 {:else}
   {#if items}
-    <BoxSegment legend="items">
+  {console.log('not array')}
+  {console.log(items)}
       <Instance {href} definition={items} />
-    </BoxSegment>
   {/if}
 {/if}
-
 <script>
+
+  //  <BoxSegment legend="items">
+   // </BoxSegment>
   export let items;
   export let href;
 

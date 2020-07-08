@@ -119,7 +119,7 @@
       "release": "standard-version",
       "start": "node __sapper__/build",
       "storybook": "start-storybook",
-      "test": "tap 'src/**/*test.js' --no-coverage"
+      "test": "tap --debug 'src/**/Properties/properties.test.js' --no-coverage"
    },
    "standard-version": {},
    "version": "0.0.3"

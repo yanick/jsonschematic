@@ -66,8 +66,8 @@
     <Enum enumeration={[constant]} constant {href} />
   {/if}
 
-  <ArrayRestraints {...expanded_def} {href} />
   <StringRestraints {...expanded_def} {href} />
+  <ArrayRestraints {...expanded_def} {href} />
   <NumberRestraints {...expanded_def} {href} />
   <ObjectRestraints {...expanded_def} {href} />
 
