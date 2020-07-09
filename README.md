@@ -106,6 +106,7 @@ From the repo:
   - [x] scalar values
   - [ ] data structures [issue #66](https://github.com/yanick/jsonschematic/issues/66)
 - [x] [pattern](https://yanick.github.io/jsonschematic/#pattern)
+- [x] schema as a boolean
 
 ## Authors
 

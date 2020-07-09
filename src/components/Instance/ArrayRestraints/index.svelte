@@ -12,9 +12,7 @@
   {/if}
 </ul>
 
-{#if items}
-  <Items {items} href={`${href}/items`} />
-{/if}
+<Items {items} href={`${href}/items`} />
 
 <script>
   export let href = "";

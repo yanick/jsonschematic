@@ -1,93 +1,103 @@
-<div class="instance" class:top_level>
-  <div class="top_section">
-    {#if id}
-      <div class="instance_href">{id}</div>
-    {/if}
-
-    {#if schema}
-      <div class="schema">
-        <a href={schema}>{schema_name(schema)}</a>
-      </div>
-    {/if}
+{#if isBoolean(definition)}
+  <div class="instance" class:top_level>
+    <div class="boolean-schema">
+      schema matches {definition ? 'anything' : 'nothing'}
+    </div>
   </div>
 
-  {#if title}
-    <h1 class="title">{title}</h1>
-  {/if}
+{:else}
+  <div class="instance" class:top_level>
+    <div class="top_section">
+      {#if id}
+        <div class="instance_href">{id}</div>
+      {/if}
 
-  {#if description}
-    <div class="description">{description}</div>
-  {/if}
-
-  {#if expanded_def.writeOnly}
-    <div class="writeOnly">write-only</div>
-  {/if}
-  {#if expanded_def.readOnly}
-    <div class="writeOnly">read-only</div>
-  {/if}
-
-  <ul class="types">
-    {#each types as type (type)}
-      <li>{type}</li>
-    {/each}
-  </ul>
-
-  <Dependencies {dependencies} />
-
-  {#if default_value !== undefined}
-    <div class="label">default</div>
-    <pre>
-      <code>{JSON.stringify(default_value, null, 2)}</code>
-    </pre>
-  {/if}
-
-  {#if ref}
-    <div>extends</div>
-    <div>
-      <a href={relative_ref(ref)}>{ref}</a>
-
-      {#if is_expanded_ref}
-        <input on:click={remove_ref} type="button" value="unexpand" />
-      {:else}
-        <input
-          on:click={fetch_ref}
-          disabled={loading_ref}
-          type="button"
-          value={loading_ref ? 'fetching...' : 'expand'} />
+      {#if schema}
+        <div class="schema">
+          <a href={schema}>{schema_name(schema)}</a>
+        </div>
       {/if}
     </div>
-  {/if}
 
-  {#if enumeration}
-    <Enum {enumeration} {href} />
-  {/if}
+    {#if title}
+      <h1 class="title">{title}</h1>
+    {/if}
 
-  {#if constant}
-    <Enum enumeration={[constant]} constant {href} />
-  {/if}
+    {#if description}
+      <div class="description">{description}</div>
+    {/if}
 
-  <ArrayRestraints {...expanded_def} {href} />
-  <StringRestraints {...expanded_def} {href} />
-  <NumberRestraints {...expanded_def} {href} />
-  <ObjectRestraints {...expanded_def} {href} />
+    {#if expanded_def.writeOnly}
+      <div class="writeOnly">write-only</div>
+    {/if}
+    {#if expanded_def.readOnly}
+      <div class="writeOnly">read-only</div>
+    {/if}
 
-  <Not definition={expanded_def.not} />
+    <ul class="types">
+      {#each types as type (type)}
+        <li>{type}</li>
+      {/each}
+    </ul>
 
-  {#each ['allOf', 'anyOf', 'oneOf'] as type (type)}
-    <SomeOf {type} alternatives={expanded_def[type]} />
-  {/each}
+    <Dependencies {dependencies} />
 
-  <IfThenElse {...if_then_else} {href} />
+    {#if default_value !== undefined}
+      <div class="label">default</div>
+      <pre>
+        <code>{JSON.stringify(default_value, null, 2)}</code>
+      </pre>
+    {/if}
 
-  {#if examples}
-    <Examples {examples} {href} />
-  {/if}
+    {#if ref}
+      <div>extends</div>
+      <div>
+        <a href={relative_ref(ref)}>{ref}</a>
 
-</div>
+        {#if is_expanded_ref}
+          <input on:click={remove_ref} type="button" value="unexpand" />
+        {:else}
+          <input
+            on:click={fetch_ref}
+            disabled={loading_ref}
+            type="button"
+            value={loading_ref ? 'fetching...' : 'expand'} />
+        {/if}
+      </div>
+    {/if}
+
+    {#if enumeration}
+      <Enum {enumeration} {href} />
+    {/if}
+
+    {#if constant}
+      <Enum enumeration={[constant]} constant {href} />
+    {/if}
+
+    <ArrayRestraints {...expanded_def} {href} />
+    <StringRestraints {...expanded_def} {href} />
+    <NumberRestraints {...expanded_def} {href} />
+    <ObjectRestraints {...expanded_def} {href} />
+
+    <Not definition={expanded_def.not} />
+
+    {#each ['allOf', 'anyOf', 'oneOf'] as type (type)}
+      <SomeOf {type} alternatives={expanded_def[type]} />
+    {/each}
+
+    <IfThenElse {...if_then_else} {href} />
+
+    {#if examples}
+      <Examples {examples} {href} />
+    {/if}
+
+  </div>
+{/if}
 
 <script>
   import * as store from "../../routes/_schemas";
   const fp = require("lodash/fp");
+  const isBoolean = require("lodash/isBoolean");
 
   export let definition = {};
   export let href;
@@ -258,5 +268,9 @@
   .writeOnly {
     grid-column: span 2;
     font-variant: small-caps;
+  }
+
+  .boolean-schema {
+    grid-column: span 2;
   }
 </style>

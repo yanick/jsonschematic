@@ -1,4 +1,6 @@
 export default [
+  { title: "'true' as the schema", type: "array", items: true },
+  { title: "'false' as the schema", type: "array", items: false },
   {
     type: "object",
     properties: {
