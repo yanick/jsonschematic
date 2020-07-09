@@ -3,12 +3,8 @@ import { render, fireEvent } from "@testing-library/svelte";
 
 const Comp = require("./RequiredBugTest.svelte");
 
-
 tap.test( async (t) => {
     const { debug, getByText } = render(Comp);
-
     await fireEvent.click( getByText('click me' ));
-
-    console.log(debug());
-
+    t.ok(getByText('quux'));
 });
