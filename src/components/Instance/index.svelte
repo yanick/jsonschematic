@@ -82,7 +82,7 @@
     <Not definition={expanded_def.not} />
 
     {#each ['allOf', 'anyOf', 'oneOf'] as type (type)}
-      <SomeOf {type} alternatives={expanded_def[type]} />
+      <SomeOf {type} alternatives={expanded_def[type]} {href} />
     {/each}
 
     <IfThenElse {...if_then_else} {href} />
