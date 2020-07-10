@@ -113,6 +113,9 @@
       "svelteSortOrder": "markup-scripts-styles",
       "svelteStrictMode": false
    },
+   "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
+   },
    "repository": "github:yanick/jsonschematic",
    "scripts": {
       "build": "sapper build",

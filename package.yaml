@@ -79,6 +79,8 @@ scripts:
   "lint:eslint:fix": npm run lint:eslint -- --fix
   "lint:fix": npm-run-all "lint:eslint:fix -- {@}" "lint:prettier:fix -- {@}" --
 
+publishConfig: { "registry": "https://npm.pkg.github.com/" } 
+
 standard-version:
   skip:
     tag: true 
