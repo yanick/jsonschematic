@@ -1,5 +1,3 @@
-import * as sapper from "@sapper/app";
+import App from "./routes/index.svelte";
 
-sapper.start({
-  target: document.querySelector("#sapper"),
-});
+export default new App({ target: document.body });

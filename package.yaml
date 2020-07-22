@@ -20,7 +20,7 @@ contributors:
   - name: Trey Bianchini
     email: trey.bianchini@iinteractive.com
 
-main: __sapper__/build/index.js
+main: src/server.js
 
 bin:
   jsonschematic: bin/jsonschematic.js
@@ -57,14 +57,12 @@ prettier:
 
 scripts:
   promake: ./Promake
-  build: sapper build
+  build: webpack
+  'build:watch': webpack --watch
   "build:docs": webpack --config ./webpack.docs.config.js
-  cy:open: cypress open
-  cy:run: cypress run
-  dev: sapper dev
-  export: sapper export --legacy
+  dev: NODE_ENV=development webpack-dev-server
+  start: node ./bin/jsonschematic.js --local --schema_dir examples
   release: standard-version
-  start: node __sapper__/build
   storybook: start-storybook
 
   package: ./scripts/merge_package.pl
