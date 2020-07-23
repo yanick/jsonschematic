@@ -1,3 +1,5 @@
+// TODO move out of the /routes hierarchy and into /src/stores
+
 import { writable, derived, get } from "svelte/store";
 import ptr from "jsonpointer";
 
@@ -45,13 +47,13 @@ const add_schema = (schema, url) => {
 const fetch_segment = (target, origin) => {
   let schema_id, path;
 
-  if (target.indexOf("#") === 0) {
+  if (target.startsWith("#")) {
     [schema_id] = origin.split("#");
     path = target.substr(1);
-  } else if (target.indexOf("#") === -1) {
+  } else if (!target.includes("#")) {
     schema_id = target;
   } else {
-    [schema_uri, path] = target.split("#");
+    [schema_id, path] = target.split("#");
   }
 
   const schema = get(schemas)[schema_id];

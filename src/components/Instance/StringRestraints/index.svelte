@@ -26,9 +26,10 @@
 
 <script>
   import tippy_orig from "sveltejs-tippy";
-  const tippy = tippy_orig || (() => {});
+  const noop = require("lodash/noop");
 
-  import Type from "../Types/Type.svelte";
+  const tippy = tippy_orig || noop;
+
   import Range from "../Types/Range.svelte";
 
   import formats from "../Types/String/formats";

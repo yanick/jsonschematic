@@ -13,11 +13,10 @@
   export let properties = {};
   export let required = [];
   export let href;
-  export let title = "properties";
   export let dependencies = {};
 
   import Property from "./Property.svelte";
-  import { sortBy, flow, toPairs } from "lodash/fp";
+  import { sortBy, flow } from "lodash/fp";
   const Instance = require("../index.svelte").default;
 
   let entries = [];
@@ -26,6 +25,7 @@
   const sort_by_name = sortBy((e) => e[0]);
 
   $: {
+    required = required || [];
     entries = flow([Object.entries, sort_by_name, sort_by_required])(
       properties
     );
@@ -36,11 +36,6 @@
 </script>
 
 <style>
-  div.title {
-    grid-column: span 2;
-    font-weight: bold;
-  }
-
   div {
     display: grid;
     grid-template-columns: 1fr 100fr;

@@ -22,9 +22,3 @@
   import BoxSegment from "../BoxSegment.svelte";
   import Instance from "../index.svelte";
 </script>
-
-<style>
-  div {
-    background-color: red;
-  }
-</style>

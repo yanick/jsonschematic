@@ -1,34 +1,39 @@
-import sirv from "sirv";
-import polka from "polka";
-import compression from "compression";
-import * as sapper from "@sapper/server";
+const sirv = require("sirv");
+const express = require("express");
+const compression = require("compression");
+
+const { get: get_schemas } = require("./routes/schemas.json.js");
 
 const schema_dir = process.env.JSONSCHEMATIC_DIR || process.cwd() + "/examples";
 process.env.JSONSCHEMATIC_DIR = schema_dir; // for the schemas route
 
-const { PORT, NODE_ENV } = process.env;
+const { NODE_ENV } = process.env;
 const dev = NODE_ENV === "development";
 
 const schemas = sirv(schema_dir, { dev });
 
 console.log("serving schemas at " + schema_dir);
 
-polka() // You can also use Express
-  .use(
-    compression({ threshold: 0 }),
-    sirv(
-      process.env.JSONSCHEMATIC_HOMEDIR
-        ? process.env.JSONSCHEMATIC_HOMEDIR + "/static"
-        : "static",
-      { dev }
-    ),
-    (req, res, next) => {
-      if (!req.path.startsWith("/schemas/")) return next();
-      req.path = req.path.substring(8); // remove "/assets" prefix
-      schemas(req, res, next);
-    },
-    sapper.middleware()
+let server = express();
+
+server.use(
+  compression({ threshold: 0 }),
+  sirv(
+    process.env.JSONSCHEMATIC_HOMEDIR
+      ? process.env.JSONSCHEMATIC_HOMEDIR + "/static"
+      : __dirname + "/../static",
+    { dev }
   )
-  .listen(PORT, (err) => {
-    if (err) console.log("error", err);
-  });
+);
+
+server.use((req, res, next) => {
+  if (!req.path.startsWith("/schemas.json")) return next();
+  get_schemas(req, res);
+});
+
+server.use("/schemas/", (req, res, next) => {
+  req.path = req.path.substring(8); // remove "/assets" prefix
+  schemas(req, res, next);
+});
+
+module.exports = server;

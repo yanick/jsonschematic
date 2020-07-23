@@ -21,7 +21,7 @@ From the repo:
 
 ## Supported JSON Schema keywords
 
-- [ ] [\$comment](https://yanick.github.io/jsonschematic/#$comment)
+- [x] [\$comment](https://yanick.github.io/jsonschematic/#$comment)
 - [x] [\$id](https://yanick.github.io/jsonschematic/#$id)
 - [x] [\$ref](https://yanick.github.io/jsonschematic/#$ref)
 - [x] [\$schema](https://yanick.github.io/jsonschematic/#$schema)
@@ -58,7 +58,7 @@ From the repo:
     - [x] [items](https://yanick.github.io/jsonschematic/#items)
         - [x] as a schema
         - [x] as a tuple
-    - [ ] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
+    - [x] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
 
   - [x] [boolean](https://yanick.github.io/jsonschematic/#boolean)
 
@@ -106,6 +106,7 @@ From the repo:
   - [x] scalar values
   - [ ] data structures [issue #66](https://github.com/yanick/jsonschematic/issues/66)
 - [x] [pattern](https://yanick.github.io/jsonschematic/#pattern)
+- [x] schema as a boolean
 
 ## Authors
 

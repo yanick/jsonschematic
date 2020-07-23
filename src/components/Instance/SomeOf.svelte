@@ -2,7 +2,7 @@
   <BoxSegment legend={type}>
     {#each alternatives as alternative (alternative)}
       <BoxSegment>
-        <Instance definition={alternative} />
+        <Instance definition={alternative} {href} />
       </BoxSegment>
     {/each}
   </BoxSegment>
@@ -12,13 +12,8 @@
 <script>
   export let type;
   export let alternatives;
+  export let href;
 
   import BoxSegment from "./BoxSegment.svelte";
-  import Instance from "./index.svelte";
+  const Instance = require("./index.svelte").default;
 </script>
-
-<style>
-  div {
-    background-color: red;
-  }
-</style>

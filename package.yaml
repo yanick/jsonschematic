@@ -20,13 +20,22 @@ contributors:
   - name: Trey Bianchini
     email: trey.bianchini@iinteractive.com
 
-main: __sapper__/build/index.js
+main: src/server.js
 
 bin:
   jsonschematic: bin/jsonschematic.js
 
 eslintConfig:
-  extends: [prettier]
+  env:
+    amd: true
+    es6: true
+    node: true
+    browser: true
+  extends:
+    - prettier
+    - eslint:recommended
+    - plugin:you-dont-need-lodash-underscore/compatible
+    - plugin:lodash/recommended
   ignorePatterns:
     - "src/node_modules"
   parserOptions:
@@ -36,7 +45,8 @@ eslintConfig:
       modules: true
   plugins:
     - svelte3
-  rules: {}
+  rules:
+    "lodash/prefer-lodash-method": off
   overrides:
     - files: ["*.svelte"]
       processor: "svelte3/svelte3"
@@ -47,14 +57,13 @@ prettier:
 
 scripts:
   promake: ./Promake
-  build: sapper build
+  build: webpack
+  'build:watch': webpack --watch
   "build:docs": webpack --config ./webpack.docs.config.js
-  cy:open: cypress open
-  cy:run: cypress run
-  dev: sapper dev
-  export: sapper export --legacy
+  dev: NODE_ENV=development webpack-dev-server
+  "dev:docs": NODE_ENV=development webpack-dev-server --config webpack.docs.config.js
+  start: node ./bin/jsonschematic.js --local --schema_dir examples
   release: standard-version
-  start: node __sapper__/build
   storybook: start-storybook
 
   package: ./scripts/merge_package.pl
@@ -69,7 +78,21 @@ scripts:
   "lint:eslint:fix": npm run lint:eslint -- --fix
   "lint:fix": npm-run-all "lint:eslint:fix -- {@}" "lint:prettier:fix -- {@}" --
 
-standard-version: {}
+publishConfig: { "registry": "https://npm.pkg.github.com/" }
 
+standard-version:
+  skip:
+    tag: true
+  types:
+    - type: bug
+      section: Bug Fixes
+    - {"type": "feat", "section": "Features"}
+    - {"type": "fix", "section": "Bug Fixes"}
+    - {"type": "chore", "hidden": true}
+    - {"type": "docs", "hidden": true}
+    - {"type": "style", "hidden": true}
+    - {"type": "refactor", "hidden": true}
+    - {"type": "perf", "hidden": true}
+    - {"type": "test", "hidden": true}
 tap:
   coverage: false
