@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/yanick/jsonschematic/compare/v0.0.5...v0.0.6) (2020-07-23)
+
+
+### Features
+
+* add $comment keyword ([12166a4](https://github.com/yanick/jsonschematic/commit/12166a4e10b801b61fbbdb381bebe9563d0f30a6))
+* add support for 'additionalItems' keyword ([4c30cf2](https://github.com/yanick/jsonschematic/commit/4c30cf27569361799e89347c24b7db3fa0fca621))
+* removed sapper from the codebase ([926dcf3](https://github.com/yanick/jsonschematic/commit/926dcf34da653c426b8171b2a9298403c2f211ef))
+
 ### [0.0.5](https://github.com/yanick/jsonschematic/compare/v0.0.4...v0.0.5) (2020-07-10)
 
 
