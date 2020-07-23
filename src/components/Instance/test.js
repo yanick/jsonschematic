@@ -19,3 +19,11 @@ tap.test("default", async (t) => {
 
   t.ok(getByText('"potato"'));
 });
+
+tap.test("$comment", async (t) => {
+  const { getByText } = render(Instance, {
+    definition: { $comment: "we have comments" },
+  });
+
+  t.ok(getByText("we have comments"));
+});

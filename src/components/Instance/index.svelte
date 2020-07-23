@@ -27,6 +27,10 @@
       <div class="description">{description}</div>
     {/if}
 
+    {#if comment}
+      <blockquote class="comment">{comment}</blockquote>
+    {/if}
+
     {#if expanded_def.writeOnly}
       <div class="writeOnly">write-only</div>
     {/if}
@@ -117,6 +121,7 @@
   import Not from "./Not.svelte";
 
   let schema,
+    comment,
     types,
     items,
     ref,
@@ -150,6 +155,7 @@
       enum: enumeration,
       const: constant,
       properties,
+      $comment: comment,
     } = expanded_def);
 
     // always pass an array, to make it easier
@@ -228,8 +234,13 @@
     grid-column: span 2;
   }
 
-  .description {
+  .description,
+  .comment {
     grid-column: span 2;
+  }
+
+  .comment {
+    font-style: italic;
   }
 
   .title {

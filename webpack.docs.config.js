@@ -52,4 +52,10 @@ module.exports = {
     }),
   ],
   devtool: prod ? false : "source-map",
+  devServer: {
+    contentBase: "./docs",
+    publicPath: "/build",
+    hot: false,
+    liveReload: true,
+  },
 };

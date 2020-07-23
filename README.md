@@ -21,7 +21,7 @@ From the repo:
 
 ## Supported JSON Schema keywords
 
-- [ ] [\$comment](https://yanick.github.io/jsonschematic/#$comment)
+- [x] [\$comment](https://yanick.github.io/jsonschematic/#$comment)
 - [x] [\$id](https://yanick.github.io/jsonschematic/#$id)
 - [x] [\$ref](https://yanick.github.io/jsonschematic/#$ref)
 - [x] [\$schema](https://yanick.github.io/jsonschematic/#$schema)
