@@ -58,7 +58,7 @@ From the repo:
     - [x] [items](https://yanick.github.io/jsonschematic/#items)
         - [x] as a schema
         - [x] as a tuple
-    - [ ] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
+    - [x] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
 
   - [x] [boolean](https://yanick.github.io/jsonschematic/#boolean)
 
