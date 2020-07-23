@@ -65,10 +65,12 @@
   .example > * {
     flex: 1;
     height: min-content;
+    min-width: 50%;
   }
 
   pre {
     background-color: #f0f0f0;
+    overflow: scroll;
   }
 
   .edit_me {

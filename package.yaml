@@ -45,7 +45,7 @@ eslintConfig:
       modules: true
   plugins:
     - svelte3
-  rules: 
+  rules:
     "lodash/prefer-lodash-method": off
   overrides:
     - files: ["*.svelte"]
@@ -61,6 +61,7 @@ scripts:
   'build:watch': webpack --watch
   "build:docs": webpack --config ./webpack.docs.config.js
   dev: NODE_ENV=development webpack-dev-server
+  "dev:docs": NODE_ENV=development webpack-dev-server --config webpack.docs.config.js
   start: node ./bin/jsonschematic.js --local --schema_dir examples
   release: standard-version
   storybook: start-storybook
@@ -77,13 +78,13 @@ scripts:
   "lint:eslint:fix": npm run lint:eslint -- --fix
   "lint:fix": npm-run-all "lint:eslint:fix -- {@}" "lint:prettier:fix -- {@}" --
 
-publishConfig: { "registry": "https://npm.pkg.github.com/" } 
+publishConfig: { "registry": "https://npm.pkg.github.com/" }
 
 standard-version:
   skip:
-    tag: true 
+    tag: true
   types:
-    - type: bug 
+    - type: bug
       section: Bug Fixes
     - {"type": "feat", "section": "Features"}
     - {"type": "fix", "section": "Bug Fixes"}

@@ -123,6 +123,7 @@
       "build:docs": "webpack --config ./webpack.docs.config.js",
       "build:watch": "webpack --watch",
       "dev": "NODE_ENV=development webpack-dev-server",
+      "dev:docs": "NODE_ENV=development webpack-dev-server --config webpack.docs.config.js",
       "lint": "npm-run-all --parallel \"lint:prettier -- {@}\" \"lint:eslint -- {@}\" --",
       "lint:eslint": "./scripts/eslint",
       "lint:eslint:fix": "npm run lint:eslint -- --fix",
