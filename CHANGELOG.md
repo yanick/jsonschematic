@@ -2,8 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.0.6](https://github.com/yanick/jsonschematic/compare/v0.0.5...v0.0.6) (2020-07-23)
+## Next
 
+### Documentation
+
+* Use the right package name in the README. (davearel, [#114](https://github.com/yanick/jsonschematic/issues/114))
+
+## [0.0.6](https://github.com/yanick/jsonschematic/compare/v0.0.5...v0.0.6) (2020-07-23)
 
 ### Features
 
@@ -34,7 +39,7 @@ All notable changes to this project will be documented in this file. See [standa
 * required could be undefined ([4acaa04](https://github.com/yanick/jsonschematic/commit/4acaa043312faae92bc248870057121c6e140278)), closes [#90](https://github.com/yanick/jsonschematic/issues/90)
 * split runtime error in fetch_url ([819aa4b](https://github.com/yanick/jsonschematic/commit/819aa4bcd7b6da0875901394662623f294971c45)), closes [#91](https://github.com/yanick/jsonschematic/issues/91)
 
-### [0.0.3](https://github.com/yanick/jsonschematic/compare/v0.0.1...v0.0.3) (2020-07-07)
+## [0.0.3](https://github.com/yanick/jsonschematic/compare/v0.0.1...v0.0.3) (2020-07-07)
 
 * Flesh out the package.json metadata.
 
