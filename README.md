@@ -9,7 +9,7 @@ The interactive(!) demo page lives at [https://yanick.github.io/jsonschematic/](
 
 From a global install:
 
-    $ npm install -g jsonschematic
+    $ npm install -g @infinity-interactive/jsonschematic
     $ jsonschematic --schema_dir path/to/schemas
 
 From the repo:
