@@ -20,3 +20,13 @@ test('string:const', async () => {
 
     expect(getByText('potato')).toBeTruthy();
 });
+
+test('string:enum', async () => {
+    const { getByText } = render(Schema, {
+        definition: {
+            enum: ['potato'],
+        },
+    });
+
+    expect(getByText('potato')).toBeTruthy();
+});

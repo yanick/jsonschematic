@@ -1,24 +1,14 @@
-<Meta
-    title="examples"
-/>
+<Meta title="examples" />
 
-<Template let:args>
-    <Schema {...args} />
-</Template>
-
-<Story
-    name="string w/ const"
-    args={{ definition:
-  {
-    title: "string w/ const",
-    type: "string",
-    const: "potato",
-  },
-    }}
-/>
+<Story name="all of them">
+    {#each examples as definition (definition.title)}
+        <Schema {definition} />
+    {/each}
+</Story>
 
 <script>
     import { Meta, Story, Template } from '@storybook/addon-svelte-csf';
 
     import Schema from './Schema.svelte';
+    import examples from './examples.js';
 </script>

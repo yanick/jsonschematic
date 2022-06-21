@@ -25,6 +25,15 @@
             <strong>const</strong><code>{schemaConst}</code>
         </div>
     {/if}
+
+    {#if schemaEnum}
+        <div class="enum">
+            <strong>enum</strong>
+            {#each schemaEnum as constant}
+                <code>{constant}</code>
+            {/each}
+        </div>
+    {/if}
 </article>
 
 <script>
@@ -44,11 +53,17 @@
         examples,
         properties,
         schemaConst,
+        schemaEnum,
     } = R.mapKeys(definition, (key) =>
-        key.replace('$', '').replace('const', 'schemaConst'),
+        key
+            .replace('$', '')
+            .replace('const', 'schemaConst')
+            .replace('enum', 'schemaEnum'),
     ));
 
-    $: noBody = [schemaConst, comment, description].every((x) => !x);
+    $: noBody = [schemaEnum, schemaConst, comment, description].every(
+        (x) => !x,
+    );
 </script>
 
 <style>
@@ -95,7 +110,10 @@
         padding-bottom: 0px;
     }
 
-    .const strong {
+    strong {
+        margin-right: 1em;
+    }
+    .enum code {
         margin-right: 1em;
     }
 </style>

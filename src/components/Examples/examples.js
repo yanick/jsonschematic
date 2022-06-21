@@ -221,11 +221,6 @@ export default [
         type: 'null',
     },
     {
-        title: 'string w/ enum',
-        type: 'string',
-        enum: ['potato', 'cauliflower', 'beet'],
-    },
-    {
         title: 'string w/ content type and encoding',
         type: 'string',
         contentEncoding: 'base64',
