@@ -38,4 +38,9 @@ export default [
         exclusiveMinimum: 3,
         exclusiveMaximum: 10,
     },
+    {
+        title: 'integer w/ default',
+        type: 'integer',
+        default: 13,
+    },
 ];

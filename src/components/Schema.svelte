@@ -57,6 +57,11 @@
                 <strong>maximum (exclusive)</strong>
                 {exclusiveMaximum}
             </div>{/if}
+
+        <!-- TODO schema with object -->
+        {#if schemaDefault}<div>
+                <strong>default</strong> <code>{schemaDefault}</code>
+            </div>{/if}
     </div>
 </article>
 
@@ -86,9 +91,11 @@
         maximum,
         exclusiveMinimum,
         exclusiveMaximum,
+        schemaDefault,
     } = R.mapKeys(definition, (key) =>
         key
             .replace('$', '')
+            .replace('default', 'schemaDefault')
             .replace('const', 'schemaConst')
             .replace('enum', 'schemaEnum'),
     ));
@@ -106,6 +113,7 @@
         maximum,
         exclusiveMinimum,
         exclusiveMaximum,
+        schemaDefault,
     ].every((x) => !x);
 </script>
 

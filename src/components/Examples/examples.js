@@ -261,11 +261,6 @@ export default [
         multipleOf: 3,
     },
     {
-        title: 'integer w/ default',
-        type: 'integer',
-        default: 13,
-    },
-    {
         title: 'a simple ref',
         $ref: '#/somewhere/else',
     },

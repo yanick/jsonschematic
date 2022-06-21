@@ -66,3 +66,13 @@ test('number:minimum and maximum', async () => {
     expect(getByText('2')).toBeTruthy();
     expect(getByText('3')).toBeTruthy();
 });
+
+test('default', async () => {
+    const { getByText } = render(Schema, {
+        definition: {
+            default: 'potato',
+        },
+    });
+
+    expect(getByText('potato')).toBeTruthy();
+});
