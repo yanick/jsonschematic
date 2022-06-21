@@ -1,5 +1,5 @@
 <Meta
-    title="Schema"
+    title="Definitions"
     argTypes={{
         definitions: { type: 'object' },
     }}
