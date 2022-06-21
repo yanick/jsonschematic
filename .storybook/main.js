@@ -1,8 +1,23 @@
 module.exports = {
-    stories: ['../src/**/*stories.[tj]s'],
+    stories: ['../src/**/*.stories.svelte'],
     addons: [
-//  '@storybook/addon-actions/register',
-  '@storybook/addon-knobs/register',
-//  '@storybook/addon-notes/register',
-],
+        '@storybook/addon-links',
+        '@storybook/addon-essentials',
+        '@storybook/addon-interactions',
+        '@storybook/addon-svelte-csf',
+    ],
+    // "features": { "storyStoreV7": true },
+    framework: '@storybook/svelte',
+    core: {
+        builder: '@storybook/builder-vite',
+    },
+    async viteFinal(config) {
+        return {
+            ...config,
+            define: {
+                ...config.define,
+                global: 'window',
+            },
+        };
+    },
 };
