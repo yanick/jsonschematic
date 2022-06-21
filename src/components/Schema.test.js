@@ -86,3 +86,19 @@ test('number:multipleOf', async () => {
 
     expect(getByText('3')).toBeTruthy();
 });
+
+test('main bits', async () => {
+    const definition = {
+        title: 'with a $comment',
+        description: 'this is the description',
+        $comment: 'and this is the comment',
+    };
+
+    const { getByText } = render(Schema, {
+        definition,
+    });
+
+    for (const text of Object.values(definition)) {
+        expect(getByText(text)).toBeTruthy();
+    }
+});

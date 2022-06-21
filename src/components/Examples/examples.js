@@ -74,11 +74,6 @@ export default [
             type: 'number',
         },
     },
-    {
-        title: 'with a $comment',
-        description: 'this is the description',
-        $comment: 'and this is the comment',
-    },
     { title: "'true' as the schema", type: 'array', items: true },
     { title: "'false' as the schema", type: 'array', items: false },
     {
