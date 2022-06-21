@@ -38,6 +38,13 @@
 
         {#if minLength}<div><strong>min length</strong> {minLength}</div>{/if}
         {#if maxLength}<div><strong>max length</strong> {maxLength}</div>{/if}
+
+        {#if writeOnly}<div class="permission">
+                <strong>writeOnly</strong>
+            </div>{/if}
+        {#if readOnly}<div class="permission">
+                <strong>readOnly</strong>
+            </div>{/if}
     </div>
 </article>
 
@@ -61,6 +68,8 @@
         schemaEnum,
         minLength,
         maxLength,
+        readOnly,
+        writeOnly,
     } = R.mapKeys(definition, (key) =>
         key
             .replace('$', '')
@@ -75,6 +84,8 @@
         schemaConst,
         comment,
         description,
+        writeOnly,
+        readOnly,
     ].every((x) => !x);
 </script>
 
@@ -133,5 +144,8 @@
     }
     .constraints > * {
         margin-right: 2em;
+    }
+    .permission {
+        font-variant: all-small-caps;
     }
 </style>

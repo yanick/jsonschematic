@@ -42,3 +42,15 @@ test('string:length', async () => {
     expect(getByText('2')).toBeTruthy();
     expect(getByText('3')).toBeTruthy();
 });
+
+test('readonly/writeonly', async () => {
+    const { getByText } = render(Schema, {
+        definition: {
+            readOnly: true,
+            writeOnly: true,
+        },
+    });
+
+    expect(getByText('writeOnly')).toBeTruthy();
+    expect(getByText('readOnly')).toBeTruthy();
+});

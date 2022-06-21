@@ -15,4 +15,6 @@ export default [
         minLength: 3,
         maxLength: 13,
     },
+    { title: 'writeOnly', writeOnly: true, type: 'string' },
+    { title: 'readOnly', readOnly: true, type: 'string' },
 ];

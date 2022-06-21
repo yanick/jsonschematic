@@ -130,8 +130,6 @@ export default [
             type: 'string',
         },
     },
-    { title: 'writeOnly', writeOnly: true, type: 'string' },
-    { title: 'readOnly', readOnly: true, type: 'string' },
     {
         title: 'not',
         type: 'string',
