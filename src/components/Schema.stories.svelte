@@ -14,7 +14,7 @@
     <Schema {...args} topLevel />
     </Template>
 
-<Story name="General" args={{
+<Story name="Basic" args={{
     definition: {
         type: "object",
         $id: 'https://jsonschematic.babyl.ca',
@@ -29,21 +29,5 @@
             { this: 'that' },
             3
         ]
-        }
-}}/>
-
-<Story name="$comment" args={{
-    definition: {
-        title:"with a $comment",
-        description:"this is the description",
-        $comment:"and this is the comment",
-        }
-}}/>
-
-<Story name="with a type" args={{
-    definition: {
-        title:"with a type",
-        description:"this is the description",
-        type: 'number',
         }
 }}/>

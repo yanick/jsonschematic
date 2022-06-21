@@ -1,14 +1,8 @@
-<article class:topLevel class:innerLevel={!topLevel}>
+<article>
     <header>
         <div class="schema-title">
-            <div>
-                {name}
-                {#if name && title}&mdash;{/if}
-                {title}
-                </div>
-            {#if type}
-                <div class="type">{type}</div>
-            {/if}
+            <div class="title">{title || ''}</div>
+            <div class="type">{type || ''}</div>
         </div>
         <div class="id-section">
             {#if id}
@@ -26,22 +20,13 @@
 {/if}
     {#if comment} <blockquote>{comment}</blockquote>{/if}
 
-    {#if properties}
-        <div style:padding-bottom="0.5em">
-            <div><strong>properties</strong></div>
-            {#each Object.entries(properties) as [name, definition] (name)}
-                <svelte:self {name} {definition} />
-            {/each}
-        </div>
-    {/if}
 </article>
 
 <script>
     import * as R from 'remeda';
 
     export let definition = {};
-    export let topLevel = false;
-    export let name = '';
+    export let compact = false;
 
     let title, description, comment, type, id, schema, examples, properties;
     $: ({
@@ -69,7 +54,7 @@
         align-items: baseline;
     }
 
-    .topLevel > header > div:first-child div:first-child {
+    header  .title {
         font-size: var(--font-size-12);
     }
 
@@ -85,18 +70,6 @@
     blockquote {
         font-style: italic;
     }
-    dl {
-        display: grid;
-        grid-template-columns: auto 1fr;
-    }
-    dt {
-        grid-column: 1;
-        font-weight: bold;
-        margin-bottom: 0.5em;
-    }
-    dd {
-        grid-column: 2;
-    }
 
     .id-section {
         margin-top: 0.5em;
@@ -105,8 +78,5 @@
 
     .id-section div {
         flex: 1;
-    }
-    article {
-        padding-bottom: 0px;
     }
 </style>
