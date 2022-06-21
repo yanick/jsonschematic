@@ -76,3 +76,13 @@ test('default', async () => {
 
     expect(getByText('potato')).toBeTruthy();
 });
+
+test('number:multipleOf', async () => {
+    const { getByText } = render(Schema, {
+        definition: {
+            multipleOf: 3,
+        },
+    });
+
+    expect(getByText('3')).toBeTruthy();
+});

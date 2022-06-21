@@ -43,4 +43,10 @@ export default [
         type: 'integer',
         default: 13,
     },
+    {
+        title: 'number w/ multipleOf',
+        keywords: ['number', 'multipleOf'],
+        type: 'number',
+        multipleOf: 3,
+    },
 ];

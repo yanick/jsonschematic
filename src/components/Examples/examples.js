@@ -255,12 +255,6 @@ export default [
         uniqueItems: true,
     },
     {
-        title: 'number w/ multipleOf',
-        keywords: ['number', 'multipleOf'],
-        type: 'number',
-        multipleOf: 3,
-    },
-    {
         title: 'a simple ref',
         $ref: '#/somewhere/else',
     },

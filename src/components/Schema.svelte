@@ -58,6 +58,11 @@
                 {exclusiveMaximum}
             </div>{/if}
 
+        {#if multipleOf}<div>
+                <strong>multiple of</strong>
+                {multipleOf}
+            </div>{/if}
+
         <!-- TODO schema with object -->
         {#if schemaDefault}<div>
                 <strong>default</strong> <code>{schemaDefault}</code>
@@ -92,6 +97,7 @@
         exclusiveMinimum,
         exclusiveMaximum,
         schemaDefault,
+        multipleOf,
     } = R.mapKeys(definition, (key) =>
         key
             .replace('$', '')
@@ -107,6 +113,7 @@
         schemaConst,
         comment,
         description,
+        multipleOf,
         writeOnly,
         readOnly,
         minimum,
