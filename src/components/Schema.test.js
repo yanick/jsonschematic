@@ -30,3 +30,15 @@ test('string:enum', async () => {
 
     expect(getByText('potato')).toBeTruthy();
 });
+
+test('string:length', async () => {
+    const { getByText } = render(Schema, {
+        definition: {
+            minLength: 2,
+            maxLength: 3,
+        },
+    });
+
+    expect(getByText('2')).toBeTruthy();
+    expect(getByText('3')).toBeTruthy();
+});

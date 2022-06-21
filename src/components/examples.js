@@ -9,4 +9,10 @@ export default [
         type: 'string',
         enum: ['potato', 'cauliflower', 'beet'],
     },
+    {
+        title: 'string type w/ minLength, maxLength',
+        type: 'string',
+        minLength: 3,
+        maxLength: 13,
+    },
 ];

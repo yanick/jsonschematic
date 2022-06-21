@@ -289,12 +289,6 @@ export default [
         default: 13,
     },
     {
-        title: 'string type w/ minLength, maxLength',
-        type: 'string',
-        minLength: 3,
-        maxLength: 13,
-    },
-    {
         title: 'a simple ref',
         $ref: '#/somewhere/else',
     },

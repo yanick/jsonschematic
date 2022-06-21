@@ -20,20 +20,25 @@
     {/if}
     {#if comment} <blockquote>{comment}</blockquote>{/if}
 
-    {#if schemaConst}
-        <div class="const">
-            <strong>const</strong><code>{schemaConst}</code>
-        </div>
-    {/if}
+    <div class="constraints">
+        {#if schemaConst}
+            <div class="const">
+                <strong>const</strong><code>{schemaConst}</code>
+            </div>
+        {/if}
 
-    {#if schemaEnum}
-        <div class="enum">
-            <strong>enum</strong>
-            {#each schemaEnum as constant}
-                <code>{constant}</code>
-            {/each}
-        </div>
-    {/if}
+        {#if schemaEnum}
+            <div class="enum">
+                <strong>enum</strong>
+                {#each schemaEnum as constant}
+                    <code>{constant}</code>
+                {/each}
+            </div>
+        {/if}
+
+        {#if minLength}<div><strong>min length</strong> {minLength}</div>{/if}
+        {#if maxLength}<div><strong>max length</strong> {maxLength}</div>{/if}
+    </div>
 </article>
 
 <script>
@@ -54,6 +59,8 @@
         properties,
         schemaConst,
         schemaEnum,
+        minLength,
+        maxLength,
     } = R.mapKeys(definition, (key) =>
         key
             .replace('$', '')
@@ -61,9 +68,14 @@
             .replace('enum', 'schemaEnum'),
     ));
 
-    $: noBody = [schemaEnum, schemaConst, comment, description].every(
-        (x) => !x,
-    );
+    $: noBody = [
+        minLength,
+        maxLength,
+        schemaEnum,
+        schemaConst,
+        comment,
+        description,
+    ].every((x) => !x);
 </script>
 
 <style>
@@ -115,5 +127,11 @@
     }
     .enum code {
         margin-right: 1em;
+    }
+    .constraints {
+        display: flex;
+    }
+    .constraints > * {
+        margin-right: 2em;
     }
 </style>
