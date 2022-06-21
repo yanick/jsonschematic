@@ -12,8 +12,14 @@
     {/each}
 </Story>
 
+<Story name="number">
+    {#each examples.filter(({ type }) => type === 'number') as definition (definition.title)}
+        <Schema {definition} />
+    {/each}
+</Story>
+
 <Story name="the rest">
-    {#each examples.filter(({ type }) => !['string', 'boolean'].includes(type)) as definition (definition.title)}
+    {#each examples.filter(({ type }) => !['string', 'boolean', 'number'].includes(type)) as definition (definition.title)}
         <Schema {definition} />
     {/each}
 </Story>

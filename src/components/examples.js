@@ -18,4 +18,24 @@ export default [
     { title: 'writeOnly', writeOnly: true, type: 'string' },
     { title: 'readOnly', readOnly: true, type: 'string' },
     { title: 'boolean type', type: 'boolean' },
+    {
+        title: 'number w/ minimum, maximum',
+        keywords: ['number', 'minimum', 'maximum'],
+        type: 'number',
+        minimum: 3,
+        maximum: 10,
+    },
+    {
+        title: 'number w/ exclusiveMinimum, exclusiveMaximum',
+        keywords: ['number', 'exclusiveMaximum', 'exclusiveMinimum'],
+        type: 'number',
+        exclusiveMinimum: 3,
+        exclusiveMaximum: 10,
+    },
+    {
+        title: 'integer w/ exclusiveMinimum, exclusiveMaximum',
+        type: 'integer',
+        exclusiveMinimum: 3,
+        exclusiveMaximum: 10,
+    },
 ];

@@ -42,8 +42,20 @@
         {#if writeOnly}<div class="permission">
                 <strong>writeOnly</strong>
             </div>{/if}
+
         {#if readOnly}<div class="permission">
                 <strong>readOnly</strong>
+            </div>{/if}
+
+        {#if minimum}<div><strong>mininum</strong> {minimum}</div>{/if}
+        {#if exclusiveMinimum}<div>
+                <strong>mininum (exclusive)</strong>
+                {exclusiveMinimum}
+            </div>{/if}
+        {#if maximum}<div><strong>maximum</strong> {maximum}</div>{/if}
+        {#if exclusiveMaximum}<div>
+                <strong>maximum (exclusive)</strong>
+                {exclusiveMaximum}
             </div>{/if}
     </div>
 </article>
@@ -70,6 +82,10 @@
         maxLength,
         readOnly,
         writeOnly,
+        minimum,
+        maximum,
+        exclusiveMinimum,
+        exclusiveMaximum,
     } = R.mapKeys(definition, (key) =>
         key
             .replace('$', '')
@@ -86,6 +102,10 @@
         description,
         writeOnly,
         readOnly,
+        minimum,
+        maximum,
+        exclusiveMinimum,
+        exclusiveMaximum,
     ].every((x) => !x);
 </script>
 

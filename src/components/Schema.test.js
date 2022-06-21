@@ -54,3 +54,15 @@ test('readonly/writeonly', async () => {
     expect(getByText('writeOnly')).toBeTruthy();
     expect(getByText('readOnly')).toBeTruthy();
 });
+
+test('number:minimum and maximum', async () => {
+    const { getByText } = render(Schema, {
+        definition: {
+            minimum: 2,
+            maximum: 3,
+        },
+    });
+
+    expect(getByText('2')).toBeTruthy();
+    expect(getByText('3')).toBeTruthy();
+});
