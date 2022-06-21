@@ -1,0 +1,14 @@
+# for pre-merge-commit and pre-push
+repos:
+    - repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v2.3.0
+      hooks:
+          - id: check-yaml
+          - id: end-of-file-fixer
+          - id: trailing-whitespace
+    - repo: local
+      hooks:
+          - id: lint-delta
+            name: lint-delta
+            entry: task lint --
+            language: system

@@ -2,3 +2,4 @@ scripts/*
 .prettierignore
 package.json
 docs/*
+pnpm-lock.yaml
