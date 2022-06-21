@@ -1,3 +1,6 @@
+import '@picocss/pico/css/pico.css';
+import '../src/style/pico-tweaks.css';
+
 export const parameters = {
     actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
