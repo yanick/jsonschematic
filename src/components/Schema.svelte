@@ -1,4 +1,4 @@
-<article>
+<article class:noBody>
     <header>
         <div class="schema-title">
             <div class="title">{title || ''}</div>
@@ -19,6 +19,12 @@
         <div class="description">{description}</div>
     {/if}
     {#if comment} <blockquote>{comment}</blockquote>{/if}
+
+    {#if schemaConst}
+        <div class="const">
+            <strong>const</strong><code>{schemaConst}</code>
+        </div>
+    {/if}
 </article>
 
 <script>
@@ -37,7 +43,12 @@
         schema,
         examples,
         properties,
-    } = R.mapKeys(definition, (key) => key.replace('$', '')));
+        schemaConst,
+    } = R.mapKeys(definition, (key) =>
+        key.replace('$', '').replace('const', 'schemaConst'),
+    ));
+
+    $: noBody = [schemaConst, comment, description].every((x) => !x);
 </script>
 
 <style>
@@ -77,5 +88,14 @@
 
     .id-section div {
         flex: 1;
+    }
+
+    article.noBody {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .const strong {
+        margin-right: 1em;
     }
 </style>

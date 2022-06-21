@@ -10,3 +10,13 @@ test('no undefined', async () => {
 
     expect(wrapper.queryByText('undefined')).toBeFalsy();
 });
+
+test('string:const', async () => {
+    const { getByText } = render(Schema, {
+        definition: {
+            const: 'potato',
+        },
+    });
+
+    expect(getByText('potato')).toBeTruthy();
+});
