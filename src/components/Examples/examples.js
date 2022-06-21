@@ -215,10 +215,6 @@ export default [
         },
     },
     {
-        title: 'null type',
-        type: 'null',
-    },
-    {
         title: 'string w/ content type and encoding',
         type: 'string',
         contentEncoding: 'base64',

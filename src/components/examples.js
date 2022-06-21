@@ -49,4 +49,8 @@ export default [
         type: 'number',
         multipleOf: 3,
     },
+    {
+        title: 'null type',
+        type: 'null',
+    },
 ];
