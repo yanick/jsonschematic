@@ -17,4 +17,5 @@ export default [
     },
     { title: 'writeOnly', writeOnly: true, type: 'string' },
     { title: 'readOnly', readOnly: true, type: 'string' },
+    { title: 'boolean type', type: 'boolean' },
 ];

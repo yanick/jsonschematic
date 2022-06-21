@@ -1,7 +1,19 @@
 <Meta title="examples" />
 
-<Story name="all of them">
-    {#each examples as definition (definition.title)}
+<Story name="string">
+    {#each examples.filter(({ type }) => type === 'string') as definition (definition.title)}
+        <Schema {definition} />
+    {/each}
+</Story>
+
+<Story name="boolean">
+    {#each examples.filter(({ type }) => type === 'boolean') as definition (definition.title)}
+        <Schema {definition} />
+    {/each}
+</Story>
+
+<Story name="the rest">
+    {#each examples.filter(({ type }) => !['string', 'boolean'].includes(type)) as definition (definition.title)}
         <Schema {definition} />
     {/each}
 </Story>
