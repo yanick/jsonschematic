@@ -67,6 +67,13 @@
         {#if schemaDefault}<div>
                 <strong>default</strong> <code>{schemaDefault}</code>
             </div>{/if}
+
+        {#if typeof items === 'boolean'}
+            <div>
+                <strong>additional items</strong>
+                {items ? 'yes' : 'no'}
+            </div>
+        {/if}
     </div>
 </article>
 
@@ -98,6 +105,7 @@
         exclusiveMaximum,
         schemaDefault,
         multipleOf,
+        items,
     } = R.mapKeys(definition, (key) =>
         key
             .replace('$', '')
@@ -121,6 +129,7 @@
         exclusiveMinimum,
         exclusiveMaximum,
         schemaDefault,
+        items,
     ].every((x) => !x);
 </script>
 

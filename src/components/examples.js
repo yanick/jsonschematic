@@ -53,4 +53,6 @@ export default [
         title: 'null type',
         type: 'null',
     },
+    { title: "'true' as the schema", type: 'array', items: true },
+    { title: "'false' as the schema", type: 'array', items: false },
 ];

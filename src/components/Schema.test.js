@@ -102,3 +102,19 @@ test('main bits', async () => {
         expect(getByText(text)).toBeTruthy();
     }
 });
+
+test('array:items', async () => {
+    let wrapper = render(Schema, {
+        definition: { items: true },
+    });
+
+    expect(wrapper.getByText('yes')).toBeTruthy();
+
+    wrapper = render(Schema, {
+        definition: {
+            items: false,
+        },
+    });
+
+    expect(wrapper.getByText('no')).toBeTruthy();
+});
