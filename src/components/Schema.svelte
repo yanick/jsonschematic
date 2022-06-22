@@ -1,8 +1,10 @@
 <article class:noBody>
     <header>
         <div class="schema-title">
+            <div class="type">
+                <span class="type">{type || ''}</span>
+            </div>
             <div class="title">{title || ''}</div>
-            <div class="type">{type || ''}</div>
         </div>
         <div class="id-section">
             {#if id}
@@ -140,6 +142,9 @@
 
 <style>
     .type {
+        width: 5em;
+    }
+    .type span {
         border-radius: 8px;
         padding: 0em 0.3em 0.2em;
         background-color: var(--mark-background-color);
@@ -160,7 +165,7 @@
         padding-bottom: 0px;
     }
 
-    header div:first-child div:first-child {
+    header .title {
         color: var(--primary);
         flex: 1;
     }
@@ -190,6 +195,8 @@
     }
     .constraints {
         display: flex;
+        flex-wrap: wrap;
+        flex-basis: 100%;
     }
     .constraints > * {
         margin-right: 2em;

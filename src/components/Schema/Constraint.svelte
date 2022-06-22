@@ -1,13 +1,15 @@
-        <div class:fullwidth>
-            <strong>{label}</strong>
-            <slot/>
-        </div>
+<div class:fullwidth>
+    <strong>{label}</strong>
+    <slot />
+</div>
 
-            <script>
+<script>
     export let label = '';
     export let fullwidth = false;
-        </script>
+</script>
 
-        <style>
-        .fullwidth { width: 100% }
-        </style>
+<style>
+    .fullwidth {
+        width: 100%;
+    }
+</style>

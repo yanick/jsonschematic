@@ -1,47 +1,5 @@
 export default [
     {
-        title: 'additionalItems set to false',
-        type: 'array',
-        items: [
-            {
-                type: 'number',
-            },
-            {
-                type: 'string',
-            },
-            {
-                type: 'string',
-                enum: ['Street', 'Avenue', 'Boulevard'],
-            },
-            {
-                type: 'string',
-                enum: ['NW', 'NE', 'SW', 'SE'],
-            },
-        ],
-        additionalItems: false,
-    },
-    {
-        title: 'additionalItems set to true',
-        type: 'array',
-        items: [
-            {
-                type: 'number',
-            },
-            {
-                type: 'string',
-            },
-            {
-                type: 'string',
-                enum: ['Street', 'Avenue', 'Boulevard'],
-            },
-            {
-                type: 'string',
-                enum: ['NW', 'NE', 'SW', 'SE'],
-            },
-        ],
-        additionalItems: true,
-    },
-    {
         title: 'additionalItems set to schema',
         type: 'array',
         items: [

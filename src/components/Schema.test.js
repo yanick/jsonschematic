@@ -3,6 +3,8 @@ import { render } from '@testing-library/svelte';
 
 import Schema from './Schema.svelte';
 
+const renderSchema = (props) => render(Schema, props);
+
 test('no undefined', async () => {
     const wrapper = render(Schema, {
         definition: {},
@@ -154,5 +156,24 @@ describe('array', () => {
 
         expect(getByText('number')).toBeTruthy();
         expect(getByText('string')).toBeTruthy();
+    });
+    test('additionalItems', () => {
+        const { getByText } = renderSchema({
+            definition: {
+                type: 'array',
+                additionalItems: true,
+            },
+        });
+
+        expect(getByText('allowed')).toBeTruthy();
+
+        expect(
+            render(Schema, {
+                definition: {
+                    type: 'array',
+                    additionalItems: false,
+                },
+            }).getByText('forbidden'),
+        ).toBeTruthy();
     });
 });

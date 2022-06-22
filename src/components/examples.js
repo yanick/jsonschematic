@@ -68,4 +68,46 @@ export default [
         items: [{ type: 'number' }, { type: 'string' }],
         title: 'items as a tuple',
     },
+    {
+        title: 'additionalItems set to false',
+        type: 'array',
+        items: [
+            {
+                type: 'number',
+            },
+            {
+                type: 'string',
+            },
+            {
+                type: 'string',
+                enum: ['Street', 'Avenue', 'Boulevard'],
+            },
+            {
+                type: 'string',
+                enum: ['NW', 'NE', 'SW', 'SE'],
+            },
+        ],
+        additionalItems: false,
+    },
+    {
+        title: 'additionalItems set to true',
+        type: 'array',
+        items: [
+            {
+                type: 'number',
+            },
+            {
+                type: 'string',
+            },
+            {
+                type: 'string',
+                enum: ['Street', 'Avenue', 'Boulevard'],
+            },
+            {
+                type: 'string',
+                enum: ['NW', 'NE', 'SW', 'SE'],
+            },
+        ],
+        additionalItems: true,
+    },
 ];
