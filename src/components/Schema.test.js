@@ -144,4 +144,15 @@ describe('array', () => {
 
         expect(getByText('the item')).toBeTruthy();
     });
+    test('items as tuple', () => {
+        const { getByText } = render(Schema, {
+            definition: {
+                type: 'array',
+                items: [{ type: 'number' }, { type: 'string' }],
+            },
+        });
+
+        expect(getByText('number')).toBeTruthy();
+        expect(getByText('string')).toBeTruthy();
+    });
 });

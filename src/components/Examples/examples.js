@@ -87,11 +87,6 @@ export default [
         title: 'patternProperties',
     },
     {
-        type: 'array',
-        items: [{ type: 'number' }, { type: 'string' }],
-        title: 'items as a tuple',
-    },
-    {
         type: 'object',
         propertyNames: {
             pattern: '^[A-Za-z_][A-Za-z0-9_]*$',

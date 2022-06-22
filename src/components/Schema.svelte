@@ -63,7 +63,6 @@
                 {multipleOf}
             </div>{/if}
 
-        <!-- TODO schema with object -->
         {#if schemaDefault}<div>
                 <strong>default</strong> <code>{schemaDefault}</code>
             </div>{/if}
@@ -74,18 +73,15 @@
                 {items ? 'yes' : 'no'}
             </div>
         {/if}
-    </div>
 
-    {#if typeof items === 'object'}
-        <div>
-            <label>items</label>
-            <svelte:self definition={items} />
-        </div>
-    {/if}
+        <svelte:component this={TypeConstraints} {definition} />
+    </div>
 </article>
 
 <script>
     import * as R from 'remeda';
+
+    import ArrayConstraints from './Schema/Constraints/Array.svelte';
 
     export let definition = {};
     export let compact = false;
@@ -138,6 +134,8 @@
         schemaDefault,
         items,
     ].every((x) => !x);
+
+    $: TypeConstraints = type === 'array' ? ArrayConstraints : null;
 </script>
 
 <style>
