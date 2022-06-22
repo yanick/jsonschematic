@@ -148,15 +148,6 @@ export default [
     { title: 'examples', type: 'number', examples: [1, 2, 3] },
     { title: 'object examples', type: 'object', examples: [{ level: 3 }] },
     {
-        title: 'array type',
-        type: 'array',
-        maxItems: 10,
-        minItems: 3,
-        maxContains: 2,
-        minContains: 1,
-        uniqueItems: true,
-    },
-    {
         title: 'a simple ref',
         $ref: '#/somewhere/else',
     },

@@ -12,4 +12,7 @@
     .fullwidth {
         width: 100%;
     }
+    div {
+        margin-right: 1em;
+    }
 </style>

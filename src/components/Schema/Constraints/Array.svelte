@@ -1,3 +1,13 @@
+{#if minItems}<Constraint label="min items">{minItems}</Constraint>{/if}
+{#if maxItems}<Constraint label="max items">{maxItems}</Constraint>{/if}
+
+{#if minContains}<Constraint label="min items">{minContains}</Constraint>{/if}
+{#if maxContains}<Constraint label="max items">{maxContains}</Constraint>{/if}
+
+{#if isBoolean(uniqueItems)}<Constraint label="unique items"
+        >{uniqueItems ? 'yes' : 'no'}</Constraint
+    >{/if}
+
 {#if Array.isArray(items)}
     <div style:width="100%">
         <strong>items</strong>
@@ -35,6 +45,11 @@
 
     $: items = definition.items;
     $: additionalItems = definition.additionalItems;
+    $: maxItems = definition.maxItems;
+    $: minItems = definition.minItems;
+    $: maxContains = definition.maxContains;
+    $: minContains = definition.minContains;
+    $: uniqueItems = definition.uniqueItems;
 </script>
 
 <style>

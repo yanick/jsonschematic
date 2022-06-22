@@ -119,23 +119,10 @@
             .replace('enum', 'schemaEnum'),
     ));
 
-    $: noBody = [
-        minLength,
-        maxLength,
-        schemaEnum,
-        schemaConst,
-        comment,
-        description,
-        multipleOf,
-        writeOnly,
-        readOnly,
-        minimum,
-        maximum,
-        exclusiveMinimum,
-        exclusiveMaximum,
-        schemaDefault,
-        items,
-    ].every((x) => !x);
+    $: noBody =
+        Object.keys(definition).filter(
+            (key) => !['type', 'title', '$id', '$schema'].includes(key),
+        ).length === 0;
 
     $: TypeConstraints = type === 'array' ? ArrayConstraints : null;
 </script>

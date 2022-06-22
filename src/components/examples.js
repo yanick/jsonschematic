@@ -143,4 +143,13 @@ export default [
             type: 'number',
         },
     },
+    {
+        title: 'array type',
+        type: 'array',
+        maxItems: 10,
+        minItems: 3,
+        maxContains: 2,
+        minContains: 1,
+        uniqueItems: true,
+    },
 ];
