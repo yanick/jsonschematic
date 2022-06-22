@@ -110,4 +110,37 @@ export default [
         ],
         additionalItems: true,
     },
+    {
+        title: 'additionalItems set to schema',
+        type: 'array',
+        items: [
+            {
+                type: 'number',
+            },
+            {
+                type: 'string',
+            },
+            {
+                type: 'string',
+                enum: ['Street', 'Avenue', 'Boulevard'],
+            },
+            {
+                type: 'string',
+                enum: ['NW', 'NE', 'SW', 'SE'],
+            },
+        ],
+        additionalItems: {
+            type: 'number',
+        },
+    },
+    {
+        title: 'additionalItems with object items',
+        type: 'array',
+        items: {
+            type: 'number',
+        },
+        additionalItems: {
+            type: 'number',
+        },
+    },
 ];

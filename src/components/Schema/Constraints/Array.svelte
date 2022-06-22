@@ -1,9 +1,3 @@
-{#if typeof additionalItems === 'boolean'}
-    <Constraint label="additional items">
-        {additionalItems ? 'allowed' : 'forbidden'}
-    </Constraint>
-{/if}
-
 {#if Array.isArray(items)}
     <div style:width="100%">
         <strong>items</strong>
@@ -21,7 +15,19 @@
     </Constraint>
 {/if}
 
+{#if isDefined(additionalItems)}
+    <Constraint label="additional items" fullwidth>
+        {#if isBoolean(additionalItems)}
+            {additionalItems ? 'allowed' : 'forbidden'}
+        {:else}
+            <Schema definition={additionalItems} />
+        {/if}
+    </Constraint>
+{/if}
+
 <script>
+    import { isDefined, isBoolean } from 'remeda';
+
     import Schema from '../../Schema.svelte';
     import Constraint from '../Constraint.svelte';
 
