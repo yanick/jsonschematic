@@ -13,38 +13,6 @@ test('no undefined', async () => {
     expect(wrapper.queryByText('undefined')).toBeFalsy();
 });
 
-test('string:const', async () => {
-    const { getByText } = render(Schema, {
-        definition: {
-            const: 'potato',
-        },
-    });
-
-    expect(getByText('potato')).toBeTruthy();
-});
-
-test('string:enum', async () => {
-    const { getByText } = render(Schema, {
-        definition: {
-            enum: ['potato'],
-        },
-    });
-
-    expect(getByText('potato')).toBeTruthy();
-});
-
-test('string:length', async () => {
-    const { getByText } = render(Schema, {
-        definition: {
-            minLength: 2,
-            maxLength: 3,
-        },
-    });
-
-    expect(getByText('2')).toBeTruthy();
-    expect(getByText('3')).toBeTruthy();
-});
-
 test('readonly/writeonly', async () => {
     const { getByText } = render(Schema, {
         definition: {

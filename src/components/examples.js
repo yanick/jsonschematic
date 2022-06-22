@@ -15,6 +15,12 @@ export default [
         minLength: 3,
         maxLength: 13,
     },
+    {
+        title: 'string w/ content type and encoding',
+        type: 'string',
+        contentEncoding: 'base64',
+        contentMediaType: 'image/png',
+    },
     { title: 'writeOnly', writeOnly: true, type: 'string' },
     { title: 'readOnly', readOnly: true, type: 'string' },
     { title: 'boolean type', type: 'boolean' },

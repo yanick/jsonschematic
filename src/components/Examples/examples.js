@@ -121,12 +121,6 @@ export default [
         },
     },
     {
-        title: 'string w/ content type and encoding',
-        type: 'string',
-        contentEncoding: 'base64',
-        contentMediaType: 'image/png',
-    },
-    {
         title: 'object with properties, required, minProperties, maxProperties',
         type: 'object',
         properties: {

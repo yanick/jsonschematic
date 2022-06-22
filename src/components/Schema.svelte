@@ -84,6 +84,7 @@
     import * as R from 'remeda';
 
     import ArrayConstraints from './Schema/Constraints/Array.svelte';
+    import StringConstraints from './Schema/Constraints/String.svelte';
 
     export let definition = {};
     export let compact = false;
@@ -124,7 +125,12 @@
             (key) => !['type', 'title', '$id', '$schema'].includes(key),
         ).length === 0;
 
-    $: TypeConstraints = type === 'array' ? ArrayConstraints : null;
+    $: TypeConstraints =
+        type === 'array'
+            ? ArrayConstraints
+            : type === 'string'
+            ? StringConstraints
+            : null;
 </script>
 
 <style>
