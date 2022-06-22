@@ -75,6 +75,13 @@
             </div>
         {/if}
     </div>
+
+    {#if typeof items === 'object'}
+        <div>
+            <label>items</label>
+            <svelte:self definition={items} />
+        </div>
+    {/if}
 </article>
 
 <script>
@@ -191,5 +198,8 @@
     }
     .permission {
         font-variant: all-small-caps;
+    }
+    label {
+        font-weight: bold;
     }
 </style>

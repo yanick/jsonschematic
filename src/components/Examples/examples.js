@@ -88,13 +88,6 @@ export default [
     },
     {
         type: 'array',
-        items: {
-            type: 'number',
-        },
-        title: 'items as a schema',
-    },
-    {
-        type: 'array',
         items: [{ type: 'number' }, { type: 'string' }],
         title: 'items as a tuple',
     },

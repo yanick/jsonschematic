@@ -77,6 +77,16 @@ test('default', async () => {
     expect(getByText('potato')).toBeTruthy();
 });
 
+test.todo('default with object', async () => {
+    const { getByText, debug } = render(Schema, {
+        definition: {
+            default: { a: 'potato' },
+        },
+    });
+
+    expect(getByText('potato')).toBeTruthy();
+});
+
 test('number:multipleOf', async () => {
     const { getByText } = render(Schema, {
         definition: {
@@ -117,4 +127,21 @@ test('array:items', async () => {
     });
 
     expect(wrapper.getByText('no')).toBeTruthy();
+});
+
+describe('array', () => {
+    test('items as schema', () => {
+        const { getByText } = render(Schema, {
+            definition: {
+                type: 'array',
+                items: {
+                    type: 'number',
+                    title: 'the item',
+                },
+                title: 'items as a schema',
+            },
+        });
+
+        expect(getByText('the item')).toBeTruthy();
+    });
 });
