@@ -53,3 +53,15 @@ test('length', async () => {
     expect(getByText('2')).toBeTruthy();
     expect(getByText('3')).toBeTruthy();
 });
+
+test('format', async () => {
+    const { getByText } = render(Schema, {
+        definition: {
+            format: 'date-time',
+            type: 'string',
+        },
+    });
+
+    expect(getByText('format')).toBeTruthy();
+    expect(getByText('date-time')).toBeTruthy();
+});

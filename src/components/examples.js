@@ -21,6 +21,13 @@ export default [
         contentEncoding: 'base64',
         contentMediaType: 'image/png',
     },
+    {
+        title: 'string with a date-time format',
+        type: 'string',
+        format: 'date-time',
+        description:
+            'the format comes with a tooltip too! Hover over the format to see it.',
+    },
     { title: 'writeOnly', writeOnly: true, type: 'string' },
     { title: 'readOnly', readOnly: true, type: 'string' },
     { title: 'boolean type', type: 'boolean' },

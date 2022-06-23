@@ -132,13 +132,6 @@ export default [
         minProperties: 2,
         maxProperties: 3,
     },
-    {
-        title: 'string with a date-time format',
-        type: 'string',
-        format: 'date-time',
-        description:
-            'the format comes with a tooltip too! Hover over the format to see it.',
-    },
     { title: 'examples', type: 'number', examples: [1, 2, 3] },
     { title: 'object examples', type: 'object', examples: [{ level: 3 }] },
     {
