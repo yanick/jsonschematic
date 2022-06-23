@@ -31,6 +31,7 @@ export default [
     { title: 'writeOnly', writeOnly: true, type: 'string' },
     { title: 'readOnly', readOnly: true, type: 'string' },
     { title: 'boolean type', type: 'boolean' },
+    { title: 'examples', type: 'number', examples: [1, 2, 3] },
     {
         title: 'number w/ minimum, maximum',
         keywords: ['number', 'minimum', 'maximum'],

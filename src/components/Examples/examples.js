@@ -132,7 +132,6 @@ export default [
         minProperties: 2,
         maxProperties: 3,
     },
-    { title: 'examples', type: 'number', examples: [1, 2, 3] },
     { title: 'object examples', type: 'object', examples: [{ level: 3 }] },
     {
         title: 'a simple ref',

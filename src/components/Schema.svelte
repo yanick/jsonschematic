@@ -76,6 +76,8 @@
             </div>
         {/if}
 
+        <GenericConstraints {definition} />
+
         <svelte:component this={TypeConstraints} {definition} />
     </div>
 </article>
@@ -83,6 +85,7 @@
 <script>
     import * as R from 'remeda';
 
+    import GenericConstraints from './Schema/Constraints/Generic.svelte';
     import ArrayConstraints from './Schema/Constraints/Array.svelte';
     import StringConstraints from './Schema/Constraints/String.svelte';
 

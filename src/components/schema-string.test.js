@@ -65,3 +65,14 @@ test('format', async () => {
     expect(getByText('format')).toBeTruthy();
     expect(getByText('date-time')).toBeTruthy();
 });
+
+test('examples', async () => {
+    const { getByText } = render(Schema, {
+        definition: {
+            examples: ['this is an example'],
+            type: 'string',
+        },
+    });
+
+    expect(getByText('"this is an example"')).toBeTruthy();
+});
