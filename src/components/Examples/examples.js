@@ -90,18 +90,6 @@ export default [
             credit_card: ['billing_address'],
         },
     },
-    {
-        title: 'object with properties, required, minProperties, maxProperties',
-        type: 'object',
-        properties: {
-            foo: { type: 'string' },
-            bar: { type: 'number' },
-            baz: { type: 'boolean' },
-        },
-        required: ['foo'],
-        minProperties: 2,
-        maxProperties: 3,
-    },
     { title: 'object examples', type: 'object', examples: [{ level: 3 }] },
     {
         title: 'a simple ref',

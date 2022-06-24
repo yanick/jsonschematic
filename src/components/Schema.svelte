@@ -1,7 +1,7 @@
 <article class:noBody>
     <header>
         <div class="schema-title">
-            {#if key}<div class="key">{key}</div>{/if}
+            {#if key}<div class="key" class:required>{key}</div>{/if}
             <div class="type">
                 <span class="type">{type || ''}</span>
             </div>
@@ -94,6 +94,7 @@
     export let key = '';
     export let definition = {};
     export let compact = false;
+    export let required = false;
 
     let title, description, comment, type, id, schema, examples, properties;
     $: ({
@@ -210,5 +211,8 @@
     .key {
         font-weight: bold;
         margin-right: 1em;
+    }
+    .key.required {
+        text-decoration: underline;
     }
 </style>
