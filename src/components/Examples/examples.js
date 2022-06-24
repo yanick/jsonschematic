@@ -90,7 +90,6 @@ export default [
             credit_card: ['billing_address'],
         },
     },
-    { title: 'object examples', type: 'object', examples: [{ level: 3 }] },
     {
         title: 'a simple ref',
         $ref: '#/somewhere/else',

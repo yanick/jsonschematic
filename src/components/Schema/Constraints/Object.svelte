@@ -9,7 +9,7 @@
 {#if required.length > 0}
     <Constraint label="required properties" fullwidth>
         {#each required as prop (prop)}
-            <code>{ prop }</code>
+            <code>{prop}</code>
         {/each}
     </Constraint>
 {/if}

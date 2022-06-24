@@ -208,4 +208,5 @@ export default [
         minProperties: 2,
         maxProperties: 3,
     },
+    { title: 'object examples', type: 'object', examples: [{ level: 3 }] },
 ];
