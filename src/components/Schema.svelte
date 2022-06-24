@@ -1,6 +1,7 @@
 <article class:noBody>
     <header>
         <div class="schema-title">
+            {#if key}<div class="key">{key}</div>{/if}
             <div class="type">
                 <span class="type">{type || ''}</span>
             </div>
@@ -88,7 +89,9 @@
     import GenericConstraints from './Schema/Constraints/Generic.svelte';
     import ArrayConstraints from './Schema/Constraints/Array.svelte';
     import StringConstraints from './Schema/Constraints/String.svelte';
+    import ObjectConstraints from './Schema/Constraints/Object.svelte';
 
+    export let key = '';
     export let definition = {};
     export let compact = false;
 
@@ -128,12 +131,13 @@
             (key) => !['type', 'title', '$id', '$schema'].includes(key),
         ).length === 0;
 
-    $: TypeConstraints =
-        type === 'array'
-            ? ArrayConstraints
-            : type === 'string'
-            ? StringConstraints
-            : null;
+    const constraints = {
+        array: ArrayConstraints,
+        string: StringConstraints,
+        object: ObjectConstraints,
+    };
+
+    $: TypeConstraints = constraints[type];
 </script>
 
 <style>
@@ -202,5 +206,9 @@
     }
     label {
         font-weight: bold;
+    }
+    .key {
+        font-weight: bold;
+        margin-right: 1em;
     }
 </style>

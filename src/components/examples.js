@@ -166,4 +166,22 @@ export default [
         minContains: 1,
         uniqueItems: true,
     },
+    {
+        title: 'additionalProperties as `false`',
+        type: 'object',
+        properties: {
+            foo: { type: 'string' },
+        },
+        additionalProperties: false,
+    },
+    {
+        title: 'additionalProperties as object',
+        type: 'object',
+        properties: {
+            foo: { type: 'string' },
+        },
+        additionalProperties: {
+            type: 'string',
+        },
+    },
 ];

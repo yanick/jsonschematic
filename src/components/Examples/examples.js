@@ -19,24 +19,6 @@ export default [
         title: 'propertyNames',
     },
     {
-        title: 'additionalProperties as `false`',
-        type: 'object',
-        properties: {
-            foo: { type: 'string' },
-        },
-        additionalProperties: false,
-    },
-    {
-        title: 'additionalProperties as object',
-        type: 'object',
-        properties: {
-            foo: { type: 'string' },
-        },
-        additionalProperties: {
-            type: 'string',
-        },
-    },
-    {
         title: 'not',
         type: 'string',
         not: { maxLength: 5 },

@@ -26,13 +26,10 @@
 {/if}
 
 {#if isDefined(additionalItems)}
-    <Constraint label="additional items" fullwidth>
-        {#if isBoolean(additionalItems)}
-            {additionalItems ? 'allowed' : 'forbidden'}
-        {:else}
-            <Schema definition={additionalItems} />
-        {/if}
-    </Constraint>
+    <AdditionalProperties
+        additionalProperties={additionalItems}
+        label="additional items"
+    />
 {/if}
 
 <script>
@@ -40,6 +37,7 @@
 
     import Schema from '../../Schema.svelte';
     import Constraint from '../Constraint.svelte';
+    import AdditionalProperties from './AdditionalProperties.svelte';
 
     export let definition = {};
 
