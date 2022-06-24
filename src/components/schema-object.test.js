@@ -11,9 +11,14 @@ test('basic', async () => {
         properties: {
             foo: { type: 'string' },
         },
+        patternProperties: {
+            '^PATTERN': { type: 'string', title: 'pattern' },
+        },
         additionalProperties: false,
     });
 
     expect(getByText('foo')).toBeTruthy();
     expect(getByText('forbidden')).toBeTruthy();
+    expect(getByText('^PATTERN')).toBeTruthy();
+    expect(getByText('pattern')).toBeTruthy();
 });

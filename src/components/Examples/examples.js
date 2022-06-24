@@ -1,18 +1,6 @@
 export default [
     {
         type: 'object',
-        properties: {
-            builtin: { type: 'number' },
-        },
-        patternProperties: {
-            '^S_': { type: 'string' },
-            '^I_': { type: 'integer' },
-        },
-        additionalProperties: { type: 'string' },
-        title: 'patternProperties',
-    },
-    {
-        type: 'object',
         propertyNames: {
             pattern: '^[A-Za-z_][A-Za-z0-9_]*$',
         },

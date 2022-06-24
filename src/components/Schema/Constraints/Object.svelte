@@ -6,6 +6,14 @@
     </Constraint>
 {/if}
 
+{#if patternProperties}
+    <Constraint label="pattern properties" fullwidth>
+        {#each Object.keys(patternProperties) as prop (prop)}
+            <Schema key={prop} definition={patternProperties[prop]} />
+        {/each}
+    </Constraint>
+{/if}
+
 {#if isDefined(additionalProperties)}
     <AdditionalProperties {additionalProperties} />
 {/if}
@@ -21,6 +29,7 @@
 
     $: properties = definition.properties;
     $: additionalProperties = definition.additionalProperties;
+    $: patternProperties = definition.patternProperties;
 </script>
 
 <style>
