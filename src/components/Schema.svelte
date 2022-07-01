@@ -1,5 +1,5 @@
-<article class:noBody>
-    <header>
+<details class="container-fluid" {open}>
+    <summary>
         <div class="schema-title">
             {#if key}<div class="key" class:required>{key}</div>{/if}
             <div class="type">
@@ -16,7 +16,7 @@
                 <a href={schema}>{schema}</a>
             {/if}
         </div>
-    </header>
+    </summary>
 
     {#if description}
         <div class="description">{description}</div>
@@ -81,7 +81,7 @@
 
         <svelte:component this={TypeConstraints} {definition} />
     </div>
-</article>
+</details>
 
 <script>
     import * as R from 'remeda';
@@ -95,6 +95,8 @@
     export let definition = {};
     export let compact = false;
     export let required = false;
+    export let topLevel = false;
+    export let open = topLevel || true;
 
     let title, description, comment, type, id, schema, examples, properties;
     $: ({
@@ -142,6 +144,9 @@
 </script>
 
 <style>
+    details {
+        max-width: 70em;
+    }
     .type {
         width: 5em;
     }
@@ -214,5 +219,62 @@
     }
     .key.required {
         text-decoration: underline;
+    }
+
+    details .schema-title::before {
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        -webkit-margin-start: calc(var(--spacing, 1rem) * 0.5);
+        margin-inline-start: calc(var(--spacing, 1rem) * 0.5);
+        /*  float: left; */
+        transform: rotate(-90deg);
+        background-image: var(--icon-chevron);
+        background-position: right center;
+        background-size: 1rem auto;
+        background-repeat: no-repeat;
+        content: '';
+        transition: transform var(--transition);
+    }
+
+    summary::after {
+        display: none;
+    }
+
+    details[open] > summary > .schema-title::before {
+        transform: rotate(0);
+    }
+
+    details {
+        margin-top: var(--block-spacing-vertical);
+        margin-bottom: var(--block-spacing-vertical);
+        padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
+        /*
+margin: var(--block-spacing-vertical) 0;
+    padding-bottom: 0px;
+background: var(--card-background-color);
+    */
+        border-radius: var(--border-radius);
+        box-shadow: var(--card-box-shadow);
+    }
+
+    summary {
+        /*
+    margin-top: calc(var(--block-spacing-vertical) * -1);
+    margin-bottom: var(--block-spacing-vertical);
+margin-right: calc(var(--block-spacing-horizontal) * -1);
+margin-left: calc(var(--block-spacing-horizontal) * -1);
+padding: calc(var(--block-spacing-vertical) * 0.66) var(--block-spacing-horizontal);
+    padding-bottom: 0px;
+    border-bottom: var(--border-width) solid var(--card-border-color);
+    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+background: var(--card-background-color);
+background-color: var(--card-sectionning-background-color);
+*/
+    }
+
+    summary + * {
+        margin-top: 2em;
     }
 </style>
