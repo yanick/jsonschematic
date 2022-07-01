@@ -1,8 +1,14 @@
 {
-   "bin": {
-      "jsonschematic": "bin/jsonschematic.js"
-   },
+   "description": "json schema viewer",
    "bugs": "https://github.com/yanick/jsonschematic/issues",
+   "version": "0.0.7",
+   "homepage": "https://yanick.github.io/jsonschematic/",
+   "keywords": [
+      "json schema"
+   ],
+   "license": "MIT",
+   "name": "@infinity-interactive/jsonschematic",
+   "repository": "github:yanick/jsonschematic",
    "contributors": [
       {
          "email": "yanick.champoux@iinteractive.com",
@@ -13,6 +19,9 @@
          "name": "Trey Bianchini"
       }
    ],
+   "bin": {
+      "jsonschematic": "bin/jsonschematic.js"
+   },
    "dependencies": {
       "@picocss/pico": "^1.5.3",
       "@sveltejs/vite-plugin-svelte": "^1.0.0-next.47",
@@ -29,7 +38,6 @@
       "vite": "^2.9.9",
       "yargs": "^15.4.1"
    },
-   "description": "json schema viewer",
    "devDependencies": {
       "@apidevtools/json-schema-ref-parser": "9.0.5",
       "@babel/core": "7.10.5",
@@ -67,7 +75,6 @@
       "svelte-loader": "2.13.6",
       "svelte-test": "^0.4.0",
       "sveltejs-tippy": "3.0.0",
-      "tap": "^14.10.7",
       "vitest": "^0.15.2"
    },
    "eslintConfig": {
@@ -108,14 +115,7 @@
          "lodash/prefer-lodash-method": "off"
       }
    },
-   "homepage": "https://yanick.github.io/jsonschematic/",
-   "keywords": [
-      "json schema"
-   ],
-   "license": "MIT",
    "main": "src/server.js",
-   "name": "@infinity-interactive/jsonschematic",
-   "repository": "github:yanick/jsonschematic",
    "scripts": {
       "build": "vite build",
       "dev": "vite",
@@ -133,8 +133,7 @@
       "promake": "./Promake",
       "release": "standard-version",
       "start": "node ./bin/jsonschematic.js --local --schema_dir examples",
-      "storybook": "start-storybook",
-      "test": "tap 'src/**/*test.js' --no-coverage"
+      "storybook": "start-storybook"
    },
    "standard-version": {
       "skip": {
@@ -178,9 +177,5 @@
             "type": "test"
          }
       ]
-   },
-   "tap": {
-      "coverage": false
-   },
-   "version": "0.0.7"
+   }
 }

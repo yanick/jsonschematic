@@ -1,8 +1,11 @@
-<article>
+<article class:noBody>
     <header>
         <div class="schema-title">
+            {#if key}<div class="key" class:required>{key}</div>{/if}
+            <div class="type">
+                <span class="type">{type || ''}</span>
+            </div>
             <div class="title">{title || ''}</div>
-            <div class="type">{type || ''}</div>
         </div>
         <div class="id-section">
             {#if id}
@@ -19,13 +22,79 @@
         <div class="description">{description}</div>
     {/if}
     {#if comment} <blockquote>{comment}</blockquote>{/if}
+
+    <div class="constraints">
+        {#if schemaConst}
+            <div class="const">
+                <strong>const</strong><code>{schemaConst}</code>
+            </div>
+        {/if}
+
+        {#if schemaEnum}
+            <div class="enum">
+                <strong>enum</strong>
+                {#each schemaEnum as constant}
+                    <code>{constant}</code>
+                {/each}
+            </div>
+        {/if}
+
+        {#if minLength}<div><strong>min length</strong> {minLength}</div>{/if}
+        {#if maxLength}<div><strong>max length</strong> {maxLength}</div>{/if}
+
+        {#if writeOnly}<div class="permission">
+                <strong>writeOnly</strong>
+            </div>{/if}
+
+        {#if readOnly}<div class="permission">
+                <strong>readOnly</strong>
+            </div>{/if}
+
+        {#if minimum}<div><strong>mininum</strong> {minimum}</div>{/if}
+        {#if exclusiveMinimum}<div>
+                <strong>mininum (exclusive)</strong>
+                {exclusiveMinimum}
+            </div>{/if}
+        {#if maximum}<div><strong>maximum</strong> {maximum}</div>{/if}
+        {#if exclusiveMaximum}<div>
+                <strong>maximum (exclusive)</strong>
+                {exclusiveMaximum}
+            </div>{/if}
+
+        {#if multipleOf}<div>
+                <strong>multiple of</strong>
+                {multipleOf}
+            </div>{/if}
+
+        {#if schemaDefault}<div>
+                <strong>default</strong> <code>{schemaDefault}</code>
+            </div>{/if}
+
+        {#if typeof items === 'boolean'}
+            <div>
+                <strong>additional items</strong>
+                {items ? 'yes' : 'no'}
+            </div>
+        {/if}
+
+        <GenericConstraints {definition} />
+
+        <svelte:component this={TypeConstraints} {definition} />
+    </div>
 </article>
 
 <script>
     import * as R from 'remeda';
 
+    import GenericConstraints from './Schema/Constraints/Generic.svelte';
+    import ArrayConstraints from './Schema/Constraints/Array.svelte';
+    import StringConstraints from './Schema/Constraints/String.svelte';
+    import ObjectConstraints from './Schema/Constraints/Object.svelte';
+
+    export let key = '';
     export let definition = {};
     export let compact = false;
+    export let required = false;
 
     let title, description, comment, type, id, schema, examples, properties;
     $: ({
@@ -37,11 +106,46 @@
         schema,
         examples,
         properties,
-    } = R.mapKeys(definition, (key) => key.replace('$', '')));
+        schemaConst,
+        schemaEnum,
+        minLength,
+        maxLength,
+        readOnly,
+        writeOnly,
+        minimum,
+        maximum,
+        exclusiveMinimum,
+        exclusiveMaximum,
+        schemaDefault,
+        multipleOf,
+        items,
+    } = R.mapKeys(definition, (key) =>
+        key
+            .replace('$', '')
+            .replace('default', 'schemaDefault')
+            .replace('const', 'schemaConst')
+            .replace('enum', 'schemaEnum'),
+    ));
+
+    $: noBody =
+        Object.keys(definition).filter(
+            (key) => !['type', 'title', '$id', '$schema'].includes(key),
+        ).length === 0;
+
+    const constraints = {
+        array: ArrayConstraints,
+        string: StringConstraints,
+        object: ObjectConstraints,
+    };
+
+    $: TypeConstraints = constraints[type];
 </script>
 
 <style>
     .type {
+        width: 5em;
+    }
+    .type span {
         border-radius: 8px;
         padding: 0em 0.3em 0.2em;
         background-color: var(--mark-background-color);
@@ -62,7 +166,7 @@
         padding-bottom: 0px;
     }
 
-    header div:first-child div:first-child {
+    header .title {
         color: var(--primary);
         flex: 1;
     }
@@ -77,5 +181,38 @@
 
     .id-section div {
         flex: 1;
+    }
+
+    article.noBody {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    strong {
+        margin-right: 1em;
+    }
+    .enum code {
+        margin-right: 1em;
+    }
+    .constraints {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+    }
+    .constraints > * {
+        margin-right: 2em;
+    }
+    .permission {
+        font-variant: all-small-caps;
+    }
+    label {
+        font-weight: bold;
+    }
+    .key {
+        font-weight: bold;
+        margin-right: 1em;
+    }
+    .key.required {
+        text-decoration: underline;
     }
 </style>
