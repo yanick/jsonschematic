@@ -56,4 +56,7 @@
 </script>
 
 <style>
+    code {
+        margin-right: 1em;
+    }
 </style>

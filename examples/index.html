@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../dist/style.css" />
+    </head>
+    <body>
+        <div id="jsonschematic" />
+
+        <script type="module">
+            import { Jsonschematic } from '../dist/jsonschematic.es.js';
+
+            const schemas = createSchemas([]);
+
+            const app = new JsonSchema({
+                target: document.getElementById('jsonschematic'),
+                props: {
+                    schemas: ['./release-schema.json'],
+                },
+            });
+        </script>
+    </body>
+</html>

@@ -10,3 +10,4 @@ GPUCache/
 pnpm-debug.log
 infinity-interactive-jsonschematic-*
 static/build
+dist
