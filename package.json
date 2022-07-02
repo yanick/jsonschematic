@@ -35,6 +35,7 @@
       "remeda": "^0.0.35",
       "sirv": "1.0.1",
       "style-loader": "^1.2.1",
+      "svelte-clipboard": "^1.0.0",
       "vite": "^2.9.9",
       "yargs": "^15.4.1"
    },
