@@ -1,4 +1,7 @@
 <details class="container-fluid" {open}>
+    {#if showRawSchema}
+        <RawSchemaModal {definition} bind:open={showRawSchema} />
+    {/if}
     <summary>
         <div class="schema-title">
             {#if key}<div class="key" class:required>{key}</div>{/if}
@@ -6,6 +9,11 @@
                 <span class="type">{type || ''}</span>
             </div>
             <div class="title">{title || ''}</div>
+            <div>
+                <button class="outline" on:click={() => (showRawSchema = true)}
+                    >raw</button
+                >
+            </div>
         </div>
         <div class="id-section">
             {#if id}
@@ -90,6 +98,7 @@
     import ArrayConstraints from './Schema/Constraints/Array.svelte';
     import StringConstraints from './Schema/Constraints/String.svelte';
     import ObjectConstraints from './Schema/Constraints/Object.svelte';
+    import RawSchemaModal from './Schema/RawSchemaModal.svelte';
 
     export let key = '';
     export let definition = {};
@@ -141,9 +150,13 @@
     };
 
     $: TypeConstraints = constraints[type];
+
+    let showRawSchema = false;
 </script>
 
 <style>
+    summary {
+    }
     details {
         max-width: 70em;
     }
@@ -159,11 +172,13 @@
     .schema-title {
         display: flex;
         width: 100%;
-        align-items: baseline;
+        align-items: center;
+        align-content: center;
     }
 
     header .title {
         font-size: var(--font-size-12);
+        flex: 1;
     }
 
     .innerLevel > header {
@@ -171,7 +186,7 @@
         padding-bottom: 0px;
     }
 
-    header .title {
+    summary .title {
         color: var(--primary);
         flex: 1;
     }
@@ -276,5 +291,9 @@ background-color: var(--card-sectionning-background-color);
 
     summary + * {
         margin-top: 2em;
+    }
+    button {
+        font-size: var(--font-size-8);
+        padding: 0.25em 0.5em;
     }
 </style>
