@@ -5,9 +5,11 @@
     <summary>
         <div class="schema-title">
             {#if key}<div class="key" class:required>{key}</div>{/if}
-            <div class="type">
-                <span class="type">{type || ''}</span>
-            </div>
+            {#if type}
+                <div class="type">
+                    <span class="type">{type || ''}</span>
+                </div>
+            {/if}
             <div class="title">{title || ''}</div>
             <div>
                 <button class="outline" on:click={() => (showRawSchema = true)}
@@ -32,6 +34,13 @@
     {#if comment} <blockquote>{comment}</blockquote>{/if}
 
     <div class="constraints">
+        {#if schemaRef}
+            <Constraint label="$ref">
+                <a on:click={schemas.gotoDefinition(schemaRef, uri)}>
+                    {schemaRef}
+                </a>
+            </Constraint>
+        {/if}
         {#if schemaConst}
             <div class="const">
                 <strong>const</strong><code>{schemaConst}</code>
@@ -92,6 +101,7 @@
 </details>
 
 <script>
+    import { getContext } from 'svelte';
     import * as R from 'remeda';
 
     import GenericConstraints from './Schema/Constraints/Generic.svelte';
@@ -99,6 +109,7 @@
     import StringConstraints from './Schema/Constraints/String.svelte';
     import ObjectConstraints from './Schema/Constraints/Object.svelte';
     import RawSchemaModal from './Schema/RawSchemaModal.svelte';
+    import Constraint from './Schema/Constraint.svelte';
 
     export let key = '';
     export let definition = {};
@@ -106,6 +117,10 @@
     export let required = false;
     export let topLevel = false;
     export let open = topLevel || true;
+
+    export let uri;
+
+    const schemas = getContext('schemas');
 
     let title, description, comment, type, id, schema, examples, properties;
     $: ({
@@ -130,8 +145,10 @@
         schemaDefault,
         multipleOf,
         items,
+        schemaRef,
     } = R.mapKeys(definition, (key) =>
         key
+            .replace('$ref', 'schemaRef')
             .replace('$', '')
             .replace('default', 'schemaDefault')
             .replace('const', 'schemaConst')
