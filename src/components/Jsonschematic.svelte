@@ -1,5 +1,7 @@
 <a id="top" />
 
+<SchemasAside />
+
 {#if definition}
     <Schema {definition} {uri} topLevel />
 {:else}
@@ -11,6 +13,7 @@
 
     import SchemaStore from '../stores/schemas.js';
     import Schema from './Schema.svelte';
+    import SchemasAside from './SchemasAside.svelte';
 
     export let schemas = [];
 
