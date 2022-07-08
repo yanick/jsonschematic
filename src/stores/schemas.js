@@ -18,6 +18,7 @@ export default class Schemas {
     activeDefinition = writable({
         schemaUrl: '',
         url: '',
+        definitionPath: '',
         loading: false,
         definition: undefined,
         error: undefined,
@@ -74,6 +75,8 @@ export default class Schemas {
         let [schemaUrl, hashPath] = uri.split('#');
 
         console.log({ schemaUrl, hashPath });
+
+        this.updateActiveDefinition({ definitionPath: hashPath });
 
         if (schemaUrl) {
             this.updateActiveDefinition({ schemaUrl });

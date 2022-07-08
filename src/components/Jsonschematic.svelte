@@ -1,5 +1,7 @@
+<a id="top" />
+
 {#if definition}
-    <Schema {definition} topLevel />
+    <Schema {definition} {uri} topLevel />
 {:else}
     <div class="container" aria-busy="true">Loading schema...</div>
 {/if}
@@ -20,11 +22,7 @@
     setContext('schemas', store);
 
     const activeDefinition = store.activeDefinition;
-    activeDefinition.subscribe((a) => {
-        console.log('Hello!');
-    });
 
     $: definition = $activeDefinition.definition;
-    $: console.log($activeDefinition);
-    // TODO waiting until the schema is loaded
+    $: uri = $activeDefinition.definitionPath;
 </script>

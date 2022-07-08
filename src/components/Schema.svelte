@@ -20,6 +20,8 @@
         <div class="id-section">
             {#if id}
                 <div><strong>id:</strong> {id}</div>
+            {:else if uri}
+                <div>#{uri}</div>
             {/if}
 
             {#if schema}
@@ -36,7 +38,10 @@
     <div class="constraints">
         {#if schemaRef}
             <Constraint label="$ref">
-                <a on:click={schemas.gotoDefinition(schemaRef, uri)}>
+                <a
+                    on:click={schemas.gotoDefinition(schemaRef, uri)}
+                    href="#top"
+                >
                     {schemaRef}
                 </a>
             </Constraint>
