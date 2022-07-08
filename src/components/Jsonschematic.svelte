@@ -12,16 +12,19 @@
 
     export let schemas = [];
 
-    const store = SchemaStore();
+    const store = new SchemaStore();
 
-    $: schemas.forEach(store.setSchema);
+    $: schemas.forEach((url) => store.loadSchema(url));
+    $: store.gotoDefinition(schemas[0]);
 
     setContext('schemas', store);
 
-    const activeSchema = store.activeSchema;
+    const activeDefinition = store.activeDefinition;
+    activeDefinition.subscribe((a) => {
+        console.log('Hello!');
+    });
 
-    $: definition = $activeSchema.definition;
-    $: console.log($activeSchema);
-
+    $: definition = $activeDefinition.definition;
+    $: console.log($activeDefinition);
     // TODO waiting until the schema is loaded
 </script>

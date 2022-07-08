@@ -12,15 +12,19 @@ const has = (matcher) => (obj) => {
     return true;
 };
 
-export default function () {
-    const schemas = writable([]);
+export default class Schemas {
+    schemas = writable([]);
 
-    const activeSchema = derived(schemas, (schemas) =>
-        schemas.find(has({ active: true })),
-    );
+    activeDefinition = writable({
+        schemaUrl: '',
+        url: '',
+        loading: false,
+        definition: undefined,
+        error: undefined,
+    });
 
-    const updateSchema = (url, update) => {
-        schemas.update((schemas) => {
+    updateSchema(url, update) {
+        this.schemas.update((schemas) => {
             let found = false;
             const updated = schemas.map((schema) => {
                 if (schema.url !== url) return schema;
@@ -30,39 +34,74 @@ export default function () {
             if (found) return updated;
             return [...updated, { url, ...update }];
         });
-    };
+    }
 
-    const setSchema = (url = null, definition = null, active = true) => {
-        if (definition) updateSchema(url, definition);
+    getSchema(url) {
+        return get(this.schemas).find(has({ url }));
+    }
 
-        if (active) {
-            schemas.update((schemas) =>
-                schemas.map((schema) => ({ ...schema, active: false })),
-            );
-            updateSchema(url, { active: true });
-        }
+    async loadSchema(url, definition = null) {
+        if (definition) this.updateSchema(url, definition);
 
-        let schema = get(schemas).find(has({ url }));
-        if (schema.definition) return;
+        let schema = this.getSchema(url);
+        if (schema && schema.definition) return schema;
 
-        schema.loading = true;
+        this.updateSchema(url, { loading: true });
 
-        updateSchema(url, { loading: true });
-
-        fetch(schema.url)
+        await fetch(url)
             .then((res) => res.json())
             .then((definition) => {
-                updateSchema(url, { definition });
+                this.updateSchema(url, { definition });
             })
             .catch((error) => {
-                updateSchema(url, { error });
+                this.updateSchema(url, { error });
             })
-            .finally(() => updateSchema(url, { loading: false }));
-    };
+            .finally(() => this.updateSchema(url, { loading: false }));
 
-    return {
-        schemas,
-        activeSchema,
-        setSchema,
-    };
+        return this.getSchema(url);
+    }
+
+    updateActiveDefinition(delta) {
+        console.log(this.activeDefinition);
+        this.activeDefinition.update((def) => ({ ...def, ...delta }));
+    }
+
+    async gotoDefinition(uri, parentUri = null) {
+        console.log(uri, parentUri);
+
+        this.updateActiveDefinition({ loading: true, error: undefined });
+
+        let [schemaUrl, hashPath] = uri.split('#');
+
+        console.log({ schemaUrl, hashPath });
+
+        if (schemaUrl) {
+            this.updateActiveDefinition({ schemaUrl });
+        } else {
+            schemaUrl = get(this.activeDefinition).schemaUrl;
+        }
+
+        const schema = await this.loadSchema(schemaUrl);
+
+        if (!schema) {
+            this.updateActiveDefinition({
+                error: 'schema not found',
+                loading: false,
+            });
+            return;
+        }
+
+        if (!hashPath) {
+            this.updateActiveDefinition({ definition: schema.definition });
+            return;
+        }
+
+        let definition = schema.definition;
+        hashPath
+            .split('/')
+            .filter((x) => x)
+            .forEach((key) => (definition = definition[key]));
+
+        this.updateActiveDefinition({ definition });
+    }
 }
