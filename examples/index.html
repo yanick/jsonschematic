@@ -3,19 +3,12 @@
         <link rel="stylesheet" href="../dist/style.css" />
     </head>
     <body>
-        <div id="jsonschematic" />
+        <div id="jsonschematic-app" />
 
         <script type="module">
-            import { Jsonschematic } from '../dist/jsonschematic.es.js';
+            import { startJsonschematic } from '../dist/jsonschematic.es.js';
 
-            const schemas = createSchemas([]);
-
-            const app = new JsonSchema({
-                target: document.getElementById('jsonschematic'),
-                props: {
-                    schemas: ['./release-schema.json'],
-                },
-            });
+            startJsonschematic('jsonschematic-app', './release-schema.json');
         </script>
     </body>
 </html>
