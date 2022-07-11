@@ -1,12 +1,14 @@
-<a id="top" />
+<div class="jsonschematic container-fluid container">
+    <a id="top" />
 
-<SchemasAside />
+    <SchemasAside schemas={$storeSchemas} />
 
-{#if definition}
-    <Schema {definition} {uri} topLevel />
-{:else}
-    <div class="container" aria-busy="true">Loading schema...</div>
-{/if}
+    {#if definition}
+        <Schema {definition} {uri} topLevel />
+    {:else}
+        <div class="container" aria-busy="true">Loading schema...</div>
+    {/if}
+</div>
 
 <script>
     import { getContext, setContext } from 'svelte';
@@ -18,6 +20,7 @@
     export let schemas = [];
 
     const store = new SchemaStore();
+    const storeSchemas = store.schemas;
 
     $: schemas.forEach((url) => store.loadSchema(url));
     $: store.gotoDefinition(schemas[0]);
@@ -28,4 +31,11 @@
 
     $: definition = $activeDefinition.definition;
     $: uri = $activeDefinition.definitionPath;
+    $: console.log($activeDefinition);
 </script>
+
+<style>
+    .jsonschematic {
+        display: flex;
+    }
+</style>

@@ -95,16 +95,19 @@ export default class Schemas {
         }
 
         if (!hashPath) {
-            this.updateActiveDefinition({ definition: schema.definition });
+            this.updateActiveDefinition({
+                definition: schema.definition,
+                loading: false,
+            });
             return;
         }
 
-        let definition = schema.definition;
+        let definition = schema.definition.definitions;
         hashPath
             .split('/')
             .filter((x) => x)
             .forEach((key) => (definition = definition[key]));
 
-        this.updateActiveDefinition({ definition });
+        this.updateActiveDefinition({ definition, loading: false });
     }
 }
