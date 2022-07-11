@@ -1,8 +1,8 @@
-import '../src/style/index.js';
+import './style/index.js';
 
-import JS from './components/Jsonschematic.svelte';
+import JS from './components/JsonSchematic.svelte';
 
-export const Jsonschematic = JS;
+export const JsonSchematic = JS;
 
 export function startJsonschematic(appId, ...schemas) {
     const app = new JS({

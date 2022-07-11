@@ -116,7 +116,7 @@
          "lodash/prefer-lodash-method": "off"
       }
    },
-   "main": "src/server.js",
+   "main": "src/index.js",
    "scripts": {
       "build": "vite build",
       "dev": "vite",
