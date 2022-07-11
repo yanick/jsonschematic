@@ -1,7 +1,7 @@
 {
    "description": "json schema viewer",
    "bugs": "https://github.com/yanick/jsonschematic/issues",
-   "version": "0.0.7",
+   "version": "1.0.0-rc1",
    "homepage": "https://yanick.github.io/jsonschematic/",
    "keywords": [
       "json schema"
