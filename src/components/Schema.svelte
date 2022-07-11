@@ -1,13 +1,15 @@
-<details class="container-fluid" {open}>
+<details {open}>
     {#if showRawSchema}
         <RawSchemaModal {definition} bind:open={showRawSchema} />
     {/if}
     <summary>
         <div class="schema-title">
             {#if key}<div class="key" class:required>{key}</div>{/if}
-            {#if type}
+            {#if types.length > 0}
                 <div class="type">
-                    <span class="type">{type || ''}</span>
+                    {#each types as t (t)}
+                        <span>{t || ''}</span>
+                    {/each}
                 </div>
             {/if}
             <div class="title">{title || ''}</div>
@@ -160,6 +162,8 @@
             .replace('enum', 'schemaEnum'),
     ));
 
+    $: types = Array.isArray(type) ? type : type ? [type] : [];
+
     $: noBody =
         Object.keys(definition).filter(
             (key) => !['type', 'title', '$id', '$schema'].includes(key),
@@ -183,12 +187,13 @@
         max-width: 70em;
     }
     .type {
-        width: 5em;
     }
     .type span {
+        width: 5em;
         border-radius: 8px;
         padding: 0em 0.3em 0.2em;
         background-color: var(--mark-background-color);
+        margin-right: 0.5em;
     }
 
     .schema-title {
