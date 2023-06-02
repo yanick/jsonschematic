@@ -19,3 +19,4 @@ node_modules
 .env.*
 !.env.example
 vite.config.*.timestamp-*
+pnpm-lock.yaml
