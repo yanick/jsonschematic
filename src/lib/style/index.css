@@ -1,0 +1,5 @@
+:root {
+	--font-scale-11: calc(1.1 * 1rem);
+	--font-scale-12: calc(1.1 * var(--font-scale-11));
+	--font-scale-13: calc(1.1 * var(--font-scale-12));
+}
