@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../dist/style.css" />
+    </head>
+    <body>
+        <div id="jsonschematic-app" />
+
+        <script type="module">
+            import { startJsonschematic } from '../dist/jsonschematic.es.js';
+
+            startJsonschematic('jsonschematic-app', './release-schema.json');
+        </script>
+    </body>
+</html>

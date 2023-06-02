@@ -16,8 +16,6 @@ scripts/prettier
 webpack.config.js
 webpack.docs.config.js
 cypress.json
-examples/example.json
-examples/json-schema-v7.json
-examples/release-schema.json
 scripts/merge_package.pl
 package.yaml
+src/node_modules
