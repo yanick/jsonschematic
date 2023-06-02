@@ -22,102 +22,14 @@
    "bin": {
       "jsonschematic": "bin/jsonschematic.js"
    },
-   "dependencies": {
-      "@picocss/pico": "^1.5.3",
-      "@sveltejs/vite-plugin-svelte": "^1.0.0-next.47",
-      "compression": "1.7.4",
-      "css-loader": "^3.6.0",
-      "express": "^4.17.1",
-      "globby": "11.0.1",
-      "jsonpointer": "4.1.0",
-      "lodash": "4.17.19",
-      "polka": "next",
-      "remeda": "^0.0.35",
-      "sirv": "1.0.1",
-      "style-loader": "^1.2.1",
-      "svelte-clipboard": "^1.0.0",
-      "vite": "^2.9.9",
-      "yargs": "^15.4.1"
-   },
-   "devDependencies": {
-      "@apidevtools/json-schema-ref-parser": "9.0.5",
-      "@babel/core": "7.10.5",
-      "@babel/plugin-syntax-dynamic-import": "7.8.3",
-      "@babel/plugin-transform-runtime": "7.10.5",
-      "@babel/preset-env": "7.10.4",
-      "@babel/runtime": "7.10.5",
-      "@storybook/addon-actions": "6.5.7",
-      "@storybook/addon-essentials": "^6.5.7",
-      "@storybook/addon-interactions": "^6.5.7",
-      "@storybook/addon-links": "^6.5.7",
-      "@storybook/addon-svelte-csf": "^2.0.4",
-      "@storybook/builder-vite": "^0.1.36",
-      "@storybook/svelte": "6.5.7",
-      "@testing-library/svelte": "3.0.0",
-      "babel-loader": "8.1.0",
-      "eslint": "7.5.0",
-      "eslint-config-prettier": "8.5.0",
-      "eslint-plugin-babel": "5.3.1",
-      "eslint-plugin-lodash": "^7.1.0",
-      "eslint-plugin-prettier": "4.0.0",
-      "eslint-plugin-svelte3": "2.7.3",
-      "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0",
-      "jsdom": "^16.3.0",
-      "jsdom-global": "^3.0.2",
-      "lint-diff": "1.2.1",
-      "mini-css-extract-plugin": "^0.9.0",
-      "npm-run-all": "4.1.5",
-      "prettier": "2.6.2",
-      "prettier-plugin-svelte": "2.7.0",
-      "require-extension-hooks": "^0.3.3",
-      "require-extension-hooks-module": "^0.1.4",
-      "standard-version": "8.0.2",
-      "svelte": "3.48.0",
-      "svelte-loader": "2.13.6",
-      "svelte-test": "^0.4.0",
-      "sveltejs-tippy": "3.0.0",
-      "vitest": "^0.15.2"
-   },
-   "eslintConfig": {
-      "env": {
-         "amd": true,
-         "browser": true,
-         "es6": true,
-         "node": true
-      },
-      "extends": [
-         "prettier",
-         "eslint:recommended",
-         "plugin:you-dont-need-lodash-underscore/compatible",
-         "plugin:lodash/recommended"
-      ],
-      "ignorePatterns": [
-         "src/node_modules"
-      ],
-      "overrides": [
-         {
-            "files": [
-               "*.svelte"
-            ],
-            "processor": "svelte3/svelte3"
-         }
-      ],
-      "parserOptions": {
-         "ecmaFeatures": {
-            "modules": true
-         },
-         "ecmaVersion": "2020",
-         "sourceType": "module"
-      },
-      "plugins": [
-         "svelte3"
-      ],
-      "rules": {
-         "lodash/prefer-lodash-method": "off"
-      }
-   },
    "main": "src/index.js",
-   "scripts": {
+	"type": "module",
+	"scripts": {
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"test": "playwright test",
+		"test:unit": "vitest",
+		"format": "prettier --plugin-search-dir . --write .",
       "build": "vite build",
       "dev": "vite",
       "preview": "vite preview",
@@ -134,5 +46,21 @@
       "promake": "./Promake",
       "start": "node ./bin/jsonschematic.js --local --schema_dir examples",
       "storybook": "start-storybook"
-   }
+	},
+
+	"devDependencies": {
+		"@playwright/test": "^1.28.1",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.5.0",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte": "^2.26.0",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.8.1",
+		"svelte": "^3.54.0",
+		"svelte-check": "^3.0.1",
+		"typescript": "^5.0.0",
+		"vite": "^4.3.0",
+		"vitest": "^0.25.3"
+	}
 }
