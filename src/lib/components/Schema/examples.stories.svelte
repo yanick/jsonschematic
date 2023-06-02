@@ -38,19 +38,19 @@
 	}}
 />
 
+<Story
+	name="string w/ content type and encoding"
+	args={{
+		schema: {
+			title: 'string w/ content type and encoding',
+			type: 'string',
+			contentEncoding: 'base64',
+			contentMediaType: 'image/png'
+		}
+	}}
+/>
+
 <!--
-
-    <Story name="string w/ content type and encoding"
-        args={{ schema: {
-  "title": "string w/ content type and encoding",
-  "type": "string",
-  "contentEncoding": "base64",
-  "contentMediaType": "image/png"
-} 
-        }}
-    />
-
-
     <Story name="string with a date-time format"
         args={{ schema: {
   "title": "string with a date-time format",

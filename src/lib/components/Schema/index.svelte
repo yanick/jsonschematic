@@ -25,6 +25,16 @@
 			{/if}{#if schema.maxLength}&leq;{schema.maxLength}{/if}
 		</div>
 	{/if}
+
+	<div class="encoding">
+		{#if schema.contentEncoding}
+			<span>encoding: {schema.contentEncoding}</span>
+		{/if}
+
+		{#if schema.contentMediaType}
+			<span>media type: {schema.contentMediaType}</span>
+		{/if}
+	</div>
 </article>
 
 <script>
@@ -47,5 +57,25 @@
 		border-radius: 0px;
 		padding: 0.3em;
 		margin-right: 0.5em;
+	}
+	.encoding {
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+		margin-left: 0.5em;
+		display: flex;
+	}
+
+	.encoding > span {
+		margin-right: 0.5em;
+		font-style: italic;
+	}
+
+	.encoding > span:after {
+		content: ',';
+	}
+
+	.encoding > span:last-child:after {
+		content: '';
 	}
 </style>
