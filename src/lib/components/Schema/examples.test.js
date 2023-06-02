@@ -12,3 +12,14 @@ test('const', () => {
     expect(queryByText('undefined')).toBeFalsy();
     expect(queryByText('const')).toBeTruthy();
 });
+test('minLength', () => {
+    const { queryByText } = render(Schema, {
+        schema: {
+            type: 'string',
+            minLength: 10
+        }
+    });
+
+    expect(queryByText('length')).toBeTruthy();
+    expect(queryByText('10')).toBeTruthy();
+});

@@ -1,12 +1,3 @@
-<script>
-	import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
-	import Schema from './index.svelte';
-
-	import examples from './examples.js';
-
-	const eg = examples.slice(0, 1);
-</script>
-
 <Meta title="Schema/examples" component={Schema} />
 
 <Template let:args>
@@ -24,31 +15,30 @@
 	}}
 />
 
+<Story
+	name="string w/ enum"
+	args={{
+		schema: {
+			title: 'string w/ enum',
+			type: 'string',
+			enum: ['potato', 'cauliflower', 'beet']
+		}
+	}}
+/>
+
+<Story
+	name="string type w/ minLength, maxLength"
+	args={{
+		schema: {
+			title: 'string type w/ minLength, maxLength',
+			type: 'string',
+			minLength: 3,
+			maxLength: 13
+		}
+	}}
+/>
+
 <!--
-    <Story name="string w/ enum"
-        args={{ schema: {
-  "title": "string w/ enum",
-  "type": "string",
-  "enum": [
-    "potato",
-    "cauliflower",
-    "beet"
-  ]
-} 
-        }}
-    />
-
-
-    <Story name="string type w/ minLength, maxLength"
-        args={{ schema: {
-  "title": "string type w/ minLength, maxLength",
-  "type": "string",
-  "minLength": 3,
-  "maxLength": 13
-} 
-        }}
-    />
-
 
     <Story name="string w/ content type and encoding"
         args={{ schema: {
@@ -472,3 +462,12 @@
         }}
     />
 -->
+
+<script>
+	import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
+	import Schema from './index.svelte';
+
+	import examples from './examples.js';
+
+	const eg = examples.slice(0, 1);
+</script>
