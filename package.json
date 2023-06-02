@@ -132,51 +132,7 @@
       "lint:prettier:fix": "npm run lint:prettier -- --fix",
       "package": "./scripts/merge_package.pl",
       "promake": "./Promake",
-      "release": "standard-version",
       "start": "node ./bin/jsonschematic.js --local --schema_dir examples",
       "storybook": "start-storybook"
-   },
-   "standard-version": {
-      "skip": {
-         "tag": true
-      },
-      "types": [
-         {
-            "section": "Bug Fixes",
-            "type": "bug"
-         },
-         {
-            "section": "Features",
-            "type": "feat"
-         },
-         {
-            "section": "Bug Fixes",
-            "type": "fix"
-         },
-         {
-            "hidden": true,
-            "type": "chore"
-         },
-         {
-            "hidden": true,
-            "type": "docs"
-         },
-         {
-            "hidden": true,
-            "type": "style"
-         },
-         {
-            "hidden": true,
-            "type": "refactor"
-         },
-         {
-            "hidden": true,
-            "type": "perf"
-         },
-         {
-            "hidden": true,
-            "type": "test"
-         }
-      ]
    }
 }
