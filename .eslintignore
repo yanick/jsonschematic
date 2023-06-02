@@ -1,7 +1,3 @@
-scripts/*
-.prettierignore
-package.json
-docs/*
 .DS_Store
 node_modules
 /build

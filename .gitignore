@@ -11,3 +11,11 @@ pnpm-debug.log
 infinity-interactive-jsonschematic-*
 static/build
 dist
+node_modules
+/build
+.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+vite.config.*.timestamp-*

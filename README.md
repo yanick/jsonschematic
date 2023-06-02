@@ -56,8 +56,8 @@ From the repo:
     - [x] [maxContains](https://yanick.github.io/jsonschematic/#maxContains)
     - [x] [uniqueItems](https://yanick.github.io/jsonschematic/#uniqueItems)
     - [x] [items](https://yanick.github.io/jsonschematic/#items)
-        - [x] as a schema
-        - [x] as a tuple
+      - [x] as a schema
+      - [x] as a tuple
     - [x] [additionalItems](https://yanick.github.io/jsonschematic/#additionalItems)
 
   - [x] [boolean](https://yanick.github.io/jsonschematic/#boolean)
@@ -68,16 +68,16 @@ From the repo:
   - [x] [null](https://yanick.github.io/jsonschematic/#null)
 
   - [x] [object](https://yanick.github.io/jsonschematic/#object)
+
     - [x] [properties](https://yanick.github.io/jsonschematic/#properties)
     - [x] [required](https://yanick.github.io/jsonschematic/#required)
     - [x] [maxProperties](https://yanick.github.io/jsonschematic/#maxProperties)
     - [x] [minProperties](https://yanick.github.io/jsonschematic/#minProperties)
     - [x] [propertyNames](https://yanick.github.io/jsonschematic/#propertyNames)
     - [ ] [additionalProperties](https://yanick.github.io/jsonschematic/#additionalProperties)
-        - [ ] as boolean
-        - [ ] as object
+      - [ ] as boolean
+      - [ ] as object
     - [x] [patternProperties](https://yanick.github.io/jsonschematic/#patternProperties)
-
 
   - [ ] type as an array of types
 
