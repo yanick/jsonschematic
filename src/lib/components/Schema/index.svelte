@@ -35,10 +35,24 @@
 			<span>media type: {schema.contentMediaType}</span>
 		{/if}
 	</div>
+
+	{#if schema.format}
+		<Property name="format">
+			<span class="link">{schema.format}</span>
+			{#if formats[schema.format]}
+				<div class="tooltip max">{formats[schema.format]}</div>
+			{/if}
+		</Property>
+	{/if}
+
+	<Examples {...schema} />
 </article>
 
 <script>
 	import Property from './Property.svelte';
+	import formats from './formats.js';
+	import Examples from './Examples.svelte';
+
 	export let schema = {};
 </script>
 

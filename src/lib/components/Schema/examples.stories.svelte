@@ -50,60 +50,62 @@
 	}}
 />
 
+<Story
+	name="string with a date-time format"
+	args={{
+		schema: {
+			title: 'string with a date-time format',
+			type: 'string',
+			format: 'date-time',
+			description: 'the format comes with a tooltip too! Hover over the format to see it.'
+		}
+	}}
+/>
+
+<Story
+	name="writeOnly"
+	args={{
+		schema: {
+			title: 'writeOnly',
+			writeOnly: true,
+			type: 'string'
+		}
+	}}
+/>
+
+<Story
+	name="readOnly"
+	args={{
+		schema: {
+			title: 'readOnly',
+			readOnly: true,
+			type: 'string'
+		}
+	}}
+/>
+
+<Story
+	name="boolean type"
+	args={{
+		schema: {
+			title: 'boolean type',
+			type: 'boolean'
+		}
+	}}
+/>
+
+<Story
+	name="examples"
+	args={{
+		schema: {
+			title: 'examples',
+			type: 'number',
+			examples: [1, 2, 3]
+		}
+	}}
+/>
+
 <!--
-    <Story name="string with a date-time format"
-        args={{ schema: {
-  "title": "string with a date-time format",
-  "type": "string",
-  "format": "date-time",
-  "description": "the format comes with a tooltip too! Hover over the format to see it."
-} 
-        }}
-    />
-
-
-    <Story name="writeOnly"
-        args={{ schema: {
-  "title": "writeOnly",
-  "writeOnly": true,
-  "type": "string"
-} 
-        }}
-    />
-
-
-    <Story name="readOnly"
-        args={{ schema: {
-  "title": "readOnly",
-  "readOnly": true,
-  "type": "string"
-} 
-        }}
-    />
-
-
-    <Story name="boolean type"
-        args={{ schema: {
-  "title": "boolean type",
-  "type": "boolean"
-} 
-        }}
-    />
-
-
-    <Story name="examples"
-        args={{ schema: {
-  "title": "examples",
-  "type": "number",
-  "examples": [
-    1,
-    2,
-    3
-  ]
-} 
-        }}
-    />
-
 
     <Story name="number w/ minimum, maximum"
         args={{ schema: {
