@@ -105,23 +105,21 @@
 	}}
 />
 
+<Story
+	id="number_min_max"
+	name="number w/ minimum, maximum"
+	args={{
+		schema: {
+			title: 'number w/ minimum, maximum',
+			keywords: ['number', 'minimum', 'maximum'],
+			type: 'number',
+			minimum: 3,
+			maximum: 10
+		}
+	}}
+/>
+
 <!--
-
-    <Story name="number w/ minimum, maximum"
-        args={{ schema: {
-  "title": "number w/ minimum, maximum",
-  "keywords": [
-    "number",
-    "minimum",
-    "maximum"
-  ],
-  "type": "number",
-  "minimum": 3,
-  "maximum": 10
-} 
-        }}
-    />
-
 
     <Story name="number w/ exclusiveMinimum, exclusiveMaximum"
         args={{ schema: {
