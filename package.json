@@ -72,7 +72,7 @@
       "require-extension-hooks": "^0.3.3",
       "require-extension-hooks-module": "^0.1.4",
       "standard-version": "8.0.2",
-      "svelte": "3.48.0",
+      "svelte": "4.2.19",
       "svelte-loader": "2.13.6",
       "svelte-test": "^0.4.0",
       "sveltejs-tippy": "3.0.0",
