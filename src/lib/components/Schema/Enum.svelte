@@ -3,7 +3,7 @@
   const { schema = {} } = $props();
 </script>
 
-<Constraint title="enum">
+<Constraint label="enum">
   <ul>
     {#each schema.enum ?? [] as e}
       <li><code>{e}</code></li>
