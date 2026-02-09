@@ -1,42 +1,10 @@
-<div class="example">
-
-  <div>
-    {#if edit_mode}
-      <textarea
-        class:error={error_edit}
-        cols="60"
-        rows="10"
-        bind:value={text_def} />
-      {#if error_edit}
-        <div class="error">Invalid JSON</div>
-      {/if}
-    {:else}
-      <pre>
-        <code>{text_def}</code>
-      </pre>
-      <div class="edit_me">
-        <input
-          type="button"
-          value="edit me"
-          on:click={() => (edit_mode = !edit_mode)} />
-      </div>
-    {/if}
-  </div>
-
-  <div class="instance">
-    <Instance top_level definition={edited_def} />
-  </div>
-</div>
-
-<hr />
-
 <script>
   export let definition = {};
-  import Instance from "../Instance/index.svelte";
-  import fp from "lodash/fp";
+  import Instance from '../Instance/index.svelte';
+  import fp from 'lodash/fp';
 
-  let clean_def = fp.omit("keywords", definition);
-  $: clean_def = fp.omit("keywords", definition);
+  let clean_def = fp.omit('keywords', definition);
+  $: clean_def = fp.omit('keywords', definition);
 
   let edit_mode = false;
 
@@ -53,6 +21,30 @@
     }
   }
 </script>
+
+<div class="example">
+  <div>
+    {#if edit_mode}
+      <textarea class:error={error_edit} cols="60" rows="10" bind:value={text_def} />
+      {#if error_edit}
+        <div class="error">Invalid JSON</div>
+      {/if}
+    {:else}
+      <pre>
+        <code>{text_def}</code>
+      </pre>
+      <div class="edit_me">
+        <input type="button" value="edit me" on:click={() => (edit_mode = !edit_mode)} />
+      </div>
+    {/if}
+  </div>
+
+  <div class="instance">
+    <Instance top_level definition={edited_def} />
+  </div>
+</div>
+
+<hr />
 
 <style>
   .example {
