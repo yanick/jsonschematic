@@ -1,10 +1,119 @@
+<script>
+  import * as store from '../../routes/_schemas';
+  const fp = require('lodash/fp');
+  const isBoolean = require('lodash/isBoolean');
+
+  export let definition = {};
+  export let href;
+  export let fetch_segment = store.fetch_segment;
+  export let top_level = false;
+  export let dependencies = false;
+
+  import Examples from './Examples/index.svelte';
+  import Enum from './Enum/index.svelte';
+  import Dependencies from './Dependencies.svelte';
+  import ArrayRestraints from './ArrayRestraints/index.svelte';
+  import StringRestraints from './StringRestraints/index.svelte';
+  import NumberRestraints from './NumberRestraints/index.svelte';
+  import ObjectRestraints from './ObjectRestraints/index.svelte';
+  import IfThenElse from './IfThenElse/index.svelte';
+  import SomeOf from './SomeOf.svelte';
+  import Not from './Not.svelte';
+
+  let schema,
+    comment,
+    types,
+    items,
+    ref,
+    title,
+    id,
+    description,
+    properties,
+    examples,
+    enumeration,
+    constant,
+    default_value;
+  let expanded_ref = {};
+  let loading_ref = false;
+  let is_expanded_ref = false;
+
+  let expanded_def = definition;
+
+  $: {
+    expanded_def = { ...expanded_ref, ...definition };
+
+    ({
+      default: default_value,
+      $id: id,
+      description,
+      title,
+      $schema: schema,
+      type: types,
+      items,
+      examples,
+      $ref: ref,
+      enum: enumeration,
+      const: constant,
+      properties,
+      $comment: comment
+    } = expanded_def);
+
+    // always pass an array, to make it easier
+    if (!Array.isArray(types)) {
+      types = types ? [types] : [];
+    }
+  }
+
+  let if_then_else = {};
+  $: if_then_else = fp.mapKeys(
+    (key) => key + '_cond',
+    fp.pick(['if', 'then', 'else'], expanded_def)
+  );
+
+  $: if (!id) id = href || '';
+  $: if (id && !id.includes('#')) id = id + '#';
+
+  $: if (href && !href.includes('#')) {
+    href = href + '#';
+  }
+  const fetch_ref = async () => {
+    loading_ref = true;
+
+    const def = await fetch_segment(ref, href);
+
+    is_expanded_ref = true;
+    expanded_ref = def;
+  };
+
+  const remove_ref = async () => {
+    loading_ref = false;
+    expanded_ref = {};
+    is_expanded_ref = false;
+  };
+
+  function schema_name(url) {
+    const draft = url.match(/draft-(\d\d)/);
+    if (!draft) return url;
+
+    return `v${draft[1]}`;
+  }
+
+  function relative_ref(ref) {
+    if (ref.startsWith('#')) {
+      console.log({ ref, id });
+      return '#' + id.replace(/#.*/, '') + ref;
+    }
+
+    return '#' + ref;
+  }
+</script>
+
 {#if isBoolean(definition)}
   <div class="instance" class:top_level>
     <div class="boolean-schema">
       schema matches {definition ? 'anything' : 'nothing'}
     </div>
   </div>
-
 {:else}
   <div class="instance" class:top_level>
     <div class="top_section">
@@ -65,7 +174,8 @@
             on:click={fetch_ref}
             disabled={loading_ref}
             type="button"
-            value={loading_ref ? 'fetching...' : 'expand'} />
+            value={loading_ref ? 'fetching...' : 'expand'}
+          />
         {/if}
       </div>
     {/if}
@@ -94,119 +204,8 @@
     {#if examples}
       <Examples {examples} {href} />
     {/if}
-
   </div>
 {/if}
-
-<script>
-  import * as store from "../../routes/_schemas";
-  const fp = require("lodash/fp");
-  const isBoolean = require("lodash/isBoolean");
-
-  export let definition = {};
-  export let href;
-  export let fetch_segment = store.fetch_segment;
-  export let top_level = false;
-  export let dependencies = false;
-
-  import Examples from "./Examples/index.svelte";
-  import Enum from "./Enum/index.svelte";
-  import Dependencies from "./Dependencies.svelte";
-  import ArrayRestraints from "./ArrayRestraints/index.svelte";
-  import StringRestraints from "./StringRestraints/index.svelte";
-  import NumberRestraints from "./NumberRestraints/index.svelte";
-  import ObjectRestraints from "./ObjectRestraints/index.svelte";
-  import IfThenElse from "./IfThenElse/index.svelte";
-  import SomeOf from "./SomeOf.svelte";
-  import Not from "./Not.svelte";
-
-  let schema,
-    comment,
-    types,
-    items,
-    ref,
-    title,
-    id,
-    description,
-    properties,
-    examples,
-    enumeration,
-    constant,
-    default_value;
-  let expanded_ref = {};
-  let loading_ref = false;
-  let is_expanded_ref = false;
-
-  let expanded_def = definition;
-
-  $: {
-    expanded_def = { ...expanded_ref, ...definition };
-
-    ({
-      default: default_value,
-      $id: id,
-      description,
-      title,
-      $schema: schema,
-      type: types,
-      items,
-      examples,
-      $ref: ref,
-      enum: enumeration,
-      const: constant,
-      properties,
-      $comment: comment,
-    } = expanded_def);
-
-    // always pass an array, to make it easier
-    if (!Array.isArray(types)) {
-      types = types ? [types] : [];
-    }
-  }
-
-  let if_then_else = {};
-  $: if_then_else = fp.mapKeys(
-    (key) => key + "_cond",
-    fp.pick(["if", "then", "else"], expanded_def)
-  );
-
-  $: if (!id) id = href || "";
-  $: if (id && !id.includes("#")) id = id + "#";
-
-  $: if (href && !href.includes("#")) {
-    href = href + "#";
-  }
-  const fetch_ref = async () => {
-    loading_ref = true;
-
-    const def = await fetch_segment(ref, href);
-
-    is_expanded_ref = true;
-    expanded_ref = def;
-  };
-
-  const remove_ref = async () => {
-    loading_ref = false;
-    expanded_ref = {};
-    is_expanded_ref = false;
-  };
-
-  function schema_name(url) {
-    const draft = url.match(/draft-(\d\d)/);
-    if (!draft) return url;
-
-    return `v${draft[1]}`;
-  }
-
-  function relative_ref(ref) {
-    if (ref.startsWith("#")) {
-      console.log({ ref, id });
-      return "#" + id.replace(/#.*/, "") + ref;
-    }
-
-    return "#" + ref;
-  }
-</script>
 
 <style>
   .instance {
