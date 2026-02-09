@@ -1,22 +1,29 @@
 <script>
   import Enum from './Schema/Enum.svelte';
+  import Ref from './Schema/Ref.svelte';
   import '@picocss/pico/css/pico.css';
 
   const { schema = {} } = $props();
   let href = 'TODO';
+
+  function schemaName(url = '') {
+    const draft = url.match(/draft-(\d\d)/);
+    if (!draft) return url;
+
+    return `v${draft[1]}`;
+  }
 </script>
 
 <article>
   <header>
     <div class="top-section">
       <div>{schema.$id}</div>
-      <div>{schema.$schema}</div>
+      <div data-testid="metaschema">{schemaName(schema.$schema)}</div>
     </div>
     <h6>{schema.title}</h6>
     {#if schema.$anchor}
       <div class="anchor">#{schema.$anchor}</div>
     {/if}
-    <div></div>
   </header>
 
   {#if schema.description}
@@ -28,6 +35,9 @@
   {/if}
 
   <dl>
+    {#if schema.$ref}
+      <Ref {schema} />
+    {/if}
     {#if schema.enum}
       <Enum {schema} {href} />
     {/if}

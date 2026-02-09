@@ -1,6 +1,6 @@
 <script>
-  const { title, children } = $props();
+  const { label, children } = $props();
 </script>
 
-<dt>{title}</dt>
+<dt>{label}</dt>
 <dd>{@render children?.()}</dd>
