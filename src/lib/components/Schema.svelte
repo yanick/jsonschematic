@@ -1,6 +1,7 @@
 <script>
   import Enum from './Schema/Enum.svelte';
   import Ref from './Schema/Ref.svelte';
+  import Examples from './Schema/Examples.svelte';
   import '@picocss/pico/css/pico.css';
 
   const { schema = {} } = $props();
@@ -40,6 +41,9 @@
     {/if}
     {#if schema.enum}
       <Enum {schema} {href} />
+    {/if}
+    {#if schema.examples}
+      <Examples {schema} />
     {/if}
   </dl>
 </article>

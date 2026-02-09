@@ -2,6 +2,7 @@ import slug from 'slug';
 import u from '@yanick/updeep';
 
 const examples = [
+  { title: 'examples', type: 'string', examples: ['potato', 'tomato'] },
   {
     title: 'string w/ enum',
     type: 'string',
