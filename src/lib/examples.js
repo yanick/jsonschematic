@@ -1,11 +1,16 @@
+import slug from 'slug';
 import u from '@yanick/updeep';
 
 const examples = [
   {
-    _id: 'string-with-enum',
     title: 'string w/ enum',
     type: 'string',
     enum: ['potato', 'cauliflower', 'beet']
+  },
+  {
+    title: 'with a $comment',
+    description: 'this is the description',
+    $comment: 'and this is the comment'
   },
   {
     type: 'object',
@@ -110,7 +115,7 @@ const examples = [
     description:
       'if the $schema is one of the official json schema urls, the display will simply be v*number*'
   }
-];
+].map((eg) => ({ ...eg, $anchor: slug(eg.title || '') }));
 
 export const scrubExample = u({ _id: u.skip });
 
