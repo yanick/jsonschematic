@@ -46,6 +46,17 @@
     {#if schema.type}
       <Constraint label="type">{schema.type}</Constraint>
     {/if}
+
+    <Constraint>
+      {#if schema.contentEncoding}
+        <span class="content">encoding: {schema.contentEncoding}</span>
+      {/if}
+
+      {#if schema.contentMediaType}
+        <span class="content">media type: {schema.contentMediaType}</span>
+      {/if}
+    </Constraint>
+
     {#if schema.$ref}
       <Ref {schema} />
     {/if}
@@ -84,5 +95,8 @@
   }
   .writeOnly {
     font-variant: small-caps;
+  }
+  .content {
+    font-style: italic;
   }
 </style>
