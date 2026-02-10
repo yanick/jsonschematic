@@ -2,6 +2,7 @@
   import examples, { scrubExample } from '$lib/examples.js';
   import u from '@yanick/updeep';
   import Schema from '$lib/components/Schema.svelte';
+  import slug from 'slug';
 
   let schema = $state(examples[0]);
   //  const schema = $derived(scrubExample(examples.find(u.matches({ _id: data.id }))));
@@ -16,7 +17,9 @@
   <aside>
     <ul>
       {#each examples as eg (eg.title)}
-        <li><a onclick={pick(eg.$anchor)}>{eg.title}</a></li>
+        {#if eg.title}
+          <li><a href={'/demo/' + slug(eg.title)}> {eg.title}</a></li>
+        {/if}
       {/each}
     </ul>
   </aside>
