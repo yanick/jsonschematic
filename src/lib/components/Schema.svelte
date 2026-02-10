@@ -37,6 +37,12 @@
   {/if}
 
   <dl>
+    {#each ['writeOnly', 'readOnly'] as key}
+      {#if schema[key]}
+        <div class="writeOnly">{key}</div>
+      {/if}
+    {/each}
+
     {#if schema.type}
       <Constraint label="type">{schema.type}</Constraint>
     {/if}
@@ -72,5 +78,8 @@
     justify-content: space-between;
     font-size: small;
     width: 100%;
+  }
+  .writeOnly {
+    font-variant: small-caps;
   }
 </style>

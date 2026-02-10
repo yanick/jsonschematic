@@ -41,11 +41,9 @@ oneOf
 patternProperties
 properties
 propertyNames
-readOnly
 required
 string
 then
 title
 type
 uniqueItems
-writeOnly 
