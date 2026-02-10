@@ -1,6 +1,7 @@
 <script>
   import Enum from './Schema/Enum.svelte';
   import Ref from './Schema/Ref.svelte';
+  import Constraint from './Schema/Constraint.svelte';
   import Examples from './Schema/Examples.svelte';
   import '@picocss/pico/css/pico.css';
 
@@ -36,6 +37,9 @@
   {/if}
 
   <dl>
+    {#if schema.type}
+      <Constraint label="type">{schema.type}</Constraint>
+    {/if}
     {#if schema.$ref}
       <Ref {schema} />
     {/if}
