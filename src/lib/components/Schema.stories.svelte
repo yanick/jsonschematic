@@ -16,3 +16,14 @@
 </script>
 
 <Story name="Primary" args={{ schema: sample }} />
+
+<Story
+  name="String"
+  args={{
+    schema: {
+      type: 'string',
+      title: 'A String',
+      writeOnly: true
+    }
+  }}
+/>
