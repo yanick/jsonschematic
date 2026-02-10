@@ -52,6 +52,9 @@
     {#if schema.enum}
       <Enum {schema} {href} />
     {/if}
+    {#if schema.const}
+      <Constraint label="const"><pre>{JSON.stringify(schema.const)}</pre></Constraint>
+    {/if}
     {#if schema.examples}
       <Examples {schema} />
     {/if}

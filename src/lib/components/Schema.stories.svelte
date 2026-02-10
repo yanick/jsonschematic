@@ -23,7 +23,8 @@
     schema: {
       type: 'string',
       title: 'A String',
-      writeOnly: true
+      writeOnly: true,
+      const: 'potato'
     }
   }}
 />
