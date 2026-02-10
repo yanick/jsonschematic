@@ -1,3 +1,4 @@
+const
 boolean
 $id
 $ref
@@ -7,7 +8,6 @@ additionalProperties
 allOf
 anyOf
 array
-const
 contentEncoding
 contentMediaType
 default
