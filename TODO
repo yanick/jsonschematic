@@ -1,10 +1,4 @@
-default
-required
-const
 boolean
-$id
-$ref
-$schema
 additionalItems
 additionalProperties
 allOf
@@ -29,6 +23,3 @@ properties
 propertyNames
 string
 then
-title
-type
-uniqueItems
