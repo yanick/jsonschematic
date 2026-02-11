@@ -1,3 +1,4 @@
+format
 const
 boolean
 $id
@@ -17,19 +18,16 @@ else
 enum
 exclusiveMaximum
 exclusiveMinimum
-format
 if
 integer
 items
 keywords
 maxContains
 maxItems
-maxLength
 maxProperties
 maximum
 minContains
 minItems
-minLength
 minProperties
 minimum
 multipleOf
