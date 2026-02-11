@@ -3,8 +3,9 @@
   import Ref from './Schema/Ref.svelte';
   import Constraint from './Schema/Constraint.svelte';
   import Examples from './Schema/Examples.svelte';
+  import Range from './Schema/Range.svelte';
   import '@picocss/pico/css/pico.css';
-  import SingleLineConstraints from './Schema/SingleLineConstraints.svelte';
+  import SingleLineConstraint from './Schema/SingleLineConstraint.svelte';
 
   const { schema = {} } = $props();
   let href = 'TODO';
@@ -48,9 +49,21 @@
       <Constraint label="type">{schema.type}</Constraint>
     {/if}
 
-    <Constraint>
-      <SingleLineConstraints {schema} />
-    </Constraint>
+    <SingleLineConstraint>
+      {#if schema.contentEncoding}
+        <li class="content">encoding: {schema.contentEncoding}</li>
+      {/if}
+
+      {#if schema.contentMediaType}
+        <li class="content">media type: {schema.contentMediaType}</li>
+      {/if}
+    </SingleLineConstraint>
+
+    {#if schema.minLength || schema.maxLength}
+      <SingleLineConstraint>
+        <Range {schema} />
+      </SingleLineConstraint>
+    {/if}
 
     {#if schema.$ref}
       <Ref {schema} />
