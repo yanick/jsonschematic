@@ -82,6 +82,23 @@
       </SingleLineConstraint>
     {/if}
 
+    <SingleLineConstraint>
+      {#if 'maxItems' in schema || 'minItems' in schema}
+        <li>items: {schema.minItems || ''}...{schema.maxItems || ''}</li>
+      {/if}
+
+      {#if 'maxContains' in schema || 'minContains' in schema}
+        <li>contains: {schema.minContains || ''}...{schema.maxContains || ''}</li>
+      {/if}
+
+      {#if schema.uniqueItems}
+        <li>unique</li>
+      {/if}
+      {#if 'additionalItems' in schema}
+        <li>additional items {schema.additionalItems ? '' : 'not'} allowed</li>
+      {/if}
+    </SingleLineConstraint>
+
     {#if schema.$ref}
       <Ref {schema} />
     {/if}
@@ -90,6 +107,11 @@
     {/if}
     {#if schema.const}
       <Constraint label="const"><pre>{JSON.stringify(schema.const)}</pre></Constraint>
+    {/if}
+    {#if 'default' in schema}
+      <Constraint label="default">
+        <pre>{JSON.stringify(schema.default, null, 2)}</pre>
+      </Constraint>
     {/if}
     {#if schema.examples}
       <Examples {schema} />

@@ -1,3 +1,5 @@
+default
+required
 const
 boolean
 $id
@@ -8,11 +10,7 @@ additionalProperties
 allOf
 anyOf
 array
-contentEncoding
-contentMediaType
-default
 dependencies
-description
 else
 enum
 exclusiveMaximum
@@ -21,11 +19,7 @@ if
 integer
 items
 keywords
-maxContains
-maxItems
 maxProperties
-minContains
-minItems
 minProperties
 not
 null
@@ -35,7 +29,6 @@ oneOf
 patternProperties
 properties
 propertyNames
-required
 string
 then
 title
