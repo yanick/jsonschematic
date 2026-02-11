@@ -4,6 +4,7 @@
   import Constraint from './Schema/Constraint.svelte';
   import Examples from './Schema/Examples.svelte';
   import '@picocss/pico/css/pico.css';
+  import SingleLineConstraints from './Schema/SingleLineConstraints.svelte';
 
   const { schema = {} } = $props();
   let href = 'TODO';
@@ -36,7 +37,7 @@
     <blockquote class="comment">{schema.$comment}</blockquote>
   {/if}
 
-  <dl>
+  <div>
     {#each ['writeOnly', 'readOnly'] as key}
       {#if schema[key]}
         <div class="writeOnly">{key}</div>
@@ -48,13 +49,7 @@
     {/if}
 
     <Constraint>
-      {#if schema.contentEncoding}
-        <span class="content">encoding: {schema.contentEncoding}</span>
-      {/if}
-
-      {#if schema.contentMediaType}
-        <span class="content">media type: {schema.contentMediaType}</span>
-      {/if}
+      <SingleLineConstraints {schema} />
     </Constraint>
 
     {#if schema.$ref}
@@ -69,7 +64,7 @@
     {#if schema.examples}
       <Examples {schema} />
     {/if}
-  </dl>
+  </div>
 </article>
 
 <style>
