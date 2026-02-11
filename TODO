@@ -1,4 +1,3 @@
-format
 const
 boolean
 $id
@@ -25,12 +24,9 @@ keywords
 maxContains
 maxItems
 maxProperties
-maximum
 minContains
 minItems
 minProperties
-minimum
-multipleOf
 not
 null
 number

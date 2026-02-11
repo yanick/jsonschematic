@@ -68,7 +68,17 @@
 
     {#if schema.minLength || schema.maxLength}
       <SingleLineConstraint>
-        <Range {schema} />
+        <Range min={schema.minLength} max={schema.maxLength} exclusive={schema.exclusive} />
+      </SingleLineConstraint>
+    {/if}
+
+    {#if 'minimum' in schema || 'maximum' in schema || 'multipleOf' in schema}
+      <SingleLineConstraint>
+        <Range min={schema.minimum} max={schema.maximum} exclusive={schema.exclusive} />
+
+        {#if 'multipleOf' in schema}
+          <li>&times;{schema.multipleOf}</li>
+        {/if}
       </SingleLineConstraint>
     {/if}
 
