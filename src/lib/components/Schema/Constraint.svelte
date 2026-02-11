@@ -1,5 +1,5 @@
 <script>
-  const { label, children } = $props();
+  const { label = '', children } = $props();
 </script>
 
 <div class="constraint">

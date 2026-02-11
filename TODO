@@ -19,8 +19,6 @@ if
 integer
 items
 keywords
-maxProperties
-minProperties
 not
 null
 number
