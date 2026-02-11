@@ -1,8 +1,9 @@
 <script>
-  import examples, { scrubExample } from '$lib/examples.js';
+  import examples, { scrubExample, examplesByKeyword } from '$lib/examples.js';
   import u from '@yanick/updeep';
   import Schema from '$lib/components/Schema.svelte';
   import slug from 'slug';
+  import { browser } from '$app/environment';
 
   let schema = $state(examples[0]);
   //  const schema = $derived(scrubExample(examples.find(u.matches({ _id: data.id }))));
@@ -11,37 +12,49 @@
     console.log($anchor);
     schema = examples.find(u.matches({ $anchor }));
   };
+
+  let keyword = $state();
+  const hashChange = () => {
+    if (browser) keyword = location.hash.slice(1).split(',');
+  };
+
+  hashChange();
+
+  const selectedSchemas = $derived(keyword ? examplesByKeyword[keyword] : examples);
 </script>
+
+<svelte:window onhashchange={hashChange} />
 
 <main class="container">
   <aside>
     <ul>
-      {#each examples as eg (eg.title)}
-        {#if eg.title}
-          <li><a href={'/demo/' + slug(eg.title)}> {eg.title}</a></li>
-        {/if}
+      {#each Object.keys(examplesByKeyword).sort() as keyword (keyword)}
+        <li><a href={'#' + keyword}> {keyword}</a></li>
       {/each}
     </ul>
   </aside>
 
   <section>
-    <h1>{schema?.title}</h1>
+    <h1>{keyword}</h1>
     <div>
-      {#if schema}
+      {#each selectedSchemas as schema}
         <div>
           <Schema {schema} />
         </div>
         <div>
           <pre>{JSON.stringify(schema, null, 2)}</pre>
         </div>
-      {:else}
-        Schema not picked yet
-      {/if}
+      {/each}
     </div>
   </section>
 </main>
 
 <style>
+  aside {
+    height: 90vh;
+    overflow-y: scroll;
+    font-size: smaller;
+  }
   main {
     display: flex;
   }
