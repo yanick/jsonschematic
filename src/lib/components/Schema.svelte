@@ -4,6 +4,7 @@
   import Constraint from './Schema/Constraint.svelte';
   import Examples from './Schema/Examples.svelte';
   import Range from './Schema/Range.svelte';
+  import Format from './Schema/Format.svelte';
   import '@picocss/pico/css/pico.css';
   import SingleLineConstraint from './Schema/SingleLineConstraint.svelte';
 
@@ -47,6 +48,12 @@
 
     {#if schema.type}
       <Constraint label="type">{schema.type}</Constraint>
+    {/if}
+
+    {#if schema.format}
+      <SingleLineConstraint>
+        <Format {schema} />
+      </SingleLineConstraint>
     {/if}
 
     <SingleLineConstraint>
