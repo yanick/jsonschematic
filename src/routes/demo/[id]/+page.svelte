@@ -24,7 +24,7 @@
     column-gap: 2em;
   }
 
-  main > * {
-    flex: 1;
+  main > div {
+    width: 45%;
   }
 </style>

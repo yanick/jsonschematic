@@ -1,17 +1,17 @@
 <script>
-  const { schema = {} } = $props();
+  const { min = undefined, max = undefined, exclusive = false } = $props();
 </script>
 
-{#if schema.minLength !== undefined}
+{#if min != undefined}
   <li>
-    {#if schema.exclusive}>{:else}&ge;{/if}
-    {schema.minLength}
+    {#if exclusive}>{:else}&ge;{/if}
+    {min}
   </li>
 {/if}
 
-{#if schema.maxLength !== undefined}
+{#if max != undefined}
   <li>
-    {#if schema.exclusive}&lt;{:else}&le;{/if}
-    {schema.maxLength}
+    {#if exclusive}&lt;{:else}&le;{/if}
+    {max}
   </li>
 {/if}
