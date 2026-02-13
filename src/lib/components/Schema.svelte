@@ -1,4 +1,8 @@
 <script>
+  import '@picocss/pico/css/pico.css';
+
+  import SingleLineConstraint from './Schema/SingleLineConstraint.svelte';
+
   import Enum from './Schema/Enum.svelte';
   import Ref from './Schema/Ref.svelte';
   import Constraint from './Schema/Constraint.svelte';
@@ -6,8 +10,8 @@
   import Range from './Schema/Range.svelte';
   import Format from './Schema/Format.svelte';
   import Items from './Schema/Items.svelte';
-  import '@picocss/pico/css/pico.css';
-  import SingleLineConstraint from './Schema/SingleLineConstraint.svelte';
+  import If from './Schema/If.svelte';
+  import SomeOf from './Schema/SomeOf.svelte';
 
   const { schema = {} } = $props();
   let href = 'TODO';
@@ -66,6 +70,20 @@
 
       {#if schema.type}
         <Constraint label="type">{schema.type}</Constraint>
+      {/if}
+
+      {#each ['allOf', 'anyOf', 'oneOf'] as type (type)}
+        {#if schemaHas(type)}
+          <SomeOf {type} alternatives={schema[type]} />
+        {/if}
+      {/each}
+
+      {#if schemaHas('not')}
+        <Constraint label="not"><svelte:self schema={schema.not} /></Constraint>
+      {/if}
+
+      {#if schemaHas('if')}
+        <If {schema} />
       {/if}
 
       {#if schema.format}
