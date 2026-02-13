@@ -12,6 +12,7 @@
   import Items from './Schema/Items.svelte';
   import If from './Schema/If.svelte';
   import SomeOf from './Schema/SomeOf.svelte';
+  import Schema from './Schema.svelte';
 
   const { schema = {} } = $props();
   let href = 'TODO';
@@ -79,7 +80,7 @@
       {/each}
 
       {#if schemaHas('not')}
-        <Constraint label="not"><svelte:self schema={schema.not} /></Constraint>
+        <Constraint label="not"><Schema schema={schema.not} /></Constraint>
       {/if}
 
       {#if schemaHas('if')}
@@ -161,6 +162,30 @@
 
       {#if schemaHas('items')}
         <Items items={schema.items} />
+      {/if}
+
+      {#if schemaHas('additionalItems')}
+        <Constraint label="additional items">
+          {#if typeof schema.additionalItems == 'boolean'}
+            <div>
+              additional items {#if !schema.additionalItems}not{/if} allowed
+            </div>
+          {:else}
+            <Schema schema={schema.additionalItems} />
+          {/if}
+        </Constraint>
+      {/if}
+
+      {#if schemaHas('additionalProperties')}
+        <Constraint label="additional properties">
+          {#if typeof schema.additionalProperties == 'boolean'}
+            <div>
+              additional properties {#if !schema.additionalProperties}not{/if} allowed
+            </div>
+          {:else}
+            <Schema schema={schema.additionalProperties} />
+          {/if}
+        </Constraint>
       {/if}
 
       {#if schemaHas('properties')}

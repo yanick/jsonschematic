@@ -1,13 +1,7 @@
-additionalItems
-additionalProperties
 dependencies
-enum
 exclusiveMaximum
 exclusiveMinimum
-integer
 items
-not
 patternProperties
 properties
 propertyNames
-string
