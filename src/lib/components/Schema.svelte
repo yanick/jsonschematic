@@ -13,6 +13,7 @@
   import If from './Schema/If.svelte';
   import SomeOf from './Schema/SomeOf.svelte';
   import Schema from './Schema.svelte';
+  import Properties from './Schema/Properties.svelte';
 
   const { schema = {} } = $props();
   let href = 'TODO';
@@ -71,6 +72,10 @@
 
       {#if schema.type}
         <Constraint label="type">{schema.type}</Constraint>
+      {/if}
+
+      {#if schemaHas('properties')}
+        <Properties properties={schema.properties} />
       {/if}
 
       {#each ['allOf', 'anyOf', 'oneOf'] as type (type)}
