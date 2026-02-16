@@ -14,6 +14,7 @@
   import SomeOf from './Schema/SomeOf.svelte';
   import Schema from './Schema.svelte';
   import Properties from './Schema/Properties.svelte';
+  import Dependencies from './Schema/Dependencies.svelte';
 
   const { schema = {} } = $props();
   let href = 'TODO';
@@ -74,8 +75,30 @@
         <Constraint label="type">{schema.type}</Constraint>
       {/if}
 
+      {#if schemaHas('propertyNames')}
+        <Constraint label="property names">
+          <Schema schema={schema.propertyNames} />
+        </Constraint>
+      {/if}
+
+      {#if schemaHas('pattern')}
+        <SingleLineConstraint>
+          <li>
+            value matches pattern <code>{schema.pattern}</code>
+          </li>
+        </SingleLineConstraint>
+      {/if}
+
       {#if schemaHas('properties')}
         <Properties properties={schema.properties} />
+      {/if}
+
+      {#if schemaHas('patternProperties')}
+        <Properties properties={schema.patternProperties} label="pattern properties" />
+      {/if}
+
+      {#if schemaHas('dependencies')}
+        <Dependencies dependencies={schema.dependencies} />
       {/if}
 
       {#each ['allOf', 'anyOf', 'oneOf'] as type (type)}
@@ -114,9 +137,20 @@
         </SingleLineConstraint>
       {/if}
 
-      {#if schemaHas(['minimum', 'maximum', 'multipleOf'])}
+      {#if schemaHas(['minimum', 'maximum', 'exclusiveMinimum', 'exclusiveMaximum', 'multipleOf'])}
         <SingleLineConstraint>
-          <Range min={schema.minimum} max={schema.maximum} exclusive={schema.exclusive} />
+          {#if 'minimum' in schema}
+            <li>&ge; {schema.minimum}</li>
+          {/if}
+          {#if 'exclusiveMinimum' in schema}
+            <li>&gt; {schema.minimum}</li>
+          {/if}
+          {#if 'maximum' in schema}
+            <li>&le; {schema.maximum}</li>
+          {/if}
+          {#if 'exclusivemaximum' in schema}
+            <li>&lt; {schema.maximum}</li>
+          {/if}
 
           {#if 'multipleOf' in schema}
             <li>&times;{schema.multipleOf}</li>
