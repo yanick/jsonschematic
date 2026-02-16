@@ -5,10 +5,11 @@
   const { properties = {}, label = 'properties' } = $props();
 </script>
 
-<Constraint {label}>
+<fieldset>
+  <legend>{label}</legend>
   {#each Object.entries(properties) as [name, schema] (name)}
     <Constraint label={name}>
       <Schema {schema} />
     </Constraint>
   {/each}
-</Constraint>
+</fieldset>
