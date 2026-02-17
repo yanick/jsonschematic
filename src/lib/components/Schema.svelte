@@ -3,6 +3,7 @@
 
   import SingleLineConstraint from './Schema/SingleLineConstraint.svelte';
 
+  import Icon from './Icon.svelte';
   import Enum from './Schema/Enum.svelte';
   import Ref from './Schema/Ref.svelte';
   import Constraint from './Schema/Constraint.svelte';
@@ -15,6 +16,7 @@
   import Schema from './Schema.svelte';
   import Properties from './Schema/Properties.svelte';
   import Dependencies from './Schema/Dependencies.svelte';
+  import Markdown from 'svelte-markdown';
 
   const { schema = {}, notitle = false } = $props();
   let href = 'TODO';
@@ -60,7 +62,9 @@
     {/if}
 
     {#if schema.description}
-      <div class="description">{schema.description}</div>
+      <div class="description">
+        <Markdown source={schema.description} />
+      </div>
     {/if}
 
     {#if schema.$comment}
@@ -75,7 +79,22 @@
       {/each}
 
       {#if schema.type}
-        <Constraint label="type">{schema.type}</Constraint>
+        <SingleLineConstraint>
+          {#snippet title()}
+            <h6>
+              <Icon icon="label_important" />{(Array.isArray(schema.type)
+                ? schema.type
+                : [schema.type]
+              ).join(', ')}
+            </h6>
+          {/snippet}
+          {#if schema.uniqueItems}
+            <li>unique</li>
+          {/if}
+          {#if schemaHas('additionalItems')}
+            <li>additional items {schema.additionalItems ? '' : 'not'} allowed</li>
+          {/if}
+        </SingleLineConstraint>
       {/if}
 
       {#if schemaHas('propertyNames')}
@@ -93,7 +112,7 @@
       {/if}
 
       {#if schemaHas('properties')}
-        <Properties properties={schema.properties} />
+        <Properties properties={schema.properties} required={schema.required} />
       {/if}
 
       {#if schemaHas('patternProperties')}
@@ -161,14 +180,6 @@
         </SingleLineConstraint>
       {/if}
 
-      {#if schemaHas('required')}
-        <SingleLineConstraint label="required">
-          {#each schema.required as required}
-            <li><code>{required}</code></li>
-          {/each}
-        </SingleLineConstraint>
-      {/if}
-
       {#if schemaHas(['minProperties', 'maxProperties'])}
         <SingleLineConstraint label="nbr properties">
           <Range min={schema.minProperties} max={schema.maxProperties} />
@@ -183,20 +194,13 @@
         {#if schemaHas(['maxContains', 'minContains'])}
           <li>contains: {schema.minContains || ''}...{schema.maxContains || ''}</li>
         {/if}
-
-        {#if schema.uniqueItems}
-          <li>unique</li>
-        {/if}
-        {#if schemaHas('additionalItems')}
-          <li>additional items {schema.additionalItems ? '' : 'not'} allowed</li>
-        {/if}
       </SingleLineConstraint>
 
       {#if schema.$ref}
         <Ref {schema} />
       {/if}
       {#if schema.enum}
-        <Enum {schema} {href} />
+        <Enum {schema} />
       {/if}
       {#if schema.const}
         <Constraint label="const"><pre>{JSON.stringify(schema.const)}</pre></Constraint>
@@ -277,5 +281,12 @@
   }
   .content {
     font-style: italic;
+  }
+  h6 {
+    display: flex;
+    align-items: center;
+  }
+  h6 :global(.icon) {
+    margin-right: 0.5em;
   }
 </style>

@@ -1,9 +1,9 @@
 <script>
   import Constraint from './Constraint.svelte';
-  const { label = undefined, schema = {}, children = undefined } = $props();
+  const { label = undefined, schema = {}, children = undefined, title = undefined } = $props();
 </script>
 
-<Constraint {label}>
+<Constraint {label} {title}>
   <ul>{@render children?.()}</ul>
 </Constraint>
 

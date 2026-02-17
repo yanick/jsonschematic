@@ -69,6 +69,7 @@
    "dependencies": {
       "@picocss/pico": "^2.1.1",
       "@yanick/updeep": "^3.0.0",
-      "slug": "^11.0.1"
+      "slug": "^11.0.1",
+      "svelte-markdown": "^0.4.1"
    }
 }
