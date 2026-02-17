@@ -35,6 +35,9 @@
     }
     return false;
   }
+
+  let showCode = $state(false);
+  const toggleCode = () => (showCode = !showCode);
 </script>
 
 <article>
@@ -240,6 +243,11 @@
         <Examples {schema} />
       {/if}
     </div>
+    <footer>
+      <Constraint label="source" details>
+        <pre>{JSON.stringify(schema, null, 2)}</pre>
+      </Constraint>
+    </footer>
   {/if}
 </article>
 

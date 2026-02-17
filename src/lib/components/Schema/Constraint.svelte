@@ -1,14 +1,24 @@
 <script>
-  const { label = '', children } = $props();
+  const { label = '', children, details = false } = $props();
 </script>
 
 <div class="constraint">
-  <div class="label">{label}</div>
+  {#if details}
+    <details>
+      <summary>{label}</summary>
+      {@render children?.()}
+    </details>
+  {:else}
+    <div class="label">{label}</div>
 
-  <div class="content">{@render children?.()}</div>
+    <div class="content">{@render children?.()}</div>
+  {/if}
 </div>
 
 <style>
+  summary {
+    color: var(--pico-accordion-active-summary-color) !important;
+  }
   .constraint {
     margin-left: 2em;
   }
