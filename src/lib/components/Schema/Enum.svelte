@@ -16,6 +16,7 @@
     margin: 0px;
     padding: 0px;
     display: flex;
+    flex-wrap: wrap;
   }
   li:after {
     content: ',';
