@@ -16,7 +16,7 @@
   import Properties from './Schema/Properties.svelte';
   import Dependencies from './Schema/Dependencies.svelte';
 
-  const { schema = {} } = $props();
+  const { schema = {}, notitle = false } = $props();
   let href = 'TODO';
 
   function schemaName(url = '') {
@@ -46,7 +46,7 @@
       schema matches {#if schema}everything{:else}nothing{/if}
     </div>
   {:else}
-    {#if schemaHas(['$id', '$schema', 'title'])}
+    {#if !notitle && schemaHas(['$id', '$schema', 'title'])}
       <header>
         <div class="top-section">
           <div>{schema.$id}</div>

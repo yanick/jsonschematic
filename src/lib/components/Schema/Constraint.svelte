@@ -1,15 +1,23 @@
 <script>
-  const { label = '', children, details = false } = $props();
+  const { label = '', children, details = false, title = undefined } = $props();
 </script>
 
 <div class="constraint">
   {#if details}
     <details>
-      <summary>{label}</summary>
+      <summary>
+        {#if title}
+          {@render title()}
+        {:else}{label}{/if}
+      </summary>
       {@render children?.()}
     </details>
   {:else}
-    <div class="label">{label}</div>
+    <div class="label">
+      {#if title}
+        {@render title()}
+      {:else}{label}{/if}
+    </div>
 
     <div class="content">{@render children?.()}</div>
   {/if}
@@ -24,9 +32,5 @@
   }
   .content {
     margin-left: 2em;
-  }
-  .label {
-    width: 6em;
-    margin-right: 1em;
   }
 </style>
