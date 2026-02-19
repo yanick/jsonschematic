@@ -1,8 +1,7 @@
 <script>
   import release from './release-schema.json';
   import Schema from '$lib/components/Schema.svelte';
+  import JsonSchematic from '$lib/components/JsonSchematic.svelte';
 </script>
 
-<div class="container">
-  <Schema schema={release} />
-</div>
+<JsonSchematic schema={release} />

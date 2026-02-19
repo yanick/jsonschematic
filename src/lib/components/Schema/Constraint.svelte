@@ -28,7 +28,8 @@
     color: var(--pico-accordion-active-summary-color) !important;
   }
   .constraint {
-    margin-left: 2em;
+//    margin-left: 2em;
+
   }
   .content {
     margin-left: 2em;
