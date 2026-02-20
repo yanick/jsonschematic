@@ -7,44 +7,53 @@
 
   const props: { schema?: any; url?: any } = $props();
 
-  let schema = $state(props.schema);
-  let rootSchema = schema;
-  let url = $state(props.url ?? props.schema?.id ?? '');
+  let url = $state();
+  if (browser)
+    url = new URL(
+      props.url ?? props.schema?.id ?? 'https://jsonschematic/',
+      browser ? window.location.href : undefined
+    ).href;
 
   let repository = $state({});
 
-  if (props.url && props.schema) {
-    repository[props.url] = props.schema;
-  }
-  if (props?.schema?.id) {
-    repository[props.schema.id] = props.schema;
-  }
+  if (props.schema) repository[url] = props.schema;
 
-  if (!props.url && !props?.schema?.id) {
-    repository['https://jsonschematic'] = props.schema;
-  }
+  if (props?.schema?.id) repository[props.schema.id] = props.schema;
 
-  $effect(() => {
-    if (url) return;
-    url = schema.id;
-  });
+  let rootSchema = $state(new Promise(() => {}));
+  if (props.schema) rootSchema = new Promise.resolve(props.schema);
+
+  let schemaPointer = $state();
+
+  const schema = $derived(
+    rootSchema.then((schema) => {
+      if (schemaPointer) return jsonpointer.get(schema, hash);
+      return schema;
+    })
+  );
+
+  async function fetchSchema(url: string) {
+    if (!browser) return {};
+
+    if (!repository[url]) {
+      const schema = fetch(url).then((res) => res.json());
+      repository[url] = schema;
+    }
+
+    return repository[url];
+  }
 
   const handleHashChange = () => {
     let u = new URL(window.location.hash?.replace(/^#/, ''), url);
     url = u.href;
 
-    const hash = u.hash.replace(/^#+/, '');
+    schemaPointer = u.hash.replace(/^#+/, '');
 
     u.hash = '';
 
     const document = u.href;
 
-    let s = repository[document];
-    rootSchema = s;
-    if (hash) {
-      s = jsonpointer.get(s, hash);
-    }
-    schema = s;
+    rootSchema = fetchSchema(document);
   };
 
   if (browser) {
@@ -58,11 +67,17 @@
 
 <svelte:window onhashchange={handleHashChange} />
 <div class="content">
-  <TableOfContent schema={rootSchema} />
-  <main>
-    <h2>{url}</h2>
-    <Schema {schema} />
-  </main>
+  {#await Promise.all([rootSchema, schema])}
+    Doing the thing
+  {:then [rootSchema, schema]}
+    <TableOfContent schema={rootSchema} />
+    <main>
+      <h2>{url}</h2>
+      <Schema {schema} />
+    </main>
+  {:catch oopsie}
+    Oh noes {oopsie}
+  {/await}
 </div>
 
 <style>
