@@ -3,4 +3,6 @@
   import JsonSchematic from '$lib/components/JsonSchematic.svelte';
 </script>
 
-<JsonSchematic url="/schemas/release-schema.json" />
+<JsonSchematic
+  url="https://raw.githubusercontent.com/fge/sample-json-schemas/refs/heads/master/json-patch/json-patch.json"
+/>

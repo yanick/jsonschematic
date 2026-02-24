@@ -27,7 +27,7 @@
 
   const schema = $derived(
     rootSchema.then((schema) => {
-      if (schemaPointer) return jsonpointer.get(schema, hash);
+      if (schemaPointer) return jsonpointer.get(schema, schemaPointer);
       return schema;
     })
   );
@@ -46,14 +46,13 @@
   const handleHashChange = () => {
     let u = new URL(window.location.hash?.replace(/^#/, ''), url);
     url = u.href;
+    window.location.hash = url;
 
     schemaPointer = u.hash.replace(/^#+/, '');
 
     u.hash = '';
 
-    const document = u.href;
-
-    rootSchema = fetchSchema(document);
+    rootSchema = fetchSchema(u.href);
   };
 
   if (browser) {
