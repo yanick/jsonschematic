@@ -68,6 +68,7 @@
    },
    "dependencies": {
       "@picocss/pico": "^2.1.1",
+      "@sveltejs/package": "^2.5.7",
       "@yanick/updeep": "^3.0.0",
       "jsonpointer": "^5.0.1",
       "slug": "^11.0.1",
