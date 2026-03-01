@@ -66,11 +66,66 @@
       "vitest": "^4.0.18",
       "vitest-browser-svelte": "^2.0.2"
    },
+<<<<<<< HEAD
    "dependencies": {
       "@picocss/pico": "^2.1.1",
       "@yanick/updeep": "^3.0.0",
-      "jsonpointer": "^5.0.1",
       "slug": "^11.0.1",
       "svelte-markdown": "^0.4.1"
+=======
+   "eslintConfig": {
+      "env": {
+         "amd": true,
+         "browser": true,
+         "es6": true,
+         "node": true
+      },
+      "extends": [
+         "prettier",
+         "eslint:recommended",
+         "plugin:you-dont-need-lodash-underscore/compatible",
+         "plugin:lodash/recommended"
+      ],
+      "ignorePatterns": [
+         "src/node_modules"
+      ],
+      "overrides": [
+         {
+            "files": [
+               "*.svelte"
+            ],
+            "processor": "svelte3/svelte3"
+         }
+      ],
+      "parserOptions": {
+         "ecmaFeatures": {
+            "modules": true
+         },
+         "ecmaVersion": "2020",
+         "sourceType": "module"
+      },
+      "plugins": [
+         "svelte3"
+      ],
+      "rules": {
+         "lodash/prefer-lodash-method": "off"
+      }
+   },
+   "main": "src/index.js",
+   "scripts": {
+      "build": "vite build",
+      "dev": "vite",
+      "preview": "vite preview",
+      "lint": "npm-run-all --parallel \"lint:prettier -- {@}\" \"lint:eslint -- {@}\" --",
+      "lint:eslint": "./scripts/eslint",
+      "lint:eslint:fix": "npm run lint:eslint -- --fix",
+      "lint:fix": "npm-run-all \"lint:eslint:fix -- {@}\" \"lint:prettier:fix -- {@}\" --",
+      "lint:prettier": "./scripts/prettier",
+      "lint:prettier:fix": "npm run lint:prettier -- --fix",
+      "package": "./scripts/merge_package.pl",
+      "promake": "./Promake",
+      "start": "node ./bin/jsonschematic.js --local --schema_dir examples",
+      "storybook": "start-storybook"
+>>>>>>> 849e407 (remove old stuff)
    }
 }

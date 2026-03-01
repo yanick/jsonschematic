@@ -256,6 +256,9 @@
 </article>
 
 <style>
+  article {
+    max-width: 60em;
+  }
   h6 {
     margin-bottom: 0px;
     flex: 1;
@@ -269,6 +272,9 @@
   header {
     display: flex;
     flex-wrap: wrap;
+  }
+  footer {
+    padding-bottom: 0rem;
   }
   .top-section {
     display: flex;
